@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "kind": "local_file",
+    "value": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/picnic-sensory-scale/10071333-group-landscape.mp4",
+    "rights_status": "licensed",
+    "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14"
+  },
+  "invocation": {
+    "wrapper": "C:/Users/HP-5600G/Desktop/AI 제작과정/tools/run-watch.cmd",
+    "detail": "efficient",
+    "external_transcription_allowed": false,
+    "explicit_user_consent_for_audio_upload": false,
+    "no_whisper": true,
+    "output_directory": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/group-landscape",
+    "report_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/group-landscape/report.md"
+  },
+  "review": {
+    "reviewer": "main-agent",
+    "every_listed_frame_reviewed": true,
+    "transcript_source": "none",
+    "frame_evidence": [
+      {"timestamp_seconds": 0, "frame_path": "frames/cue_0000.jpg", "observation": "Hands, bread, grapes, a candle, cloth texture, and a pink-wine glass fill the low picnic frame.", "inference": "The session has a strong tactile premise before any person owns the action.", "timeline_event_ids": ["event-001-tactile-premise"]},
+      {"timestamp_seconds": 3, "frame_path": "frames/cue_0001.jpg", "observation": "Hands move around the same food and glass field while the seated light-blazer body remains behind it.", "inference": "Live hand movement can carry the premise without a freeze or decorative crop.", "timeline_event_ids": ["event-001-tactile-premise"]},
+      {"timestamp_seconds": 6, "frame_path": "frames/cue_0002.jpg", "observation": "Several glasses and hands converge in front of the light blazer.", "inference": "The wine and hand motif connects texture to a social action owner.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 10, "frame_path": "frames/cue_0003.jpg", "observation": "The man in the light blazer visibly pours pink wine into a glass while another filled glass occupies the foreground.", "inference": "The pour is a clear causal base action for an in-frame density build.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 15, "frame_path": "frames/cue_0004.jpg", "observation": "The same pour continues with multiple pink-wine glasses at different depths.", "inference": "The action has sufficient native duration and depth separation for a stable full-frame base.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 20, "frame_path": "frames/cue_0005.jpg", "observation": "The man still owns the bottle and glass while foreground glasses remain active.", "inference": "Action ownership remains readable even when another live window is added briefly.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 30, "frame_path": "frames/cue_0006.jpg", "observation": "The man smiles with the bottle and glass centered among surrounding glasses.", "inference": "The physical ritual turns into a social response rather than an isolated product-style pour.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 34, "frame_path": "frames/cue_0007.jpg", "observation": "Several hands and glasses meet for a close toast in front of the smiling man.", "inference": "Glass convergence previews a larger relationship release.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 38, "frame_path": "frames/cue_0008.jpg", "observation": "A woman in pale blue laughs with her glass while the man remains beside her.", "inference": "Individual pleasure is visibly grounded in the same group ritual.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 42, "frame_path": "frames/cue_0009.jpg", "observation": "The pale-blue woman lowers her gaze toward the wine and picnic while remaining close to the man.", "inference": "Reaction and object continuity remain coherent within the capture world.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 46, "frame_path": "frames/cue_0010.jpg", "observation": "The man and pale-blue woman remain in the same shallow-depth group field with pink-wine glasses at the edges.", "inference": "The source remains one continuous social setup through its end.", "timeline_event_ids": ["event-002-progressive-social-density"]}
+    ],
+    "limitations": ["Pinned timestamps are not a captured full-speed playback review.", "The close landscape take never supplies a clean wide view of all four bodies."]
+  },
+  "reuse_gate": {"analysis_only": false, "allowed_in_proof": true, "allowed_in_final": true},
+  "conversion": {"status": "mapped", "timeline_grammar_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/proofs/picnic-density-wave-v001/timeline-grammar.json"}
+}

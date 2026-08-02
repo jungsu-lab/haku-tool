@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DYql5NyTBeO",
+  "account": "@haku_.photo",
+  "source_url": "https://www.instagram.com/reel/DYql5NyTBeO/",
+  "rights": "public-reference-only",
+  "source_duration_seconds": 11.167,
+  "audio_policy": "deferred_by_user",
+  "direct_visual_review": {"complete_dense_timeline": true, "reviewer": "main-agent"},
+  "events": [
+    {
+      "event_id": "event-001-performance-proof", "start_seconds": 0.0, "end_seconds": 6.417, "timecode_display": "00:00.0~00:06.4",
+      "observation": "극단적 탑숏에서 흰옷 인물이 넓은 흙바닥을 이동하며 긴 그림자와 신체 궤적을 만든다. 제품·병·라벨·로고는 보이지 않는다.", "inference": "제품 설명 없이 땀과 움직임의 신체 경험을 먼저 증명한다.",
+      "narrative": {"stage": "setup", "function": "complete embodied performance proof before brand"},
+      "shot": {"shot_type": "locked_overhead_performance", "subject": "흙바닥을 이동하는 흰옷 인물과 긴 그림자", "framing": "extreme overhead wide", "camera_angle": "top-down", "camera_motion": "locked source frame", "shot_duration_seconds": 6.417},
+      "cut": {"cut_type": "single-shot hold", "cut_reason": "행동을 분절하지 않고 신체 증거를 완결", "incoming_motion": "none", "outgoing_motion": "인물 이동과 그림자 궤적", "continuity": "하나의 공간·하나의 완결 행동"},
+      "timing": {"pace": "slow-sustained", "rhythm": "one complete performance phrase", "beat_position": "not_reviewed", "pause_seconds": 0.0, "speed_change": "none confirmed"},
+      "transition": {"transition_type": "none", "duration_seconds": 0.0, "direction": "none", "visual_anchor": "작은 흰 인물과 긴 그림자", "sound_anchor": "not_reviewed"},
+      "text": {"content": "", "font_style": "none", "position": "none", "emphasis": "none", "animation": "none", "duration_seconds": 0.0},
+      "color": {"exposure": "bright dry ground", "contrast": "strong figure-shadow separation", "saturation": "low", "temperature": "warm earth", "palette": ["sand", "white", "charcoal shadow"], "mood": "effort and summer heat"},
+      "audio": {"status": "deferred_by_user", "dialogue": "not_reviewed", "music": "not_reviewed", "sfx": "not_reviewed", "ambience": "not_reviewed", "beat": "not_reviewed", "volume_curve": "not_reviewed"},
+      "motion": {"zoom": "none observed", "pan": "none", "shake": "none observed", "tracking": "subject traverses locked frame", "easing": "natural body motion", "motion_blur": "source"},
+      "purpose": {"primary": "emotion", "effect_name": "experience_before_explicit_brand", "when_used": "영상 첫 6.42초", "applied_scene": "제품 없는 탑숏 신체 퍼포먼스", "why_used": "브랜드 주장을 말하기 전에 땀과 움직임을 실제 신체 증거로 체험시키기 위해", "viewer_feeling": ["노력", "더위", "몰입", "궁금증"]},
+      "operator_links": ["experience-before-product", "action-as-edit-spine"], "confidence": "high"
+    },
+    {
+      "event_id": "event-002-interrogative-claim", "start_seconds": 6.417, "end_seconds": 9.667, "timecode_display": "00:06.4~00:09.7",
+      "observation": "검은 화면 위 작은 흰 일본어 질문 문장이 약 3.25초 유지된다.", "inference": "앞의 신체 행동을 브랜드가 답할 문제 또는 명제로 전환한다.",
+      "narrative": {"stage": "climax", "function": "name the problem created by the performance"},
+      "shot": {"shot_type": "black_question_card", "subject": "땀과 준비를 묻는 일본어 문장", "framing": "small centered text on black", "camera_angle": "none", "camera_motion": "none", "shot_duration_seconds": 3.25},
+      "cut": {"cut_type": "semantic cut to black", "cut_reason": "완결된 행동을 질문으로 재해석", "incoming_motion": "이동하는 인물", "outgoing_motion": "none", "continuity": "신체 경험과 질문의 의미 연결"},
+      "timing": {"pace": "still", "rhythm": "long proposition hold", "beat_position": "not_reviewed", "pause_seconds": 3.25, "speed_change": "none"},
+      "transition": {"transition_type": "cut to black copy", "duration_seconds": 0.0, "direction": "performance to proposition", "visual_anchor": "앞 장면의 땀·노력", "sound_anchor": "not_reviewed"},
+      "text": {"content": "汗かく準備、できてますか。", "font_style": "small white regular Japanese", "position": "center", "emphasis": "interrogative proposition", "animation": "none observed", "duration_seconds": 3.25},
+      "color": {"exposure": "black field", "contrast": "white on black", "saturation": "none", "temperature": "neutral", "palette": ["black", "white"], "mood": "direct reflective challenge"},
+      "audio": {"status": "deferred_by_user", "dialogue": "not_reviewed", "music": "not_reviewed", "sfx": "not_reviewed", "ambience": "not_reviewed", "beat": "not_reviewed", "volume_curve": "not_reviewed"},
+      "motion": {"zoom": "none", "pan": "none", "shake": "none", "tracking": "none", "easing": "none", "motion_blur": "none"},
+      "purpose": {"primary": "explanation", "effect_name": "performance_to_question_claim", "when_used": "신체 행동이 완결된 직후", "applied_scene": "검정 화면의 질문 카피", "why_used": "앞 장면의 감각을 광고 명제로 명명하고 브랜드 답변을 기다리게 하기 위해", "viewer_feeling": ["자기 질문", "도전", "답을 기다리는 긴장"]},
+      "operator_links": ["meaningful-copy-gate", "experience-before-product"], "confidence": "high"
+    },
+    {
+      "event_id": "event-003-brand-answer", "start_seconds": 9.667, "end_seconds": 11.167, "timecode_display": "00:09.7~00:11.2",
+      "observation": "검은 화면 위 흰색 POCARI SWEAT 로고가 약 1.5초 유지된다.", "inference": "앞의 퍼포먼스와 질문에 브랜드 이름을 최종 답으로 제시한다.",
+      "narrative": {"stage": "cta", "function": "explicit brand answer and signoff"},
+      "shot": {"shot_type": "brand_logo_signoff", "subject": "POCARI SWEAT 로고", "framing": "centered logo on black", "camera_angle": "none", "camera_motion": "none", "shot_duration_seconds": 1.5},
+      "cut": {"cut_type": "information replacement cut", "cut_reason": "질문을 브랜드 답으로 치환", "incoming_motion": "none", "outgoing_motion": "none", "continuity": "검정 배경과 흰 그래픽 유지"},
+      "timing": {"pace": "still concise", "rhythm": "short answer after long question", "beat_position": "not_reviewed", "pause_seconds": 1.5, "speed_change": "none"},
+      "transition": {"transition_type": "copy-to-logo replacement", "duration_seconds": 0.0, "direction": "question to answer", "visual_anchor": "검정 화면과 흰 중앙 그래픽", "sound_anchor": "not_reviewed"},
+      "text": {"content": "POCARI SWEAT", "font_style": "brand logo", "position": "center", "emphasis": "explicit brand answer", "animation": "none observed", "duration_seconds": 1.5},
+      "color": {"exposure": "black field", "contrast": "white logo on black", "saturation": "none", "temperature": "neutral", "palette": ["black", "white"], "mood": "confident closure"},
+      "audio": {"status": "deferred_by_user", "dialogue": "not_reviewed", "music": "not_reviewed", "sfx": "not_reviewed", "ambience": "not_reviewed", "beat": "not_reviewed", "volume_curve": "not_reviewed"},
+      "motion": {"zoom": "none", "pan": "none", "shake": "none", "tracking": "none", "easing": "none", "motion_blur": "none"},
+      "purpose": {"primary": "cta", "effect_name": "explicit_brand_answer", "when_used": "질문 카피가 충분히 읽힌 뒤 마지막 1.5초", "applied_scene": "검정 화면의 독립 브랜드 로고", "why_used": "행동과 질문으로 만들어진 의미를 제품 팩샷 없이 브랜드 정체성에 귀속하기 위해", "viewer_feeling": ["확신", "명확한 결론", "브랜드 기억"]},
+      "operator_links": ["experience-before-product", "meaningful-copy-gate"], "confidence": "high"
+    }
+  ]
+}

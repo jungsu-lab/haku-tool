@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DWENozKk1lk",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T09:07:00Z"
+  },
+  "purpose": "여름의 인물·물·학교·여행 기억을 세로 캔버스 안의 단일 장면과 여러 작은 영상 창으로 번갈아 재구성하는 기억 콜라주",
+  "format": "9:16 portrait multi-window memory collage",
+  "story_role": "implicit",
+  "primary_subject": "흰옷 인물과 동행, 물·학교·길·바다의 반복 기억",
+  "intended_viewer_response": "여러 시간이 동시에 떠오르다가 한 장면으로 다시 모이는 회상",
+  "commercial_function": "패션·여행·사진 서비스·브랜드 아카이브의 콜라주형 영상",
+  "sequence": {
+    "opening_hook": "손과 필름 또는 작은 물체를 근접으로 보여준 뒤 세로 화면 안에 수중·모자·구름 장면을 여러 창으로 동시에 띄운다.",
+    "development": "긴 단일 원경과 그림자 숏 사이에 2~3개의 가로·세로 영상 창 묶음을 반복 삽입한다.",
+    "peak_or_payoff": "30초대에는 세 개의 세로 패널, 38초대에는 석양·눈·불꽃의 수평 스택처럼 시간과 계절을 동시에 배치한다.",
+    "final_image": "흰옷 인물의 숲·해안 장면과 여러 패널을 거쳐 나무 프레임 너머 두 사람·자전거의 안정된 단일 장면으로 끝난다."
+  },
+  "directing": {
+    "subject_action": "길을 달리기, 그림자 걷기, 물가 서기, 창가 앉기, 버블 만지기, 피아노 치기, 숲을 걷기",
+    "blocking": "단일 장면에서는 인물을 환경 속 작은 표식으로 두고, 멀티윈도에서는 서로 다른 거리·행동을 역할별로 분배한다.",
+    "space": "학교·바다·논길·숲을 하나의 물리 동선이 아니라 기억의 병렬 층으로 취급한다.",
+    "props_surfaces_costume": "흰옷·모자·필름·버블·피아노·자전거가 서로 다른 창을 인물의 기억으로 묶는다."
+  },
+  "cinematography": {
+    "composition": "세로 검은 캔버스 안에 가로 전체 폭 창, 작은 상하 패널, 세로 다단 스택을 바꿔 쓴다.",
+    "distance_or_lens": "패널마다 환경·인물·손 디테일을 분담해 한 화면 안에서 sensory-scale-relay를 수행한다.",
+    "camera_motion": "각 원본 창의 움직임은 절제되고, 창의 조합 변화가 전체 화면의 편집 운동을 만든다.",
+    "light": "청록 수중광·흰 하늘·창문 역광·석양·불꽃을 서로 다른 창 사이의 밝기 축으로 맞춘다.",
+    "palette_texture_depth": "검은 여백이 청록·흰색·주황 패널을 분리하며 사진 앨범 같은 깊이를 만든다."
+  },
+  "editing": {
+    "cut_logic": "단일 장면으로 읽기→검은 쉼→2~3개 창의 병렬 비교→다시 단일 장면이라는 확장·수렴을 반복한다.",
+    "shot_duration_progression": "2~4초 단일 장면 사이에 0.2~1.8초 패널 교체와 검은 게이트가 들어가는 다층 밀도 파동이다.",
+    "adjacent_image_relations": "같은 인물·흰옷·물·빛을 서로 다른 창에 배치해 패널 수가 늘어도 하나의 감정 축을 유지한다.",
+    "in_frame_editing": "작은 창 안의 달리기·손·물결 움직임과 창 사이 동시성이 새로운 의미를 만든다.",
+    "typography_graphics_compositing": "타이포보다 검은 캔버스와 영상 창의 크기·위치·동시 재생을 그래픽 문법으로 사용한다.",
+    "repeated_operators": [
+      "single_to_multiwindow_expansion",
+      "functional_memory_panels",
+      "simultaneous_scale_roles",
+      "black_canvas_cluster_gate"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "동시 패널과 음악 층의 관계는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 3.867,
+      "observation": "손 근접 뒤 수중 인물·모자와 그림자·구름이 세로 캔버스의 서로 다른 창에 동시에 배치된다.",
+      "inference": "작은 사진을 장식으로 띄우는 것이 아니라 인물·소품·환경의 역할을 서로 다른 창에 분담한다."
+    },
+    {
+      "start_seconds": 4.8,
+      "end_seconds": 10.033,
+      "observation": "큰 구름 아래 길을 달리는 인물의 단일 세로 원경 뒤 그림자 숏이 이어진다.",
+      "inference": "복잡한 패널 뒤 하나의 행동과 공간으로 수렴해 화면을 다시 읽게 한다."
+    },
+    {
+      "start_seconds": 10.367,
+      "end_seconds": 16.5,
+      "observation": "흰옷 인물·물결·수중 손, 그림자, 여행 가방과 바다·손의 여러 패널 묶음이 검은 게이트 사이에 나온다.",
+      "inference": "각 패널이 인물·물성·장소 정보를 맡아 하나의 기억 단위를 병렬로 압축한다."
+    },
+    {
+      "start_seconds": 29.933,
+      "end_seconds": 38.3,
+      "observation": "피아노·복도·커튼의 3단 세로 패널 뒤 단일 해안 인물, 보케·발·들판·그림자, 다시 석양·눈·불꽃의 다단 패널이 나온다.",
+      "inference": "시간과 계절이 다른 장면을 형태·빛 역할로 정렬하며 확장과 수렴을 가장 크게 반복하는 절정이다."
+    },
+    {
+      "start_seconds": 40.3,
+      "end_seconds": 50.233,
+      "observation": "해안의 인물과 고양이, 흰옷 인물·숲, 여러 작은 패널 뒤 나무 프레임 너머 두 사람과 자전거가 끝까지 유지된다.",
+      "inference": "파편 콜라주를 관계와 장소가 함께 읽히는 단일 결말로 착지시킨다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 사용자가 원한 '한 컷 안에 작은 사진·영상이 생기는 편집'의 Haku식 조건을 직접 보여준다.",
+    "common_elements": [
+      "흰옷 인물",
+      "물·학교·바다·숲",
+      "검은 여백과 기억 묶음",
+      "환경·인물·손 디테일"
+    ],
+    "possible_discriminators": [
+      "각 작은 창이 서로 다른 정보 역할을 가짐",
+      "패널 폭주 뒤 반드시 단일 장면으로 수렴",
+      "같은 인물·빛·물성으로 창 사이 계정 정체성 유지"
+    ],
+    "forbidden_pattern_evidence": [
+      "아무 사진이나 카드처럼 띄우면 장식 콜라주가 된다.",
+      "모든 시간에 패널을 유지하면 hero 장면과 관계 결말이 사라진다.",
+      "각 창에 동시에 큰 움직임을 넣으면 시선 우선순위가 무너진다."
+    ],
+    "ad_strengths": [
+      "사진·카메라 서비스",
+      "여행·패션 아카이브",
+      "브랜드의 여러 사용 순간 압축"
+    ],
+    "suitable_subjects": [
+      "같은 인물·의상·소품이 여러 장소에 반복되는 원본",
+      "환경·행동·디테일 역할을 나눌 수 있는 커버리지",
+      "콜라주 뒤 착지할 강한 단일 hero 장면"
+    ],
+    "poor_fit_subjects": [
+      "서로 다른 인물·색·시간만 있고 공통 모티프가 없는 영상",
+      "모든 클립의 움직임과 밝기가 강해 동시 배치가 충돌하는 원본"
+    ],
+    "limitations": [
+      "각 패널의 정확한 출현·퇴장 애니메이션과 동시 재생 타이밍은 실시간 재생 없이 완전히 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "작은 창은 효과 자체가 아니라 환경·인물·물성 정보를 동시에 비교할 이유가 있을 때만 쓴다.",
+    "콜라주가 강할수록 중간과 끝의 단일 장면 release가 더 중요하다."
+  ],
+  "confidence": "high"
+}

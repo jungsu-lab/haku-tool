@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_beach_presence_absence_v002",
+  "created_at": "2026-07-31T12:22:47.769763+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_beach_presence_absence_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "E45C70EE933DC0982A63E053BCC42331D8764F5B4389875DBBE7B3553D566956",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 57,
+      "coverage_seconds": 7.083333
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 57,
+      "coverage_seconds": 7.083333
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-compressed-entry",
+      "kind": "segment_boundary",
+      "frame": 16,
+      "seconds": 0.6666666666666666,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\boundaries\\boundary-01-compressed-entry.jpg",
+      "range_seconds": [
+        0.4166666666666667,
+        0.9583333333333333
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-readable-crossing",
+      "kind": "segment_boundary",
+      "frame": 44,
+      "seconds": 1.8333333333333333,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\boundaries\\boundary-02-readable-crossing.jpg",
+      "range_seconds": [
+        1.5833333333333333,
+        2.125
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-complete-frame-exit",
+      "kind": "segment_boundary",
+      "frame": 84,
+      "seconds": 3.5,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\boundaries\\boundary-03-complete-frame-exit.jpg",
+      "range_seconds": [
+        3.25,
+        3.7916666666666665
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-living-water-afterimage",
+      "kind": "segment_boundary",
+      "frame": 118,
+      "seconds": 4.916666666666667,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v002\\render\\review-auto\\boundaries\\boundary-04-living-water-afterimage.jpg",
+      "range_seconds": [
+        4.666666666666667,
+        5.208333333333334
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T12:24:06.747517+00:00",
+    "evidence": [
+      "Complete 0.000-30.197 source sheet: empty water until about 10.1 seconds, subject crosses from right to left through about 16.4 seconds, then the same water and reflections remain visibly active through 30.2 seconds.",
+      "Proof 4.917-7.083 seconds leaves more than two seconds of native moving water after the subject fully exits; this is not a freeze, fade, zoom, or inserted trace.",
+      "Boundary 04 preserves the final leftward exit into the native empty-water state without a reset."
+    ],
+    "limitations": [
+      "Boundaries 02 and 03 skip roughly one second of source motion and create visible spatial jumps in the walking subject, reproducing the unwanted 움찔 problem.",
+      "Live full-speed playback was not used; review covered the complete source sheet, complete 8 fps plain/proof sheets, and all four 24 fps boundary strips."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_tea_action_spine_v002",
+  "operator": {
+    "primary": "action-as-edit-spine",
+    "secondary": "motif-state-return"
+  },
+  "revision_from": "../tea-action-spine-v001/recipe.json",
+  "changes_from_v001": [
+    "Rejected the jump from a visible pot body to a detached stream at the sustained-pour/release boundary.",
+    "Preserved the pour from 1.3 through 8.97 seconds in three source-contiguous ranges.",
+    "Compressed only the inactive hold between completed pour and the later service-hand action.",
+    "Kept the motif-state claim partial because the opaque cup hides its fill level."
+  ],
+  "situation": "One licensed, unedited locked tea-service take progressing from an untouched cup through pot arrival, continuous pour onset/body/release, and a final hand-delivered service detail.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "TIVASEE",
+    "page_url": "https://www.pexels.com/video/close-up-on-pouring-tea-to-cup-7612397/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+  },
+  "hypotheses_under_test": [
+    "A locked product-neutral ritual can be compressed by preserving action ownership and consequence rather than adding camera motion or transitions.",
+    "The physical pour hinge should remain source-contiguous even if the result must run longer.",
+    "Only a genuinely inactive hold may be compressed before the final service action."
+  ],
+  "purpose": "Repair the visible pour lurch and test action-as-edit-spine on a still-life ritual, while keeping the motif-state claim conservative because the opaque cup hides its fill level.",
+  "material_fit": {
+    "status": "strong_for_action_partial_for_motif",
+    "reason": "Pot entry, pour onset, sustained pour, release, and hand placement are visible and causal; the cup persists, but its internal before/after fill level is not directly visible."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "untouched_tableau": {
+      "source": "../../sources/tea-state-candidate-03/7612397-tea-pour.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "pot_to_onset": {
+      "source": "../../sources/tea-state-candidate-03/7612397-tea-pour.mp4",
+      "source_in": 1.3,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "sustained_pour": {
+      "source": "../../sources/tea-state-candidate-03/7612397-tea-pour.mp4",
+      "source_in": 3.266667,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "pour_release": {
+      "source": "../../sources/tea-state-candidate-03/7612397-tea-pour.mp4",
+      "source_in": 7.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "service_completion": {
+      "source": "../../sources/tea-state-candidate-03/7612397-tea-pour.mp4",
+      "source_in": 14.8,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-tableau", "type": "single", "frames": 59, "material": "untouched_tableau"},
+        {"id": "plain-pot-onset", "type": "single", "frames": 59, "material": "pot_to_onset"},
+        {"id": "plain-sustain", "type": "single", "frames": 59, "material": "sustained_pour"},
+        {"id": "plain-release", "type": "single", "frames": 59, "material": "pour_release"},
+        {"id": "plain-completion", "type": "single", "frames": 59, "material": "service_completion"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "brief-tableau", "type": "single", "frames": 20, "material": "untouched_tableau"},
+        {"id": "pot-arrival-to-stream", "type": "single", "frames": 59, "material": "pot_to_onset"},
+        {"id": "continuous-pour-body", "type": "single", "frames": 112, "material": "sustained_pour"},
+        {"id": "continuous-pour-release", "type": "single", "frames": 59, "material": "pour_release"},
+        {"id": "hand-completes-service", "type": "single", "frames": 45, "material": "service_completion"}
+      ]
+    }
+  }
+}

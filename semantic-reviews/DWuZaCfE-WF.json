@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DWuZaCfE-WF",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "timeline_grammar_events_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\timeline-grammar\\DWuZaCfE-WF.json",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:07:00Z"
+  },
+  "purpose": "흩어진 계절 이미지가 한 사람의 감각 기억으로 수렴하는 회상 몽타주",
+  "format": "16:9 landscape density-wave montage",
+  "story_role": "implicit",
+  "primary_subject": "자연·공간·빛 속에서 반복 등장하는 흰옷의 여성",
+  "intended_viewer_response": "빠르게 밀려오는 기억 뒤에 인물의 순간을 오래 붙잡는 느낌",
+  "commercial_function": "브랜드 필름의 무드 오프닝 또는 인물·패션 캠페인의 감정 압축 구간",
+  "sequence": {
+    "opening_hook": "손·물·꽃·피아노·창문·구름을 거의 한 박자마다 교체하는 시각 폭주",
+    "development": "약 6.5초 이후 컷 길이가 갑자기 늘어나며 인물의 실제 움직임과 장소가 읽히기 시작한다.",
+    "peak_or_payoff": "벚꽃 길의 인물, 물에 닿는 손, 역광 얼굴을 순차적으로 오래 보여 감각 카탈로그가 한 사람의 기억이었음을 암시한다.",
+    "final_image": "눈 클로즈업과 푸른 수면의 손으로 끝내며 인물 감정에서 촉감으로 다시 빠져나간다."
+  },
+  "directing": {
+    "subject_action": "걷기, 바라보기, 손을 뻗기, 역광 속에 서기",
+    "blocking": "초반에는 인물을 환경 속 작은 표식으로 분산시키고 후반에 얼굴·손을 크게 회수한다.",
+    "space": "학교·바다·벚꽃길·실내를 연속 장소로 설명하지 않고 기억 파편으로 취급한다.",
+    "props_surfaces_costume": "흰 의상, 피아노, 꽃, 물, 창문, 손이 밝은 표면과 검은 실루엣을 반복한다."
+  },
+  "cinematography": {
+    "composition": "초반의 원경·건축·자연·디테일을 혼합한 뒤 후반에는 인물 중심 구도를 늘린다.",
+    "distance_or_lens": "극단적 원경과 눈·손 클로즈업을 직접 충돌시킨다.",
+    "camera_motion": "시트에서 확인되는 핵심은 카메라 운동보다 서로 다른 정지 구도의 충돌이다.",
+    "light": "과노출된 흰빛, 창문 역광, 수면 반짝임, 저녁 실루엣을 반복한다.",
+    "palette_texture_depth": "흰색·청록·연분홍·주황을 순환하며 꽃잎·물결·보케가 부드러운 질감을 만든다."
+  },
+  "editing": {
+    "cut_logic": "초반 0.12~0.25초 이미지 카탈로그에서 후반 0.5~0.9초 인물 행동으로 밀도를 꺾는다.",
+    "shot_duration_progression": "0~6.5초는 초고밀도, 6.5~12.4초는 읽을 수 있는 길이로 이완되는 한 번의 큰 밀도 파동이다.",
+    "adjacent_image_relations": "물·빛·흰 표면·인물 실루엣을 반복해 장소가 달라도 동일한 기억 온도를 유지한다.",
+    "in_frame_editing": "후반의 손 뻗기·눈 뜨기 같은 미세 행동이 짧은 정지 이미지 연속을 다시 살아 있는 순간으로 바꾼다.",
+    "typography_graphics_compositing": "관찰된 타이포그래피나 명시적 합성은 없다.",
+    "repeated_operators": [
+      "sensory_catalogue_burst",
+      "density_hinge_to_embodied_hold",
+      "detail_environment_relay",
+      "face_hand_recovery"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "오디오를 재생해 의미를 판정하지 않았으며 현재 수치 동기값도 문법 근거로 사용하지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.416,
+      "observation": "손·수면·벚꽃·바닥 그림자·숲 창문·노란 나무·건축·구름이 0.12~0.25초 간격으로 바뀐다.",
+      "inference": "시청자가 장소를 이해하기 전에 계절과 빛의 어휘를 먼저 주입하는 감각 카탈로그다."
+    },
+    {
+      "start_seconds": 2.541,
+      "end_seconds": 6.5,
+      "observation": "피아노·논·바다·실루엣·벚꽃길·수면·눈·발·램프·꽃·손이 계속 빠르게 교체된다.",
+      "inference": "무작위 B-roll이 아니라 흰 인물, 빛, 물, 손의 반복으로 하나의 기억 주체를 만든다."
+    },
+    {
+      "start_seconds": 6.5,
+      "end_seconds": 8.875,
+      "observation": "역광 인물과 벚꽃길 인물이 이전보다 긴 숏으로 유지된다.",
+      "inference": "밀도 급감이 감정적 착지를 만들며 초반 이미지를 인물의 기억으로 재해석하게 한다."
+    },
+    {
+      "start_seconds": 9.0,
+      "end_seconds": 12.416,
+      "observation": "물에 닿는 손, 역광 얼굴, 일몰, 물방울 속 손, 눈, 푸른 수면의 손으로 마무리된다.",
+      "inference": "환경 원경에서 얼굴과 촉각 디테일로 수렴해 정서적 친밀도를 높인다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 컷 밀도 자체보다 밀도 변화와 모티프 회수가 Haku 정체성을 만든다는 사례다.",
+    "common_elements": [
+      "흰옷 인물",
+      "물·꽃·역광",
+      "원경과 눈·손 디테일",
+      "여러 장소를 하나의 계절 기억으로 묶기"
+    ],
+    "possible_discriminators": [
+      "초고밀도 카탈로그 뒤의 갑작스러운 호흡 확보",
+      "후반 얼굴·손 회수로 감정의 주체를 명확히 하기"
+    ],
+    "forbidden_pattern_evidence": [
+      "전체를 같은 짧은 길이로 자르면 후반 착지가 사라진다.",
+      "서로 다른 예쁜 장면만 모으고 반복 모티프를 두지 않으면 무작위 쇼릴이 된다."
+    ],
+    "ad_strengths": [
+      "패션·향수 브랜드의 감정 오프닝",
+      "계절 캠페인",
+      "공간·여행 브랜드의 기억형 필름"
+    ],
+    "suitable_subjects": [
+      "같은 인물 또는 같은 의상 표식이 여러 장소에 반복되는 촬영본",
+      "물·꽃·빛·손·눈 디테일 커버리지가 충분한 원본"
+    ],
+    "poor_fit_subjects": [
+      "인물 회수 없이 풍경만 산발적으로 있는 영상",
+      "다양한 거리와 디테일 커버리지가 없는 단일 구도 영상"
+    ],
+    "limitations": [
+      "초반 0.12~0.25초 구간은 4fps 시트와 컷 검출 경계를 함께 보았으며 전 프레임 실시간 재생은 하지 못했다.",
+      "오디오의 실제 박자와 밀도 전환의 관계는 보류했다."
+    ]
+  },
+  "counterexamples": [
+    "빠른 컷을 끝까지 유지하지 않는다. Haku다운 감정은 오히려 후반의 느려짐에서 발생한다.",
+    "49개 장면처럼 보이는 자동 검출 숫자가 49개의 독립 의미 숏을 뜻하지 않는다."
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "kind": "url|local_file",
+    "value": "URL or absolute local path",
+    "rights_status": "owned|licensed|permissioned-analysis|public-reference-only",
+    "sha256": "required for local_file"
+  },
+  "invocation": {
+    "wrapper": "C:/Users/HP-5600G/Desktop/AI 제작과정/tools/run-watch.cmd",
+    "detail": "efficient|balanced|token-burner",
+    "external_transcription_allowed": false,
+    "explicit_user_consent_for_audio_upload": false,
+    "no_whisper": true,
+    "output_directory": "absolute path",
+    "report_path": "absolute path"
+  },
+  "review": {
+    "reviewer": "main-agent",
+    "every_listed_frame_reviewed": true,
+    "transcript_source": "none|native-captions|external-whisper",
+    "frame_evidence": [
+      {
+        "timestamp_seconds": 0.0,
+        "frame_path": "absolute path",
+        "observation": "visible fact only",
+        "inference": "separate interpretation",
+        "timeline_event_ids": ["event-001"]
+      }
+    ],
+    "limitations": []
+  },
+  "reuse_gate": {
+    "analysis_only": true,
+    "allowed_in_proof": false,
+    "allowed_in_final": false
+  },
+  "conversion": {
+    "status": "pending|mapped",
+    "timeline_grammar_path": "required when mapped"
+  }
+}
+

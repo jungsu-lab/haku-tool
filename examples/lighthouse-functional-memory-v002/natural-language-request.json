@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "request_id": "lighthouse-functional-memory-v002",
+  "natural_language": "빠른 템포의 짧은 컷, 의미 있는 자막, 화면 내부에 순차로 생기는 작은 영상, 밀도가 찬 뒤 전체 화면으로 회수되는 실험을 넣어 Haku 감성을 더 분명하게 만든다. 장식적 전환이나 가짜 확대는 쓰지 않는다.",
+  "purpose": "emotion",
+  "target_duration_seconds": 11.2,
+  "audio_policy": "licensed_library_track",
+  "text_policy": "one_evidence_matched_clause",
+  "source_rights": {"status": "verified", "source_manifest": "../../sources/lighthouse-shared-memory-session/source-manifest.json"},
+  "material_observations": {
+    "reviewed_by_main_agent": true,
+    "existing_edit_detected": false,
+    "tags": [
+      "actual_action",
+      "same_capture_world",
+      "distinct_panel_roles",
+      "causal_panel_trigger",
+      "hero_release",
+      "progressive_panel_reveal",
+      "full_frame_recovery",
+      "meaningful_copy",
+      "copy_evidence_match",
+      "start_end_handles"
+    ],
+    "same_capture_world_verified": true,
+    "capture_world": {"id": "daylight-lighthouse-picnic-three-friends"},
+    "panel_plan": {
+      "dominant_role": "black album as the physical memory object",
+      "supporting_roles": ["lighthouse as place", "apple and picnic surface as touch", "three converging eyelines as relationship witness"],
+      "causal_trigger": "the real album action associatively opens remembered fragments; it is not presented as a literal interface",
+      "roles_visually_distinct_verified": true
+    },
+    "release": {
+      "verified": true,
+      "anchor": "the real black-bordered instant photograph rises in a continuous three-person full-frame shot",
+      "capture_world_id": "daylight-lighthouse-picnic-three-friends",
+      "source_clip_id": "shared-polaroid-5081866",
+      "source_range_seconds": [1.6, 7.2]
+    },
+    "copy": {
+      "text": "the day stayed in pieces",
+      "evidence_match": "the next frame literally separates place, touch, album and relationship into four live roles"
+    },
+    "review_note": "All four complete licensed takes, the plain/proof dense sheets and every edit boundary were directly inspected. The first panel fade revision was rejected and repaired before this route was finalized."
+  }
+}

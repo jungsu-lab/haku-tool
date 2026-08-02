@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "request_id": "picnic-density-wave-v001",
+  "natural_language": "감각적인 음식과 와인 디테일에서 넓은 친구 관계 장면으로 발전하고, 화면 안에서 밀도가 올라가고 마지막에 풀리는 느낌으로 해줘. 작은 영상이 생기고 전체 화면으로 이어지게 하되 콜라주처럼 복잡하지 않았으면 좋겠어.",
+  "purpose": "relationship",
+  "target_duration_seconds": 8.4,
+  "audio_policy": "deferred_by_user",
+  "text_policy": "none",
+  "source_rights": {
+    "status": "verified",
+    "source_manifest": "../../sources/picnic-sensory-scale/source-manifest.json"
+  },
+  "material_observations": {
+    "reviewed_by_main_agent": true,
+    "existing_edit_detected": false,
+    "tags": [
+      "causal_density_trigger",
+      "progressive_density_states",
+      "hero_release",
+      "source_contiguous_handoff",
+      "same_capture_world",
+      "distinct_panel_roles",
+      "causal_panel_trigger",
+      "detail",
+      "environment",
+      "person",
+      "shared_visual_motif",
+      "continuous_action",
+      "shared_space"
+    ],
+    "limitations": [
+      "그룹 관계 destination은 가로 프레임이므로 세로 cover crop 금지",
+      "세로 개인 반응 컷은 얼굴·와인·음식이 보존되는 제한된 패널로만 사용",
+      "신뢰할 수 있는 전체 속도 재생 캡처는 확보되지 않음",
+      "오디오는 사용자 지시에 따라 보류"
+    ]
+  },
+  "explicit_operator_id": null
+}

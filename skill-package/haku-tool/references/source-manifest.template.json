@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "session_id": "",
+  "rights_basis": {
+    "provider": "",
+    "creator": "",
+    "license_url": "https://",
+    "allowed_use": "proof_edit"
+  },
+  "capture_world": {
+    "world_id": "",
+    "subject_identity": "",
+    "location": "",
+    "time_of_day": "",
+    "weather": "",
+    "lens_character": "",
+    "color_temperature": "",
+    "palette": [],
+    "same_world_claim": ""
+  },
+  "sources": [
+    {
+      "source_clip_id": "clip-001",
+      "file": "source/clip-001.mp4",
+      "sha256": "64 hexadecimal characters",
+      "page_url": "https://",
+      "license_url": "https://",
+      "creator": "",
+      "duration_seconds": 0.0,
+      "width": 0,
+      "height": 0,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {
+        "method": "full_playback|dense_storyboard_and_boundary_review",
+        "status": "no_detected_splice|uncertain|existing_edit_detected",
+        "limitations": ""
+      },
+      "semantic_role": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "audio_rights_manifest": "audio-rights.json",
+  "audio_file_sha256": "",
+  "track_source_in_seconds": 0.0,
+  "track_source_out_seconds": 0.0,
+  "analysis_method": ["waveform", "onset_detection", "direct_listening"],
+  "events": [
+    {
+      "event_id": "music-001",
+      "track_seconds": 0.0,
+      "timeline_seconds": 0.0,
+      "type": "phrase_start|beat|accent|break|drop|instrument_change|ending",
+      "observation": "",
+      "visual_response": "cut|hold|in_frame_event|panel_change|text_change|color_change|none",
+      "target_visual_event_id": "",
+      "intentional_offset_ms": 0,
+      "confidence": "low|medium|high"
+    }
+  ]
+}

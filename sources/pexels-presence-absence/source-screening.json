@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "screening_purpose": "Find an unedited same-frame source where a visible subject exits and an inherited environmental trace remains.",
+  "audio_policy": "deferred_by_user",
+  "candidates": [
+    {
+      "candidate_id": "pexels-3052477",
+      "title": "Silhouette Footage Of A Person Walking Away",
+      "provider": "Pexels",
+      "creator": "Ricky Esquivel",
+      "source_page": "https://www.pexels.com/video/silhouette-footage-of-a-person-walking-away-3052477/",
+      "license": {
+        "name": "Pexels License",
+        "url": "https://www.pexels.com/license/",
+        "page_marked_free_to_use": true,
+        "verified_on": "2026-07-31"
+      },
+      "download_url": "https://videos.pexels.com/video-files/3052477/3052477-hd_1080_1920_24fps.mp4",
+      "local_file": "pexels-3052477-person-walking-away.mp4",
+      "bytes": 5950339,
+      "sha256": "1FDC715859157DE04C0C52AA745DD37F1A9220F6EB4FAA6EFC42DF7DB3FBF175",
+      "technical": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "24000/1001",
+        "video_frames": 583,
+        "duration_seconds": 24.32,
+        "audio_present": true
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 120-sample dense sheet covering 0.000-24.117 seconds at approximately 4.94 fps.",
+        "observations": [
+          "0.0-1.8 seconds: the silhouetted person crosses extremely close to the lens and temporarily occludes most of the sunset.",
+          "2.0-7.9 seconds: the person resolves from a partial body into a centered silhouette and raises one arm.",
+          "8.1-24.1 seconds: the person remains centered; head and shoulders continue small motion against a slowly changing sky."
+        ],
+        "inference": "The source contains presence and gesture but no subject exit and no inherited empty-frame trace."
+      },
+      "selection_verdict": "rejected_for_presence_to_absence",
+      "rejection_reasons": [
+        "The subject never leaves the frame.",
+        "The final state is continued presence, not absence.",
+        "Using the opening occlusion as a disappearance would reverse the source event and violate the no-reverse guardrail."
+      ],
+      "possible_other_use": "A separate silhouette-entry or gesture-hold experiment, not the current absence Operator.",
+      "dense_review_sheet": "../../proof-source-audit/pexels-3052477/pexels-3052477-person-walking-away-dense.jpg"
+    },
+    {
+      "candidate_id": "pexels-31406058",
+      "title": "Man Walking Towards Camera in Scenic Landscape",
+      "provider": "Pexels",
+      "creator": "Burak Bahadır Büyükkılınç",
+      "source_page": "https://www.pexels.com/video/man-walking-towards-camera-in-scenic-landscape-31406058/",
+      "license": {
+        "name": "Pexels License",
+        "url": "https://www.pexels.com/license/",
+        "page_marked_free_to_use": true,
+        "verified_on": "2026-07-31"
+      },
+      "download_url": "https://www.pexels.com/download/video/31406058/",
+      "local_file": "pexels-31406058-man-towards-camera.mp4",
+      "bytes": 12386453,
+      "sha256": "1BB4D35FFB70552594E43B8A9BDEEE26F3501EE2FF6733B0A27A4D6377AD5866",
+      "technical": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "1000000/16667",
+        "duration_seconds": 37.984093,
+        "audio_present": false
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 150-sample dense sheet covering 0.000-37.731 seconds at approximately 3.95 fps.",
+        "observations": [
+          "The man begins as a small distant subject near the lower center.",
+          "He approaches steadily while the camera and mountain composition remain fixed.",
+          "At the final sampled frame he is still visible near the lower center."
+        ],
+        "inference": "The take supports approach and scale progression but never reaches absence."
+      },
+      "selection_verdict": "rejected_for_presence_to_absence",
+      "rejection_reasons": [
+        "The subject remains present in the last state.",
+        "There is no empty same-frame consequence after his approach."
+      ],
+      "possible_other_use": "Subject-withholding reveal or scale-progression coverage.",
+      "dense_review_sheet": "../../proof-source-audit/pexels-31406058/pexels-31406058-man-towards-camera-dense.jpg"
+    },
+    {
+      "candidate_id": "pexels-5937571",
+      "title": "Woman Walking on the Beach",
+      "provider": "Pexels",
+      "creator": "Taryn Elliott",
+      "source_page": "https://www.pexels.com/video/woman-walking-on-the-beach-5937571/",
+      "license": {
+        "name": "Pexels License",
+        "url": "https://www.pexels.com/license/",
+        "page_marked_free_to_use": true,
+        "verified_on": "2026-07-31"
+      },
+      "download_url": "https://www.pexels.com/download/video/5937571/",
+      "local_file": "pexels-5937571-woman-beach-walk.mp4",
+      "bytes": 33715580,
+      "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7",
+      "technical": {
+        "width": 2560,
+        "height": 1440,
+        "fps": "25/1",
+        "video_frames": 760,
+        "duration_seconds": 30.4,
+        "audio_present": false
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 150-sample dense sheet covering 0.000-30.197 seconds at approximately 4.93 fps.",
+        "observations": [
+          "0.0-10.1 seconds: the frame is empty of the foreground subject while water, distant lights, and reflections remain active.",
+          "10.3-16.4 seconds: a woman enters from frame right, walks left across the reflective water, and fully exits frame left.",
+          "16.6-30.2 seconds: the same composition remains empty while water and warm reflections continue moving."
+        ],
+        "inference": "The source contains a complete environment → presence → absence event and a visible inherited trace."
+      },
+      "selection_verdict": "selected_for_presence_to_absence_v002",
+      "selection_reasons": [
+        "The subject fully leaves the frame in chronological source order.",
+        "The same water surface and distant lights continue moving after the exit.",
+        "The empty hold is native source motion, not a freeze, duplicated frame, or unrelated insert.",
+        "The fixed 16:9 composition should be preserved instead of forcing a vertical crop that would hide the entrance and exit."
+      ],
+      "dense_review_sheet": "../../proof-source-audit/pexels-5937571/pexels-5937571-woman-beach-walk-dense.jpg"
+    }
+  ]
+}

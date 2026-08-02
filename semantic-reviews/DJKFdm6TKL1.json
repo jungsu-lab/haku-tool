@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DJKFdm6TKL1",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T13:07:00Z"
+  },
+  "second_review": {
+    "status": "resolved",
+    "evidence_path_clockwise": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\second-review\\DJKFdm6TKL1-orientation\\clockwise-dense.jpg",
+    "evidence_path_counterclockwise": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\second-review\\DJKFdm6TKL1-orientation\\counterclockwise-dense.jpg",
+    "container_finding": "The 720x1280 H.264 stream contains no rotation metadata or display-matrix side data.",
+    "visual_finding": "Counterclockwise 90-degree normalization restores upright tree trunks, architecture, piano, corridor, gravity, and the final person-in-field action. Clockwise normalization is upside down.",
+    "routing_decision": "Analyze the work as normalized 16:9 landscape footage. Never learn the sideways stored pixels as a creator style or rotated-gravity operator."
+  },
+  "purpose": "한 인물의 이동과 연주, 야외 동작을 다섯 개 안팎의 길게 읽히는 숏으로 연결한 짧은 초상",
+  "format": "source encoded sideways; visually reviewed after 90-degree counterclockwise normalization as 16:9 landscape",
+  "story_role": "implicit",
+  "primary_subject": "흰옷을 입고 건축 공간과 야외를 오가는 여성",
+  "intended_viewer_response": "닫힌 숲·건축 공간의 동작이 마지막 열린 꽃밭과 하늘에서 해방되는 느낌",
+  "commercial_function": "인물·의류·학교·음악·공간 브랜드의 짧은 초상 티저",
+  "sequence": {
+    "opening_hook": "곧게 선 나무 사이 숲길을 달려오는 인물의 긴 동작을 제시한다.",
+    "development": "밝은 창가의 인물과 피아노를 연주하는 손으로 공간과 행동을 구체화한다.",
+    "peak_or_payoff": "어두운 복도를 통과해 밝은 하늘 아래 모자를 던지는 동작으로 열린 공간에 도착한다.",
+    "final_image": "모자가 공중에 있는 동안 인물이 몸을 돌리며 짧은 해방감을 남긴다."
+  },
+  "directing": {
+    "subject_action": "계단 내려가기, 창가에 서기, 피아노 치기, 복도 통과하기, 모자 던지고 돌기",
+    "blocking": "첫 두 숏은 건축 프레임 안에 인물을 가두고 마지막 숏은 하늘과 꽃 앞에 전신을 연다.",
+    "space": "숲길·창가·피아노·복도·야외를 행동 진행으로 연결하되 지리적 연속성은 생략한다.",
+    "props_surfaces_costume": "흰옷·검은 피아노·모자·창문이 밝고 어두운 면을 교대한다."
+  },
+  "cinematography": {
+    "composition": "정상화 방향에서 숲의 수직 나무·계단 난간·피아노 건반·복도 소실점·하늘 수평선이 모두 자연스럽다.",
+    "distance_or_lens": "전신 환경 숏, 손 디테일, 복도 원경, 다시 전신으로 단순하고 명확하게 변한다.",
+    "camera_motion": "인물 이동과 손 연주를 읽을 만큼 각 숏을 유지하며 디지털 푸시보다 실제 동작을 우선한다.",
+    "light": "숲의 얼룩광→창문의 강한 백색광→어두운 복도→맑은 하늘로 밝기 곡선을 만든다.",
+    "palette_texture_depth": "갈색 나무·흰옷·검은 실내·파란 하늘의 큰 색면 대비가 중심이다."
+  },
+  "editing": {
+    "cut_logic": "장면당 하나의 행동을 충분히 보여준 뒤 밝기와 공간 방향을 바꾸는 단순한 5단 연결이다.",
+    "shot_duration_progression": "약 1.5초, 2초, 1.1초, 0.7초, 1.5초 안팎으로 중간 복도를 짧게 압축하고 마지막 행동을 다시 늘린다.",
+    "adjacent_image_relations": "걷는 손·몸↔피아노 손, 밝은 창↔어두운 복도, 실내 구속↔야외 모자 던지기의 대비가 기능한다.",
+    "in_frame_editing": "모든 핵심은 한 숏 안의 실제 행동이며 화면 전환 효과는 관찰되지 않는다.",
+    "typography_graphics_compositing": "타이포와 합성은 없고 프레임 회전이 유일한 강한 그래픽 선택이다.",
+    "repeated_operators": [
+      "one_action_per_shot",
+      "light_to_dark_to_open_release",
+      "body_hand_body_distance_arc",
+      "orientation_normalization_gate"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "피아노 장면의 실제 소리와 컷 관계는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1.533,
+      "observation": "나무 계단 또는 숲길에서 흰옷 인물이 이동하는 하나의 긴 숏이다.",
+      "inference": "초반 검출된 다수 경계는 실제 컷보다 피사체·배경 움직임에 반응한 오검출일 가능성이 높다."
+    },
+    {
+      "start_seconds": 1.7,
+      "end_seconds": 3.566,
+      "observation": "강한 창빛 안에 선 인물이 약 1.8초 유지된다.",
+      "inference": "고밀도 편집 대신 몸의 정지와 창 프레임을 읽게 하는 두 번째 행동 단위다."
+    },
+    {
+      "start_seconds": 3.566,
+      "end_seconds": 4.7,
+      "observation": "피아노 건반 위 손이 연주하는 클로즈업이 유지된다.",
+      "inference": "전신에서 손으로 거리를 줄이며 인물의 내적 행동을 구체화한다."
+    },
+    {
+      "start_seconds": 4.7,
+      "end_seconds": 5.366,
+      "observation": "어두운 복도 원경을 짧게 통과한다.",
+      "inference": "밝은 실내와 야외 사이의 압축된 통로로 기능한다."
+    },
+    {
+      "start_seconds": 5.366,
+      "end_seconds": 6.9,
+      "observation": "파란 하늘 아래 인물이 모자를 던지고 몸을 돌린다.",
+      "inference": "폐쇄된 건축 프레임에서 열린 공간과 해방 동작으로 끝나는 작은 감정 호다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높은 반례 가치. 자동 수치상 14컷이지만 직접 보면 핵심은 다섯 개 안팎의 긴 행동 숏이다.",
+    "common_elements": [
+      "흰옷 인물",
+      "학교·피아노·창문",
+      "역광과 자연",
+      "작은 행동으로 감정 암시"
+    ],
+    "possible_discriminators": [
+      "닫힌 공간에서 열린 공간으로 이동하는 밝기·블로킹 호",
+      "전신→손→전신으로 돌아오는 거리 호"
+    ],
+    "forbidden_pattern_evidence": [
+      "자동 검출 컷마다 실제 컷을 넣으면 원래의 행동 호흡이 파괴된다.",
+      "긴 숏에 임의 확대축소를 넣지 않아도 인물 동작과 명암 변화로 충분히 진행된다."
+    ],
+    "ad_strengths": [
+      "실험적 패션 초상",
+      "학교·음악·공간 캠페인",
+      "인물 정체성 티저"
+    ],
+    "suitable_subjects": [
+      "각 숏 안에 분명한 인물 행동이 있는 촬영본",
+      "닫힌 실내와 열린 야외 대비가 있는 원본",
+      "숲·건축·피아노·야외처럼 중력 방향을 확인할 수 있는 원본"
+    ],
+    "poor_fit_subjects": [
+      "제품 글자와 사용법을 정상 방향으로 읽혀야 하는 광고",
+      "행동 없는 정지 원경만 있는 영상"
+    ],
+    "limitations": [
+      "원본 스트림에는 회전 메타데이터가 없고 픽셀이 옆으로 저장되어 있었다. 양방향 회전 시트를 비교해 반시계 90도를 정상 방향으로 채택했다."
+    ]
+  },
+  "counterexamples": [
+    "Haku 편집은 빠른 컷이 필수가 아니다.",
+    "자동 검출 14컷을 실제 14숏으로 해석하면 잘못이며 이 작품은 행동 단위가 다섯 개 안팎이다.",
+    "파일의 옆으로 누운 저장 상태를 창작자의 회전 연출로 학습하면 안 된다."
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_functional_memory_panels_v001",
+  "operator": {
+    "primary": "functional-memory-panels",
+    "secondary": "density-wave-release",
+    "causal_spine": "action-as-edit-spine"
+  },
+  "situation": "Three licensed unedited takes from one urban-park pair session, containing hand action, shoulder-linked travel, close facial exchange, empty setting, reconvergence, and lift.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "screening_manifest": "../../sources/park-relationship-blocking/source-screening.json"
+  },
+  "hypotheses_under_test": [
+    "A hand action can causally open an in-frame relationship memory field in a second situation.",
+    "Each panel must supply a different role: shared travel, close exchange, and the place that will remain.",
+    "Progressive panel entry should create density, then release to a single live relationship action rather than remain a decorative collage."
+  ],
+  "purpose": "Test functional-memory-panels on an urban playful relationship rather than the prior flower-field situation, without typography, borders, shadows, zoom, freeze, retime, or music.",
+  "material_fit": {
+    "status": "high",
+    "reason": "The sources share the same pair, wardrobe, park, overcast light, and production session while providing distinct action, intimacy, environment, and hero roles.",
+    "limits": [
+      "The sources mix camera distances and two park sightlines.",
+      "A panel field can organize memory roles but cannot repair identity, location, or lighting mismatch in unrelated footage."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay",
+      "decorative_border",
+      "drop_shadow"
+    ]
+  },
+  "materials": {
+    "hand_cause": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "shared_travel": {
+      "source": "../../sources/park-relationship-blocking/8640845.mp4",
+      "source_in": 1.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "close_exchange": {
+      "source": "../../sources/park-relationship-blocking/8640844.mp4",
+      "source_in": 20.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "place_afterimage": {
+      "source": "../../sources/park-relationship-blocking/8640845.mp4",
+      "source_in": 18.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "reconvergence": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 9.3,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "relationship_release": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 10.9,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-hand", "type": "single", "frames": 40, "material": "hand_cause"},
+        {"id": "plain-travel", "type": "single", "frames": 18, "material": "shared_travel"},
+        {"id": "plain-close", "type": "single", "frames": 18, "material": "close_exchange"},
+        {"id": "plain-place", "type": "single", "frames": 34, "material": "place_afterimage"},
+        {"id": "plain-reconvergence", "type": "single", "frames": 30, "material": "reconvergence"},
+        {"id": "plain-release", "type": "single", "frames": 60, "material": "relationship_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "hand-opens-memory", "type": "single", "frames": 40, "material": "hand_cause"},
+        {
+          "id": "progressive-relationship-memory-field",
+          "type": "functional-panels",
+          "frames": 70,
+          "canvas_color": "0x0A0C0B",
+          "panels": [
+            {
+              "id": "shared-travel-dominant",
+              "material": "shared_travel",
+              "active_frames": [0, 70],
+              "rect": [0.0, 0.0, 1.0, 0.62]
+            },
+            {
+              "id": "close-exchange-support",
+              "material": "close_exchange",
+              "active_frames": [15, 70],
+              "rect": [0.0, 0.63, 0.495, 0.37]
+            },
+            {
+              "id": "place-afterimage-support",
+              "material": "place_afterimage",
+              "active_frames": [30, 70],
+              "rect": [0.505, 0.63, 0.495, 0.37]
+            }
+          ]
+        },
+        {"id": "reconvergence-confirms-memory", "type": "single", "frames": 30, "material": "reconvergence"},
+        {"id": "relationship-release", "type": "single", "frames": 60, "material": "relationship_release"}
+      ]
+    }
+  }
+}

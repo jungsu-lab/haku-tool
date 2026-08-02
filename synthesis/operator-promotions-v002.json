@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "extends": "operator-registry-v001.json",
+  "status": "research_hypotheses_not_user_promoted",
+  "promotion_progress": "0/3 accepted situations",
+  "new_confirmed_operators": [
+    {
+      "id": "functional-memory-panels",
+      "natural_language_cues": [
+        "영상 안에 작은 사진이나 영상이 생기게",
+        "여러 기억이 한 화면에 겹치는 느낌",
+        "콜라주인데 정신없지 않게"
+      ],
+      "purpose_fit": [
+        "감성 기억 필름",
+        "여행·패션 아카이브",
+        "여러 사용 순간을 압축하는 광고"
+      ],
+      "required_coverage": [
+        "환경·인물·손 또는 물성으로 역할이 다른 2~3개 보조 영상",
+        "모든 창을 묶는 동일 인물·빛·소품·행동 중 하나",
+        "패널 뒤 수렴할 강한 단일 hero 장면"
+      ],
+      "panel_role_rules": [
+        "각 패널은 서로 다른 정보 역할을 맡는다.",
+        "동시에 큰 움직임을 보이는 패널은 하나만 둔다.",
+        "창 크기는 중요도와 정보량에 따라 다르게 한다.",
+        "패널 폭주 뒤에는 full-frame 또는 단일 창 release를 둔다.",
+        "작은 창은 배경 장식이 아니라 기억·관계·과정의 인과가 있을 때만 사용한다."
+      ],
+      "forbidden_when": [
+        "공통 모티프가 없는 임의 이미지 모음",
+        "모든 패널이 같은 거리와 같은 역할",
+        "패널이 계속 유지되어 hero 장면이 없음",
+        "작은 화면에서 피사체가 판독되지 않음"
+      ],
+      "evidence_reels": [
+        {
+          "reel_id": "DWENozKk1lk",
+          "evidence": "2.267~3.867, 10.367~16.500, 29.933~38.300초의 역할 분담 패널과 단일 장면 수렴"
+        },
+        {
+          "reel_id": "DX6n8iQPsjQ",
+          "evidence": "Golden storyboard의 2~3개 동시 기억 창, 문장, full-frame release"
+        },
+        {
+          "reel_id": "DakPIs6zMDl",
+          "evidence": "39.208초 이후 실제 칠판 표면에 동기가 있는 직사각형 기억 창과 완성 마스터 복귀"
+        }
+      ],
+      "research_confidence": "medium_high"
+    },
+    {
+      "id": "experience-before-product",
+      "natural_language_cues": [
+        "광고 같지만 제품부터 보여주지 않게",
+        "영상미와 연출이 먼저 느껴지는 브랜드 필름",
+        "사람이 쓰는 순간으로 제품을 설득해"
+      ],
+      "purpose_fit": [
+        "음료·스포츠",
+        "패션·라이프스타일",
+        "계절 캠페인"
+      ],
+      "required_coverage": [
+        "제품 효용을 몸으로 보여주는 실제 행동",
+        "브랜드 색·물성·환경을 미리 암시하는 장면",
+        "관계 또는 생활 맥락",
+        "마지막에 읽힐 카피·제품 hero·브랜드 회수"
+      ],
+      "sequence_options": [
+        "single_action_proof → question/claim → logo",
+        "sensory_world → relationship/use chapters → claim → product",
+        "chapter copy → product in life → hero performance → social montage"
+      ],
+      "forbidden_when": [
+        "제품 효용과 무관한 예쁜 B-roll",
+        "초반부터 동일 팩샷 반복",
+        "마지막 카피·제품 회수 없이 분위기만 종료",
+        "실제 사용 행동이 중간에 끊기거나 방향이 충돌함"
+      ],
+      "evidence_reels": [
+        {
+          "reel_id": "DYql5NyTBeO",
+          "evidence": "0~6.417초 퍼포먼스 증명 뒤 질문과 Pocari 로고"
+        },
+        {
+          "reel_id": "DYrhH-6zH-1",
+          "evidence": "0~45.583초 여름·학교·운동·관계 축적 뒤 카피와 제품 인물"
+        },
+        {
+          "reel_id": "DJrTFPaTXHI",
+          "evidence": "문장 장, 생활 속 제품, 8.4초 탑숏 행동 증명, 후반 관계 montage"
+        }
+      ],
+      "research_confidence": "high"
+    }
+  ],
+  "new_provisional_operators": [
+    {
+      "id": "chapter-copy-action-proof",
+      "evidence_reels": [
+        "DXJ2bohkzbV",
+        "DJrTFPaTXHI",
+        "DYrhH-6zH-1"
+      ],
+      "status": "semantic_functions_differ_more_review_needed",
+      "note": "문장 카드는 공통이지만 창작 과정 장 제목, 감각 선언, 광고 카피의 기능이 다르므로 아직 하나로 합치지 않는다."
+    }
+  ]
+}

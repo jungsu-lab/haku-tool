@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "name": "relationship_exit",
+      "expected_primary": "relationship-through-blocking",
+      "expected_status": "ready_for_treatment_choice",
+      "request": {
+        "schema_version": "1.0",
+        "request_id": "route-relationship-exit",
+        "natural_language": "둘 사이 관계가 행동으로 보이게 하고, 마지막에는 둘이 화면을 나가 빈 길이 남는 감성 영상으로 해줘.",
+        "purpose": "relationship",
+        "target_duration_seconds": 14,
+        "audio_policy": "deferred_by_user",
+        "text_policy": "none",
+        "source_rights": {"status": "verified", "source_manifest": "source-manifest.json"},
+        "material_observations": {
+          "reviewed_by_main_agent": true,
+          "existing_edit_detected": false,
+          "tags": ["relationship_pair", "shared_space", "blocking_change", "contact_change", "actual_action", "action_hinge", "start_end_handles", "real_exit", "native_afterimage_motion", "continuous_action"],
+          "limitations": []
+        },
+        "explicit_operator_id": null
+      }
+    },
+    {
+      "name": "memory_panels",
+      "expected_primary": "functional-memory-panels",
+      "expected_status": "ready_for_treatment_choice",
+      "request": {
+        "schema_version": "1.0",
+        "request_id": "route-memory-panels",
+        "natural_language": "영상 안에 작은 사진이나 영상이 차례로 생기고 여러 기억이 한 화면에 겹치지만, 복잡하지 않게 마지막 한 장면으로 풀어줘.",
+        "purpose": "memory",
+        "target_duration_seconds": 8,
+        "audio_policy": "deferred_by_user",
+        "text_policy": "none",
+        "source_rights": {"status": "verified", "source_manifest": "source-manifest.json"},
+        "material_observations": {
+          "reviewed_by_main_agent": true,
+          "existing_edit_detected": false,
+          "tags": ["distinct_panel_roles", "causal_panel_trigger", "hero_release", "same_capture_world", "person", "environment", "continuous_action"],
+          "limitations": []
+        },
+        "explicit_operator_id": null
+      }
+    },
+    {
+      "name": "experience_advertising",
+      "expected_primary": "experience-before-product",
+      "expected_status": "ready_for_treatment_choice",
+      "request": {
+        "schema_version": "1.0",
+        "request_id": "route-experience-advertising",
+        "natural_language": "광고 같지만 제품부터 보여주지 않게 하고, 사람이 실제로 쓰는 순간과 반응으로 제품을 설득해줘.",
+        "purpose": "advertising",
+        "target_duration_seconds": 12,
+        "audio_policy": "deferred_by_rights",
+        "text_policy": "only_if_semantically_required",
+        "source_rights": {"status": "verified", "source_manifest": "source-manifest.json"},
+        "material_observations": {
+          "reviewed_by_main_agent": true,
+          "existing_edit_detected": false,
+          "tags": ["real_product_use", "product_readable", "brand_signoff", "actual_action", "action_hinge", "start_end_handles"],
+          "limitations": []
+        },
+        "explicit_operator_id": null
+      }
+    },
+    {
+      "name": "luminous_missing_coverage",
+      "expected_primary": "luminous-texture-relay",
+      "expected_status": "needs_coverage_or_smaller_operator",
+      "request": {
+        "schema_version": "1.0",
+        "request_id": "route-luminous-gap",
+        "natural_language": "빛과 반사로 장면이 이어지는 몽환적인 유리와 물 느낌으로 해줘.",
+        "purpose": "emotion",
+        "target_duration_seconds": 6,
+        "audio_policy": "deferred_by_user",
+        "text_policy": "none",
+        "source_rights": {"status": "verified", "source_manifest": "source-manifest.json"},
+        "material_observations": {
+          "reviewed_by_main_agent": true,
+          "existing_edit_detected": false,
+          "tags": ["person", "environment", "continuous_action"],
+          "limitations": ["실제 반사·물·역광 커버리지 없음"]
+        },
+        "explicit_operator_id": null
+      }
+    }
+  ]
+}

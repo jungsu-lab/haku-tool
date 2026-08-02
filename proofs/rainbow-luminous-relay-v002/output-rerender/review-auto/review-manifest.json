@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_rainbow_luminous_relay_v002",
+  "created_at": "2026-07-31T14:37:36.946570+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_rainbow_luminous_relay_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "2C5A685B1D6C802AEB2DBB75ED0D7CB5A5926565123CE0D0695F569A1B7C643D",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 43,
+      "coverage_seconds": 5.28
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 43,
+      "coverage_seconds": 5.28
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-fingertip-carrier",
+      "kind": "segment_boundary",
+      "frame": 16,
+      "seconds": 0.64,
+      "strip": "boundaries\\boundary-01-fingertip-carrier.jpg",
+      "range_seconds": [
+        0.4,
+        0.92
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-palm-carrier",
+      "kind": "segment_boundary",
+      "frame": 32,
+      "seconds": 1.28,
+      "strip": "boundaries\\boundary-02-palm-carrier.jpg",
+      "range_seconds": [
+        1.04,
+        1.56
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-turning-color-carrier",
+      "kind": "segment_boundary",
+      "frame": 52,
+      "seconds": 2.08,
+      "strip": "boundaries\\boundary-03-turning-color-carrier.jpg",
+      "range_seconds": [
+        1.84,
+        2.3600000000000003
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-two-hand-interception",
+      "kind": "segment_boundary",
+      "frame": 73,
+      "seconds": 2.92,
+      "strip": "boundaries\\boundary-04-two-hand-interception.jpg",
+      "range_seconds": [
+        2.68,
+        3.2
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-open-palm-release",
+      "kind": "segment_boundary",
+      "frame": 113,
+      "seconds": 4.52,
+      "strip": "boundaries\\boundary-05-open-palm-release.jpg",
+      "range_seconds": [
+        4.28,
+        4.800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:38:51.102377+00:00",
+    "evidence": [
+      "Both licensed candidate originals, the selected original, frame-identical plain/proof dense sheets, and all five 25 fps boundary strips were directly reviewed. The same stable blue-white-orange-red optical band transfers from wall to fingertips to palm to the two-hand/open-palm state. V2 removes the V1 near-camera dark silhouette and keeps the light carrier readable at the final release. No generated glow, exposure pumping, zoom, freeze, retime, reverse, animated crop, transition, or padding was used."
+    ],
+    "limitations": [
+      "Validates one locked single-take real rainbow/refraction wall-to-skin situation. Water reflections, night light, moving camera, mixed locations, mixed orientation, and music remain untested. User verdict remains pending and contributes no acceptance increment."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

@@ -1,0 +1,564 @@
+{
+  "schema_version": "1.0",
+  "account": "@haku_.photo",
+  "registry_role": "current_proof_cycle_routing_authority",
+  "corpus_size": 40,
+  "rights": "public-reference-only",
+  "status": "corpus_supported_user_promotion_pending",
+  "audio_policy": "conditional_verified_free_library_audio",
+  "user_promotion_progress": "portfolio accepted proofs: 1; promotion is counted per tested Operator",
+  "operator_promotion_progress": {
+    "density-wave-release": {
+      "accepted": 1,
+      "required": 3,
+      "accepted_situation_ids": ["same-session-flower-field-creative-action"],
+      "candidate_situations": [
+        {
+          "cycle_id": "park-density-wave-v005",
+          "situation_id": "single-take-playful-pair-park-exit",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "Sequential support windows improve central relationship readability, but the visible window treatment and uncaptured full-speed playback still require user review."
+        },
+        {
+          "cycle_id": "picnic-density-wave-v003",
+          "situation_id": "same-session-four-friend-picnic-ritual",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "v003 delays the reaction until the pour is readable and enlarges the reaction and destination fields, but the rectangular panels may still read as picture-in-picture before an emotionally caused event; full-speed playback and user review remain pending.",
+          "evidence_package": "haku-auto-research/deliveries/picnic-density-wave-v003-review"
+        }
+      ]
+    }
+  },
+  "operators": [
+    {
+      "id": "action-as-edit-spine",
+      "confidence": "high",
+      "natural_language_cues": ["행동이 이어지는 느낌", "전환 말고 한 컷 안에서 진행", "사람이 뭔가 하면서 장면이 발전"],
+      "rule": "행동의 준비, 수행, 반응 또는 결과가 컷 구조를 결정하게 한다.",
+      "evidence": [
+        {"reel_id": "DVdX-WBk4L5", "ranges": ["0.000-7.750", "14.792-23.250", "24.042-33.167"]},
+        {"reel_id": "DLrwgLYzr7T", "ranges": ["0.000-2.436", "2.569-4.872", "4.972-8.842"]},
+        {"reel_id": "DQrTzfpk9iR", "ranges": ["0.042-11.292", "12.542-23.083", "24.625-35.125"]},
+        {"reel_id": "DS5xPk1E_NT", "ranges": ["6.133-14.700", "14.700-20.767"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "single-take-action-spine-v002",
+          "situation": "one unedited portrait take",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "full-speed playback pending"
+        },
+        {
+          "cycle_id": "latte-motif-state-v001",
+          "situation": "one fixed overhead latte-art take with monotonic material development",
+          "operator_role": "supporting",
+          "research_verdict": "not_independently_tested",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the pour supplies the causal action spine, but this cycle tests motif-state-return"
+        },
+        {
+          "cycle_id": "summer-between-us-v004",
+          "situation": "same-session relationship and flower-action coverage",
+          "operator_role": "supporting",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "same promotion situation as functional-memory-panels-v002; full-speed playback pending"
+        },
+        {
+          "cycle_id": "perfume-experience-product-v004",
+          "situation": "one perfume-use take with spray, wrist response, and bottle recovery",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the action spine is clear, but this cycle tests experience-before-product and lacks brand recovery"
+        },
+        {
+          "cycle_id": "lupine-luminous-relay-v002",
+          "situation": "same-session shadow carrier progression through hand movement and physical flower contact",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the hand action supports the carrier relay, but this cycle independently tests luminous-texture-relay"
+        },
+        {
+          "cycle_id": "picnic-sensory-scale-v003",
+          "situation": "same-session picnic detail, wine-pour action, individual laughter, and four-person toast",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the pour supplies the causal hinge, but this cycle independently tests sensory-scale-relay"
+        },
+        {
+          "cycle_id": "park-relationship-blocking-v002",
+          "situation": "one continuous pair action from reconvergence through lift, carry, running, and frame exit",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the physical hinge supports continuity, but this cycle independently tests relationship-through-blocking"
+        },
+        {
+          "cycle_id": "park-functional-memory-panels-v001",
+          "situation": "live hand contact causally opens a progressive same-session relationship memory field before reconvergence and lift",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the hand supplies the causal opening, but this cycle independently tests functional-memory-panels"
+        },
+        {
+          "cycle_id": "tea-action-spine-v001",
+          "situation": "one locked tea-service ritual with a skipped pot-release hinge",
+          "operator_role": "tested",
+          "research_verdict": "fail",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "matching the stream did not hide the abrupt disappearance of the pot body"
+        },
+        {
+          "cycle_id": "tea-action-spine-v002",
+          "situation": "one locked tea-service ritual with source-contiguous pot arrival, pour body and release before a later service-hand completion",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates a locked object ritual; handheld and multi-angle action remain untested"
+        },
+        {
+          "cycle_id": "rainbow-luminous-relay-v001",
+          "situation": "one locked rainbow-wall take progressing from wall to hand through a near-camera two-hand interception",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the hand action develops chronologically, but this cycle fails its independently tested optical relay because the final carrier is obscured"
+        },
+        {
+          "cycle_id": "rainbow-luminous-relay-v002",
+          "situation": "the same locked rainbow-wall take with a stable wall-to-fingertips-to-palm-to-open-palm action progression",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the action spine supports the relay, but this cycle independently tests luminous-texture-relay"
+        },
+        {
+          "cycle_id": "nutella-experience-product-v001",
+          "situation": "same-session locked food ritual progressing from lid contact and release through open-jar smell response to a later readable label hold",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the lid and smell action spine is clear, but this cycle independently tests experience-before-product"
+        },
+        {
+          "cycle_id": "nutella-experience-product-v002",
+          "situation": "the same locked food ritual with preserved lid release, a longer smell response, and a concise same-light brand recovery",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the action spine remains clear, but this cycle independently retests experience-before-product"
+        }
+      ],
+      "requires": ["완결된 실제 행동", "시작·종료 핸들", "가능하면 master·detail·reaction"],
+      "forbidden": ["행동 중간 절단", "약한 원본을 자동 줌으로 보충", "같은 프레임 반복"]
+    },
+    {
+      "id": "sensory-scale-relay",
+      "confidence": "high",
+      "natural_language_cues": ["감각적인 디테일에서 넓은 장면으로", "손이나 물성을 인물과 공간에 연결"],
+      "rule": "디테일, 인물, 관계, 환경이 공통 빛·형태·행동을 유지하면서 매 단계 새 정보를 준다.",
+      "evidence": [
+        {"reel_id": "DVdX-WBk4L5", "ranges": ["0.000-13.708"]},
+        {"reel_id": "DTr45oQkxeM", "ranges": ["4.633-10.267"]},
+        {"reel_id": "DLrwgLYzr7T", "ranges": ["0.000-8.842"]},
+        {"reel_id": "DS5xPk1E_NT", "ranges": ["6.133-14.700"]},
+        {"reel_id": "DbQf99sT2rh", "ranges": ["3.367-7.800"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "summer-between-us-v004",
+          "situation": "same-session tactile detail, person reaction, relationship, and environment",
+          "operator_role": "supporting",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "full-speed playback pending"
+        },
+        {
+          "cycle_id": "picnic-sensory-scale-v003",
+          "situation": "single-session landscape friendship film progressing from tactile table detail to action owner, embodied reaction, and four-person relationship field",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates shared-session landscape friendship coverage only; native 9:16 group coverage, mixed locations, product advertising, and music remain untested"
+        }
+      ],
+      "requires": ["실제 거리 차이", "공통 모티프", "각 거리의 다른 정보"],
+      "forbidden": ["와이드 디지털 크롭을 디테일로 위조", "무관한 자연 인서트"]
+    },
+    {
+      "id": "relationship-through-blocking",
+      "confidence": "high",
+      "natural_language_cues": ["둘 사이 관계가 행동으로 보이게", "같은 공간에서 가까워지는 느낌"],
+      "rule": "인물 수, 위치, 시선, 행동 소유권, 비어 있는 자리의 변화를 관계 문법으로 사용한다.",
+      "evidence": [
+        {"reel_id": "DVdX-WBk4L5", "ranges": ["0.000-7.750", "14.792-33.167"]},
+        {"reel_id": "DOyJ6k3Ewmb", "ranges": ["1.000-9.067", "9.367-18.333"]},
+        {"reel_id": "DLmsnfszuQc", "ranges": ["0.000-4.967", "4.967-11.033", "11.033-16.467"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "summer-between-us-v004",
+          "situation": "same-session couple walking, embracing, reacting, and leaving the field",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "full-speed playback pending"
+        },
+        {
+          "cycle_id": "park-relationship-blocking-v002",
+          "situation": "one continuous camera-followed park take progressing from hand contact through separation, reconvergence, lift, shared travel, exit, and empty path",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates a playful pair only; conflict, reconciliation, hierarchy, locked-off staging, vertical coverage, advertising, and music remain untested"
+        }
+      ],
+      "requires": ["같은 인물 또는 관계", "공간 기준축", "블로킹 변화"],
+      "forbidden": ["서로 다른 인물을 같은 관계로 위장", "축 충돌", "행동 방향 충돌"]
+    },
+    {
+      "id": "presence-to-absence-hold",
+      "confidence": "high",
+      "natural_language_cues": ["사람이 떠난 뒤 공간이 남는 느낌", "마지막에 잔상"],
+      "rule": "주체나 행동을 충분히 읽힌 뒤 같은 장소·물성·빛을 비워 여운을 만든다.",
+      "evidence": [
+        {"reel_id": "DOTAz9lE11A", "ranges": ["0.000-5.472", "5.472-9.476"]},
+        {"reel_id": "DOyJ6k3Ewmb", "ranges": ["13.400-18.333"]},
+        {"reel_id": "DRJvMoQk6Cy", "ranges": ["8.733-16.300"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "candle-presence-absence-v001",
+          "situation": "one unedited candle extinction take",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the ember is physically continuous but too small against black to provide a strong inherited spatial trace"
+        },
+        {
+          "cycle_id": "beach-presence-absence-v002",
+          "situation": "one fixed beach take with a real right-to-left frame exit and native water motion",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the native afterimage is strong, but two one-second source gaps create visible walking lurches"
+        },
+        {
+          "cycle_id": "beach-presence-absence-v003",
+          "situation": "the same fixed beach take with near-contiguous walking ranges and a longer native empty-water consequence",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "16:9 source must remain wide unless vertical coverage or an explicit non-cover layout is available"
+        },
+        {
+          "cycle_id": "beach-meaningful-copy-v002",
+          "situation": "the same fixed beach exit used as visible evidence for a before-and-after copy proposition",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the exit grammar was already independently tested in beach-presence-absence-v003"
+        },
+        {
+          "cycle_id": "park-relationship-blocking-v002",
+          "situation": "camera-followed pair exits after a continuous lift, carry, and shared run, leaving the same park path moving natively",
+          "operator_role": "supporting",
+          "research_verdict": "supporting_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the empty-path ending supports the relationship arc, but this cycle independently tests relationship-through-blocking"
+        }
+      ],
+      "requires": ["먼저 읽힌 주체", "같은 장소·물성·빛", "실제 미세 움직임"],
+      "forbidden": ["무관한 풍경 엔딩", "마지막 프레임 패딩", "빈 장면을 자동 freeze로 오판"]
+    },
+    {
+      "id": "functional-memory-panels",
+      "confidence": "medium_high",
+      "natural_language_cues": ["영상 안에 작은 사진이나 영상", "여러 기억이 한 화면에 겹치게", "콜라주인데 안 복잡하게"],
+      "rule": "2~3개 패널이 환경·인물·행동·물성의 서로 다른 역할을 맡고 이후 단일 hero 장면으로 수렴한다.",
+      "evidence": [
+        {"reel_id": "DWENozKk1lk", "ranges": ["0.000-3.867", "10.367-16.500", "29.933-38.300"]},
+        {"reel_id": "DWoUT9rk1ry", "ranges": ["0.067-2.767", "3.967-7.533", "8.733-12.700"]},
+        {"reel_id": "DX6n8iQPsjQ", "ranges": ["0.000-22.800"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "functional-memory-panels-v002",
+          "situation": "same-session two-person lupine field",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "full-speed playback pending"
+        },
+        {
+          "cycle_id": "nature-luminous-panels-v002",
+          "situation": "separate nature shoots",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "material world and session continuity do not match"
+        },
+        {
+          "cycle_id": "park-functional-memory-panels-v001",
+          "situation": "same-session urban pair with hand cause, shared presence, flower-framed close exchange, place afterimage, reconvergence, and lift release",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "dominant panel proves shared presence more strongly than full walking-body motion; unrelated footage, product grids, vertical layout, typography, and music remain untested"
+        }
+      ],
+      "requires": ["역할이 다른 2~3개 패널", "공통 인물·빛·소품·행동", "패널 뒤 단일 hero 장면"],
+      "forbidden": ["모든 패널 같은 거리·역할", "동시 큰 움직임", "끝없는 적층", "장식용 임의 이미지"]
+    },
+    {
+      "id": "motif-state-return",
+      "confidence": "high",
+      "natural_language_cues": ["같은 이미지가 다른 의미로 돌아오게", "처음의 감각을 마지막에 회수", "반복인데 매번 발전"],
+      "rule": "같은 물성·형태·방향을 최소 세 번 되돌리되 매번 스케일·상태·주체·감정 기능 중 하나 이상을 바꾸고 마지막 귀환이 앞 장면의 의미를 회수하게 한다.",
+      "evidence": [
+        {"reel_id": "DbS9D2JziFP", "ranges": ["0.200", "2.900", "4.600-6.010", "17.450-18.390"]},
+        {"reel_id": "DaUibIhzFkf", "ranges": ["0.020-2.460", "12.150-21.060", "33.230-36.380", "49.460-54.230"]},
+        {"reel_id": "DLaEqK0TisL", "ranges": ["0.000-2.930", "2.930-5.970", "5.970-9.300", "9.300-13.870"]},
+        {"reel_id": "DOyJ6k3Ewmb", "ranges": ["1.000-9.067", "9.067-13.400", "13.400-18.333"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "single-take-action-spine-v002",
+          "situation": "one unedited portrait take",
+          "operator_role": "supporting",
+          "research_verdict": "not_independently_tested",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the flower return supports the action spine but does not independently prove three developed motif states"
+        },
+        {
+          "cycle_id": "latte-motif-state-v001",
+          "situation": "one fixed overhead latte-art take progressing from dark coffee to completed pattern",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates reusable motif-state progression, not the account's full natural or relationship mood"
+        },
+        {
+          "cycle_id": "tea-action-spine-v001",
+          "situation": "one locked floral-cup tea ritual",
+          "operator_role": "supporting_evaluated",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the cup persists, but its opaque walls hide the before/after fill level and the tested action edit failed at the pot-release boundary"
+        },
+        {
+          "cycle_id": "tea-action-spine-v002",
+          "situation": "one locked floral-cup tea ritual with a repaired action spine",
+          "operator_role": "supporting_evaluated",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the persistent cup anchors the edit, but the invisible fill level prevents an independent motif-state-return pass"
+        }
+      ],
+      "requires": ["세 번 이상 변주할 실제 모티프", "모티프와 사람·제품·관계의 연결", "변형된 마지막 귀환"],
+      "forbidden": ["같은 인서트 반복", "색만 비슷한 무관한 매치", "순서를 바꿔도 의미가 같은 반복"]
+    },
+    {
+      "id": "meaningful-copy-gate",
+      "confidence": "high",
+      "natural_language_cues": ["문장 사이로 기억이 나오는 느낌", "카피가 장을 나누게"],
+      "rule": "카피가 장 제목, 질문, 명제, 감정 punctuation 중 하나의 기능을 맡을 때만 검정 여백에 사용한다.",
+      "evidence": [
+        {"reel_id": "DbQf99sT2rh", "ranges": ["0.000-1.000", "3.367-4.867", "9.900-11.100"]},
+        {"reel_id": "DaX8TkKzqIH", "ranges": ["0.000-0.968", "3.337-4.872", "9.877-11.111"]},
+        {"reel_id": "DS5xPk1E_NT", "ranges": ["0.000-3.067", "4.500-6.133", "19.200-20.767"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "beach-meaningful-copy-v002",
+          "situation": "frame-identical beach crossing and empty-water sequence with evidence-bound opening and closing copy",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates semantic copy as a gate, not the full Haku mood or a universal need for typography"
+        },
+        {
+          "cycle_id": "window-meaningful-copy-v001",
+          "situation": "single-take interior curtain opening with evidence-bound but visually dominant all-caps serif copy",
+          "operator_role": "tested",
+          "research_verdict": "fail",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "semantic relevance passed, but type weight and shadow overpowered the quiet visual action"
+        },
+        {
+          "cycle_id": "window-meaningful-copy-v002",
+          "situation": "frame-identical interior shadow-to-light action with restrained lowercase clauses bound to the visible states",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates one solitary interior light-change situation; Korean copy, dialogue, group action, brand claims, dense montage, and music remain untested"
+        }
+      ],
+      "requires": ["독자적인 읽을 수 있는 문장", "명시된 의미 역할", "뒤 이미지와의 관계"],
+      "forbidden": ["작은 붉은 문장을 선 효과로 오인", "읽히지 않는 장식 카피", "기계적 균등 삽입"]
+    },
+    {
+      "id": "luminous-texture-relay",
+      "confidence": "medium_high",
+      "natural_language_cues": ["빛과 반사로 장면이 이어지게", "몽환적인 유리·물 느낌"],
+      "rule": "실제 유리·물·역광·플레어의 하이라이트 위치와 질감을 다음 이미지로 넘긴다.",
+      "evidence": [
+        {"reel_id": "DXzIEytzWhP", "ranges": ["2.625-5.000", "6.042-12.042", "12.042-18.542"]},
+        {"reel_id": "DTr45oQkxeM", "ranges": ["4.633-10.267"]},
+        {"reel_id": "DPqzqkwE9zP", "ranges": ["7.133-12.833"]}
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "nature-luminous-panels-v002",
+          "situation": "separate nature shoots",
+          "operator_role": "supporting_evaluated",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "real luminous textures exist, but the final horizon comes from a visibly different capture world"
+        },
+        {
+          "cycle_id": "lupine-luminous-relay-v002",
+          "situation": "same-session flower shadow and foreground texture moving across fabric, hand, flower contact, and face",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates direct sunlight, flower shadow, and foreground floral occlusion only; reflection, glass, lens flare, night light, and mixed-location bridges remain untested"
+        },
+        {
+          "cycle_id": "rainbow-luminous-relay-v001",
+          "situation": "one locked take with a real refracted rainbow band transferring from wall to multiple hand states",
+          "operator_role": "tested",
+          "research_verdict": "fail",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the final near-camera hand becomes a dark dominant silhouette and hides the carrier, producing a body-scale lurch"
+        },
+        {
+          "cycle_id": "rainbow-luminous-relay-v002",
+          "situation": "the same locked take rebuilt as wall, fingertips, palm, hand turn, two-hand interception, and readable open-palm release",
+          "operator_role": "tested",
+          "research_verdict": "pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "validates one real wall-to-skin rainbow/refraction branch; water reflection, night light, moving camera, mixed locations, mixed orientation, and music remain untested"
+        }
+      ],
+      "requires": ["실제 반사·물·역광 커버리지", "하이라이트 연결축", "인물 또는 행동 접지"],
+      "forbidden": ["일괄 과노출", "노출 펌핑", "임의 플래시", "광질이 충돌하는 매치"]
+    },
+    {
+      "id": "experience-before-product",
+      "confidence": "medium_high",
+      "natural_language_cues": ["광고 같지만 제품부터 보여주지 않게", "사람이 쓰는 순간으로 제품을 설득"],
+      "rule": "제품 존재, 라벨 판독, 명시적 브랜드 강조를 분리한다. 몸·관계·계절·사용 행동의 증거가 먼저 기능하고, 목적에 맞는 카피·hero·로고 강조를 나중에 배치한다.",
+      "evidence": [
+        {"reel_id": "DYql5NyTBeO", "branch": "experience-before-explicit-brand", "ranges": ["0.000-6.417 performance proof", "6.417-9.667 interrogative claim", "9.667-11.167 brand answer"]},
+        {"reel_id": "DYrhH-6zH-1", "branch": "experience-before-brand-emphasis", "ranges": ["0.000-3.561 sensory premise", "3.885-4.533 early product-in-life", "13.598-15.217 logo checkpoint", "45.651-end final claim/product release"]}
+      ],
+      "related_but_not_strict_evidence": [
+        {"reel_id": "DJrTFPaTXHI", "branch": "product-in-life-world-expansion", "ranges": ["11.174-16.761 product-in-life cluster", "18.158-26.539 long action proof", "27.098-44.697 social/world expansion"], "reason": "The work ends on experience release rather than late product or brand recovery."}
+      ],
+      "branches": {
+        "experience-before-explicit-brand": "제품·브랜드 표식 없이 행동 또는 경험을 완결한 뒤 질문·명제와 독립 브랜드 사인오프로 답한다.",
+        "experience-before-brand-emphasis": "제품은 생활 장면에 일찍 존재할 수 있지만 로고·카피·hero framing 같은 광고 강조를 뒤로 미룬다.",
+        "product-in-life-world-expansion": "제품을 결말이 아닌 생활 세계의 중간 표식으로 사용하고 이후 행동·관계·환경을 더 크게 확장한다. 이 branch는 late recovery를 요구하지 않는다."
+      },
+      "research_proofs": [
+        {
+          "cycle_id": "perfume-experience-product-v004",
+          "situation": "single-take perfume ritual reordered into spray, wrist response, and fixed-crop bottle recovery",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "real use and product recovery are visible, but label, claim, and brand packshot are absent"
+        },
+        {
+          "cycle_id": "nutella-experience-product-v001",
+          "situation": "same-session locked Nutella lid-opening and smell response followed by a readable front-label hold",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "brand recovery is readable, but the label is visible from the first frame and the final hold is flatter than the sensory peak, so product delay and the full Operator remain unvalidated"
+        },
+        {
+          "cycle_id": "nutella-experience-product-v002",
+          "situation": "the same Nutella ritual with a longer closed-eye sensory response and shorter blue-violet front-label recovery",
+          "operator_role": "tested",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "the recovery is stronger and matches the sensory light world, but the label remains visible throughout and the later closed jar still implies an unshown closure"
+        }
+      ],
+      "requires": ["실제 행동 또는 경험 증거", "첫 제품 가시 시점", "첫 라벨 판독 시점", "첫 독립 로고 시점", "branch에 맞는 후반 기능"],
+      "forbidden": ["무관한 예쁜 B-roll", "초반 팩샷 반복", "제품 존재와 브랜드 강조를 같은 것으로 취급", "경험 이미지로 끝나는 구조를 late product recovery로 오기"]
+    }
+  ],
+  "technical_gates": [
+    {
+      "id": "orientation-normalization",
+      "rule": "회전 메타데이터, 수평선, 인물의 중력 방향, 건축 수직선을 확인한다. 애매하면 양방향 회전 시트를 비교한다.",
+      "evidence": ["DLmsnfszuQc", "DJKFdm6TKL1"],
+      "forbidden": ["옆으로 저장된 픽셀을 실험적 프레임으로 학습"]
+    },
+    {
+      "id": "watermark-exclusion",
+      "rule": "전 구간 고정 표식은 계정 스타일이 아니라 워터마크 후보로 분리한다.",
+      "evidence": ["DPqzqkwE9zP"],
+      "forbidden": ["고정 워터마크·로고 복제"]
+    },
+    {
+      "id": "freeze-vs-breath",
+      "rule": "저모션 구간은 인물·빛·물·바람의 미세 변화와 장면 기능을 직접 본 뒤 오류 여부를 판정한다.",
+      "evidence": ["DOyJ6k3Ewmb", "DRJvMoQk6Cy", "DOTAz9lE11A"],
+      "forbidden": ["저모션이라는 이유만으로 속도 변경·줌·삭제"]
+    }
+  ]
+}

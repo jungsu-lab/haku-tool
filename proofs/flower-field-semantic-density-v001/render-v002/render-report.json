@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_flower_field_semantic_density_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\recipe.json",
+  "recipe_sha256": "AB66EB99039EFB38E57A5A8FA5CD2CF1ACA2A4E136EBC29FC263C7952FF86D7F",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay",
+      "text",
+      "music",
+      "sfx"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "arms_reaction",
+      "camera_approach",
+      "camera_raise",
+      "field_premise",
+      "pocket_complete",
+      "pocket_prepare",
+      "running_release"
+    ],
+    "material_ledger": {
+      "field_premise": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271930-aerial-field.mp4",
+        "source_in": 5.0,
+        "sha256": "21D61952CADF19EC18E7603D33E66692AB0D082E73D17D0E55058F5D3DEF22FB"
+      },
+      "pocket_prepare": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271785-pocket-flowers.mp4",
+        "source_in": 3.75,
+        "sha256": "3869CBB7AD348AE8109483B4F4C0F3E9386503AB4B4AAADC890C151480831F53"
+      },
+      "pocket_complete": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271785-pocket-flowers.mp4",
+        "source_in": 5.5,
+        "sha256": "3869CBB7AD348AE8109483B4F4C0F3E9386503AB4B4AAADC890C151480831F53"
+      },
+      "camera_approach": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271713-taking-pictures.mp4",
+        "source_in": 6.0,
+        "sha256": "42B78CDF98F4267536128266033CDE0BDC88F09CCC8607939FC49C94A297DC1A"
+      },
+      "camera_raise": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271713-taking-pictures.mp4",
+        "source_in": 8.5,
+        "sha256": "42B78CDF98F4267536128266033CDE0BDC88F09CCC8607939FC49C94A297DC1A"
+      },
+      "arms_reaction": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271828-sitting-field.mp4",
+        "source_in": 5.5,
+        "sha256": "89969B9C80D969A6E8DF8EA97DC7475F4CBDCEE2C6D59CF47E016AAB16318C6D"
+      },
+      "running_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\taryn-flower-field-session\\5271714-running-field.mp4",
+        "source_in": 0.5,
+        "sha256": "22472B834743CA904E2D70B4869835EB9A4D78FCBB807170EB9BBB3453D003A3"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-field",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "field_premise",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 6.2,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            0,
+            30
+          ]
+        },
+        {
+          "segment_id": "plain-camera-approach",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "camera_approach",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 7.2,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            30,
+            60
+          ]
+        },
+        {
+          "segment_id": "plain-pocket-prepare",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pocket_prepare",
+          "source_in_seconds": 3.75,
+          "source_out_seconds": 4.95,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            60,
+            90
+          ]
+        },
+        {
+          "segment_id": "plain-reaction",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arms_reaction",
+          "source_in_seconds": 5.5,
+          "source_out_seconds": 6.7,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            90,
+            120
+          ]
+        },
+        {
+          "segment_id": "plain-pocket-complete",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pocket_complete",
+          "source_in_seconds": 5.5,
+          "source_out_seconds": 6.7,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            120,
+            150
+          ]
+        },
+        {
+          "segment_id": "plain-camera-raise",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "camera_raise",
+          "source_in_seconds": 8.5,
+          "source_out_seconds": 9.7,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            150,
+            180
+          ]
+        },
+        {
+          "segment_id": "plain-run",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "running_release",
+          "source_in_seconds": 0.5,
+          "source_out_seconds": 1.7,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            180,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "field_premise": 1,
+        "camera_approach": 1,
+        "pocket_prepare": 1,
+        "arms_reaction": 1,
+        "pocket_complete": 1,
+        "camera_raise": 1,
+        "running_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "environment-orientation",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "field_premise",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 5.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            0,
+            18
+          ]
+        },
+        {
+          "segment_id": "tactile-prepare",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pocket_prepare",
+          "source_in_seconds": 3.75,
+          "source_out_seconds": 4.47,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            18,
+            36
+          ]
+        },
+        {
+          "segment_id": "tactile-completion",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pocket_complete",
+          "source_in_seconds": 5.5,
+          "source_out_seconds": 6.38,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            36,
+            58
+          ]
+        },
+        {
+          "segment_id": "action-owner-approach",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "camera_approach",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 6.96,
+          "duration_frames": 24,
+          "timeline_visible_frames": [
+            58,
+            82
+          ]
+        },
+        {
+          "segment_id": "creative-act-hinge",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "camera_raise",
+          "source_in_seconds": 8.5,
+          "source_out_seconds": 10.02,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            82,
+            120
+          ]
+        },
+        {
+          "segment_id": "embodied-reaction",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arms_reaction",
+          "source_in_seconds": 5.5,
+          "source_out_seconds": 7.02,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            120,
+            158
+          ]
+        },
+        {
+          "segment_id": "native-movement-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "running_release",
+          "source_in_seconds": 0.5,
+          "source_out_seconds": 2.58,
+          "duration_frames": 52,
+          "timeline_visible_frames": [
+            158,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "field_premise": 1,
+        "pocket_prepare": 1,
+        "pocket_complete": 1,
+        "camera_approach": 1,
+        "camera_raise": 1,
+        "arms_reaction": 1,
+        "running_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\plain.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "plain-field",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "field_premise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\01-plain-field.mp4"
+      },
+      {
+        "segment_id": "plain-camera-approach",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "camera_approach"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\02-plain-camera-approach.mp4"
+      },
+      {
+        "segment_id": "plain-pocket-prepare",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "pocket_prepare"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\03-plain-pocket-prepare.mp4"
+      },
+      {
+        "segment_id": "plain-reaction",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "arms_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\04-plain-reaction.mp4"
+      },
+      {
+        "segment_id": "plain-pocket-complete",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "pocket_complete"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\05-plain-pocket-complete.mp4"
+      },
+      {
+        "segment_id": "plain-camera-raise",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "camera_raise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\06-plain-camera-raise.mp4"
+      },
+      {
+        "segment_id": "plain-run",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "running_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\plain\\07-plain-run.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "6BF0DCCCDDE072BC18C7028C580A01BA85F11D379ADF940CB9516666E80F84C7"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\proof.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "environment-orientation",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "field_premise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\01-environment-orientation.mp4"
+      },
+      {
+        "segment_id": "tactile-prepare",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "pocket_prepare"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\02-tactile-prepare.mp4"
+      },
+      {
+        "segment_id": "tactile-completion",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "pocket_complete"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\03-tactile-completion.mp4"
+      },
+      {
+        "segment_id": "action-owner-approach",
+        "type": "single",
+        "frames": 24,
+        "materials": [
+          "camera_approach"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\04-action-owner-approach.mp4"
+      },
+      {
+        "segment_id": "creative-act-hinge",
+        "type": "single",
+        "frames": 38,
+        "materials": [
+          "camera_raise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\05-creative-act-hinge.mp4"
+      },
+      {
+        "segment_id": "embodied-reaction",
+        "type": "single",
+        "frames": 38,
+        "materials": [
+          "arms_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\06-embodied-reaction.mp4"
+      },
+      {
+        "segment_id": "native-movement-release",
+        "type": "single",
+        "frames": 52,
+        "materials": [
+          "running_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\_segments\\proof\\07-native-movement-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "02F05689EBAA6F5B9A8927E707686B0FD10E9BA24F331C8679118F6E8C141C36"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "The proof turns seven equally weighted and semantically disordered plain fragments into a readable environment -> tactile action -> action owner -> creative act -> embodied reaction -> native movement release chain at the same 210-frame duration.",
+      "Direct 8 fps sequence review shows the duration hinge begins when the camera action becomes legible, while the arm raise and running departure receive longer holds as embodied consequence.",
+      "Direct 25 fps review of all six boundaries shows continuous live source motion with no freeze, retime, animated crop, synthetic zoom, overlay, padding, or transition decoration.",
+      "Against Haku references DWuZaCfE-WF and DQi8EW5k0-o, the shared principle is functional duration contrast: compact sensory information becomes a readable human hold rather than a tempo change for its own sake."
+    ],
+    "limitations": [
+      "The flower-field sources are more saturated and conventionally stock-like than Haku's restrained luminous image palette; this proof validates edit grammar, not full account-level image authorship.",
+      "The sequence has one person and no facial or relational coverage, so relationship blocking and intimate emotional legibility remain outside this proof.",
+      "Full-speed playback was not captured, so full_playback_reviewed remains false; complete 8 fps timelines and every boundary at 25 fps are the direct visual evidence."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\flower-field-semantic-density-v001\\render-v002\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "accepted",
+    "recorded_at": "2026-08-01T09:00:00+00:00",
+    "evidence": "User response after reviewing the comparison: 'ㅇㅇ 괜찮은데' followed by '일단 ㄱㄱ'.",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 1,
+  "promotion_operator_id": "density-wave-release"
+}

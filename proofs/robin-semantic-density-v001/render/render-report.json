@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_robin_semantic_density_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\recipe.json",
+  "recipe_sha256": "4A94EE240D757FBAF1026B2203D4BAF79BB147913BB958EFF0036470F7F04263",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "arrival",
+      "departure",
+      "late_turn",
+      "return_profile",
+      "song_hold",
+      "turn_away"
+    ],
+    "material_ledger": {
+      "arrival": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 0.0,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "turn_away": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 0.8,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "return_profile": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 3.9,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "song_hold": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 6.0,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "late_turn": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 16.8,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "departure": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 19.7,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-arrival",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arrival",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.28,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            0,
+            32
+          ]
+        },
+        {
+          "segment_id": "plain-turn-away",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "turn_away",
+          "source_in_seconds": 0.8,
+          "source_out_seconds": 2.08,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            32,
+            64
+          ]
+        },
+        {
+          "segment_id": "plain-return",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "return_profile",
+          "source_in_seconds": 3.9,
+          "source_out_seconds": 5.18,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            64,
+            96
+          ]
+        },
+        {
+          "segment_id": "plain-song",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "song_hold",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 7.28,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            96,
+            128
+          ]
+        },
+        {
+          "segment_id": "plain-late-turn",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "late_turn",
+          "source_in_seconds": 16.8,
+          "source_out_seconds": 18.080000000000002,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            128,
+            160
+          ]
+        },
+        {
+          "segment_id": "plain-departure",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "departure",
+          "source_in_seconds": 19.7,
+          "source_out_seconds": 20.98,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            160,
+            192
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "arrival": 1,
+        "turn_away": 1,
+        "return_profile": 1,
+        "song_hold": 1,
+        "late_turn": 1,
+        "departure": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "orientation-glimpse",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arrival",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 0.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            0,
+            18
+          ]
+        },
+        {
+          "segment_id": "away-glimpse",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "turn_away",
+          "source_in_seconds": 0.8,
+          "source_out_seconds": 1.48,
+          "duration_frames": 17,
+          "timeline_visible_frames": [
+            18,
+            35
+          ]
+        },
+        {
+          "segment_id": "profile-recovery",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "return_profile",
+          "source_in_seconds": 3.9,
+          "source_out_seconds": 4.9,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            35,
+            60
+          ]
+        },
+        {
+          "segment_id": "readable-song-hold",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "song_hold",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 8.879999999999999,
+          "duration_frames": 72,
+          "timeline_visible_frames": [
+            60,
+            132
+          ]
+        },
+        {
+          "segment_id": "departure-preparation",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "late_turn",
+          "source_in_seconds": 16.8,
+          "source_out_seconds": 18.0,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            132,
+            162
+          ]
+        },
+        {
+          "segment_id": "native-departure-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "departure",
+          "source_in_seconds": 19.7,
+          "source_out_seconds": 20.9,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            162,
+            192
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "arrival": 1,
+        "turn_away": 1,
+        "return_profile": 1,
+        "song_hold": 1,
+        "late_turn": 1,
+        "departure": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\plain.mp4",
+    "frames": 192,
+    "duration_seconds": 7.68,
+    "segments": [
+      {
+        "segment_id": "plain-arrival",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "arrival"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\01-plain-arrival.mp4"
+      },
+      {
+        "segment_id": "plain-turn-away",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "turn_away"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\02-plain-turn-away.mp4"
+      },
+      {
+        "segment_id": "plain-return",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "return_profile"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\03-plain-return.mp4"
+      },
+      {
+        "segment_id": "plain-song",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "song_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\04-plain-song.mp4"
+      },
+      {
+        "segment_id": "plain-late-turn",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "late_turn"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\05-plain-late-turn.mp4"
+      },
+      {
+        "segment_id": "plain-departure",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "departure"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\plain\\06-plain-departure.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "192"
+        }
+      ],
+      "format": {
+        "duration": "7.680000"
+      }
+    },
+    "sha256": "33DC2CF8131D29202BE2B6BDD3780658CA7915A24BF5B0F9B40B71D68C680565"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\proof.mp4",
+    "frames": 192,
+    "duration_seconds": 7.68,
+    "segments": [
+      {
+        "segment_id": "orientation-glimpse",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "arrival"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\01-orientation-glimpse.mp4"
+      },
+      {
+        "segment_id": "away-glimpse",
+        "type": "single",
+        "frames": 17,
+        "materials": [
+          "turn_away"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\02-away-glimpse.mp4"
+      },
+      {
+        "segment_id": "profile-recovery",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "return_profile"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\03-profile-recovery.mp4"
+      },
+      {
+        "segment_id": "readable-song-hold",
+        "type": "single",
+        "frames": 72,
+        "materials": [
+          "song_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\04-readable-song-hold.mp4"
+      },
+      {
+        "segment_id": "departure-preparation",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "late_turn"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\05-departure-preparation.mp4"
+      },
+      {
+        "segment_id": "native-departure-release",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "departure"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\_segments\\proof\\06-native-departure-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "192"
+        }
+      ],
+      "format": {
+        "duration": "7.680000"
+      }
+    },
+    "sha256": "4AA2E9A0A8944C905C0BF50342849D4C90BFBA7D4CF03223F5C1E551F8339EA3"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "The proof creates a readable duration contrast: short orientation states resolve into a longer profile/vocal hold and a native departure.",
+      "All five boundaries preserve live source motion; no freeze, retime, animated crop, synthetic zoom, overlay, or last-frame padding is visible in the reviewed strips.",
+      "Compared with the uniform plain, the proof makes the bird profile the temporal center and preserves the real exit as consequence."
+    ],
+    "limitations": [
+      "The locked single composition supplies behavior states but no change of scale, environment, person, or tactile information; the central hold is visually subtle without audio.",
+      "Full-speed playback opened in PotPlayer, but Windows capture failed, so full_playback_reviewed remains false.",
+      "This is a partial animal-behavior branch only and does not yet validate semantic-density-hinge as a general Haku Operator."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\robin-semantic-density-v001\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

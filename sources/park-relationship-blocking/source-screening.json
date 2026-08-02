@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "provider": "Pexels",
+  "creator": "cottonbro studio",
+  "license_name": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "session_hypothesis": "The same two performers, wardrobe, overcast park, and visual treatment identify one production session.",
+  "items": [
+    {
+      "source_id": "8640842",
+      "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640842/",
+      "file": "8640842.mp4",
+      "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596",
+      "duration_seconds": 23.44,
+      "resolution": "4096x2160",
+      "fps": 25,
+      "edited_source_screen": "pass_single_continuous_take",
+      "direct_visual_observation": "Hand contact develops into circular separation, reconvergence, lift/carry, shared running, and a native frame exit with the path left empty.",
+      "selection": "selected_primary"
+    },
+    {
+      "source_id": "8640844",
+      "page_url": "https://www.pexels.com/video/couple-in-a-park-8640844/",
+      "file": "8640844.mp4",
+      "sha256": "2EBDAD2157F6115EF9903A4C22D35EB3B59E315AF435B827D498D13FBEF33AFD",
+      "duration_seconds": 54.36,
+      "resolution": "4096x2160",
+      "fps": 25,
+      "edited_source_screen": "pass_single_continuous_take",
+      "direct_visual_observation": "Long flower-framed two-shot with repeated facial interaction and limited spatial state change.",
+      "selection": "rejected_for_primary_proof",
+      "reason": "Strong intimacy image but insufficient blocking stages for an independent relationship-through-blocking test."
+    },
+    {
+      "source_id": "8640845",
+      "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640845/",
+      "file": "8640845.mp4",
+      "sha256": "067D204480E05E18CD077A5751084D77C05C81860F5D6F0653C67C10AE5C0333",
+      "duration_seconds": 23.0,
+      "resolution": "4096x2160",
+      "fps": 25,
+      "edited_source_screen": "pass_single_continuous_take",
+      "direct_visual_observation": "Shoulder-linked walking develops into a native exit and empty park hold, but contains fewer relationship states than 8640842.",
+      "selection": "rejected_for_primary_proof",
+      "reason": "Useful presence-to-absence evidence, but weaker for multi-stage relationship blocking."
+    }
+  ],
+  "audit_evidence": "../../proof-source-audit/park-relationship-blocking/dense-review-report.json"
+}

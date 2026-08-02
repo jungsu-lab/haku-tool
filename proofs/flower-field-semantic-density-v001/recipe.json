@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_flower_field_semantic_density_v001",
+  "operator": {
+    "primary": "density-wave-release",
+    "secondary": "action-as-edit-spine",
+    "supporting": ["sensory-scale-relay"]
+  },
+  "situation": "A coherent set of seven unedited, single-take fragments from one flower-field session: environment texture, two phases of a tactile flower-pocket action, two phases of a photography action, an embodied arm-raise reaction, and a native running release.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Taryn Elliott",
+    "rights_basis": "Pexels license; free-to-use public stock sources",
+    "license": "https://www.pexels.com/license/",
+    "screening_record": "../../sources/taryn-flower-field-session/source-screening.json"
+  },
+  "source_manifest": "../../sources/taryn-flower-field-session/source-manifest.json",
+  "hypotheses_under_test": [
+    "Semantic-density-hinge becomes readable when short fragments add distinct environment, tactile and action information instead of repeating one composition.",
+    "A longer hold should begin at the moment the creative act becomes legible, not at an arbitrary rhythmic count.",
+    "An embodied reaction followed by native forward movement can release accumulated detail without zoom, retime, overlays, copy or audio.",
+    "Same-session visual continuity can support seven hard cuts without turning the sequence into a transition reel."
+  ],
+  "purpose": "Test a stronger, reusable Haku semantic-density pattern using one coherent shooting world and five distinct semantic roles while audio remains deferred.",
+  "material_fit": {
+    "status": "high_for_haku_sensory_action_sequence",
+    "strengths": [
+      "same woman, wardrobe, field, daylight and palette",
+      "wide environment, tactile close detail and human-action coverage",
+      "clear photography action and native movement release",
+      "all selected clips are visually reviewed single takes with no detected existing edit"
+    ],
+    "limits": [
+      "no two-person relationship coverage",
+      "facial emotion is less legible than body gesture",
+      "creative act and flower-pocket action are related by world and subject rather than direct cause"
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "synthetic_overlay", "text", "music", "sfx"]
+  },
+  "materials": {
+    "field_premise": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271930-aerial-field.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "pocket_prepare": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271785-pocket-flowers.mp4",
+      "source_in": 3.75,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "pocket_complete": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271785-pocket-flowers.mp4",
+      "source_in": 5.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "camera_approach": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271713-taking-pictures.mp4",
+      "source_in": 6.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "camera_raise": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271713-taking-pictures.mp4",
+      "source_in": 8.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "arms_reaction": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271828-sitting-field.mp4",
+      "source_in": 5.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "running_release": {
+      "source": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/taryn-flower-field-session/5271714-running-field.mp4",
+      "source_in": 0.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-field", "type": "single", "frames": 30, "material": "field_premise"},
+        {"id": "plain-camera-approach", "type": "single", "frames": 30, "material": "camera_approach"},
+        {"id": "plain-pocket-prepare", "type": "single", "frames": 30, "material": "pocket_prepare"},
+        {"id": "plain-reaction", "type": "single", "frames": 30, "material": "arms_reaction"},
+        {"id": "plain-pocket-complete", "type": "single", "frames": 30, "material": "pocket_complete"},
+        {"id": "plain-camera-raise", "type": "single", "frames": 30, "material": "camera_raise"},
+        {"id": "plain-run", "type": "single", "frames": 30, "material": "running_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "environment-orientation", "type": "single", "frames": 18, "material": "field_premise"},
+        {"id": "tactile-prepare", "type": "single", "frames": 18, "material": "pocket_prepare"},
+        {"id": "tactile-completion", "type": "single", "frames": 22, "material": "pocket_complete"},
+        {"id": "action-owner-approach", "type": "single", "frames": 24, "material": "camera_approach"},
+        {"id": "creative-act-hinge", "type": "single", "frames": 38, "material": "camera_raise"},
+        {"id": "embodied-reaction", "type": "single", "frames": 38, "material": "arms_reaction"},
+        {"id": "native-movement-release", "type": "single", "frames": 52, "material": "running_release"}
+      ]
+    }
+  }
+}

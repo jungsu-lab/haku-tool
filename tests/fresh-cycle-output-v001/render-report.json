@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_research_regression_fresh_cycle_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-recipe.json",
+  "recipe_sha256": "E63C4835C0BCAE5946AA8F48DC1C983325AA637D28D7BE91C851202FB7F9F0A3",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 23,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "source_motion"
+    ],
+    "material_ledger": {
+      "source_motion": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 0.0,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-source-motion",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "source_motion",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 2.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            0,
+            50
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "source_motion": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "proof-source-motion",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "source_motion",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 2.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            0,
+            50
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "source_motion": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\plain.mp4",
+    "frames": 50,
+    "duration_seconds": 2.0,
+    "segments": [
+      {
+        "segment_id": "plain-source-motion",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "source_motion"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\_segments\\plain\\01-plain-source-motion.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 360,
+          "height": 640,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "50"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      }
+    }
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\proof.mp4",
+    "frames": 50,
+    "duration_seconds": 2.0,
+    "segments": [
+      {
+        "segment_id": "proof-source-motion",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "source_motion"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\_segments\\proof\\01-proof-source-motion.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 360,
+          "height": 640,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "50"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      }
+    }
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-output-v001\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

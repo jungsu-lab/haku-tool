@@ -1,0 +1,4 @@
+interface:
+  display_name: "haku_tool"
+  short_description: "자연어를 검증된 Haku 연출·편집 문법으로 안전하게 변환"
+  default_prompt: "Use $haku-tool to rights-check and directly inspect my unedited footage, route my natural-language direction to evidence-backed Haku Operators, build a ten-axis edit plan, and verify plain versus proof without inferring my approval."

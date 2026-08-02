@@ -1,0 +1,27 @@
+{
+  "screened_at": "2026-08-01",
+  "reviewer": "main-agent",
+  "rights": {"provider": "Pexels", "license_url": "https://www.pexels.com/license/", "use": "downloaded only for source-fit audit and possible edited proof"},
+  "candidates": [
+    {
+      "id": "5271658",
+      "page": "https://www.pexels.com/video/woman-in-the-field-holding-the-camera-5271658/",
+      "creator": "Taryn Elliott",
+      "direct_visual_review": "complete storyboard",
+      "existing_edit_detected": false,
+      "decision": "reject_for_semantic_density_v002",
+      "reason": "One locked wide composition preserves place and person but adds no scale, tactile detail, reaction, or action destination. Density manipulation would only chop one view."
+    },
+    {
+      "id": "12373074",
+      "page": "https://www.pexels.com/video/hands-holding-flowers-12373074/",
+      "creator": "Yaroslava Borz",
+      "direct_visual_review": "complete storyboard",
+      "existing_edit_detected": false,
+      "decision": "reject_for_semantic_density_v002",
+      "reason": "The single close composition contains tactile hand-and-flower motion but no face, environment, relationship, or wider destination."
+    }
+  ],
+  "combination_decision": "forbidden",
+  "combination_reason": "Different creator, person, location, wardrobe, palette, lens world, and action. Combining them would manufacture coherence from unrelated stock footage."
+}

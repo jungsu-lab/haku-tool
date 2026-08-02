@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_single_take_action_spine_v002",
+  "revision_from": "../single-take-action-spine-v001/render/render-report.json",
+  "changes_from_v001": [
+    "Move flower_presence source_in from 24.5 to 22.2 seconds so it continues directly from the 20.2–22.2 second flower rise.",
+    "Keep every duration, crop, grade, and other state anchor unchanged."
+  ],
+  "operator": {
+    "primary": "action-as-edit-spine",
+    "secondary": "motif-state-return",
+    "rhythm": "state-weighted-compression"
+  },
+  "situation": "One unedited 30.24-second portrait take with a complete gesture and flower-action progression.",
+  "hypotheses_under_test": [
+    "A long single take can become an authored Haku sequence through action-state selection without overlays.",
+    "Cutting only at readable action states avoids the start-stop twitch seen in naive temporal compression.",
+    "Longer duration on the flower rise and final presence gives the compressed sequence an emotional destination.",
+    "Uniformly weighting every state should feel flatter than state-weighted timing."
+  ],
+  "purpose": "A woman reaches toward empty air, returns to herself, and replaces the empty gesture with flowers.",
+  "material_fit": {
+    "status": "high",
+    "reason": "Every segment comes from one continuous unedited take with identical subject, lens, location, wardrobe, and light."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "neutral": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "arm_lift": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 1.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "reach_apex": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 3.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "arm_return": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 14.4,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "flower_rise": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 20.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "flower_presence": {
+      "source": "../../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 22.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-neutral", "type": "single", "frames": 33, "material": "neutral"},
+        {"id": "plain-lift", "type": "single", "frames": 33, "material": "arm_lift"},
+        {"id": "plain-apex", "type": "single", "frames": 34, "material": "reach_apex"},
+        {"id": "plain-return", "type": "single", "frames": 33, "material": "arm_return"},
+        {"id": "plain-flower-rise", "type": "single", "frames": 33, "material": "flower_rise"},
+        {"id": "plain-flower-presence", "type": "single", "frames": 34, "material": "flower_presence"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "neutral-breath", "type": "single", "frames": 25, "material": "neutral"},
+        {"id": "arm-lift", "type": "single", "frames": 30, "material": "arm_lift"},
+        {"id": "reach-apex", "type": "single", "frames": 25, "material": "reach_apex"},
+        {"id": "arm-return", "type": "single", "frames": 40, "material": "arm_return"},
+        {"id": "flower-rise", "type": "single", "frames": 50, "material": "flower_rise"},
+        {"id": "flower-presence", "type": "single", "frames": 30, "material": "flower_presence"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Local source and render caches
+*.tmp
+*.log
+__pycache__/
+*.pyc
+
+# Never commit local credentials or machine configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Public-reference and licensed raw media stay outside the repository
+reference-media/
+raw-media/
+source-media/
+

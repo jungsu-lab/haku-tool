@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "provider": "Pexels",
+  "creator": "PinkWitch 诸葛筱暖",
+  "license_name": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "screening_verdict": "same_product_session_category_ad_only",
+  "direct_match_evidence": [
+    "same faceted crystal jar geometry",
+    "same gold neck rings and white cream surface",
+    "same pale tulips, white textile surface, warm light, and prop family"
+  ],
+  "advertising_limit": "No readable brand, product name, package claim, or labeled packshot appears. The pair can support a generic premium-cream category film but not a full brand-advertising pass.",
+  "items": [
+    {
+      "source_id": "9581448",
+      "page_url": "https://www.pexels.com/video/a-person-scooping-a-moisturizer-from-a-container-9581448/",
+      "file": "9581448-scoop.mp4",
+      "sha256": "2171B7D2B2148193CAD2789F1EC094B856FFC9CC38AC0FE57E4872F5D7B06B6D",
+      "duration_seconds": 2.135467,
+      "resolution": "3840x2160",
+      "fps": "30000/1001",
+      "role": "real_use_action"
+    },
+    {
+      "source_id": "9581465",
+      "page_url": "https://www.pexels.com/video/close-up-of-a-cosmetic-product-9581465/",
+      "file": "9581465-product.mp4",
+      "sha256": "0774E41ACD9E3B4E4D586F882D87FF53530953E199F20DB60BAFD5BFD5B29B9E",
+      "duration_seconds": 5.271933,
+      "resolution": "3840x2160",
+      "fps": "30000/1001",
+      "role": "unlabeled_product_recovery"
+    }
+  ],
+  "audit_evidence": "../../proof-source-audit/crystal-cream-candidate/dense-review-report.json"
+}

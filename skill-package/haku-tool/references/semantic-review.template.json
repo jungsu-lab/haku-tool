@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": false,
+    "dense_timeline_reviewed": false,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": null
+  },
+  "purpose": "",
+  "format": "",
+  "story_role": "none|implicit|explicit",
+  "primary_subject": "",
+  "intended_viewer_response": "",
+  "commercial_function": "",
+  "sequence": {
+    "opening_hook": "",
+    "development": "",
+    "peak_or_payoff": "",
+    "final_image": ""
+  },
+  "directing": {
+    "subject_action": "",
+    "blocking": "",
+    "space": "",
+    "props_surfaces_costume": ""
+  },
+  "cinematography": {
+    "composition": "",
+    "distance_or_lens": "",
+    "camera_motion": "",
+    "light": "",
+    "palette_texture_depth": ""
+  },
+  "editing": {
+    "cut_logic": "",
+    "shot_duration_progression": "",
+    "adjacent_image_relations": "",
+    "in_frame_editing": "",
+    "typography_graphics_compositing": "",
+    "repeated_operators": []
+  },
+  "sound_relation": {
+    "status": "not_reviewed",
+    "observation": ""
+  },
+  "timeline_grammar_events_path": "timeline-grammar/<reel_id>.json",
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 0.0,
+      "observation": "",
+      "inference": ""
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "",
+    "common_elements": [],
+    "possible_discriminators": [],
+    "forbidden_pattern_evidence": [],
+    "ad_strengths": [],
+    "suitable_subjects": [],
+    "poor_fit_subjects": [],
+    "limitations": []
+  },
+  "counterexamples": [],
+  "confidence": "low|medium|high"
+}

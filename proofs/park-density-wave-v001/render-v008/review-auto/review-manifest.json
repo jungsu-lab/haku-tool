@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_park_density_wave_v004",
+  "created_at": "2026-08-01T11:02:27.461395+00:00",
+  "recipe": "..\\..\\recipe-v004.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_park_density_wave_v004",
+    "schema_version": "1.1",
+    "recipe_sha256": "90A793123F60B764A4885A3287F2D7B58F71CD8477408E1613B3A588F6889201",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 111,
+      "coverage_seconds": 13.88
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 111,
+      "coverage_seconds": 13.88
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-progressive-relationship-density",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\boundary-01-progressive-relationship-density.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-distance-base-start",
+      "kind": "internal_event",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\internal-progressive-relationship-density-distance-base-start.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-reconvergence-support-start",
+      "kind": "internal_event",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\internal-progressive-relationship-density-reconvergence-support-start.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-lift-support-start",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\internal-progressive-relationship-density-lift-support-start.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-native-shared-exit-release",
+      "kind": "segment_boundary",
+      "frame": 110,
+      "seconds": 4.4,
+      "strip": "boundaries\\boundary-02-native-shared-exit-release.jpg",
+      "range_seconds": [
+        4.16,
+        4.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-08-01T11:05:03.356275+00:00",
+    "evidence": [
+      "Source frames 0/3/6/9/12/15/18/21s directly establish contact, distance, reconvergence, lift, shared travel and native exit in one unedited licensed take.",
+      "At output 1.60s the joined-hand and curved-path anchors survive the close-to-wide hard cut; the scale jump is intentional and contains no synthetic zoom.",
+      "At 2.20s and 2.80s the two live panels add distinct reconvergence and lift roles without freeze, generated imagery, borders or shadows.",
+      "At 4.36/4.40/4.44s the lower-right lift inset hands its exact next native source frame to the full canvas, removing the v001 2.40-second temporal jump.",
+      "At 13.40/13.60/13.84s both people are fully absent while the park path remains natively moving, producing the measured release.",
+      "Plain and proof were compared from 0-5s; proof compresses relationship-state anticipation, while plain remains the cleaner low-density reading."
+    ],
+    "limitations": [
+      "The live windows still compete with the central pair and may read as a visible collage choice rather than an invisible emotional edit; user taste approval is required.",
+      "Full-speed playback could not be visually captured through the available Windows player surface, so the verdict is partial_pass rather than pass despite dense sheets, cue frames and all 25fps boundary strips being directly inspected."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

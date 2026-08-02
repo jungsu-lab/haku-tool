@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DWoUT9rk1ry",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:31:00Z"
+  },
+  "purpose": "봄의 한 순간을 세 개의 동시 패널이 맡은 인물·반사·손·공간 역할로 압축하는 계절 콜라주",
+  "format": "9:16 black canvas with three stacked landscape panels",
+  "story_role": "implicit",
+  "primary_subject": "벚꽃 속 인물과 손, 복도, 하늘과 나뭇가지",
+  "intended_viewer_response": "한 장소를 여러 시선으로 동시에 기억하는 느낌",
+  "commercial_function": "패션·여행·사진 서비스의 다중 시점 계절 필름",
+  "sequence": {
+    "opening_hook": "세 패널이 인물·물 반사·꽃을 만지는 손을 동시에 보여준다.",
+    "development": "검정 쉼 뒤 복도 원경·인물 행동·빈 복도를 세 층에 배치한다.",
+    "peak_or_payoff": "마지막 패널군은 꽃 속 인물, 작은 인물과 하늘, 가지를 동시에 보여준다.",
+    "final_image": "세 패널이 사라지고 검정으로 끝난다."
+  },
+  "directing": {
+    "subject_action": "꽃을 바라보기, 손으로 꽃을 스치기, 복도에서 팔을 들기, 하늘 아래 걷기",
+    "blocking": "같은 인물을 환경·행동·디테일의 서로 다른 패널에 분산한다.",
+    "space": "벚꽃 야외와 어두운 복도를 독립된 세 패널 장으로 묶는다.",
+    "props_surfaces_costume": "흰옷, 벚꽃, 수면 반사, 긴 복도, 창빛"
+  },
+  "cinematography": {
+    "composition": "상·중·하 세 개 가로 패널이 각각 환경·반사 또는 인물·손 디테일을 맡는다.",
+    "distance_or_lens": "원경·중경·근접을 한 화면에 동시에 배치한다.",
+    "camera_motion": "패널 내부 움직임은 작고 한 패널의 큰 행동이 우선순위를 만든다.",
+    "light": "밝은 벚꽃 장과 어두운 복도 장을 검정 여백으로 분리한다.",
+    "palette_texture_depth": "분홍·흰색의 봄 질감, 검정·갈색 복도, 옅은 하늘"
+  },
+  "editing": {
+    "cut_logic": "세 역할 패널 장 → 검정 release → 새 공간의 세 역할 패널 장을 반복한다.",
+    "shot_duration_progression": "2.7초, 4.2초, 3.6초의 비교적 긴 패널 장 사이에 0.6~1.2초 검정이 있다.",
+    "adjacent_image_relations": "한 장 안에서는 같은 인물·꽃·빛을, 장 사이에는 계절과 창빛을 공통축으로 둔다.",
+    "in_frame_editing": "세 패널의 동시 재생이 환경·신체·디테일 정보를 한 컷 안에서 비교하게 한다.",
+    "typography_graphics_compositing": "검정 캔버스와 패널 크기·세로 적층 자체가 그래픽 문법이다.",
+    "repeated_operators": ["functional_memory_panels", "simultaneous_scale_roles", "black_canvas_cluster_gate"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 0.066667,
+      "end_seconds": 2.766667,
+      "observation": "상단 꽃 속 인물, 중단 수면 반사, 하단 꽃을 만지는 손이 세 패널에 동시에 유지된다.",
+      "inference": "각 패널이 환경·반사·촉각이라는 다른 정보 역할을 맡는다."
+    },
+    {
+      "start_seconds": 3.966667,
+      "end_seconds": 7.533333,
+      "observation": "어두운 복도 원경, 창가 인물의 손동작, 더 먼 복도 시점이 세 층으로 동시에 나온다.",
+      "inference": "같은 공간을 거리와 행동으로 분담해 한 장면보다 많은 공간 정보를 준다."
+    },
+    {
+      "start_seconds": 8.733333,
+      "end_seconds": 12.7,
+      "observation": "꽃 속 인물, 하늘 아래 작은 인물, 나뭇가지가 세 층으로 지속된다.",
+      "inference": "인물·환경·계절 디테일을 마지막 기억 단위로 병렬 압축한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 사용자가 원한 한 화면 내부 편집을 명확한 역할 분담으로 보여준다.",
+    "common_elements": ["흰옷 인물", "꽃", "손", "환경 원경", "검정 여백"],
+    "possible_discriminators": ["세 패널의 다른 정보 역할", "패널 장 사이 완전한 release", "한 패널만 큰 행동"],
+    "forbidden_pattern_evidence": ["세 패널 모두 같은 거리·같은 행동", "모든 패널에 강한 움직임", "검정 release 없이 계속 적층"],
+    "ad_strengths": ["패션 룩", "여행지 경험", "카메라·사진 앱"],
+    "suitable_subjects": ["같은 인물·장소의 원경·중경·손 디테일 커버리지"],
+    "poor_fit_subjects": ["공통 인물·소품·빛이 없는 임의 세 클립"],
+    "limitations": ["패널별 정확한 오디오 동기와 미세 출현 애니메이션은 검토하지 않았다."]
+  },
+  "counterexamples": ["작은 화면을 많이 띄우는 것이 핵심이 아니라 각 창의 정보 역할과 검정 release가 핵심이다."],
+  "confidence": "high"
+}

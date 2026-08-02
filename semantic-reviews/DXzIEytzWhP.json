@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DXzIEytzWhP",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:28:00Z"
+  },
+  "purpose": "창가 인물과 도시·물·반사의 빛 조각을 과노출 경계로 이어 내면적 하루를 만드는 감각 필름",
+  "format": "9:16 portrait, luminous reflection essay",
+  "story_role": "implicit",
+  "primary_subject": "창가 인물과 물·도시·계단의 반사광",
+  "intended_viewer_response": "빛이 기억을 덮고 다시 인물로 돌아오는 몽환적 감각",
+  "commercial_function": "향수·패션·카메라·도시 여행의 무드 필름",
+  "sequence": {
+    "opening_hook": "검정 위 작은 흰 문장으로 시작한다.",
+    "development": "구름과 겹친 창가 인물, 도시 수면의 강한 빛, 물 위 보케를 이어간다.",
+    "peak_or_payoff": "반사된 탑·식물·계단처럼 대상을 직접보다 빛의 흔적으로 연속 제시한다.",
+    "final_image": "창가 인물과 도시가 다시 겹친 장면으로 회수된다."
+  },
+  "directing": {
+    "subject_action": "창가에서 책 또는 물체를 들고 머물거나 바라본다.",
+    "blocking": "인물을 창 격자와 도시 반사 사이에 겹쳐 놓는다.",
+    "space": "실내 창가와 외부 도시·물 표면을 반사로 연결한다.",
+    "props_surfaces_costume": "창, 책 또는 손의 물체, 물, 유리, 계단"
+  },
+  "cinematography": {
+    "composition": "창 격자·인물 실루엣과 과노출 반사 표면을 교대한다.",
+    "distance_or_lens": "인물 중경과 빛·물·발의 감각 근접을 이어 붙인다.",
+    "camera_motion": "느린 미세 움직임과 반사 표면의 흔들림",
+    "light": "하이라이트를 의도적으로 밀어 흰 빛이 장면 경계를 만든다.",
+    "palette_texture_depth": "옅은 청록·흰색·회색, 유리와 물의 다층 반사"
+  },
+  "editing": {
+    "cut_logic": "문장 gate 뒤 인물→도시광→물빛→반사물→계단→인물의 광질 relay",
+    "shot_duration_progression": "1~2.7초 장면과 두 개의 약 1초 검정 gate가 교대한다.",
+    "adjacent_image_relations": "내용보다 흰 하이라이트의 위치·번짐·반사 질감이 다음 장면을 연결한다.",
+    "in_frame_editing": "한 컷 안에서 구름·인물·도시가 유리 반사 또는 이중 노출처럼 겹쳐 보인다.",
+    "typography_graphics_compositing": "처음 문장은 장 도입이며 후반은 반사·겹침 자체가 합성처럼 기능한다.",
+    "repeated_operators": ["luminous_texture_relay", "reflection_layering", "motif_state_return"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 5.0,
+      "observation": "0~2.625초 흰 문장 뒤 창 격자 속 인물과 구름·도시가 겹쳐 보이는 장면이 이어진다.",
+      "inference": "인물 소개를 얼굴보다 빛과 공간의 겹침으로 수행한다."
+    },
+    {
+      "start_seconds": 6.041667,
+      "end_seconds": 12.041667,
+      "observation": "강하게 번진 도시 수면, 물 위 반짝임, 물에 반사된 세로 구조물이 차례로 나온다.",
+      "inference": "서로 다른 대상을 같은 과노출 하이라이트와 수직 반사축으로 연결한다."
+    },
+    {
+      "start_seconds": 12.041667,
+      "end_seconds": 18.541667,
+      "observation": "밝은 식물 윤곽, 계단 위 발과 그림자, 다시 창가 인물·도시 겹침으로 끝난다.",
+      "inference": "추상적인 빛 조각을 신체 행동으로 잠시 접지한 뒤 인물 모티프로 회수한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 과노출이 오류가 아니라 인접 이미지의 접착제로 쓰이는 조건을 보여준다.",
+    "common_elements": ["창가 인물", "물 반사", "흰 하이라이트", "손·발 디테일"],
+    "possible_discriminators": ["광질 매치", "반사 레이어", "마지막 인물 회수"],
+    "forbidden_pattern_evidence": ["모든 클립을 일괄 과노출", "하이라이트 위치가 충돌하는 무작위 플래시", "디지털 줌으로 빛의 연결을 흉내냄"],
+    "ad_strengths": ["향수", "패션", "카메라·도시 여행"],
+    "suitable_subjects": ["유리·물·역광·반사가 실제 촬영된 원본"],
+    "poor_fit_subjects": ["평면적인 정면광만 있는 원본"],
+    "limitations": ["겹침이 현장 반사인지 후반 이중 노출인지 정지 시트만으로 완전히 분리하지 않았다."]
+  },
+  "counterexamples": ["밝기 급변 검출만으로 플래시 전환을 자동 추가하면 광질 relay가 아니라 눈에 거슬리는 노출 펌핑이 된다."],
+  "confidence": "medium"
+}

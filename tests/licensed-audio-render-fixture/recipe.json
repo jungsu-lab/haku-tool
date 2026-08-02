@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_licensed_audio_render_fixture",
+  "audio_policy": "licensed_library_track",
+  "licensed_audio": {
+    "file": "../../audio-library/mixkit-valley-sunset-127.mp3",
+    "audio_rights_manifest": "../../audio-library/mixkit-valley-sunset-127.audio-rights.json",
+    "music_event_map": "music-event-map.json",
+    "timeline_grammar": "timeline-grammar.json",
+    "source_in_seconds": 0.0,
+    "source_out_seconds": 8.0,
+    "gain_db": -18.0,
+    "fade_in_seconds": 0.1,
+    "fade_out_seconds": 0.2,
+    "same_for_plain_and_proof": true
+  },
+  "canvas": {"width": 640, "height": 360, "fps": 25},
+  "render_policy": {"max_threads": 2, "preset": "veryfast", "crf": 23},
+  "variants": {
+    "plain": {"clips": [{"id": "plain-field", "source": "../../sources/taryn-flower-field-session/5271930-aerial-field.mp4", "source_in": 5.0, "frames": 25, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"}]},
+    "proof": {"clips": [{"id": "proof-field", "source": "../../sources/taryn-flower-field-session/5271930-aerial-field.mp4", "source_in": 5.0, "frames": 25, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"}]}
+  }
+}

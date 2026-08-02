@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_lupine_luminous_relay_v002",
+  "created_at": "2026-07-31T13:01:33.897468+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_lupine_luminous_relay_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "5EA51C4A5CA891ACA6C3E127FB48DD62E523D814BA6538AD68C73BBE135F6960",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 58,
+      "coverage_seconds": 7.2
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 58,
+      "coverage_seconds": 7.2
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-shadow-migrates-to-hand",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\boundaries\\boundary-01-shadow-migrates-to-hand.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-hand-meets-flower",
+      "kind": "segment_boundary",
+      "frame": 85,
+      "seconds": 3.4,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\boundaries\\boundary-02-hand-meets-flower.jpg",
+      "range_seconds": [
+        3.16,
+        3.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-flower-light-arrives-on-face",
+      "kind": "segment_boundary",
+      "frame": 135,
+      "seconds": 5.4,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v002\\render\\review-auto\\boundaries\\boundary-03-flower-light-arrives-on-face.jpg",
+      "range_seconds": [
+        5.16,
+        5.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T13:01:49.511041+00:00",
+    "evidence": [
+      "Complete dense source sheets show real direct sunlight and purple flower texture moving across white fabric, a hand, a touched flower, and a face within one cottonbro lupine-field session.",
+      "The 10 fps proof sheet shows a readable carrier progression: crisp flower shadow on fabric, shadow on skin, physical flower contact, then foreground flower occlusion across the face.",
+      "All three 25 fps boundary strips preserve the relayed property without freeze, reverse, retime, animated crop, synthetic flare, or exposure pumping.",
+      "The same-material plain sequence is coherent but does not accumulate the carrier progression, isolating sequence order as the meaningful difference."
+    ],
+    "limitations": [
+      "This passes only the real sunlight and flower-shadow branch of luminous-texture-relay; water reflection, lens flare, night light, and mixed-location bridges remain unvalidated.",
+      "Live full-speed playback was not used; review covered all source dense sheets, complete 10 fps plain/proof sheets, and all three 25 fps boundary strips."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

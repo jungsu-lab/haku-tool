@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DSxLPd6k6X7",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:33:00Z"
+  },
+  "purpose": "바다의 두 사람, 비어 있는 풍경, 실내의 한 사람을 태양의 위치로 묶어 관계와 거리감을 만드는 회상 필름",
+  "format": "16:9 landscape sparse sun-axis montage",
+  "story_role": "implicit",
+  "primary_subject": "바다 앞의 두 사람과 창가의 한 인물",
+  "intended_viewer_response": "함께였던 순간과 혼자 남은 순간이 같은 빛 아래 겹치는 느낌",
+  "commercial_function": "여행·숙박·패션·관계형 브랜드의 조용한 감정 광고",
+  "sequence": {
+    "opening_hook": "강한 역광 속 바다 앞 두 사람을 약 4초 붙잡아 관계와 장소를 먼저 각인한다.",
+    "development": "한 사람이 일어나 팔을 뻗는 실루엣, 갈대 사이 인물, 인물 없는 바다로 점차 사람을 제거한다.",
+    "peak_or_payoff": "8.7초에 창가의 한 인물로 전환해 바깥의 공동 장면을 개인 기억처럼 재해석한다.",
+    "final_image": "10.733초에 바다 앞 두 사람과 태양 사이 구도로 돌아와 시작의 관계를 회수한다."
+  },
+  "directing": {
+    "subject_action": "나란히 앉기, 일어나 팔 뻗기, 갈대 사이 걷기, 창가에 앉거나 서기",
+    "blocking": "태양을 인물 사이 또는 인물 옆에 배치해 관계의 시각적 중심으로 사용한다.",
+    "space": "야외 해안과 실내 창가를 동일한 역광 축으로 연결한다.",
+    "props_surfaces_costume": "난간·갈대·창문·바다가 인물의 거리와 관계 상태를 구획한다."
+  },
+  "cinematography": {
+    "composition": "넓은 수평선과 작은 실루엣, 창문 격자를 반복하고 태양 위치를 매치 포인트로 사용한다.",
+    "distance_or_lens": "대부분 원경·중원경이며 얼굴 정보는 제거한다.",
+    "camera_motion": "고정 또는 매우 절제된 움직임으로 인물의 작은 행동과 빛 변화를 읽게 한다.",
+    "light": "태양을 직접 프레임에 넣은 강한 역광이 모든 장소를 묶는다.",
+    "palette_texture_depth": "희게 날아간 하늘·회청색 바다·검은 실루엣·갈대의 따뜻한 질감이 중심이다."
+  },
+  "editing": {
+    "cut_logic": "두 사람→한 사람의 행동→갈대 속 인물→빈 바다→실내 한 사람→두 사람 복귀로 사람 수와 장소를 변주한다.",
+    "shot_duration_progression": "4초의 긴 도입, 1초 행동, 1초 질감, 2.7초 빈 풍경, 2초 실내, 2.77초 관계 복귀다.",
+    "adjacent_image_relations": "태양의 밝은 원과 수평선이 컷마다 유지되어 인물 수와 장소가 바뀌어도 같은 기억으로 연결된다.",
+    "in_frame_editing": "일어나 팔을 뻗는 작은 행동과 창가 인물의 정지가 대비를 만든다.",
+    "typography_graphics_compositing": "타이포·합성 없이 자연광을 매치 그래픽처럼 사용한다.",
+    "repeated_operators": [
+      "sun_axis_match",
+      "two_one_empty_one_two_arc",
+      "relationship_bookend",
+      "absence_as_middle_breath"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "긴 빈 바다 구간의 음향 호흡은 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 4.0,
+      "observation": "바다와 섬 앞에 두 인물이 난간 근처에 앉아 있고 강한 태양이 실루엣 사이에서 번진다.",
+      "inference": "관계와 빛의 축을 충분히 학습시켜 이후 인물 감소가 감정 변화로 읽히게 한다."
+    },
+    {
+      "start_seconds": 4.0,
+      "end_seconds": 6.0,
+      "observation": "한 인물이 일어나 팔을 뻗는 숏 뒤 갈대와 작은 인물의 숏이 나온다.",
+      "inference": "두 사람의 정지에서 한 사람의 행동과 환경 속 고립으로 관계 밀도를 줄인다."
+    },
+    {
+      "start_seconds": 6.0,
+      "end_seconds": 8.7,
+      "observation": "인물 없는 바다와 수평선이 약 2.7초 유지된다.",
+      "inference": "중앙의 빈 풍경이 앞의 사람을 지우고 다음 실내 고독을 받아들일 호흡을 만든다."
+    },
+    {
+      "start_seconds": 8.7,
+      "end_seconds": 10.733,
+      "observation": "강한 창빛 속 한 인물이 실내에 혼자 있다.",
+      "inference": "동일한 역광을 유지하면서 장소와 인물 수를 바꿔 야외 관계를 개인 기억으로 전환한다."
+    },
+    {
+      "start_seconds": 10.733,
+      "end_seconds": 13.5,
+      "observation": "바다 앞 두 사람과 태양이 다시 등장해 끝까지 유지된다.",
+      "inference": "시작 구도를 회수해 고독 구간을 관계의 부재가 아니라 기억 속 왕복으로 닫는다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. Haku의 관계 감정이 표정 연기보다 사람 수·빈 공간·태양 위치의 편집으로 만들어진다.",
+    "common_elements": [
+      "바다와 역광",
+      "두 사람의 관계",
+      "창가 인물",
+      "긴 호흡과 빈 풍경"
+    ],
+    "possible_discriminators": [
+      "두 사람→한 사람→빈 공간→한 사람→두 사람의 수적 감정 호",
+      "태양 위치를 장소 간 매치 포인트로 사용",
+      "중앙에 인물 없는 풍경을 길게 두기"
+    ],
+    "forbidden_pattern_evidence": [
+      "빈 바다를 지루하다고 잘라내면 사람 수 변화의 감정 호가 끊긴다.",
+      "모든 역광 숏에 확대축소를 넣으면 태양 축의 안정성과 관계 구도가 흔들린다."
+    ],
+    "ad_strengths": [
+      "여행·숙박",
+      "커플·우정 캠페인",
+      "의류·카메라의 감정 브랜드 필름"
+    ],
+    "suitable_subjects": [
+      "두 사람·한 사람·빈 풍경 커버리지가 모두 있는 원본",
+      "태양·창문·램프 등 반복 가능한 밝은 축이 있는 촬영본",
+      "표정보다 실루엣과 거리로 관계를 보여줄 수 있는 영상"
+    ],
+    "poor_fit_subjects": [
+      "관계 숏이나 빈 공간이 없는 인물 클로즈업 모음",
+      "빛 방향이 제각각이라 매치 축을 만들 수 없는 원본"
+    ],
+    "limitations": [
+      "각 인물의 정확한 행동 의미와 카메라 미세 운동은 실시간 재생 없이 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "관계 연출은 표정 클로즈업 없이도 사람 수와 빈 공간의 배열로 가능하다.",
+    "긴 빈 풍경은 삭제 대상이 아니라 관계 호의 중앙 쉼이다."
+  ],
+  "confidence": "high"
+}

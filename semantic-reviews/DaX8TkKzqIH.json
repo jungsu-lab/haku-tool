@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DaX8TkKzqIH",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:22:00Z"
+  },
+  "purpose": "서로 다른 여름 기억 네 장을 작은 적색 문장으로 분리해 계절 앨범처럼 제시하는 짧은 관계 필름",
+  "format": "9:16 portrait with centered landscape chapters",
+  "story_role": "implicit",
+  "primary_subject": "구름 아래 인물, 수중 인물, 방 안의 두 사람, 푸른 하늘 아래 한 인물",
+  "intended_viewer_response": "각 장면을 한 문장 뒤 떠오르는 별개의 기억으로 받아들임",
+  "commercial_function": "여름·여행·청춘 캠페인의 장면별 카피 구조",
+  "sequence": {
+    "opening_hook": "작은 적색 문장 뒤 구름 아래 인물이 움직인다.",
+    "development": "수중 인물과 방 안 두 사람을 각각 독립 장으로 보여준다.",
+    "peak_or_payoff": "밝은 방의 관계 행동이 가장 구체적인 기억으로 기능한다.",
+    "final_image": "푸른 하늘 아래 흰옷 인물이 서 있는 단독 장면 뒤 문장으로 닫힌다."
+  },
+  "directing": {
+    "subject_action": "달리기 또는 걷기, 물속 이동, 방 안에서 마주 앉아 손을 주고받기, 하늘을 올려다보기",
+    "blocking": "원경의 작은 인물과 정면으로 마주 앉은 두 사람을 교대한다.",
+    "space": "야외·수중·실내·야외를 기억 장으로 분리한다.",
+    "props_surfaces_costume": "흰옷, 구름, 물, 큰 창, 밝은 방"
+  },
+  "cinematography": {
+    "composition": "검정 여백 속 낮은 가로 프레임을 유지한다.",
+    "distance_or_lens": "환경 원경, 수중 중근경, 두 사람의 고정 중경을 교대한다.",
+    "camera_motion": "각 장은 비교적 안정적이며 행동이 프레임 내부 변화를 만든다.",
+    "light": "짙은 하늘, 청록 수중광, 과노출에 가까운 흰 실내, 맑은 푸른 하늘",
+    "palette_texture_depth": "청록·흰색을 공통축으로 하되 장마다 광질을 달리한다."
+  },
+  "editing": {
+    "cut_logic": "문장과 2~3초 기억 장면의 규칙적 교대",
+    "shot_duration_progression": "문장 1~1.5초, 이미지 1.6~2.4초의 읽기 쉬운 장별 리듬",
+    "adjacent_image_relations": "흰옷과 푸른 환경은 유지하고 인물 수·공간·물성을 바꾼다.",
+    "in_frame_editing": "두 사람이 마주 앉아 손을 움직이는 장면이 정적인 다른 장보다 관계 정보를 늘린다.",
+    "typography_graphics_compositing": "적색 문장은 각 이미지의 제목 또는 장 경계로 보이며 단순 선 효과가 아니다.",
+    "repeated_operators": ["meaningful_copy_gate", "chaptered_memory_album", "stable_frame_internal_action"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 3.33667,
+      "observation": "0~0.968초 적색 문장 뒤 0.968~3.337초 구름 아래 한 인물이 움직인다.",
+      "inference": "첫 장에서 작은 인물보다 계절 환경을 먼저 각인한다."
+    },
+    {
+      "start_seconds": 3.33667,
+      "end_seconds": 9.876543,
+      "observation": "문장, 수중 인물, 문장, 밝은 방에서 마주 앉은 두 사람 순으로 교대한다.",
+      "inference": "물성 기억에서 관계 기억으로 정보 밀도를 높이되 문장 장이 둘을 분리한다."
+    },
+    {
+      "start_seconds": 9.876543,
+      "end_seconds": 13.04638,
+      "observation": "문장 뒤 푸른 하늘 아래 흰옷 인물이 단독으로 서고 마지막 문장으로 닫힌다.",
+      "inference": "관계 장면 뒤 고독한 환경 숏을 두어 설명적 결말 대신 여운을 남긴다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 같은 문장 gate가 장식이 아니라 장면별 기억 구조를 만든다.",
+    "common_elements": ["흰옷", "푸른 하늘", "물", "관계 행동", "검정 여백"],
+    "possible_discriminators": ["장마다 다른 공간 기능", "문장 뒤 충분히 읽히는 한 장면", "마지막 단독 인물 회수"],
+    "forbidden_pattern_evidence": ["의미 없는 붉은 선", "장면 내용을 무시한 자동 균등 분절"],
+    "ad_strengths": ["청춘·여행·시즌 캠페인"],
+    "suitable_subjects": ["같은 색·의상으로 묶이는 서로 다른 장소의 원본", "관계 장면이 최소 한 개 있는 촬영본"],
+    "poor_fit_subjects": ["모든 장면의 거리와 행동이 같은 원본"],
+    "limitations": ["일본어 문구의 정확한 의미는 판독하지 않았다."]
+  },
+  "counterexamples": ["문장 장의 색과 크기만 복제하고 카피 기능을 만들지 않으면 Haku식 장 구조가 아니다."],
+  "confidence": "high"
+}

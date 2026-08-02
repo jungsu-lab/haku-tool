@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DRJvMoQk6Cy",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:38:00Z"
+  },
+  "purpose": "아주 짧은 계절 섬광 뒤 숲 속 인물을 오래 붙잡고, 꽃밭과 빈 숲으로 존재감을 이동시키는 자연 인물 필름",
+  "format": "9:16 black canvas with landscape image islands",
+  "story_role": "implicit",
+  "primary_subject": "흰옷 인물과 숲·꽃밭·창빛",
+  "intended_viewer_response": "짧은 기억이 번쩍인 뒤 숲의 정적과 인물의 잔상이 길게 남음",
+  "commercial_function": "패션·향수·자연 여행의 느린 이미지 필름",
+  "sequence": {
+    "opening_hook": "하늘 인물·노란 꽃·빈 숲의 매우 짧은 세 이미지가 연속된다.",
+    "development": "검정 뒤 숲 속 흰옷 인물을 약 3초간 유지한다.",
+    "peak_or_payoff": "밝은 꽃밭 속 인물로 광질을 바꾼 뒤 다시 숲의 빛 조각으로 돌아간다.",
+    "final_image": "인물이 사라진 어두운 숲과 창빛이 길게 남는다."
+  },
+  "directing": {
+    "subject_action": "꽃밭과 숲을 천천히 걷거나 머문다.",
+    "blocking": "인물을 숲의 밝은 통로와 꽃밭 지평선에 작게 배치한다.",
+    "space": "숲의 어두운 깊이와 꽃밭의 밝은 평면을 대비한다.",
+    "props_surfaces_costume": "흰 드레스, 꽃, 나무 기둥, 창빛"
+  },
+  "cinematography": {
+    "composition": "검정 여백 중앙의 가로 프레임, 숲의 수직 나무와 흰 인물의 대비",
+    "distance_or_lens": "환경 원경 중심이며 초반만 0.1초 단위 감각 섬광",
+    "camera_motion": "느린 인물 이동과 숲의 미세 광변화",
+    "light": "어두운 숲 속 흰 인물·창빛과 밝은 꽃밭의 대비",
+    "palette_texture_depth": "검정·녹색·흰색, 잠깐의 노란 꽃"
+  },
+  "editing": {
+    "cut_logic": "3개 섬광 hook → 긴 인물 hold → 검정 → 밝은 꽃밭 hold → 검정 → 숲과 빛의 단계적 afterimage",
+    "shot_duration_progression": "0~0.43초 초고밀도, 1~3.93초 긴 hold, 이후 0.6~4.8초의 검정·숲 장",
+    "adjacent_image_relations": "흰옷과 꽃의 밝은 점, 숲의 수직선, 빛 통로가 인물 유무를 이어 준다.",
+    "in_frame_editing": "긴 숲 숏 안에서 인물의 작은 이동과 빛 변화가 주 사건이다.",
+    "typography_graphics_compositing": "타이포 없이 검정 캔버스와 이미지 지속시간의 대비만 사용한다.",
+    "repeated_operators": ["microburst_to_hold", "presence_to_absence_hold", "afterimage_handoff"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1.0,
+      "observation": "하늘 아래 인물, 노란 꽃밭, 빈 숲이 약 0.1~0.33초 단위로 나타난 뒤 검정으로 들어간다.",
+      "inference": "세 섬광은 본편의 인물·꽃·숲 모티프를 먼저 압축 제시하는 hook이다."
+    },
+    {
+      "start_seconds": 1.0,
+      "end_seconds": 7.5,
+      "observation": "숲 속 흰옷 인물이 약 2.93초 유지되고 검정 뒤 밝은 꽃밭 속 인물이 약 2.6초 유지된다.",
+      "inference": "초고밀도 hook 뒤 같은 인물을 어두운 숲과 밝은 꽃밭에서 충분히 읽게 한다."
+    },
+    {
+      "start_seconds": 8.733333,
+      "end_seconds": 16.3,
+      "observation": "숲 속 인물과 강한 빛, 빈 숲 바닥, 높은 창빛, 다시 빈 숲이 단계적으로 이어진다.",
+      "inference": "인물을 직접 보여준 뒤 인물이 있던 빛과 공간만 남기는 afterimage 회수다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 초고밀도와 긴 hold를 함께 쓰는 이유를 보여준다.",
+    "common_elements": ["흰옷 인물", "숲", "꽃", "빛 통로", "빈 환경"],
+    "possible_discriminators": ["모티프 예고용 microburst", "긴 인물 hold", "빈 숲 afterimage"],
+    "forbidden_pattern_evidence": ["모든 구간을 초단컷으로 유지", "정적인 숲을 freeze 오류로 속도 변화", "임의 줌으로 긴 hold를 불안정하게 만듦"],
+    "ad_strengths": ["패션", "향수", "자연 여행"],
+    "suitable_subjects": ["같은 인물이 밝고 어두운 자연 환경에 반복되는 커버리지"],
+    "poor_fit_subjects": ["인물과 환경의 공통 광질이 없는 원본"],
+    "limitations": ["초반 0.1초 섬광의 프레임별 순서는 4fps 시트와 컷 검출을 함께 사용했으므로 서브프레임 수준은 확정하지 않는다."]
+  },
+  "counterexamples": ["긴 정적 구간을 자동으로 제거하거나 디지털 줌을 넣으면 초반 섬광과 대비되는 핵심 호흡이 무너진다."],
+  "confidence": "high"
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_window_density_wave_v001",
+  "operator": {
+    "primary": "density-wave-release",
+    "secondary": "action-as-edit-spine",
+    "supporting": ["functional-memory-panels"]
+  },
+  "situation": "One licensed, unedited fixed interior take in which a woman opens closed curtains and the room progresses from shadow through hand-led light entry to a full-body moving release.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Yan Krukau",
+    "rights_basis": "Pexels License",
+    "page_url": "https://www.pexels.com/video/a-woman-opening-a-window-curtains-6704807/",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C",
+    "screening_record": "../../sources/window-copy-candidate/source-screening.json"
+  },
+  "watch_evidence": "../../watch-evidence/window-density-watch-v001/watch-evidence.json",
+  "hypotheses_under_test": [
+    "A stable dark-room anchor can establish the baseline before density rises.",
+    "Three progressively revealed live panels can add spatial context, hand action and light transfer without decorative repetition.",
+    "Clearing the panels into more than three seconds of native full-body motion creates a legible release without freeze, retime, animated zoom or generated imagery.",
+    "The proof should feel more intentionally directed than the continuous plain take while preserving the source action and avoiding a transition-reel look."
+  ],
+  "purpose": "Test density-wave-release in a solitary interior light-change situation that is independent from the accepted flower-field creative-action situation.",
+  "material_fit": {
+    "status": "strong",
+    "strengths": [
+      "single unedited take with continuous body, curtain and light movement",
+      "clear before state, causal hand action, light-arrival hinge and moving release",
+      "central subject remains safe in a vertical crop",
+      "real backlight and flare provide the visual motif without synthetic effects"
+    ],
+    "limits": [
+      "one person and one fixed camera angle",
+      "no facial close-up or relationship coverage",
+      "panel density must not duplicate the same information or obscure the hand action"
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1080, "height": 1920, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "synthetic_overlay", "text", "music", "sfx"]
+  },
+  "materials": {
+    "dark_anchor": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "window_context": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 1.4,
+      "focus_x": 0.5,
+      "focus_y": 0.46,
+      "grade": "haku-neutral"
+    },
+    "curtain_hand": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 1.8,
+      "focus_x": 0.42,
+      "focus_y": 0.42,
+      "grade": "haku-neutral"
+    },
+    "light_transfer": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 2.2,
+      "focus_x": 0.56,
+      "focus_y": 0.47,
+      "grade": "haku-neutral"
+    },
+    "light_hinge": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 3.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "body_release": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 4.4,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-dark-anchor", "type": "single", "frames": 35, "material": "dark_anchor"},
+        {"id": "plain-window-context", "type": "single", "frames": 10, "material": "window_context"},
+        {"id": "plain-curtain-hand", "type": "single", "frames": 10, "material": "curtain_hand"},
+        {"id": "plain-light-transfer", "type": "single", "frames": 20, "material": "light_transfer"},
+        {"id": "plain-light-hinge", "type": "single", "frames": 35, "material": "light_hinge"},
+        {"id": "plain-body-release", "type": "single", "frames": 78, "material": "body_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "shadow-anchor", "type": "single", "frames": 35, "material": "dark_anchor"},
+        {
+          "id": "progressive-light-density",
+          "type": "functional-panels",
+          "frames": 40,
+          "canvas_color": "0x080808",
+          "panels": [
+            {"id": "window-context-dominant", "material": "window_context", "active_frames": [0, 40], "rect": [0.0, 0.0, 1.0, 1.0]},
+            {"id": "curtain-hand-support", "material": "curtain_hand", "active_frames": [10, 40], "rect": [0.04, 0.64, 0.44, 0.28]},
+            {"id": "light-transfer-support", "material": "light_transfer", "active_frames": [20, 40], "rect": [0.52, 0.64, 0.44, 0.28]}
+          ]
+        },
+        {"id": "light-arrival-hinge", "type": "single", "frames": 35, "material": "light_hinge"},
+        {"id": "native-body-release", "type": "single", "frames": 78, "material": "body_release"}
+      ]
+    }
+  }
+}

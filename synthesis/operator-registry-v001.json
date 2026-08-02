@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "status": "research_hypotheses_not_user_promoted",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only-analysis",
+  "promotion_progress": "0/3 accepted situations",
+  "operators": [
+    {
+      "id": "sensory-scale-relay",
+      "natural_language_cues": [
+        "한 장면 안에서도 감각적으로",
+        "풍경에서 인물과 손 디테일까지",
+        "영상미 있게 가까워지는 느낌"
+      ],
+      "purpose_fit": [
+        "감성 필름",
+        "인물·패션",
+        "제품 사용과 물성 광고"
+      ],
+      "required_coverage": [
+        "동일 인물·소품·빛의 환경 원경",
+        "행동이 읽히는 중경",
+        "새 정보를 주는 손·눈·발·물성 디테일"
+      ],
+      "forbidden_when": [
+        "한 거리의 원본만 있음",
+        "크롭 외에 새 정보가 없음",
+        "거리 변화가 행동 방향을 끊음"
+      ],
+      "evidence_reels": [
+        "DZsDeJ-TeM_",
+        "DWuZaCfE-WF",
+        "DZXiQ_jz2tg",
+        "DQi8EW5k0-o",
+        "DZFOV3Qz7Gs"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "density-wave-release",
+      "natural_language_cues": [
+        "처음 몰아치다가 여운 있게",
+        "기억이 확 지나가는 느낌",
+        "빠르지만 정신없지 않게"
+      ],
+      "purpose_fit": [
+        "기억 몽타주",
+        "계절·여행 필름",
+        "광고의 감각 오프닝과 제품 착지"
+      ],
+      "required_coverage": [
+        "빠르게 압축 가능한 보조 이미지",
+        "1초 이상 버틸 강한 hero image",
+        "반복 모티프 또는 마지막 읽기 대상"
+      ],
+      "forbidden_when": [
+        "모든 숏의 정보량이 같음",
+        "release 구간이 없음",
+        "빠른 구간에 연결 모티프가 없음"
+      ],
+      "evidence_reels": [
+        "DWuZaCfE-WF",
+        "DQi8EW5k0-o",
+        "DZXiQ_jz2tg",
+        "DOdPyazk0k7"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "motif-state-return",
+      "natural_language_cues": [
+        "처음과 끝이 이어지게",
+        "같은 장면인데 의미가 달라지게",
+        "짧은 스토리가 닫히는 느낌"
+      ],
+      "purpose_fit": [
+        "관계 필름",
+        "전후 변화 광고",
+        "계절·장소 기억"
+      ],
+      "required_coverage": [
+        "동일 축의 시작 상태",
+        "중앙의 변화 사건",
+        "변화가 반영된 복귀 상태"
+      ],
+      "forbidden_when": [
+        "같은 클립을 반복할 뿐 상태 차이가 없음",
+        "복귀가 행동 방향을 위반함"
+      ],
+      "evidence_reels": [
+        "DZsDeJ-TeM_",
+        "DRUNg3UE0c2",
+        "DSxLPd6k6X7"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "afterimage-handoff",
+      "natural_language_cues": [
+        "사라진 뒤에도 여운이 남게",
+        "빈 공간이 감정적으로 보이게",
+        "제품을 쓰고 난 뒤 결과를 오래"
+      ],
+      "purpose_fit": [
+        "향수·뷰티·물성 광고",
+        "공간 초상",
+        "고독·회상 필름"
+      ],
+      "required_coverage": [
+        "피사체가 있는 안정 구도",
+        "같은 축의 피사체 없는 상태",
+        "비어 있어도 버티는 표면·빛·공간"
+      ],
+      "forbidden_when": [
+        "퇴장 뒤 카메라가 크게 흔들림",
+        "빈 배경이 시각적으로 지저분함",
+        "정보 광고라 여백을 감당할 수 없음"
+      ],
+      "evidence_reels": [
+        "DOTAz9lE11A",
+        "DRUNg3UE0c2",
+        "DSxLPd6k6X7",
+        "DOdPyazk0k7"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "action-as-edit-spine",
+      "natural_language_cues": [
+        "효과보다 실제 행동이 살아 있게",
+        "한 컷 안에서도 편집된 느낌",
+        "제품을 쓰는 행동으로 보여줘"
+      ],
+      "purpose_fit": [
+        "관계 연출",
+        "창작 과정",
+        "행동 증명 광고"
+      ],
+      "required_coverage": [
+        "행동 준비",
+        "읽히는 실행",
+        "결과 또는 주도권 교대"
+      ],
+      "forbidden_when": [
+        "행동 시작·끝이 촬영되지 않음",
+        "인접 숏의 손·몸 방향이 충돌함",
+        "속도 램프가 행동의 힘을 왜곡함"
+      ],
+      "evidence_reels": [
+        "Da24ipMTXu4",
+        "DYql5NyTBeO",
+        "DZFOV3Qz7Gs",
+        "DJKFdm6TKL1"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "relationship-through-blocking",
+      "natural_language_cues": [
+        "표정 연기 없이 관계가 느껴지게",
+        "둘이 다정한 느낌",
+        "함께 쓰는 제품처럼"
+      ],
+      "purpose_fit": [
+        "우정·커플",
+        "여행",
+        "협업 제품·서비스"
+      ],
+      "required_coverage": [
+        "두 사람의 거리 변화",
+        "공동 표면·소품 또는 행동",
+        "주고받기·접근·이탈 중 하나"
+      ],
+      "forbidden_when": [
+        "각 인물이 서로 다른 행동을 하며 연결 근거가 없음",
+        "시선·손·이동 방향이 충돌함"
+      ],
+      "evidence_reels": [
+        "Da24ipMTXu4",
+        "DZsDeJ-TeM_",
+        "DZFOV3Qz7Gs",
+        "DSxLPd6k6X7"
+      ],
+      "research_confidence": "high"
+    },
+    {
+      "id": "stable-frame-internal-change",
+      "natural_language_cues": [
+        "카메라 안 움직여도 지루하지 않게",
+        "한 프레임 안에서 변화가 생기게",
+        "전후가 확실히 보이게"
+      ],
+      "purpose_fit": [
+        "창작 과정",
+        "제품 전후 비교",
+        "퍼포먼스·물성 연구"
+      ],
+      "required_coverage": [
+        "안정된 배경 축",
+        "프레임 내부 피사체 변화",
+        "변화가 작은 썸네일에서도 읽힘"
+      ],
+      "forbidden_when": [
+        "배경이 흔들려 전후 비교가 안 됨",
+        "내부 변화가 너무 작아 읽히지 않음",
+        "디지털 줌으로 안정 축을 파괴함"
+      ],
+      "evidence_reels": [
+        "Da24ipMTXu4",
+        "DYql5NyTBeO",
+        "DOTAz9lE11A",
+        "DRUNg3UE0c2"
+      ],
+      "research_confidence": "high"
+    }
+  ],
+  "isolated_patterns": [
+    {
+      "id": "rotated-gravity-portrait",
+      "evidence_reels": [
+        "DJKFdm6TKL1"
+      ],
+      "status": "needs_second_review"
+    },
+    {
+      "id": "fixed-pulse-still-run",
+      "evidence_reels": [
+        "DQi8EW5k0-o"
+      ],
+      "status": "needs_two_more_independent_works"
+    },
+    {
+      "id": "performance-copy-logo-ladder",
+      "evidence_reels": [
+        "DYql5NyTBeO"
+      ],
+      "status": "needs_more_advertising_examples"
+    }
+  ]
+}

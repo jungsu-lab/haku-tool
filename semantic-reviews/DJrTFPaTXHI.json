@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DJrTFPaTXHI",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T09:13:00Z"
+  },
+  "purpose": "물·구름·학교 운동·친구 관계를 문장 장과 제품 표식으로 나누어 Pocari의 여름 세계를 구축하는 챕터형 광고",
+  "format": "16:9 landscape chaptered experiential beverage film",
+  "story_role": "implicit",
+  "primary_subject": "학교에서 움직이고 함께 쉬는 학생들과 Pocari Sweat",
+  "intended_viewer_response": "평범한 학교 행동이 청량한 여름의 기억으로 바뀌는 느낌",
+  "commercial_function": "Pocari Sweat의 계절·청춘·활동 브랜드 광고",
+  "sequence": {
+    "opening_hook": "큰 여름 구름을 약 2초 유지하고 흰 문장 카드로 첫 장을 연다.",
+    "development": "수중 인물, 두 번째 문장 카드, 농구공과 Pocari 병·하늘·테이블·교실 빛을 장별로 제시한다.",
+    "peak_or_payoff": "18.275~26.684초 긴 탑숏 퍼포먼스 뒤 27~30초대의 계단·수영장·창가 친구·수중·불꽃을 가속한다.",
+    "final_image": "그림자·간식·친구·복도·함께 앉은 장면·창가 인물·손·교실·구름 앞 달리기로 생활 장을 연속 회수한다."
+  },
+  "directing": {
+    "subject_action": "수영하기, 농구 준비, 넓은 바닥에서 움직이기, 친구와 앉기, 불꽃 보기, 간식·음료 함께하기",
+    "blocking": "제품은 몸 옆·테이블 위에 생활 소품처럼 두고 인물 관계가 먼저 읽히게 한다.",
+    "space": "구름·물·체육관·교실·수영장을 흰색·파랑과 학교 행동으로 연결한다.",
+    "props_surfaces_costume": "Pocari 병·농구공·간식·교복·물·구름이 활동과 수분의 명제를 만든다."
+  },
+  "cinematography": {
+    "composition": "구름 원경·수중 중경·제품 포함 정물·탑숏 퍼포먼스·관계 중경을 장별로 교대한다.",
+    "distance_or_lens": "환경·제품 맥락·몸 전체·친구 관계·손 디테일을 단계적으로 분담한다.",
+    "camera_motion": "탑숏은 고정, 수중과 학교 행동은 실제 움직임을 따라가며 장별 운동 질감을 바꾼다.",
+    "light": "파란 하늘·수중광·교실 창빛·밤 불꽃으로 하루와 계절의 범위를 넓힌다.",
+    "palette_texture_depth": "브랜드 파랑·흰색을 구름·물·교복·병에 반복하고 따뜻한 나무·간식으로 생활감을 더한다."
+  },
+  "editing": {
+    "cut_logic": "흰 문장 카드가 초반 장을 나누고, 긴 탑숏 행동 증명 뒤 관계·생활 몽타주로 효용을 넓힌다.",
+    "shot_duration_progression": "2초 구름→2.7초 카드→4.2초 수중→2.3초 카드→1~3초 생활 장→8.4초 퍼포먼스→후반 0.16~1.8초 관계 montage다.",
+    "adjacent_image_relations": "파랑·흰색·몸의 열·물·친구를 반복해 문장과 제품을 실제 생활 증거에 결속한다.",
+    "in_frame_editing": "탑숏 인물의 궤적과 친구들의 실제 상호작용이 효과보다 중요한 편집 재료다.",
+    "typography_graphics_compositing": "2.081~4.746초와 8.950~11.281초 흰 문장 카드를 chapter gate로 사용한다.",
+    "repeated_operators": [
+      "copy_gated_experience_chapters",
+      "product_in_life_not_packshot",
+      "long_action_proof_then_social_montage",
+      "brand_palette_environmentalization"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "문장 장과 후반 몽타주의 음악 변화를 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 11.281,
+      "observation": "구름→흰 문장 카드→수중 인물→흰 문장 카드의 네 장이 2~4초 길이로 이어진다.",
+      "inference": "브랜드의 여름·물 감각을 문장과 체험 이미지로 번갈아 선언한다."
+    },
+    {
+      "start_seconds": 11.281,
+      "end_seconds": 18.275,
+      "observation": "농구공 옆 Pocari 병·새와 하늘·다른 병 구도·테이블 위 병·창문 빛이 이어진다.",
+      "inference": "제품을 고립 팩샷이 아니라 학교 행동과 공간의 생활 표식으로 배치한다."
+    },
+    {
+      "start_seconds": 18.275,
+      "end_seconds": 26.684,
+      "observation": "넓은 흙 또는 바닥 탑숏에서 작은 인물이 긴 그림자를 만들며 약 8.4초 움직인다.",
+      "inference": "제품 효용인 활동·땀을 한 번의 실제 퍼포먼스로 길게 증명한다."
+    },
+    {
+      "start_seconds": 27.183,
+      "end_seconds": 36.883,
+      "observation": "계단의 두 학생·창가 친구·수영장·수중·교실·야간 불꽃이 0.16~1.8초 단위로 교차한다.",
+      "inference": "개인 행동 증명 뒤 제품이 함께하는 관계·추억의 범위를 고밀도로 확장한다."
+    },
+    {
+      "start_seconds": 36.883,
+      "end_seconds": 44.543,
+      "observation": "그림자·간식·인물 디테일·복도·함께 앉은 친구·창가 인물·손·교실·구름 앞 달리기가 이어진다.",
+      "inference": "특정 운동이 아니라 학교 생활 전체의 여름 동반자로 브랜드 의미를 넓혀 닫는다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 두 번째 장편 Pocari 사례로 경험 우선·브랜드 색 선행·행동 증명 구조의 반복성을 강화한다.",
+    "common_elements": [
+      "학교·교복·친구",
+      "물·구름·역광",
+      "실제 운동 행동",
+      "절제된 문장 카드"
+    ],
+    "possible_discriminators": [
+      "흰 카드로 감각 장을 분리",
+      "제품을 행동 옆의 생활 소품으로 배치",
+      "긴 단일 행동 증명 뒤 관계 montage"
+    ],
+    "forbidden_pattern_evidence": [
+      "제품만 클로즈업해 반복하면 학교 생활과 효용의 인과가 사라진다.",
+      "탑숏 퍼포먼스를 잘게 자르면 실제 땀·지속의 증거가 약해진다."
+    ],
+    "ad_strengths": [
+      "음료·스포츠",
+      "학교·청춘 캠페인",
+      "라이프스타일 브랜드"
+    ],
+    "suitable_subjects": [
+      "제품이 실제 행동 환경 안에 놓인 촬영본",
+      "한 번 길게 보여줄 hero performance",
+      "친구·교실·운동·휴식의 다양한 효용 장"
+    ],
+    "poor_fit_subjects": [
+      "제품과 행동·색의 연결이 없는 팩샷 모음",
+      "사용자 관계나 생활 맥락이 전혀 없는 영상"
+    ],
+    "limitations": [
+      "흰 문장 카드의 일본어 내용을 읽어 장별 명제와 정확히 대조하지 못했다.",
+      "마지막 브랜드 로고 노출 여부는 4fps 시트에서 명확히 판독되지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "감성 광고에서 제품 노출은 적어야 하는 것이 아니라 생활 행동 안에서 기능적으로 보여야 한다.",
+    "장편에서도 hero performance를 길게 보존하고 주변 경험만 압축하면 편집 밀도를 통제할 수 있다."
+  ],
+  "confidence": "medium"
+}

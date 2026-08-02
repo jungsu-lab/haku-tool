@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_single_take_action_spine_v001",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "arm_lift",
+      "arm_return",
+      "flower_presence",
+      "flower_rise",
+      "neutral",
+      "reach_apex"
+    ],
+    "material_ledger": {
+      "neutral": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 0.0,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      },
+      "arm_lift": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 1.2,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      },
+      "reach_apex": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 3.0,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      },
+      "arm_return": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 14.4,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      },
+      "flower_rise": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 20.2,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      },
+      "flower_presence": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 24.5,
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-neutral",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "neutral",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.32,
+          "duration_frames": 33,
+          "timeline_visible_frames": [
+            0,
+            33
+          ]
+        },
+        {
+          "segment_id": "plain-lift",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arm_lift",
+          "source_in_seconds": 1.2,
+          "source_out_seconds": 2.52,
+          "duration_frames": 33,
+          "timeline_visible_frames": [
+            33,
+            66
+          ]
+        },
+        {
+          "segment_id": "plain-apex",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reach_apex",
+          "source_in_seconds": 3.0,
+          "source_out_seconds": 4.36,
+          "duration_frames": 34,
+          "timeline_visible_frames": [
+            66,
+            100
+          ]
+        },
+        {
+          "segment_id": "plain-return",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arm_return",
+          "source_in_seconds": 14.4,
+          "source_out_seconds": 15.72,
+          "duration_frames": 33,
+          "timeline_visible_frames": [
+            100,
+            133
+          ]
+        },
+        {
+          "segment_id": "plain-flower-rise",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_rise",
+          "source_in_seconds": 20.2,
+          "source_out_seconds": 21.52,
+          "duration_frames": 33,
+          "timeline_visible_frames": [
+            133,
+            166
+          ]
+        },
+        {
+          "segment_id": "plain-flower-presence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_presence",
+          "source_in_seconds": 24.5,
+          "source_out_seconds": 25.86,
+          "duration_frames": 34,
+          "timeline_visible_frames": [
+            166,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "neutral": 1,
+        "arm_lift": 1,
+        "reach_apex": 1,
+        "arm_return": 1,
+        "flower_rise": 1,
+        "flower_presence": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "neutral-breath",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "neutral",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.0,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            0,
+            25
+          ]
+        },
+        {
+          "segment_id": "arm-lift",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arm_lift",
+          "source_in_seconds": 1.2,
+          "source_out_seconds": 2.4,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            25,
+            55
+          ]
+        },
+        {
+          "segment_id": "reach-apex",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reach_apex",
+          "source_in_seconds": 3.0,
+          "source_out_seconds": 4.0,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            55,
+            80
+          ]
+        },
+        {
+          "segment_id": "arm-return",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "arm_return",
+          "source_in_seconds": 14.4,
+          "source_out_seconds": 16.0,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            80,
+            120
+          ]
+        },
+        {
+          "segment_id": "flower-rise",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_rise",
+          "source_in_seconds": 20.2,
+          "source_out_seconds": 22.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            120,
+            170
+          ]
+        },
+        {
+          "segment_id": "flower-presence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_presence",
+          "source_in_seconds": 24.5,
+          "source_out_seconds": 25.7,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            170,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "neutral": 1,
+        "arm_lift": 1,
+        "reach_apex": 1,
+        "arm_return": 1,
+        "flower_rise": 1,
+        "flower_presence": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\plain.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "plain-neutral",
+        "type": "single",
+        "frames": 33,
+        "materials": [
+          "neutral"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\01-plain-neutral.mp4"
+      },
+      {
+        "segment_id": "plain-lift",
+        "type": "single",
+        "frames": 33,
+        "materials": [
+          "arm_lift"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\02-plain-lift.mp4"
+      },
+      {
+        "segment_id": "plain-apex",
+        "type": "single",
+        "frames": 34,
+        "materials": [
+          "reach_apex"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\03-plain-apex.mp4"
+      },
+      {
+        "segment_id": "plain-return",
+        "type": "single",
+        "frames": 33,
+        "materials": [
+          "arm_return"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\04-plain-return.mp4"
+      },
+      {
+        "segment_id": "plain-flower-rise",
+        "type": "single",
+        "frames": 33,
+        "materials": [
+          "flower_rise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\05-plain-flower-rise.mp4"
+      },
+      {
+        "segment_id": "plain-flower-presence",
+        "type": "single",
+        "frames": 34,
+        "materials": [
+          "flower_presence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\plain\\06-plain-flower-presence.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    }
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\proof.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "neutral-breath",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "neutral"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\01-neutral-breath.mp4"
+      },
+      {
+        "segment_id": "arm-lift",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "arm_lift"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\02-arm-lift.mp4"
+      },
+      {
+        "segment_id": "reach-apex",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "reach_apex"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\03-reach-apex.mp4"
+      },
+      {
+        "segment_id": "arm-return",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "arm_return"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\04-arm-return.mp4"
+      },
+      {
+        "segment_id": "flower-rise",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "flower_rise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\05-flower-rise.mp4"
+      },
+      {
+        "segment_id": "flower-presence",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "flower_presence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\_segments\\proof\\06-flower-presence.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    }
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_rainbow_luminous_relay_v001",
+  "created_at": "2026-07-31T14:33:14.435075+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_rainbow_luminous_relay_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "ABFBE1A4DB8C0DC236774363F99F9EFE2C4498C3E96ED1390C78CFDEEC28080D",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 43,
+      "coverage_seconds": 5.28
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 43,
+      "coverage_seconds": 5.28
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-fingertip-carrier",
+      "kind": "segment_boundary",
+      "frame": 16,
+      "seconds": 0.64,
+      "strip": "boundaries\\boundary-01-fingertip-carrier.jpg",
+      "range_seconds": [
+        0.4,
+        0.92
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-palm-carrier",
+      "kind": "segment_boundary",
+      "frame": 34,
+      "seconds": 1.36,
+      "strip": "boundaries\\boundary-02-palm-carrier.jpg",
+      "range_seconds": [
+        1.12,
+        1.6400000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-turning-color-carrier",
+      "kind": "segment_boundary",
+      "frame": 58,
+      "seconds": 2.32,
+      "strip": "boundaries\\boundary-03-turning-color-carrier.jpg",
+      "range_seconds": [
+        2.08,
+        2.6
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-two-hand-interception",
+      "kind": "segment_boundary",
+      "frame": 84,
+      "seconds": 3.36,
+      "strip": "boundaries\\boundary-04-two-hand-interception.jpg",
+      "range_seconds": [
+        3.12,
+        3.64
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-open-palm-release",
+      "kind": "segment_boundary",
+      "frame": 104,
+      "seconds": 4.16,
+      "strip": "boundaries\\boundary-05-open-palm-release.jpg",
+      "range_seconds": [
+        3.92,
+        4.4399999999999995
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:34:12.823538+00:00",
+    "evidence": [
+      "Both candidate originals, the selected original, plain, proof, and all five 25 fps boundary strips were directly reviewed. The blue-white-orange-red band is a real stable optical phenomenon and visibly transfers from wall to fingertips and palm."
+    ],
+    "limitations": [
+      "The final two-hand to open-palm boundary includes an abrupt near-camera hand enlargement that covers the band with a dark silhouette. This creates a lurch and weakens the optical destination.",
+      "Audio remains deferred and this research failure does not infer a user verdict."
+    ]
+  },
+  "research_verdict": {
+    "status": "fail",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

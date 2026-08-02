@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "session_id": "lighthouse-shared-memory-session",
+  "rights_basis": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_url": "https://www.pexels.com/license/",
+    "allowed_use": "Licensed public stock footage used as editable source material. Haku reference media is analysis-only and is not included."
+  },
+  "capture_world": {
+    "world_id": "daylight-lighthouse-picnic-three-friends",
+    "subject_identity": "the same red-haired woman, beanie-wearing man, dark-haired woman, black album, picnic blanket and striped lighthouse recur across the selected takes",
+    "location": "bright beach picnic beside a striped lighthouse",
+    "time_of_day": "daylight",
+    "weather": "clear bright outdoor conditions",
+    "lens_character": "landscape coverage alternating tactile close detail, shallow-focus medium reaction and landmark environment framing",
+    "color_temperature": "warm-neutral daylight",
+    "palette": ["sand beige", "cyan sky", "soft white", "black album", "warm skin"],
+    "same_world_claim": "Identity, wardrobe, props, daylight, picnic setup and landmark were directly compared across complete dense sheets. Each selected file is a separate continuous take from the same visible capture world."
+  },
+  "sources": [
+    {
+      "source_clip_id": "lighthouse_gesture",
+      "file": "5081860-lighthouse-gesture.mp4",
+      "sha256": "4754A25E6825ECC9AE16068E456FE0A9074B84809342C91CEBE26D838E26DD48",
+      "page_url": "https://www.pexels.com/video/friends-talking-about-a-lighthouse-5081860/",
+      "download_url": "https://videos.pexels.com/video-files/5081860/5081860-uhd_4096_2160_25fps.mp4",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "semantic_role": "human pointing gesture resolves into a readable landmark and shared place",
+      "duration_seconds": 23.64,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {"method": "dense_storyboard_and_boundary_review", "status": "no_detected_splice", "limitations": "Visual review cannot establish production chronology beyond the visible take."}
+    },
+    {
+      "source_clip_id": "album_reaction",
+      "file": "5081861-album-reaction.mp4",
+      "sha256": "60364C7A7FCCDF775A83A64B64C65F9E29C4BA1B67A3624D51AB426C202C34B9",
+      "page_url": "https://www.pexels.com/video/5081861/",
+      "download_url": "https://videos.pexels.com/video-files/5081861/5081861-uhd_4096_2160_25fps.mp4",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "semantic_role": "album handling turns into a quiet personal smile",
+      "duration_seconds": 13.16,
+      "width": 2732,
+      "height": 1440,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {"method": "dense_storyboard_and_boundary_review", "status": "no_detected_splice", "limitations": "Native reframing is treated as camera movement, not an edit."}
+    },
+    {
+      "source_clip_id": "picnic_object_action",
+      "file": "5081863-picnic-object-action.mp4",
+      "sha256": "9A74607478DEFB63D2BD8CAD30302A462ADC12F7B9BDB0B1B71B15FC23CE793D",
+      "page_url": "https://www.pexels.com/video/5081863/",
+      "download_url": "https://videos.pexels.com/video-files/5081863/5081863-uhd_4096_2160_25fps.mp4",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "semantic_role": "hands, apple, cups and blanket establish tactile picnic life",
+      "duration_seconds": 10.52,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {"method": "dense_storyboard_and_boundary_review", "status": "no_detected_splice", "limitations": "The detail take does not show all faces continuously."}
+    },
+    {
+      "source_clip_id": "shared_polaroid",
+      "file": "5081866-shared-polaroid.mp4",
+      "sha256": "7B51A1B0239307B8042845251CA89263F2073BB43879B7FEB63DF5030DC58993",
+      "page_url": "https://www.pexels.com/video/friends-looking-at-a-polaroid-picture-5081866/",
+      "download_url": "https://videos.pexels.com/video-files/5081866/5081866-uhd_4096_2160_25fps.mp4",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "semantic_role": "a real instant photograph is lifted, shared and followed by collective gaze and smiles",
+      "duration_seconds": 30.32,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {"method": "dense_storyboard_and_boundary_review", "status": "no_detected_splice", "limitations": "The content printed on the instant photograph is not readable evidence."}
+    }
+  ],
+  "rejected_source": {
+    "file": "5081858-friends-hanging-lighthouse.mp4",
+    "reason": "A pre-existing camera-angle cut is visible near 00:02.5-00:03.0, so it is excluded from the editable source set."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_research_regression_fresh_cycle_v001",
+  "operator": {
+    "primary": "action-as-edit-spine"
+  },
+  "situation": "Regression fixture using one licensed unedited source range.",
+  "hypotheses_under_test": [
+    "Fresh render provenance must bind the exact recipe and source bytes."
+  ],
+  "purpose": "Exercise provenance and review-state guardrails.",
+  "material_fit": {
+    "status": "test_fixture"
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 360,
+    "height": 640,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 23,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "source_motion": {
+      "source": "../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {
+          "id": "plain-source-motion",
+          "type": "single",
+          "frames": 50,
+          "material": "source_motion"
+        }
+      ]
+    },
+    "proof": {
+      "segments": [
+        {
+          "id": "proof-source-motion",
+          "type": "single",
+          "frames": 50,
+          "material": "source_motion"
+        }
+      ]
+    }
+  }
+}

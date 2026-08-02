@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_picnic_density_wave_v001",
+  "operator": {
+    "primary": "density-wave-release",
+    "secondary": "sensory-scale-relay",
+    "supporting": ["functional-memory-panels"]
+  },
+  "situation": "Three licensed, unedited takes from one four-friend evening picnic session, progressing from tactile food and wine detail through a visible pour and individual pleasure response to a group toast.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "screening_manifest": "../../sources/picnic-sensory-scale/source-screening.json"
+  },
+  "source_manifest": "../../sources/picnic-sensory-scale/source-manifest.json",
+  "watch_evidence": [
+    "../../watch-evidence/picnic-density-source-review-v002/group-landscape/watch-evidence.json",
+    "../../watch-evidence/picnic-density-source-review-v002/wine-group/watch-evidence.json",
+    "../../watch-evidence/picnic-density-source-review-v002/vertical-reaction/watch-evidence.json"
+  ],
+  "hypotheses_under_test": [
+    "A tactile premise and visible pour can causally open a bounded individual reaction and group-preview density field.",
+    "Showing only one support window at a time can add social information without repeating the simultaneous collage problem found in the park v004 proof.",
+    "A group-preview window can hand its exact next 25fps source frame to a full-frame toast and conversational release.",
+    "The density-wave-release Operator remains legible in a four-person social ritual distinct from the accepted flower-field situation and the pending two-person park situation."
+  ],
+  "purpose": "Test density-wave-release in a four-person friendship ritual where tactile sensation grows into individual pleasure and shared relationship energy.",
+  "material_fit": {
+    "status": "strong_for_landscape_friendship_film",
+    "strengths": [
+      "the same four people, wardrobe, pink wine, food, grass, tree line, and evening light recur across all takes",
+      "the pour is a real causal action and the portrait reaction is grounded in the same food-and-wine ritual",
+      "the group take provides a real four-person toast and native conversational tail",
+      "the group preview and full-frame release can be source-contiguous"
+    ],
+    "limits": [
+      "the group relationship destination must stay landscape because a vertical cover crop removes participants",
+      "the portrait reaction must remain a bounded panel that preserves face, glass, and food",
+      "the session supports friendship atmosphere, not a product claim or brand recovery",
+      "trustworthy captured full-speed playback is unavailable"
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "synthetic_overlay"]
+  },
+  "materials": {
+    "tactile_detail": {
+      "source": "../../sources/picnic-sensory-scale/10071333-group-landscape.mp4",
+      "source_in": 1.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "action_owner": {
+      "source": "../../sources/picnic-sensory-scale/10071333-group-landscape.mp4",
+      "source_in": 8.52,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "individual_reaction": {
+      "source": "../../sources/picnic-sensory-scale/10071341-evening-picnic-vertical.mp4",
+      "source_in": 15.52,
+      "focus_x": 0.5,
+      "focus_y": 0.43,
+      "grade": "haku-neutral"
+    },
+    "group_preview": {
+      "source": "../../sources/picnic-sensory-scale/10071336-wine-group-landscape.mp4",
+      "source_in": 4.8,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "group_release": {
+      "source": "../../sources/picnic-sensory-scale/10071336-wine-group-landscape.mp4",
+      "source_in": 6.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-tactile-detail", "type": "single", "frames": 40, "material": "tactile_detail"},
+        {"id": "plain-action-owner", "type": "single", "frames": 50, "material": "action_owner"},
+        {"id": "plain-individual-reaction", "type": "single", "frames": 30, "material": "individual_reaction"},
+        {"id": "plain-group-preview", "type": "single", "frames": 30, "material": "group_preview"},
+        {"id": "plain-group-release", "type": "single", "frames": 60, "material": "group_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "tactile-premise", "type": "single", "frames": 40, "material": "tactile_detail"},
+        {
+          "id": "progressive-social-density",
+          "type": "functional-panels",
+          "frames": 75,
+          "canvas_color": "0x080A09",
+          "panels": [
+            {"id": "pour-base", "material": "action_owner", "active_frames": [0, 75], "rect": [0.0, 0.0, 1.0, 1.0]},
+            {"id": "reaction-support", "material": "individual_reaction", "active_frames": [15, 45], "rect": [0.04, 0.10, 0.24, 0.78]},
+            {"id": "group-preview-support", "material": "group_preview", "active_frames": [45, 75], "rect": [0.56, 0.56, 0.40, 0.36]}
+          ]
+        },
+        {"id": "group-toast-release", "type": "single", "frames": 95, "material": "group_release"}
+      ]
+    }
+  }
+}

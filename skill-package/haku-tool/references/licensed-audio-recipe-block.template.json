@@ -1,0 +1,15 @@
+{
+  "audio_policy": "licensed_library_track",
+  "licensed_audio": {
+    "file": "audio/verified-track.mp3",
+    "audio_rights_manifest": "audio-rights.json",
+    "music_event_map": "music-event-map.json",
+    "timeline_grammar": "timeline-grammar.json",
+    "source_in_seconds": 0.0,
+    "source_out_seconds": 10.0,
+    "gain_db": -12.0,
+    "fade_in_seconds": 0.15,
+    "fade_out_seconds": 0.5,
+    "same_for_plain_and_proof": true
+  }
+}

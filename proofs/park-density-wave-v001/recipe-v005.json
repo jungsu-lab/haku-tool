@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_density_wave_v005",
+  "operator": {
+    "primary": "density-wave-release",
+    "secondary": "relationship-through-blocking",
+    "supporting": ["functional-memory-panels", "presence-to-absence-hold"]
+  },
+  "situation": "One licensed, unedited camera-followed park take in which two people progress from hand contact through separation, reconvergence, lift, shared movement and a native frame exit.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "rights_basis": "Pexels License",
+    "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640842/",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596",
+    "screening_record": "../../sources/park-relationship-blocking/source-screening.json"
+  },
+  "source_manifest": "../../sources/park-relationship-blocking/source-manifest.json",
+  "watch_evidence": "../../watch-evidence/park-density-watch-v001/watch-evidence.json",
+  "hypotheses_under_test": [
+    "A readable hand-contact anchor can establish the relationship before density rises.",
+    "Progressively adding live distance, reconvergence and lift states inside one frame can compress relationship development without becoming three decorative duplicates.",
+    "A 9.48-second native lift, carry, run, full frame-exit and measured empty-path release can restore breath after the dense state without freeze, retime, zoom or generated imagery.",
+    "The lower-right lift window can hand its next native source frame directly to the full canvas, making the screen-within-screen state a transition anchor rather than decoration.",
+    "Replacing simultaneous support windows with one sequential support role at a time can preserve the density wave while reducing competition with the central pair.",
+    "The same density-wave-release Operator should remain legible in a two-person playful relationship situation independent from flower-field and interior-light material."
+  ],
+  "purpose": "Test density-wave-release in a two-person relationship-action situation using one coherent source take and a long native movement release.",
+  "material_fit": {
+    "status": "strong",
+    "strengths": [
+      "one continuous take with stable pair identity, wardrobe, park axis and overcast light",
+      "distinct relationship states change distance, touch, action ownership and shared direction",
+      "the lift and run provide a genuine physical climax",
+      "both performers leave the frame and the path continues moving natively"
+    ],
+    "limits": [
+      "the camera follows the pair, so a vertical cover crop would remove relationship information",
+      "the playful action does not test conflict, reconciliation, hierarchy or product advertising",
+      "the panel state must remain brief so the two-person action is not reduced to a collage"
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "synthetic_overlay", "text", "music", "sfx", "decorative_border", "drop_shadow"]
+  },
+  "materials": {
+    "contact_anchor": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "distance_state": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 5.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "reconvergence_state": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 9.32,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lift_state": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 10.92,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "shared_exit_release": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 12.52,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-contact", "type": "single", "frames": 40, "material": "contact_anchor"},
+        {"id": "plain-distance", "type": "single", "frames": 20, "material": "distance_state"},
+        {"id": "plain-reconvergence", "type": "single", "frames": 20, "material": "reconvergence_state"},
+        {"id": "plain-lift", "type": "single", "frames": 30, "material": "lift_state"},
+        {"id": "plain-shared-exit", "type": "single", "frames": 237, "material": "shared_exit_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "contact-anchor", "type": "single", "frames": 40, "material": "contact_anchor"},
+        {
+          "id": "progressive-relationship-density",
+          "type": "functional-panels",
+          "frames": 70,
+          "canvas_color": "0x080A09",
+          "panels": [
+            {"id": "distance-base", "material": "distance_state", "active_frames": [0, 70], "rect": [0.0, 0.0, 1.0, 1.0]},
+            {"id": "reconvergence-support", "material": "reconvergence_state", "active_frames": [15, 30], "rect": [0.04, 0.08, 0.36, 0.34]},
+            {"id": "lift-support", "material": "lift_state", "active_frames": [30, 70], "rect": [0.60, 0.58, 0.36, 0.34]}
+          ]
+        },
+        {"id": "native-shared-exit-release", "type": "single", "frames": 237, "material": "shared_exit_release"}
+      ]
+    }
+  }
+}

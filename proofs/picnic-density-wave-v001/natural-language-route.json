@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0",
+  "request_id": "picnic-density-wave-v001",
+  "account": "@haku_.photo",
+  "request": {
+    "natural_language": "감각적인 음식과 와인 디테일에서 넓은 친구 관계 장면으로 발전하고, 화면 안에서 밀도가 올라가고 마지막에 풀리는 느낌으로 해줘. 작은 영상이 생기고 전체 화면으로 이어지게 하되 콜라주처럼 복잡하지 않았으면 좋겠어.",
+    "purpose": "relationship",
+    "target_duration_seconds": 8.4,
+    "audio_policy": "deferred_by_user",
+    "text_policy": "none"
+  },
+  "route_status": "ready_for_treatment_choice",
+  "selected": {
+    "primary_operator_id": "density-wave-release",
+    "supporting_operator_ids": [
+      "functional-memory-panels",
+      "sensory-scale-relay"
+    ],
+    "primary_material_fit": {
+      "status": "pass",
+      "missing_required": [],
+      "matched_required_count": 5
+    },
+    "ten_axis_intents": {
+      "narrative": "원인 행동 뒤 정보 밀도를 단계적으로 쌓고 단일 hero 결과로 해방",
+      "shot": "서로 다른 역할의 상태와 강한 release 커버리지 사용",
+      "cut": "밀도 증가와 해방이 행동 인과를 보존",
+      "timing": "동시 과밀을 피하고 한 번에 하나씩 정보 추가",
+      "transition": "가능하면 다음 원본 프레임으로 source-contiguous handoff",
+      "text": "밀도 경쟁을 피하기 위해 기본 생략",
+      "color": "모든 상태를 같은 감정 세계에 유지",
+      "audio": "사용자 보류 시 deferred_by_user; 허용 시 밀도와 release 사건에 연결",
+      "motion": "가짜 줌·프리즈·반복 없이 실제 움직임만 사용",
+      "purpose": "한 컷 내부 발전과 감정적 해방"
+    }
+  },
+  "ranked_candidates": [
+    {
+      "operator_id": "density-wave-release",
+      "semantic_score": 18,
+      "matched_phrases": [
+        "화면 안에서 밀도가 올라가고 마지막에 풀리는",
+        "작은 영상이 생기고 전체 화면으로 이어지게"
+      ],
+      "matched_keywords": [
+        "밀도",
+        "풀리",
+        "작은",
+        "영상",
+        "전체",
+        "이어"
+      ],
+      "material_fit": {
+        "status": "pass",
+        "missing_required": [],
+        "matched_required_count": 5
+      },
+      "operator_status": "promotion_candidate_user_accepted_1_of_3",
+      "axis_intents": {
+        "narrative": "원인 행동 뒤 정보 밀도를 단계적으로 쌓고 단일 hero 결과로 해방",
+        "shot": "서로 다른 역할의 상태와 강한 release 커버리지 사용",
+        "cut": "밀도 증가와 해방이 행동 인과를 보존",
+        "timing": "동시 과밀을 피하고 한 번에 하나씩 정보 추가",
+        "transition": "가능하면 다음 원본 프레임으로 source-contiguous handoff",
+        "text": "밀도 경쟁을 피하기 위해 기본 생략",
+        "color": "모든 상태를 같은 감정 세계에 유지",
+        "audio": "사용자 보류 시 deferred_by_user; 허용 시 밀도와 release 사건에 연결",
+        "motion": "가짜 줌·프리즈·반복 없이 실제 움직임만 사용",
+        "purpose": "한 컷 내부 발전과 감정적 해방"
+      }
+    },
+    {
+      "operator_id": "functional-memory-panels",
+      "semantic_score": 5,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "작은",
+        "영상",
+        "콜라주"
+      ],
+      "material_fit": {
+        "status": "pass",
+        "missing_required": [],
+        "matched_required_count": 4
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "원인 행동 뒤 서로 다른 역할의 기억을 단계적으로 열고 hero로 수렴",
+        "shot": "환경·촉감·인물처럼 역할이 다른 2~3개 소스 사용",
+        "cut": "동시 출현 대신 원인과 정보 순서에 맞춰 등장",
+        "timing": "패널 밀도를 쌓은 뒤 단일 강한 화면으로 해방",
+        "transition": "원인 행동과 공간 위치를 앵커로 사용",
+        "text": "패널 기능을 대신하지 않게 제한",
+        "color": "같은 촬영 세계 또는 명시적 다리 필요",
+        "audio": "허용 시 각 패널 출현을 음악 사건과 다르게 연결",
+        "motion": "실제 영상 창만 사용하고 정지 이미지 위장 금지",
+        "purpose": "한 컷 안에서 기억·관계·정보의 밀도를 발전"
+      }
+    },
+    {
+      "operator_id": "sensory-scale-relay",
+      "semantic_score": 3,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "감각",
+        "디테일",
+        "넓은"
+      ],
+      "material_fit": {
+        "status": "pass",
+        "missing_required": [],
+        "matched_required_count": 4
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "촉각 단서에서 인물·관계·공간으로 정보 범위를 확장",
+        "shot": "서로 다른 거리의 실제 커버리지 사용",
+        "cut": "형태·빛·행동 모티프로 거리 변화를 연결",
+        "timing": "디테일을 읽힌 뒤 더 큰 장면으로 해방",
+        "transition": "공통 물성이나 행동을 앵커로 사용",
+        "text": "원칙적으로 생략",
+        "color": "거리별 촬영 세계를 통일",
+        "audio": "허용 시 작은 물성음에서 공간음으로 확장",
+        "motion": "원본의 미세 움직임과 넓은 움직임 대비",
+        "purpose": "감각을 장소·인물·제품 의미로 확장"
+      }
+    },
+    {
+      "operator_id": "relationship-through-blocking",
+      "semantic_score": 3,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "관계"
+      ],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "relationship_pair",
+          "blocking_change",
+          "one_of:contact_change|distance_change|gaze_change"
+        ],
+        "matched_required_count": 1
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "접촉·거리·시선의 변화를 관계 문법으로 사용",
+        "shot": "두 인물과 공간 기준축이 함께 읽히게 구성",
+        "cut": "관계 상태가 바뀌는 행동 경계에서 연결",
+        "timing": "가까워짐과 멀어짐의 호흡을 보존",
+        "transition": "공유 동선과 접촉점을 앵커로 사용",
+        "text": "관계 행동이 충분하면 생략",
+        "color": "두 인물을 같은 감정 세계에 유지",
+        "audio": "허용 시 접촉·발걸음·호흡을 관계 변화에 연결",
+        "motion": "실제 블로킹만 사용",
+        "purpose": "설명 없이 관계의 변화와 감정을 전달"
+      }
+    },
+    {
+      "operator_id": "presence-to-absence-hold",
+      "semantic_score": 3,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "마지막"
+      ],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "real_exit",
+          "native_afterimage_motion"
+        ],
+        "matched_required_count": 1
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "존재의 행동 이후 같은 장소의 부재를 결과로 유지",
+        "shot": "퇴장과 퇴장 후 공간이 실제로 촬영된 샷 사용",
+        "cut": "마지막 몸 가장자리를 숨기지 않음",
+        "timing": "부재가 읽힐 만큼 실제 움직이는 공간을 유지",
+        "transition": "같은 장소·빛·물성을 보존",
+        "text": "잔상을 방해하면 생략",
+        "color": "퇴장 전후 동일 세계 유지",
+        "audio": "허용 시 공간음 잔류를 사용",
+        "motion": "빈 프레임을 freeze로 만들지 않음",
+        "purpose": "감정적 해소와 여운"
+      }
+    },
+    {
+      "operator_id": "motif-state-return",
+      "semantic_score": 1,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "발전"
+      ],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "motif_three_states",
+          "final_transformed_return",
+          "one_of:material_change|relationship_change|meaning_change"
+        ],
+        "matched_required_count": 0
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "같은 모티프가 최소 세 상태를 거쳐 다른 의미로 귀환",
+        "shot": "각 상태가 실제로 구분되는 촬영본 사용",
+        "cut": "반복 자체보다 상태 변화가 읽히는 지점에서 절단",
+        "timing": "초기 제시·발전·귀환의 간격 설계",
+        "transition": "같은 형태·방향·물성을 앵커로 사용",
+        "text": "변화 의미를 증명할 때만 사용",
+        "color": "상태 변화는 허용하되 모티프 정체성 유지",
+        "audio": "허용 시 반복 구절을 매번 다르게 기능시킴",
+        "motion": "같은 프레임 반복으로 위장하지 않음",
+        "purpose": "기억과 의미의 회수"
+      }
+    },
+    {
+      "operator_id": "meaningful-copy-gate",
+      "semantic_score": 1,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "장"
+      ],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "meaningful_copy",
+          "copy_evidence_match"
+        ],
+        "matched_required_count": 0
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "카피가 제목·질문·명제·감정 구두점 중 하나로 기능",
+        "shot": "문장을 증명하거나 반박하는 실제 화면 사용",
+        "cut": "카피가 의미 장을 나누는 지점에만 배치",
+        "timing": "읽을 시간과 이미지 발견 시간을 분리",
+        "transition": "문장 의미와 다음 이미지의 관계를 앵커로 사용",
+        "text": "1~3개 문장, 명시적 기능과 제한된 지속시간",
+        "color": "타이포가 이미지보다 우세하지 않게 유지",
+        "audio": "허용 시 문장 출현이 음악을 장식하지 않고 재해석",
+        "motion": "과한 타이포 애니메이션 금지",
+        "purpose": "이미지의 의미를 바꾸는 정보·감정 게이트"
+      }
+    },
+    {
+      "operator_id": "action-as-edit-spine",
+      "semantic_score": 1,
+      "matched_phrases": [],
+      "matched_keywords": [
+        "이어"
+      ],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "actual_action",
+          "action_hinge",
+          "start_end_handles"
+        ],
+        "matched_required_count": 0
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "행동의 준비·실행·반응·결과를 spine으로 사용",
+        "shot": "행동 주체와 손·물체·반응 커버리지를 우선",
+        "cut": "행동 중간을 숨기지 않고 인과 경계에서 절단",
+        "timing": "행동의 실제 호흡을 보존",
+        "transition": "행동 방향과 접촉점을 시각 앵커로 사용",
+        "text": "행동만으로 의미가 부족할 때만 사용",
+        "color": "행동 연속성을 깨지 않는 동일 세계 유지",
+        "audio": "허용 시 실제 접촉음과 음악 사건을 행동에 연결",
+        "motion": "원본 움직임만 사용하고 가짜 줌·프리즈 금지",
+        "purpose": "행동으로 설명과 감정을 동시에 전달"
+      }
+    },
+    {
+      "operator_id": "luminous-texture-relay",
+      "semantic_score": 0,
+      "matched_phrases": [],
+      "matched_keywords": [],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "real_luminous_texture",
+          "grounded_subject",
+          "one_of:highlight_relay|shadow_relay|reflection_relay"
+        ],
+        "matched_required_count": 0
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "실제 빛의 운반체가 표면·손·인물로 이동",
+        "shot": "실제 반사·물·역광과 접지된 피사체 사용",
+        "cut": "하이라이트 위치와 질감을 연결",
+        "timing": "빛의 발견과 이동을 읽힐 만큼 유지",
+        "transition": "실제 광학 현상을 앵커로 사용",
+        "text": "광학 현상을 가리지 않게 최소화",
+        "color": "하이라이트 클리핑과 노출 펌핑 금지",
+        "audio": "허용 시 빛의 이동을 음악 질감 변화와 연결",
+        "motion": "임의 플래시·가짜 flare 금지",
+        "purpose": "감각적 연속성과 몽환적 영상미"
+      }
+    },
+    {
+      "operator_id": "experience-before-product",
+      "semantic_score": 0,
+      "matched_phrases": [],
+      "matched_keywords": [],
+      "material_fit": {
+        "status": "insufficient_coverage",
+        "missing_required": [
+          "real_product_use",
+          "product_readable",
+          "one_of:brand_signoff|claim_copy|world_expansion"
+        ],
+        "matched_required_count": 0
+      },
+      "operator_status": "corpus_supported_user_promotion_pending",
+      "axis_intents": {
+        "narrative": "사용 경험을 먼저 기능시키고 제품·라벨·브랜드 강조를 분리",
+        "shot": "실제 사용 행동·반응·제품 판독 화면 사용",
+        "cut": "경험 증거 뒤 광고 명제나 제품 회수로 연결",
+        "timing": "초반 팩샷 반복 없이 사용 경험에 충분한 시간 부여",
+        "transition": "행동·물성·결과를 제품 회수 앵커로 사용",
+        "text": "실제 화면이 증명할 수 있는 claim만 사용",
+        "color": "제품과 경험 장면을 같은 세계에 유지",
+        "audio": "허용 시 사용음과 브랜드 사인오프를 분리",
+        "motion": "제품을 가짜 줌으로 강조하지 않음",
+        "purpose": "경험 증거로 광고 설득"
+      }
+    }
+  ],
+  "treatments": {
+    "safe": {
+      "operators": [
+        "density-wave-release"
+      ],
+      "rule": "주 Operator 하나만 사용하고 화면 내부 밀도와 효과 수를 최소화한다."
+    },
+    "recommended": {
+      "operators": [
+        "density-wave-release",
+        "functional-memory-panels"
+      ],
+      "rule": "주 Operator의 인과를 유지하면서 검증된 supporting Operator 하나만 결합한다."
+    },
+    "experimental": {
+      "operators": [
+        "density-wave-release",
+        "functional-memory-panels",
+        "sensory-scale-relay"
+      ],
+      "rule": "추가 밀도는 별도 가설로만 시험하고 plain과 분리 검증한다."
+    }
+  },
+  "next_action": "safe·recommended·experimental 세 treatment를 비교한 뒤 recipe와 10축 timeline을 작성한다.",
+  "evidence_contract": {
+    "registry": "auto-research-operator-registry.json",
+    "source_reviewed_by_main_agent": true,
+    "source_manifest": "../../sources/picnic-sensory-scale/source-manifest.json"
+  },
+  "promotion_gate": {
+    "user_verdict": "pending",
+    "promotion_increment": 0,
+    "rule": "Only an explicit user accepted verdict in a distinct situation may increment the tested Operator."
+  }
+}

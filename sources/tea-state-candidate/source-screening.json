@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "tea-state-candidate",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T14:28:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "Michael Burrows",
+    "page_url": "https://www.pexels.com/video/person-pouring-tea-into-cups-7118109/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  "files": [
+    {
+      "path": "7118109-tea-pour.mp4",
+      "sha256": "3259EF3A28F8AC510497785AB523EC2E11E0B279BE7001D0CADE1A805CD01FD7",
+      "duration_seconds": 13.16,
+      "width": 2160,
+      "height": 3840,
+      "fps": 25
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timeline": true,
+    "sample_fps": 6,
+    "evidence_path": "../../review-artifacts/tea-state-candidate/7118109-tea-pour-dense.jpg"
+  },
+  "observations": [
+    "The first pour fills the cup from approximately 0.6 to 4.7 seconds and leaves a visibly dark full cup.",
+    "Near 6.8 to 7.2 seconds the cup resets from full to almost empty while the pitcher position also resets, followed by a second pour.",
+    "The reset cannot be produced by the visible continuous action and therefore indicates an embedded edit, retake splice, or restarted state inside the downloaded stock file."
+  ],
+  "routing": {
+    "motif-state-return": "rejected_as_already_edited_source",
+    "action-as-edit-spine": "rejected_as_already_edited_source"
+  },
+  "decision": "Do not use this file as proof payload. Its internal state reset would falsely credit the source editor's pre-existing decision to the Haku Operator."
+}

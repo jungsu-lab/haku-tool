@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DXJ2bohkzbV",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T09:04:00Z"
+  },
+  "purpose": "한 장의 복잡한 선 그림이 손·도구·디지털 화면을 거쳐 만들어지는 과정을 문장 카드와 함께 기록하는 창작 에세이",
+  "format": "9:16 portrait process essay with embedded wide work surface",
+  "story_role": "explicit",
+  "primary_subject": "종이 위에 건축적 선 그림을 만드는 손과 도구",
+  "intended_viewer_response": "작은 반복 노동이 복잡한 결과로 축적되는 집중감",
+  "commercial_function": "펜·노트·태블릿·디자인 도구·창작 서비스의 과정 증명 광고",
+  "sequence": {
+    "opening_hook": "완성에 가까운 선 그림과 흰 문장 카드를 빠르게 교차해 결과와 질문을 먼저 제시한다.",
+    "development": "손으로 선을 긋고 지우고 도구를 바꾸는 실제 작업을 여러 장으로 나눈다.",
+    "peak_or_payoff": "노트북 또는 태블릿 화면의 도면과 종이 작업을 연결해 아날로그·디지털 제작 과정을 결속한다.",
+    "final_image": "손이 마지막 선을 더한 결과와 흰 문장 카드, 완성 그림을 교대하며 끝낸다."
+  },
+  "directing": {
+    "subject_action": "선 긋기, 지우기, 자르기 또는 도구 교체, 화면에서 도면 보기, 세부선 완성",
+    "blocking": "얼굴을 숨기고 손·종이·도구만 작업대 안에 배치한다.",
+    "space": "검은 세로 여백 안의 작은 작업 창과 흰 문장 카드를 번갈아 집중 영역을 제한한다.",
+    "props_surfaces_costume": "흰 종이·검은 펜·지우개·자·노트북이 선과 손의 대비를 만든다."
+  },
+  "cinematography": {
+    "composition": "탑숏·비스듬한 손 근접·디지털 화면을 작은 와이드 창으로 배치한다.",
+    "distance_or_lens": "손과 선의 접촉점에 집중하며 결과 전체는 일부 장에서만 보여준다.",
+    "camera_motion": "카메라보다 손과 도구의 정밀 움직임이 프레임 내부 변화를 만든다.",
+    "light": "밝은 종이와 어두운 주변의 대비로 작업 표면을 분리한다.",
+    "palette_texture_depth": "흰색·검정·녹색 작업 매트의 제한 색과 종이·연필 질감이 중심이다."
+  },
+  "editing": {
+    "cut_logic": "2~10초 길이의 작업 장 사이에 흰 문장 카드를 넣어 과정에 개념적 장 제목을 부여한다.",
+    "shot_duration_progression": "짧은 결과·카드 도입→3~10초 작업 장→카드→다른 도구 작업의 반복 구조다.",
+    "adjacent_image_relations": "문장의 추상 의미가 바로 다음 손동작·도면 변화의 구체적 증거로 이어진다.",
+    "in_frame_editing": "선이 실제로 늘고 지워지며 도구가 바뀌는 과정이 핵심이다.",
+    "typography_graphics_compositing": "세로 일본어 문장 카드를 작업 장 사이의 chapter gate로 사용한다.",
+    "repeated_operators": [
+      "process_chapter_cards",
+      "hand_tool_result_accumulation",
+      "analogue_digital_handoff",
+      "concept_then_action_proof"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "작업 소리와 문장 카드의 리듬은 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.433,
+      "observation": "선 그림 일부와 흰 세로 문장 카드가 교차한다.",
+      "inference": "과정 전에 결과의 복잡도와 작품의 개념을 먼저 제시한다."
+    },
+    {
+      "start_seconds": 2.433,
+      "end_seconds": 7.767,
+      "observation": "손이 종이에 선을 긋고 도구를 바꾼 뒤 다시 흰 문장 카드가 나온다.",
+      "inference": "문장을 작업 행동의 장 제목으로 사용해 반복 노동을 의미 단위로 나눈다."
+    },
+    {
+      "start_seconds": 7.767,
+      "end_seconds": 15.4,
+      "observation": "지우개·펜·손 근접, 도형 그림, 노트북 또는 태블릿 화면, 완성도 높은 도면이 이어진다.",
+      "inference": "도구와 매체를 바꾸며 결과가 한 번에 생긴 것이 아니라는 제작 증거를 축적한다."
+    },
+    {
+      "start_seconds": 16.967,
+      "end_seconds": 30.7,
+      "observation": "절단 도구 또는 펜, 흰 카드, 손 그림 작업이 긴 장으로 반복된다.",
+      "inference": "가속 효과보다 실제 손의 정밀 행동을 길게 보여 신뢰와 집중을 만든다."
+    },
+    {
+      "start_seconds": 30.7,
+      "end_seconds": 48.167,
+      "observation": "문장 카드와 세부 선 작업, 완성 그림이 여러 번 교대한다.",
+      "inference": "행동 증거와 개념 문장을 반복 회수해 창작 과정 자체를 최종 명제로 만든다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "중간 이상. 학교·자연 관계물과 다르지만 손·실제 표면·과정 누적·절제된 문장이라는 범용 Haku 요소를 확인한다.",
+    "common_elements": [
+      "손과 실제 표면",
+      "창작 과정",
+      "긴 고정 행동",
+      "절제된 타이포"
+    ],
+    "possible_discriminators": [
+      "문장 카드가 장식이 아니라 다음 행동의 개념을 예고",
+      "도구 교체와 결과 누적으로 정보 진행",
+      "작은 와이드 작업 창과 큰 검은 여백"
+    ],
+    "forbidden_pattern_evidence": [
+      "손 작업을 임의 속도 램프로만 압축하면 정밀성·신뢰가 사라진다.",
+      "문장 카드를 모든 비트마다 넣으면 장 구분이 아니라 방해가 된다."
+    ],
+    "ad_strengths": [
+      "문구·디자인 도구",
+      "태블릿·소프트웨어",
+      "공예·제작 서비스"
+    ],
+    "suitable_subjects": [
+      "손의 준비·실행·결과가 촬영된 제작 과정",
+      "도구나 매체 변화가 있는 원본",
+      "한 줄 개념 문장으로 작업 장을 나눌 수 있는 프로젝트"
+    ],
+    "poor_fit_subjects": [
+      "결과만 있고 과정 손동작이 없는 영상",
+      "작업 표면이 가려져 변화가 읽히지 않는 원본"
+    ],
+    "limitations": [
+      "일본어 문장 내용을 읽어 각 행동과의 정확한 의미 관계를 확인하지 못했다.",
+      "일부 도구의 정확한 종류는 고밀도 시트만으로 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "Haku 계열 화면 내부 편집은 인물 감성뿐 아니라 제작 과정 광고에도 적용될 수 있다.",
+    "타이포는 예쁜 장식이 아니라 다음 행동을 분절하고 의미를 주는 chapter gate여야 한다."
+  ],
+  "confidence": "medium"
+}

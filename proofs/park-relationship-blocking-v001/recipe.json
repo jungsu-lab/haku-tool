@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_relationship_blocking_v001",
+  "operator": {
+    "primary": "relationship-through-blocking",
+    "secondary": "presence-to-absence-hold"
+  },
+  "situation": "One licensed unedited continuous park take in which the same pair changes from hand contact to separation, reconvergence, lift/carry, shared running, and a native frame exit.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640842/",
+    "recorded_sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596",
+    "screening_manifest": "../../sources/park-relationship-blocking/source-screening.json"
+  },
+  "hypotheses_under_test": [
+    "A relationship arc can be compressed without dialogue when every selected state changes distance, touch, action ownership, or shared direction.",
+    "The edit should preserve chronological blocking changes rather than collect only attractive embraces and smiles.",
+    "A native empty-path consequence can close the relationship arc only after the pair's shared exit is visibly established."
+  ],
+  "purpose": "Test relationship-through-blocking in a playful urban-park situation using only one continuous source take and source motion.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The same pair and stable park axis undergo at least five distinct spatial and action states before leaving the frame.",
+    "limits": [
+      "The source is camera-followed rather than locked-off.",
+      "The proof tests a playful couple or friendship reading, not conflict, reconciliation, family hierarchy, or product advertising."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "materials": {
+    "contact_seed": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "distance_opens": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 5.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "reconvergence": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 9.3,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lift_and_carry": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 13.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "shared_run": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 17.4,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "empty_path": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 20.6,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-contact", "type": "single", "frames": 35, "material": "contact_seed"},
+        {"id": "plain-distance", "type": "single", "frames": 35, "material": "distance_opens"},
+        {"id": "plain-reconvergence", "type": "single", "frames": 35, "material": "reconvergence"},
+        {"id": "plain-lift", "type": "single", "frames": 35, "material": "lift_and_carry"},
+        {"id": "plain-run", "type": "single", "frames": 35, "material": "shared_run"},
+        {"id": "plain-empty-path", "type": "single", "frames": 35, "material": "empty_path"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "contact-establishes-pair", "type": "single", "frames": 25, "material": "contact_seed"},
+        {"id": "distance-makes-two-positions", "type": "single", "frames": 30, "material": "distance_opens"},
+        {"id": "reconvergence-changes-relation", "type": "single", "frames": 35, "material": "reconvergence"},
+        {"id": "lift-transfers-action-ownership", "type": "single", "frames": 45, "material": "lift_and_carry"},
+        {"id": "shared-direction-becomes-exit", "type": "single", "frames": 40, "material": "shared_run"},
+        {"id": "path-inherits-their-absence", "type": "single", "frames": 35, "material": "empty_path"}
+      ]
+    }
+  }
+}

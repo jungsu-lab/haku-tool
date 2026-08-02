@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DOdPyazk0k7",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:14:00Z"
+  },
+  "purpose": "짧은 이미지 섬과 긴 암전으로 한 사람의 여름을 불완전하게 기억하는 미니 필름",
+  "format": "9:16 portrait container with embedded wide cinematic frame",
+  "story_role": "implicit",
+  "primary_subject": "바다·학교·숲을 오가는 흰옷 인물과 동행",
+  "intended_viewer_response": "눈을 감았다 뜰 때마다 다른 기억이 나타나는 친밀한 회상",
+  "commercial_function": "패션·관광·청춘 캠페인의 서정적 티저",
+  "sequence": {
+    "opening_hook": "눈 클로즈업에서 구름·수중·창문 실루엣으로 빠르게 이동한 뒤 1.5초 넘게 암전한다.",
+    "development": "구름·수중 인물·계단의 두 사람·흰옷 움직임을 한 묶음으로 보여주고 다시 암전한다.",
+    "peak_or_payoff": "분홍 바다와 불꽃을 든 실루엣, 머리 뒤 불꽃이 하나의 시각적 절정이 된다.",
+    "final_image": "물에 젖는 발·숲 인물·수면·나무 아래 실루엣을 보여주고 짧은 교실의 두 사람으로 끝난다."
+  },
+  "directing": {
+    "subject_action": "눈 뜨기, 수영하기, 계단에서 함께 움직이기, 불꽃 들기, 물 밟기, 숲에서 서기",
+    "blocking": "한 인물을 실루엣이나 작은 흰 표식으로 두고, 두 사람이 함께 있는 장면은 짧게만 드러낸다.",
+    "space": "암전이 장소 이동을 숨겨 바다·학교·숲이 현실 동선보다 기억의 섬으로 느껴진다.",
+    "props_surfaces_costume": "흰옷·불꽃·물·창문·계단이 각 기억 섬의 표지다."
+  },
+  "cinematography": {
+    "composition": "세로 컨테이너 안에 넓은 시네마 프레임과 큰 검은 여백을 사용한다.",
+    "distance_or_lens": "눈 극근접, 인물 중경, 바다 원경이 짧은 묶음 안에서도 변한다.",
+    "camera_motion": "동작은 짧지만 구름·수중·계단·물결의 서로 다른 운동 질감을 교대한다.",
+    "light": "창문 실루엣과 석양·불꽃의 강한 역광이 중심이다.",
+    "palette_texture_depth": "청색·분홍·흰색과 깊은 검정의 비율이 높아 이미지가 사진 엽서처럼 떠 보인다."
+  },
+  "editing": {
+    "cut_logic": "약 1초 내외의 이미지 묶음을 0.8~1.6초 암전으로 분리해 컷보다 공백이 더 강한 구조를 만든다.",
+    "shot_duration_progression": "짧은 3~5개 이미지 묶음과 긴 검은 정지가 반복되며 마지막만 매우 짧게 닫힌다.",
+    "adjacent_image_relations": "눈↔구름의 흰 하이라이트, 수중↔바다, 불꽃↔석양, 발↔수면이 묶음 내부를 연결한다.",
+    "in_frame_editing": "각 이미지 섬 안에서 눈 뜨기·걷기·불꽃 흔들기·물 밟기 같은 단일 행동을 빠르게 읽힌다.",
+    "typography_graphics_compositing": "타이포 없이 화면비와 검은 여백 자체를 그래픽 구조로 사용한다.",
+    "repeated_operators": [
+      "memory_islands_with_long_black",
+      "embedded_cinematic_frame",
+      "spark_sunset_peak",
+      "brief_companion_reveal"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "긴 암전이 무음인지 음악 잔향인지 듣지 않았으므로 소리 기능은 판정하지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1.133,
+      "observation": "눈·구름과 인물·수중·창문 실루엣이 짧게 이어진다.",
+      "inference": "인물의 시선에서 외부 풍경과 물속 기억으로 진입하는 첫 이미지 섬이다."
+    },
+    {
+      "start_seconds": 1.133,
+      "end_seconds": 2.7,
+      "observation": "약 1.57초 동안 화면이 검다.",
+      "inference": "다음 장면을 숨기는 전환이 아니라 첫 기억을 소화하게 하는 적극적인 망각 구간이다."
+    },
+    {
+      "start_seconds": 2.7,
+      "end_seconds": 3.966,
+      "observation": "구름·수중 인물·계단의 두 사람·흰옷 인물이 하나의 짧은 묶음으로 나온다.",
+      "inference": "혼자 있는 이미지 사이에 동행을 잠깐 노출해 관계의 존재를 암시한다."
+    },
+    {
+      "start_seconds": 5.0,
+      "end_seconds": 6.633,
+      "observation": "분홍 바다 원경에서 불꽃을 든 인물과 머리 뒤 원형 불꽃으로 커진다.",
+      "inference": "원경→중경→빛의 후광으로 시각 강도를 키우는 명확한 절정 묶음이다."
+    },
+    {
+      "start_seconds": 7.466,
+      "end_seconds": 9.466,
+      "observation": "물속 발·숲 인물·푸른 수면·나무 아래 인물 뒤 암전과 짧은 교실 두 사람으로 끝난다.",
+      "inference": "촉감과 고독을 회수한 뒤 마지막 짧은 관계 숏으로 감정 정보를 늦게 제공한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 암전 비율이 높아도 오류가 아니라 정서 구조일 수 있으며 화면비 자체도 연출 요소라는 근거다.",
+    "common_elements": [
+      "흰옷 인물",
+      "물·하늘·불꽃",
+      "청춘 동행",
+      "역광과 실루엣"
+    ],
+    "possible_discriminators": [
+      "이미지보다 긴 암전",
+      "세로 플랫폼 안의 넓은 시네마 창",
+      "관계 정보를 마지막에 짧게 공개"
+    ],
+    "forbidden_pattern_evidence": [
+      "검은 구간을 결함으로 잘라내면 작품의 눈 깜박임 구조가 사라진다.",
+      "빈 구간마다 다른 전환 효과를 채우면 절제가 무너진다."
+    ],
+    "ad_strengths": [
+      "감성 티저",
+      "패션 필름",
+      "여행·학교·청춘 브랜드의 분위기 광고"
+    ],
+    "suitable_subjects": [
+      "한 장면만으로도 버틸 수 있는 강한 이미지 묶음",
+      "실루엣·불꽃·물 같은 명확한 절정 소재",
+      "짧게 드러낼 관계 숏이 있는 원본"
+    ],
+    "poor_fit_subjects": [
+      "항상 제품 정보를 보여줘야 하는 직접 반응형 광고",
+      "검은 호흡을 허용할 수 없는 초단기 정보 영상"
+    ],
+    "limitations": [
+      "긴 암전의 체감 길이는 실시간 재생 없이 시트와 정확한 경계로 판정했다.",
+      "오디오의 잔향과 암전 관계는 보류했다."
+    ]
+  },
+  "counterexamples": [
+    "Haku 스타일은 화면을 계속 채우는 것이 아니라 과감하게 비우기도 한다.",
+    "전환 수가 적더라도 이미지 섬과 암전의 비율 설계가 편집의 핵심일 수 있다."
+  ],
+  "confidence": "high"
+}

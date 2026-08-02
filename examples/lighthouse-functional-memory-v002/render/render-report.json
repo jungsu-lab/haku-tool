@@ -1,0 +1,956 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_lighthouse_functional_memory_v002",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\recipe.json",
+  "recipe_sha256": "23A53D34ABC39E1FFDA296072C95B0FE58404DA98F4C6FB50FCAED0D5A65AD48",
+  "audio_policy": "licensed_library_track",
+  "audio_render": {
+    "policy": "licensed_library_track",
+    "stream_expected": true,
+    "file": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\audio-library\\mixkit-valley-sunset-127.mp3",
+    "sha256": "F50D822CB8D6CB3DA8BC9D6CFCCC020786FB0C25E2C222A75D11CA06091050E7",
+    "rights_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\audio-library\\mixkit-valley-sunset-127.audio-rights.json",
+    "music_event_map": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\music-event-map.json",
+    "timeline_grammar": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\timeline-grammar.json",
+    "source_range_seconds": [
+      6.6,
+      17.8
+    ],
+    "gain_db": -9.0,
+    "fade_in_seconds": 0.2,
+    "fade_out_seconds": 0.8,
+    "same_for_plain_and_proof": true
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "decorative_border",
+      "decorative_red_code",
+      "sfx"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "album",
+      "photo_release",
+      "place",
+      "relation",
+      "touch"
+    ],
+    "material_ledger": {
+      "touch": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\lighthouse-shared-memory-session\\5081863-picnic-object-action.mp4",
+        "source_in": 3.2,
+        "sha256": "9A74607478DEFB63D2BD8CAD30302A462ADC12F7B9BDB0B1B71B15FC23CE793D"
+      },
+      "place": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\lighthouse-shared-memory-session\\5081860-lighthouse-gesture.mp4",
+        "source_in": 8.0,
+        "sha256": "4754A25E6825ECC9AE16068E456FE0A9074B84809342C91CEBE26D838E26DD48"
+      },
+      "album": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\lighthouse-shared-memory-session\\5081861-album-reaction.mp4",
+        "source_in": 2.4,
+        "sha256": "60364C7A7FCCDF775A83A64B64C65F9E29C4BA1B67A3624D51AB426C202C34B9"
+      },
+      "relation": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\lighthouse-shared-memory-session\\5081866-shared-polaroid.mp4",
+        "source_in": 0.8,
+        "sha256": "7B51A1B0239307B8042845251CA89263F2073BB43879B7FEB63DF5030DC58993"
+      },
+      "photo_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\lighthouse-shared-memory-session\\5081866-shared-polaroid.mp4",
+        "source_in": 1.6,
+        "sha256": "7B51A1B0239307B8042845251CA89263F2073BB43879B7FEB63DF5030DC58993"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-touch-01",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "touch",
+          "source_in_seconds": 3.2,
+          "source_out_seconds": 3.68,
+          "duration_frames": 12,
+          "timeline_visible_frames": [
+            0,
+            12
+          ]
+        },
+        {
+          "segment_id": "plain-place-01",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "place",
+          "source_in_seconds": 8.0,
+          "source_out_seconds": 8.44,
+          "duration_frames": 11,
+          "timeline_visible_frames": [
+            12,
+            23
+          ]
+        },
+        {
+          "segment_id": "plain-album-01",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "album",
+          "source_in_seconds": 2.4,
+          "source_out_seconds": 2.84,
+          "duration_frames": 11,
+          "timeline_visible_frames": [
+            23,
+            34
+          ]
+        },
+        {
+          "segment_id": "plain-touch-02",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "touch",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 4.64,
+          "duration_frames": 16,
+          "timeline_visible_frames": [
+            34,
+            50
+          ]
+        },
+        {
+          "segment_id": "plain-album-copy-base",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "album",
+          "source_in_seconds": 3.0,
+          "source_out_seconds": 3.8,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            50,
+            70
+          ]
+        },
+        {
+          "segment_id": "plain-panel-place",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "place",
+          "source_in_seconds": 8.4,
+          "source_out_seconds": 9.120000000000001,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            70,
+            88
+          ]
+        },
+        {
+          "segment_id": "plain-panel-touch",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "touch",
+          "source_in_seconds": 3.8,
+          "source_out_seconds": 4.4799999999999995,
+          "duration_frames": 17,
+          "timeline_visible_frames": [
+            88,
+            105
+          ]
+        },
+        {
+          "segment_id": "plain-panel-album",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "album",
+          "source_in_seconds": 3.4,
+          "source_out_seconds": 4.12,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            105,
+            123
+          ]
+        },
+        {
+          "segment_id": "plain-panel-relation",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "relation",
+          "source_in_seconds": 1.2,
+          "source_out_seconds": 1.88,
+          "duration_frames": 17,
+          "timeline_visible_frames": [
+            123,
+            140
+          ]
+        },
+        {
+          "segment_id": "plain-photo-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "photo_release",
+          "source_in_seconds": 1.6,
+          "source_out_seconds": 7.199999999999999,
+          "duration_frames": 140,
+          "timeline_visible_frames": [
+            140,
+            280
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "touch": 3,
+        "place": 2,
+        "album": 3,
+        "relation": 1,
+        "photo_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "microcut-touch",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "touch",
+          "source_in_seconds": 3.2,
+          "source_out_seconds": 3.68,
+          "duration_frames": 12,
+          "timeline_visible_frames": [
+            0,
+            12
+          ]
+        },
+        {
+          "segment_id": "microcut-place",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "place",
+          "source_in_seconds": 8.0,
+          "source_out_seconds": 8.44,
+          "duration_frames": 11,
+          "timeline_visible_frames": [
+            12,
+            23
+          ]
+        },
+        {
+          "segment_id": "microcut-album",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "album",
+          "source_in_seconds": 2.4,
+          "source_out_seconds": 2.84,
+          "duration_frames": 11,
+          "timeline_visible_frames": [
+            23,
+            34
+          ]
+        },
+        {
+          "segment_id": "microcut-touch-return",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "touch",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 4.64,
+          "duration_frames": 16,
+          "timeline_visible_frames": [
+            34,
+            50
+          ]
+        },
+        {
+          "segment_id": "fragment-copy",
+          "segment_type": "copy-overlay",
+          "role": "full_frame",
+          "material_id": "album",
+          "source_in_seconds": 3.0,
+          "source_out_seconds": 3.8,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            50,
+            70
+          ]
+        },
+        {
+          "segment_id": "album-opens-role-memory-field",
+          "segment_type": "functional-panels",
+          "role": "place-strip",
+          "material_id": "place",
+          "source_in_seconds": 8.0,
+          "source_out_seconds": 10.8,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            70,
+            140
+          ]
+        },
+        {
+          "segment_id": "album-opens-role-memory-field",
+          "segment_type": "functional-panels",
+          "role": "touch-trace",
+          "material_id": "touch",
+          "source_in_seconds": 3.2,
+          "source_out_seconds": 5.6,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            80,
+            140
+          ]
+        },
+        {
+          "segment_id": "album-opens-role-memory-field",
+          "segment_type": "functional-panels",
+          "role": "album-dominant",
+          "material_id": "album",
+          "source_in_seconds": 2.4,
+          "source_out_seconds": 4.32,
+          "duration_frames": 48,
+          "timeline_visible_frames": [
+            92,
+            140
+          ]
+        },
+        {
+          "segment_id": "album-opens-role-memory-field",
+          "segment_type": "functional-panels",
+          "role": "relation-witness",
+          "material_id": "relation",
+          "source_in_seconds": 0.8,
+          "source_out_seconds": 2.0,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            110,
+            140
+          ]
+        },
+        {
+          "segment_id": "all-panels-clear-to-physical-photo",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "photo_release",
+          "source_in_seconds": 1.6,
+          "source_out_seconds": 7.199999999999999,
+          "duration_frames": 140,
+          "timeline_visible_frames": [
+            140,
+            280
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "touch": 3,
+        "place": 2,
+        "album": 3,
+        "relation": 1,
+        "photo_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\plain.mp4",
+    "frames": 280,
+    "duration_seconds": 11.2,
+    "segments": [
+      {
+        "segment_id": "plain-touch-01",
+        "type": "single",
+        "frames": 12,
+        "materials": [
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\01-plain-touch-01.mp4"
+      },
+      {
+        "segment_id": "plain-place-01",
+        "type": "single",
+        "frames": 11,
+        "materials": [
+          "place"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\02-plain-place-01.mp4"
+      },
+      {
+        "segment_id": "plain-album-01",
+        "type": "single",
+        "frames": 11,
+        "materials": [
+          "album"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\03-plain-album-01.mp4"
+      },
+      {
+        "segment_id": "plain-touch-02",
+        "type": "single",
+        "frames": 16,
+        "materials": [
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\04-plain-touch-02.mp4"
+      },
+      {
+        "segment_id": "plain-album-copy-base",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "album"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\05-plain-album-copy-base.mp4"
+      },
+      {
+        "segment_id": "plain-panel-place",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "place"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\06-plain-panel-place.mp4"
+      },
+      {
+        "segment_id": "plain-panel-touch",
+        "type": "single",
+        "frames": 17,
+        "materials": [
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\07-plain-panel-touch.mp4"
+      },
+      {
+        "segment_id": "plain-panel-album",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "album"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\08-plain-panel-album.mp4"
+      },
+      {
+        "segment_id": "plain-panel-relation",
+        "type": "single",
+        "frames": 17,
+        "materials": [
+          "relation"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\09-plain-panel-relation.mp4"
+      },
+      {
+        "segment_id": "plain-photo-release",
+        "type": "single",
+        "frames": 140,
+        "materials": [
+          "photo_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\plain\\10-plain-photo-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "280"
+        }
+      ],
+      "format": {
+        "duration": "11.200000"
+      }
+    },
+    "sha256": "ECD4D9F9C069812FC605344F903C2C6D9335BDFD981358B86CBFFF1AD66BF4EB",
+    "temporal_continuity_qc": {
+      "schema_version": "1.0",
+      "video": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\plain.mp4",
+      "video_sha256": "ECD4D9F9C069812FC605344F903C2C6D9335BDFD981358B86CBFFF1AD66BF4EB",
+      "variant": "plain",
+      "probe": {
+        "width": 1280,
+        "height": 720,
+        "fps": 25.0,
+        "frames": 280,
+        "duration_seconds": 11.2
+      },
+      "analysis_resolution": [
+        160,
+        90
+      ],
+      "allowed_edit_events": {
+        "frames": [
+          12,
+          23,
+          34,
+          50,
+          70,
+          88,
+          105,
+          123,
+          140
+        ],
+        "evidence": [
+          {
+            "frame": 12,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-touch-01-end"
+          },
+          {
+            "frame": 23,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-place-01-end"
+          },
+          {
+            "frame": 34,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-album-01-end"
+          },
+          {
+            "frame": 50,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-touch-02-end"
+          },
+          {
+            "frame": 70,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-album-copy-base-end"
+          },
+          {
+            "frame": 88,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-panel-place-end"
+          },
+          {
+            "frame": 105,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-panel-touch-end"
+          },
+          {
+            "frame": 123,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-panel-album-end"
+          },
+          {
+            "frame": 140,
+            "kind": "segment_boundary",
+            "id": "report-plain-plain-panel-relation-end"
+          }
+        ],
+        "exclusion_radius_frames": 1,
+        "declared_intentional_black_breaths": []
+      },
+      "duplicate_analysis": {
+        "decoded_full_frame_hash": "framemd5",
+        "runs": [],
+        "declared_intentional_black_breath_runs": [],
+        "unexcused_runs": [],
+        "long_runs": [],
+        "terminal_padding_candidate": null
+      },
+      "near_static_analysis": {
+        "metric": "mean_absolute_difference_on_160x90_gray_frames",
+        "threshold_8bit": 0.1,
+        "minimum_terminal_failure_transitions": 3,
+        "runs": [],
+        "terminal_padding_candidate": null,
+        "limitation": "Only terminal runs of at least three transitions fail automatically; short or internal stillness remains direct-review evidence."
+      },
+      "motion_analysis": {
+        "metric": "mean_absolute_difference_on_160x90_gray_frames",
+        "median_8bit": 2.7382,
+        "p95_8bit": 7.9608,
+        "maximum_8bit": 70.7117,
+        "spike_candidates": []
+      },
+      "scale_analysis": {
+        "method": "brightness_normalized_center_scale_search_with_small_translation",
+        "tested_scale_steps": [
+          0.96,
+          0.98,
+          1.0,
+          1.02,
+          1.04
+        ],
+        "jump_candidates": [],
+        "reset_candidates": [],
+        "limitation": "A candidate may come from physical camera or subject motion. It is not proof of digital zoom until the strip and recipe are reviewed."
+      },
+      "automated_verdict": {
+        "status": "pass",
+        "automatic_failures": [],
+        "review_reasons": [],
+        "promotion_increment": 0,
+        "user_verdict": "pending"
+      },
+      "evidence_strips": [],
+      "main_agent_review_required": true,
+      "full_playback_reviewed": false,
+      "guardrail": "This report detects technical continuity candidates only. It does not prove directing quality, Haku identity, aesthetic success, user acceptance, or full-speed playback review."
+    }
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\proof.mp4",
+    "frames": 280,
+    "duration_seconds": 11.2,
+    "segments": [
+      {
+        "segment_id": "microcut-touch",
+        "type": "single",
+        "frames": 12,
+        "materials": [
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\01-microcut-touch.mp4"
+      },
+      {
+        "segment_id": "microcut-place",
+        "type": "single",
+        "frames": 11,
+        "materials": [
+          "place"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\02-microcut-place.mp4"
+      },
+      {
+        "segment_id": "microcut-album",
+        "type": "single",
+        "frames": 11,
+        "materials": [
+          "album"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\03-microcut-album.mp4"
+      },
+      {
+        "segment_id": "microcut-touch-return",
+        "type": "single",
+        "frames": 16,
+        "materials": [
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\04-microcut-touch-return.mp4"
+      },
+      {
+        "segment_id": "fragment-copy",
+        "type": "copy-overlay",
+        "frames": 20,
+        "materials": [
+          "album"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\05-fragment-copy.mp4"
+      },
+      {
+        "segment_id": "album-opens-role-memory-field",
+        "type": "functional-panels",
+        "frames": 70,
+        "materials": [
+          "album",
+          "place",
+          "relation",
+          "touch"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\06-album-opens-role-memory-field.mp4"
+      },
+      {
+        "segment_id": "all-panels-clear-to-physical-photo",
+        "type": "single",
+        "frames": 140,
+        "materials": [
+          "photo_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\_segments\\proof\\07-all-panels-clear-to-physical-photo.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "280"
+        }
+      ],
+      "format": {
+        "duration": "11.200000"
+      }
+    },
+    "sha256": "87532FBEB671E3109C4A5CFFCC7C5D77528F3F1077229DF6AD75BC3F927A2C9E",
+    "temporal_continuity_qc": {
+      "schema_version": "1.0",
+      "video": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\proof.mp4",
+      "video_sha256": "87532FBEB671E3109C4A5CFFCC7C5D77528F3F1077229DF6AD75BC3F927A2C9E",
+      "variant": "proof",
+      "probe": {
+        "width": 1280,
+        "height": 720,
+        "fps": 25.0,
+        "frames": 280,
+        "duration_seconds": 11.2
+      },
+      "analysis_resolution": [
+        160,
+        90
+      ],
+      "allowed_edit_events": {
+        "frames": [
+          12,
+          23,
+          34,
+          50,
+          70,
+          80,
+          92,
+          110,
+          140
+        ],
+        "evidence": [
+          {
+            "frame": 12,
+            "kind": "segment_boundary",
+            "id": "report-proof-microcut-touch-end"
+          },
+          {
+            "frame": 23,
+            "kind": "segment_boundary",
+            "id": "report-proof-microcut-place-end"
+          },
+          {
+            "frame": 34,
+            "kind": "segment_boundary",
+            "id": "report-proof-microcut-album-end"
+          },
+          {
+            "frame": 50,
+            "kind": "segment_boundary",
+            "id": "report-proof-microcut-touch-return-end"
+          },
+          {
+            "frame": 70,
+            "kind": "segment_boundary",
+            "id": "report-proof-fragment-copy-end"
+          },
+          {
+            "frame": 140,
+            "kind": "segment_boundary",
+            "id": "report-proof-album-opens-role-memory-field-end"
+          },
+          {
+            "frame": 12,
+            "kind": "segment_boundary",
+            "id": "boundary-01-microcut-place"
+          },
+          {
+            "frame": 23,
+            "kind": "segment_boundary",
+            "id": "boundary-02-microcut-album"
+          },
+          {
+            "frame": 34,
+            "kind": "segment_boundary",
+            "id": "boundary-03-microcut-touch-return"
+          },
+          {
+            "frame": 50,
+            "kind": "segment_boundary",
+            "id": "boundary-04-fragment-copy"
+          },
+          {
+            "frame": 70,
+            "kind": "segment_boundary",
+            "id": "boundary-05-album-opens-role-memory-field"
+          },
+          {
+            "frame": 70,
+            "kind": "internal_event",
+            "id": "internal-album-opens-role-memory-field-place-strip-start"
+          },
+          {
+            "frame": 80,
+            "kind": "internal_event",
+            "id": "internal-album-opens-role-memory-field-touch-trace-start"
+          },
+          {
+            "frame": 92,
+            "kind": "internal_event",
+            "id": "internal-album-opens-role-memory-field-album-dominant-start"
+          },
+          {
+            "frame": 110,
+            "kind": "internal_event",
+            "id": "internal-album-opens-role-memory-field-relation-witness-start"
+          },
+          {
+            "frame": 140,
+            "kind": "segment_boundary",
+            "id": "boundary-06-all-panels-clear-to-physical-photo"
+          }
+        ],
+        "exclusion_radius_frames": 1,
+        "declared_intentional_black_breaths": []
+      },
+      "duplicate_analysis": {
+        "decoded_full_frame_hash": "framemd5",
+        "runs": [],
+        "declared_intentional_black_breath_runs": [],
+        "unexcused_runs": [],
+        "long_runs": [],
+        "terminal_padding_candidate": null
+      },
+      "near_static_analysis": {
+        "metric": "mean_absolute_difference_on_160x90_gray_frames",
+        "threshold_8bit": 0.1,
+        "minimum_terminal_failure_transitions": 3,
+        "runs": [],
+        "terminal_padding_candidate": null,
+        "limitation": "Only terminal runs of at least three transitions fail automatically; short or internal stillness remains direct-review evidence."
+      },
+      "motion_analysis": {
+        "metric": "mean_absolute_difference_on_160x90_gray_frames",
+        "median_8bit": 2.7135,
+        "p95_8bit": 9.7172,
+        "maximum_8bit": 155.1374,
+        "spike_candidates": [
+          {
+            "frame": 73,
+            "seconds": 2.92,
+            "mad_8bit": 13.5111,
+            "local_median_8bit": 0.5483,
+            "ratio": 24.64,
+            "classification": "review_candidate_not_automatic_failure"
+          },
+          {
+            "frame": 72,
+            "seconds": 2.88,
+            "mad_8bit": 13.7637,
+            "local_median_8bit": 0.6565,
+            "ratio": 20.964,
+            "classification": "review_candidate_not_automatic_failure"
+          },
+          {
+            "frame": 94,
+            "seconds": 3.76,
+            "mad_8bit": 19.578,
+            "local_median_8bit": 2.8239,
+            "ratio": 6.933,
+            "classification": "review_candidate_not_automatic_failure"
+          },
+          {
+            "frame": 95,
+            "seconds": 3.8,
+            "mad_8bit": 19.321,
+            "local_median_8bit": 3.1345,
+            "ratio": 6.164,
+            "classification": "review_candidate_not_automatic_failure"
+          }
+        ]
+      },
+      "scale_analysis": {
+        "method": "brightness_normalized_center_scale_search_with_small_translation",
+        "tested_scale_steps": [
+          0.96,
+          0.98,
+          1.0,
+          1.02,
+          1.04
+        ],
+        "jump_candidates": [],
+        "reset_candidates": [],
+        "limitation": "A candidate may come from physical camera or subject motion. It is not proof of digital zoom until the strip and recipe are reviewed."
+      },
+      "automated_verdict": {
+        "status": "review_required",
+        "automatic_failures": [],
+        "review_reasons": [
+          "motion_spike_candidates"
+        ],
+        "promotion_increment": 0,
+        "user_verdict": "pending"
+      },
+      "evidence_strips": [
+        {
+          "frame": 73,
+          "kind": "motion-spike",
+          "range_frames_inclusive": [
+            69,
+            77
+          ],
+          "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\review-auto\\temporal-qc\\proof\\01-motion-spike-frame-73.jpg"
+        },
+        {
+          "frame": 94,
+          "kind": "motion-spike",
+          "range_frames_inclusive": [
+            90,
+            98
+          ],
+          "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\review-auto\\temporal-qc\\proof\\02-motion-spike-frame-94.jpg"
+        }
+      ],
+      "main_agent_review_required": true,
+      "full_playback_reviewed": false,
+      "guardrail": "This report detects technical continuity candidates only. It does not prove directing quality, Haku identity, aesthetic success, user acceptance, or full-speed playback review."
+    }
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "All four licensed source takes were directly inspected; each is continuous and contains no pre-existing edit.",
+      "The 8 fps dense plain and proof sheets show a real 12f-11f-11f-16f opening burst, then a bounded copy hold, progressive four-role live panel accumulation, and a 140-frame native full-screen release.",
+      "All ten boundary/internal-event strips were directly inspected. Microcuts are hard semantic changes, panel entrances are intentional, and the revised panel-to-full-frame boundary no longer contains the four-frame dark collapse detected in render-v001.",
+      "Temporal QC reports no duplicate runs, near-static runs, scale jumps, reset candidates, terminal padding, or automatic failures; remaining motion candidates align only with declared panel entrances.",
+      "The full-resolution copy frame is readable, restrained, and does not cover the hand, album, or faces."
+    ],
+    "limitations": [
+      "Full-speed player playback was not captured, so full_playback_reviewed remains false. This pass is a narrow research verdict for the requested technical grammar; user acceptance and Operator promotion remain pending."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lighthouse-functional-memory-v002\\render-v002\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "temporal_continuity_gate": {
+    "status": "review_required",
+    "checked_variants": [
+      "plain",
+      "proof"
+    ],
+    "fail_closed": true,
+    "note": "Automatic failure blocks review readiness. Candidate-only findings still require direct strip review and never imply aesthetic success."
+  }
+}

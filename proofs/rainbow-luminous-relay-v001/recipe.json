@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_rainbow_luminous_relay_v001",
+  "operator": {
+    "primary": "luminous-texture-relay",
+    "secondary": "action-as-edit-spine"
+  },
+  "situation": "One licensed, unedited locked landscape take in which a real refracted rainbow band begins on an empty wall and is successively intercepted by fingertips, a full palm, a turning hand, and a second hand.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "www.kaboompics.com",
+    "page_url": "https://www.pexels.com/video/woman-placing-her-hand-at-the-rainbow-color-lights-5239422/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+  },
+  "hypotheses_under_test": [
+    "A real optical band can function as an in-shot relay when its blue, white, orange and red layers visibly move from wall to fingertips to palm.",
+    "Cuts may compress repeated hand exploration only when hand pose and band height preserve the carrier handoff.",
+    "The proof must not add glow, exposure pumping, generated refraction, zoom, freeze, or a decorative overlay."
+  ],
+  "purpose": "Test the glass/refraction branch of luminous-texture-relay in a single locked setup rather than the previously passed outdoor flower-shadow branch.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The rainbow layers and their transfer from empty wall to skin are directly visible throughout one continuous optical setup."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "generated_glow", "exposure_pumping"]
+  },
+  "materials": {
+    "wall_only": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 9.6, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "fingertips_enter": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 10.4, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "palm_receives_band": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 11.2, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "hand_turns_colors": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 12.8, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "second_hand_intercepts": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 18.8, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "open_palm_release": {"source": "../../sources/rainbow-refraction-session/5239422-woman-hand-rainbow.mp4", "source_in": 20.0, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"}
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-wall", "type": "single", "frames": 22, "material": "wall_only"},
+        {"id": "plain-fingers", "type": "single", "frames": 22, "material": "fingertips_enter"},
+        {"id": "plain-palm", "type": "single", "frames": 22, "material": "palm_receives_band"},
+        {"id": "plain-turn", "type": "single", "frames": 22, "material": "hand_turns_colors"},
+        {"id": "plain-second-hand", "type": "single", "frames": 22, "material": "second_hand_intercepts"},
+        {"id": "plain-release", "type": "single", "frames": 22, "material": "open_palm_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "wall-carrier", "type": "single", "frames": 16, "material": "wall_only"},
+        {"id": "fingertip-carrier", "type": "single", "frames": 18, "material": "fingertips_enter"},
+        {"id": "palm-carrier", "type": "single", "frames": 24, "material": "palm_receives_band"},
+        {"id": "turning-color-carrier", "type": "single", "frames": 26, "material": "hand_turns_colors"},
+        {"id": "two-hand-interception", "type": "single", "frames": 20, "material": "second_hand_intercepts"},
+        {"id": "open-palm-release", "type": "single", "frames": 28, "material": "open_palm_release"}
+      ]
+    }
+  }
+}

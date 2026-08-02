@@ -1,0 +1,390 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_beach_presence_absence_v003",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\recipe.json",
+  "recipe_sha256": "D4CCBDEE2ECC402BF8FB919835C0E99B278400E67CC0EBAAB562EF9EA5490E09",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "crossing",
+      "entry_from_right",
+      "environment_before",
+      "exit_left",
+      "water_afterimage"
+    ],
+    "material_ledger": {
+      "environment_before": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 9.0,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "entry_from_right": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 10.04,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "crossing": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 11.88,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "exit_left": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 14.82,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "water_afterimage": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 16.57,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-environment",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "environment_before",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 10.0,
+          "duration_frames": 24,
+          "timeline_visible_frames": [
+            0,
+            24
+          ]
+        },
+        {
+          "segment_id": "plain-entry",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "entry_from_right",
+          "source_in_seconds": 10.04,
+          "source_out_seconds": 11.873333333333333,
+          "duration_frames": 44,
+          "timeline_visible_frames": [
+            24,
+            68
+          ]
+        },
+        {
+          "segment_id": "plain-crossing",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "crossing",
+          "source_in_seconds": 11.88,
+          "source_out_seconds": 14.796666666666667,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            68,
+            138
+          ]
+        },
+        {
+          "segment_id": "plain-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "exit_left",
+          "source_in_seconds": 14.82,
+          "source_out_seconds": 16.57,
+          "duration_frames": 42,
+          "timeline_visible_frames": [
+            138,
+            180
+          ]
+        },
+        {
+          "segment_id": "plain-afterimage",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "water_afterimage",
+          "source_in_seconds": 16.57,
+          "source_out_seconds": 18.153333333333332,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            180,
+            218
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "environment_before": 1,
+        "entry_from_right": 1,
+        "crossing": 1,
+        "exit_left": 1,
+        "water_afterimage": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "brief-empty-establish",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "environment_before",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 9.666666666666666,
+          "duration_frames": 16,
+          "timeline_visible_frames": [
+            0,
+            16
+          ]
+        },
+        {
+          "segment_id": "compressed-entry",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "entry_from_right",
+          "source_in_seconds": 10.04,
+          "source_out_seconds": 11.456666666666665,
+          "duration_frames": 34,
+          "timeline_visible_frames": [
+            16,
+            50
+          ]
+        },
+        {
+          "segment_id": "continuous-crossing",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "crossing",
+          "source_in_seconds": 11.88,
+          "source_out_seconds": 14.796666666666667,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            50,
+            120
+          ]
+        },
+        {
+          "segment_id": "complete-frame-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "exit_left",
+          "source_in_seconds": 14.82,
+          "source_out_seconds": 16.57,
+          "duration_frames": 42,
+          "timeline_visible_frames": [
+            120,
+            162
+          ]
+        },
+        {
+          "segment_id": "living-water-afterimage",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "water_afterimage",
+          "source_in_seconds": 16.57,
+          "source_out_seconds": 18.903333333333332,
+          "duration_frames": 56,
+          "timeline_visible_frames": [
+            162,
+            218
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "environment_before": 1,
+        "entry_from_right": 1,
+        "crossing": 1,
+        "exit_left": 1,
+        "water_afterimage": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\plain.mp4",
+    "frames": 218,
+    "duration_seconds": 9.083333333333334,
+    "segments": [
+      {
+        "segment_id": "plain-environment",
+        "type": "single",
+        "frames": 24,
+        "materials": [
+          "environment_before"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\plain\\01-plain-environment.mp4"
+      },
+      {
+        "segment_id": "plain-entry",
+        "type": "single",
+        "frames": 44,
+        "materials": [
+          "entry_from_right"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\plain\\02-plain-entry.mp4"
+      },
+      {
+        "segment_id": "plain-crossing",
+        "type": "single",
+        "frames": 70,
+        "materials": [
+          "crossing"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\plain\\03-plain-crossing.mp4"
+      },
+      {
+        "segment_id": "plain-exit",
+        "type": "single",
+        "frames": 42,
+        "materials": [
+          "exit_left"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\plain\\04-plain-exit.mp4"
+      },
+      {
+        "segment_id": "plain-afterimage",
+        "type": "single",
+        "frames": 38,
+        "materials": [
+          "water_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\plain\\05-plain-afterimage.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "218"
+        }
+      ],
+      "format": {
+        "duration": "9.083333"
+      }
+    },
+    "sha256": "9C56B7C787978BB970C835559B66FCCC230A63B2F425559D6079DF9BFBE0F7A0"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\proof.mp4",
+    "frames": 218,
+    "duration_seconds": 9.083333333333334,
+    "segments": [
+      {
+        "segment_id": "brief-empty-establish",
+        "type": "single",
+        "frames": 16,
+        "materials": [
+          "environment_before"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\proof\\01-brief-empty-establish.mp4"
+      },
+      {
+        "segment_id": "compressed-entry",
+        "type": "single",
+        "frames": 34,
+        "materials": [
+          "entry_from_right"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\proof\\02-compressed-entry.mp4"
+      },
+      {
+        "segment_id": "continuous-crossing",
+        "type": "single",
+        "frames": 70,
+        "materials": [
+          "crossing"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\proof\\03-continuous-crossing.mp4"
+      },
+      {
+        "segment_id": "complete-frame-exit",
+        "type": "single",
+        "frames": 42,
+        "materials": [
+          "exit_left"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\proof\\04-complete-frame-exit.mp4"
+      },
+      {
+        "segment_id": "living-water-afterimage",
+        "type": "single",
+        "frames": 56,
+        "materials": [
+          "water_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\_segments\\proof\\05-living-water-afterimage.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "218"
+        }
+      ],
+      "format": {
+        "duration": "9.083333"
+      }
+    },
+    "sha256": "51A74B00FBC68091B12584FAEF11E79FA462D38A28BA897E8742E21631503B30"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "Complete 0.000-30.197 source sheet establishes a native environment-presence-absence event: empty water, right-to-left crossing, full exit, then the same moving water and reflections.",
+      "Proof 0.000-6.250 preserves the right-to-left walk with small or near-contiguous source gaps; boundaries 02 and 03 keep direction, scale, horizon, and adjacent spatial position without the v002 lurch.",
+      "Proof about 6.250-9.083 holds the same living water after the full exit; plain reaches the empty consequence later and gives it roughly 1.2 seconds less visual weight.",
+      "Boundary 04 continues the last leftward body fragment into the native empty frame; no freeze, reverse, retime, zoom, animated crop, or duplicated last frame is present."
+    ],
+    "limitations": [
+      "The proof is intentionally 16:9 because a 9:16 cover crop would delete the authored right entrance and left exit; a vertical delivery needs a separately shot vertical source or an explicit non-cover layout.",
+      "Live full-speed playback was not used; review covered the complete source sheet, complete 8 fps plain/proof sheets, and all four 24 fps boundary strips."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

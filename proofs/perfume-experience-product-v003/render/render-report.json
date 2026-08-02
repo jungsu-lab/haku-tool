@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_perfume_experience_product_v003",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\recipe.json",
+  "recipe_sha256": "7C086F8A96459E5509F4E54CB58595227669A9948A51739424E0B4A8B16D336D",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "product_hold",
+      "product_raise",
+      "spray_contact",
+      "spray_release",
+      "wrist_response"
+    ],
+    "material_ledger": {
+      "spray_contact": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\experience-product-candidates\\pexels-4154241-perfume-wrist.mp4",
+        "source_in": 0.2,
+        "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+      },
+      "spray_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\experience-product-candidates\\pexels-4154241-perfume-wrist.mp4",
+        "source_in": 5.0,
+        "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+      },
+      "wrist_response": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\experience-product-candidates\\pexels-4154241-perfume-wrist.mp4",
+        "source_in": 8.2,
+        "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+      },
+      "product_raise": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\experience-product-candidates\\pexels-4154241-perfume-wrist.mp4",
+        "source_in": 10.4,
+        "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+      },
+      "product_hold": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\experience-product-candidates\\pexels-4154241-perfume-wrist.mp4",
+        "source_in": 11.6,
+        "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-product-raise-first",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "product_raise",
+          "source_in_seconds": 10.4,
+          "source_out_seconds": 11.6,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            0,
+            30
+          ]
+        },
+        {
+          "segment_id": "plain-product-hold-first",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "product_hold",
+          "source_in_seconds": 11.6,
+          "source_out_seconds": 13.44,
+          "duration_frames": 46,
+          "timeline_visible_frames": [
+            30,
+            76
+          ]
+        },
+        {
+          "segment_id": "plain-spray-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "spray_contact",
+          "source_in_seconds": 0.2,
+          "source_out_seconds": 1.64,
+          "duration_frames": 36,
+          "timeline_visible_frames": [
+            76,
+            112
+          ]
+        },
+        {
+          "segment_id": "plain-spray-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "spray_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 6.52,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            112,
+            150
+          ]
+        },
+        {
+          "segment_id": "plain-wrist-response",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "wrist_response",
+          "source_in_seconds": 8.2,
+          "source_out_seconds": 10.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            150,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "product_raise": 1,
+        "product_hold": 1,
+        "spray_contact": 1,
+        "spray_release": 1,
+        "wrist_response": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "ritual-spray-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "spray_contact",
+          "source_in_seconds": 0.2,
+          "source_out_seconds": 2.04,
+          "duration_frames": 46,
+          "timeline_visible_frames": [
+            0,
+            46
+          ]
+        },
+        {
+          "segment_id": "ritual-spray-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "spray_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 7.16,
+          "duration_frames": 54,
+          "timeline_visible_frames": [
+            46,
+            100
+          ]
+        },
+        {
+          "segment_id": "sensory-wrist-response",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "wrist_response",
+          "source_in_seconds": 8.2,
+          "source_out_seconds": 10.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            100,
+            150
+          ]
+        },
+        {
+          "segment_id": "product-enters-emphasis",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "product_raise",
+          "source_in_seconds": 10.4,
+          "source_out_seconds": 11.6,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            150,
+            180
+          ]
+        },
+        {
+          "segment_id": "product-recovery",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "product_hold",
+          "source_in_seconds": 11.6,
+          "source_out_seconds": 12.4,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            180,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "spray_contact": 1,
+        "spray_release": 1,
+        "wrist_response": 1,
+        "product_raise": 1,
+        "product_hold": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\plain.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "plain-product-raise-first",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "product_raise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\plain\\01-plain-product-raise-first.mp4"
+      },
+      {
+        "segment_id": "plain-product-hold-first",
+        "type": "single",
+        "frames": 46,
+        "materials": [
+          "product_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\plain\\02-plain-product-hold-first.mp4"
+      },
+      {
+        "segment_id": "plain-spray-contact",
+        "type": "single",
+        "frames": 36,
+        "materials": [
+          "spray_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\plain\\03-plain-spray-contact.mp4"
+      },
+      {
+        "segment_id": "plain-spray-release",
+        "type": "single",
+        "frames": 38,
+        "materials": [
+          "spray_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\plain\\04-plain-spray-release.mp4"
+      },
+      {
+        "segment_id": "plain-wrist-response",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "wrist_response"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\plain\\05-plain-wrist-response.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "873404273B3FE0E94955201D638BBD9946171E2A759532402B1EA4346A48E143"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\proof.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "ritual-spray-contact",
+        "type": "single",
+        "frames": 46,
+        "materials": [
+          "spray_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\proof\\01-ritual-spray-contact.mp4"
+      },
+      {
+        "segment_id": "ritual-spray-release",
+        "type": "single",
+        "frames": 54,
+        "materials": [
+          "spray_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\proof\\02-ritual-spray-release.mp4"
+      },
+      {
+        "segment_id": "sensory-wrist-response",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "wrist_response"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\proof\\03-sensory-wrist-response.mp4"
+      },
+      {
+        "segment_id": "product-enters-emphasis",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "product_raise"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\proof\\04-product-enters-emphasis.mp4"
+      },
+      {
+        "segment_id": "product-recovery",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "product_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\_segments\\proof\\05-product-recovery.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "729BD7C4117BF37A228FCDAFB9B99AF07C41C4EDED0C96D9C13BEEB63F77A8C7"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v003\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DOTAz9lE11A",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:26:00Z"
+  },
+  "purpose": "물속 손의 미세 행동과 손이 사라진 뒤 남는 수면만으로 접촉과 부재를 느끼게 하는 감각 연구",
+  "format": "16:9 landscape two-phase material study",
+  "story_role": "implicit",
+  "primary_subject": "빛나는 수면 아래의 손과 손이 떠난 뒤의 물",
+  "intended_viewer_response": "차갑고 부드러운 촉감, 붙잡으려다 놓친 순간의 잔상",
+  "commercial_function": "향수·스킨케어·음료·주얼리 등 촉감과 여운을 파는 제품의 무드 컷",
+  "sequence": {
+    "opening_hook": "과노출된 푸른 물속에서 손이 천천히 떠오르거나 물을 더듬는다.",
+    "development": "손가락 사이의 빛과 기포가 약 5.47초 동안 미세하게 변한다.",
+    "peak_or_payoff": "5.472초에 손이 완전히 사라지고 동일한 물 표면만 남는다.",
+    "final_image": "빈 수면을 약 4초 유지해 행동보다 부재의 여운을 더 길게 남긴다."
+  },
+  "directing": {
+    "subject_action": "손가락을 펴고 물을 밀거나 수면을 더듬은 뒤 프레임 밖으로 사라진다.",
+    "blocking": "손을 프레임 중앙의 밝은 형태로 두고 후반에는 같은 자리를 의도적으로 비운다.",
+    "space": "장소 정보는 제거하고 물의 표면과 깊이만 남긴다.",
+    "props_surfaces_costume": "맨손과 기포·반사·물결 자체가 유일한 연출 재료다."
+  },
+  "cinematography": {
+    "composition": "매크로에 가까운 단일 구도에서 손의 유무만 바뀐다.",
+    "distance_or_lens": "거리 변화 없이 피사체의 출현과 퇴장으로 시각 정보를 조절한다.",
+    "camera_motion": "카메라보다 물결과 손가락의 유체 운동이 프레임을 변화시킨다.",
+    "light": "청록 수중광과 날아간 피부 하이라이트가 경계를 부드럽게 녹인다.",
+    "palette_texture_depth": "거의 단색의 청록·백색과 미세 기포가 감각의 전부다."
+  },
+  "editing": {
+    "cut_logic": "5.472초의 한 번의 컷 또는 상태 전환으로 손 있음과 손 없음을 대조한다.",
+    "shot_duration_progression": "약 5.47초 접촉 뒤 약 4초 부재를 유지해 결과보다 잔상을 길게 만든다.",
+    "adjacent_image_relations": "같은 수면·구도·색을 유지해 차이는 오직 손의 존재 여부가 된다.",
+    "in_frame_editing": "손이 물 안에서 천천히 변형되고 퇴장하는 실제 물성 변화가 핵심이다.",
+    "typography_graphics_compositing": "타이포·그래픽·합성 없이 물의 광학 효과만 사용한다.",
+    "repeated_operators": [
+      "presence_to_absence_hold",
+      "same_frame_state_change",
+      "material_afterimage",
+      "single_causal_cut"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "물 소리나 무음이 후반 부재에 주는 영향은 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "observation": "밝은 손이 푸른 물속 중앙에 있고 손가락 주변의 물결과 기포가 움직인다.",
+      "inference": "사건 설명 없이 촉감과 빛의 관계를 첫 이미지로 확립한다."
+    },
+    {
+      "start_seconds": 2.0,
+      "end_seconds": 5.472,
+      "observation": "손의 형태와 위치가 서서히 변하며 프레임에서 약해진다.",
+      "inference": "급한 컷보다 실제 퇴장 과정을 읽게 해 사라짐을 감정 사건으로 만든다."
+    },
+    {
+      "start_seconds": 5.472,
+      "end_seconds": 7.5,
+      "observation": "손이 사라지고 동일한 푸른 수면과 기포만 남는다.",
+      "inference": "구도 일치를 유지해 시청자가 사라진 피사체를 빈 공간에서 계속 찾게 한다."
+    },
+    {
+      "start_seconds": 7.5,
+      "end_seconds": 9.476,
+      "observation": "새 피사체 없이 빈 수면이 끝까지 지속된다.",
+      "inference": "여백을 빨리 닫지 않아 촉감이 기억으로 변하는 시간을 확보한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. Haku의 감각 편집에서 부재와 지속 시간이 컷 효과보다 중요할 수 있음을 보여준다.",
+    "common_elements": [
+      "물과 손",
+      "과노출 하이라이트",
+      "설명 없는 미세 행동",
+      "긴 여운"
+    ],
+    "possible_discriminators": [
+      "같은 프레임의 존재→부재",
+      "피사체가 사라진 뒤 더 긴 유지",
+      "물성만으로 감정 생성"
+    ],
+    "forbidden_pattern_evidence": [
+      "빈 수면을 정지 오류로 판단해 잘라내면 작품의 핵심이 사라진다.",
+      "후반 여백에 임의 줌이나 다른 B-roll을 채울 필요가 없다."
+    ],
+    "ad_strengths": [
+      "스킨케어·향수",
+      "물·음료",
+      "주얼리·패브릭의 촉감 광고"
+    ],
+    "suitable_subjects": [
+      "피사체가 한 프레임 안에서 명확히 나타나고 사라지는 원본",
+      "표면 질감과 빛 변화만으로 버틸 수 있는 매크로 영상"
+    ],
+    "poor_fit_subjects": [
+      "빠른 정보 전달이 필요한 기능 설명",
+      "퇴장 뒤 배경이 시각적으로 지저분하거나 흔들리는 영상"
+    ],
+    "limitations": [
+      "5.472초 경계가 하드컷인지 연속 퇴장 끝점인지 실시간 재생 없이 완전히 구분하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "편집은 새 장면을 추가하는 일만이 아니라 피사체가 없는 시간을 남기는 일이기도 하다.",
+    "한 번의 상태 변화만으로도 충분히 강한 Haku 계열 감각이 성립한다."
+  ],
+  "confidence": "high"
+}

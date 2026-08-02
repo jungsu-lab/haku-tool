@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_nature_luminous_panels_v002",
+  "created_at": "2026-07-31T10:12:13.403362+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\render-report.json",
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-progressive-living-field",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\boundary-01-progressive-living-field.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-living-field-water-flow-dominant-start",
+      "kind": "internal_event",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\internal-progressive-living-field-water-flow-dominant-start.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-living-field-wind-texture-support-start",
+      "kind": "internal_event",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\internal-progressive-living-field-wind-texture-support-start.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-living-field-living-presence-support-start",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\internal-progressive-living-field-living-presence-support-start.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-bird-breath",
+      "kind": "segment_boundary",
+      "frame": 110,
+      "seconds": 4.4,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\boundary-02-bird-breath.jpg",
+      "range_seconds": [
+        4.16,
+        4.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-living-horizon-release",
+      "kind": "segment_boundary",
+      "frame": 140,
+      "seconds": 5.6,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v002\\render\\review-auto\\boundaries\\boundary-03-living-horizon-release.jpg",
+      "range_seconds": [
+        5.36,
+        5.880000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T10:13:10.466515+00:00",
+    "evidence": [
+      "0.000-1.600: misty forest establishes a luminous environment.",
+      "1.600-2.800: stream, grass, and robin panels enter progressively and remain technically stable.",
+      "2.800-4.200: the panels have distinct flow, texture, and living-presence roles.",
+      "4.200-5.600: robin crop now keeps the bird inside frame without the v001 center-crop clipping.",
+      "5.600-8.000: orange ocean-bird release is clean but exposes a visible location, lens, and color-temperature mismatch with the green forest material."
+    ],
+    "limitations": [
+      "Separate shoots do not establish session continuity; more effects must not be used to hide this material-fit failure.",
+      "Live full-speed playback was unavailable; review used complete 8 fps sheets and every 25 fps segment/internal-event strip."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

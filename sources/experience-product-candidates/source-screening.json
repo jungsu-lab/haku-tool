@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "operator_target": "experience-before-product",
+  "rights_policy": "licensed-proof-payload-only",
+  "candidates": [
+    {
+      "id": "pexels-4154241-perfume-wrist",
+      "file": "pexels-4154241-perfume-wrist.mp4",
+      "provider": "Pexels",
+      "creator": "cottonbro studio",
+      "page_url": "https://www.pexels.com/video/hands-hand-perfume-cosmetics-4154241/",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685",
+      "technical": {
+        "duration_seconds": 18.28,
+        "width": 2732,
+        "height": 1440,
+        "fps": 25
+      },
+      "direct_complete_review": {
+        "evidence": "../proof-source-audit/pexels-4154241/pexels-4154241-perfume-wrist-dense.jpg",
+        "ranges": [
+          {
+            "range": "0.000-5.875",
+            "observation": "Bottle remains in the right hand while repeated wrist sprays establish real use."
+          },
+          {
+            "range": "6.000-10.125",
+            "observation": "The spraying hand rises and the left wrist remains the sensory target."
+          },
+          {
+            "range": "10.125-12.625",
+            "observation": "Hands recompose and the small glass bottle becomes more upright and product-like."
+          },
+          {
+            "range": "12.625-16.375",
+            "observation": "The user rubs or settles the fragrance while continuing to hold the bottle."
+          },
+          {
+            "range": "16.375-18.125",
+            "observation": "Both hands leave; the source does not provide a late isolated label-readable packshot."
+          }
+        ]
+      },
+      "decision": "selected_conditional",
+      "fit": "Strong real-use action and same-take product recovery; weak brand/label hero.",
+      "forbidden_inference": "Do not claim fragrance quality, duration, ingredients, brand identity, or a label-readable final packshot."
+    }
+  ]
+}

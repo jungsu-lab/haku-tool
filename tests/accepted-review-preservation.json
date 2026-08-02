@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project_id": "regression_accepted_review_preservation",
+  "render_report": "missing-by-design.json",
+  "boundary_and_internal_event_evidence": [],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T11:49:45.580502+00:00",
+    "evidence": [
+      "regression fixture direct evidence"
+    ],
+    "limitations": []
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "accepted",
+    "recorded_from": "explicit_user_input"
+  },
+  "promotion_increment": 1
+}

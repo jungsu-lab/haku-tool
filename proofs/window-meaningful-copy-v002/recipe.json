@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_window_meaningful_copy_v002",
+  "operator": {
+    "primary": "meaningful-copy-gate",
+    "secondary": "action-as-edit-spine"
+  },
+  "revision_from": "../window-meaningful-copy-v001/recipe.json",
+  "changes_from_v001": [
+    "Rejected the heavy all-caps bold-serif treatment as too promotional and visually cheap for the quiet source.",
+    "Changed to lowercase regular sans text with a one-pixel restrained shadow.",
+    "Kept the source frames, action continuity, timing, crop, and grade unchanged."
+  ],
+  "situation": "One licensed, unedited fixed interior take in which a woman opens closed curtains and the room moves from shadow into direct morning light.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Yan Krukau",
+    "page_url": "https://www.pexels.com/video/a-woman-opening-a-window-curtains-6704807/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+  },
+  "hypotheses_under_test": [
+    "Two short copy clauses can turn a literal curtain-opening action into a proposition about inviting the morning in.",
+    "The first clause must be readable while the room is still dark, and the second must arrive only after the light has visibly entered.",
+    "Copy earns its place only if deleting it returns the sequence to a simple observation of a person opening curtains."
+  ],
+  "purpose": "Test meaningful copy in a new interior-light situation while keeping source frames, timing, grade, crop, and motion identical between plain and proof.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The single take visibly contains the two states named by the copy: morning light held outside by curtains, then light filling the room through the subject's action."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "curtain_contact": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "opening_action": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 1.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "light_arrival": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 2.6,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lit_release": {
+      "source": "../../sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-contact", "type": "single", "frames": 25, "material": "curtain_contact"},
+        {"id": "plain-opening", "type": "single", "frames": 40, "material": "opening_action"},
+        {"id": "plain-arrival", "type": "single", "frames": 60, "material": "light_arrival"},
+        {"id": "plain-release", "type": "single", "frames": 62, "material": "lit_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {
+          "id": "outside-clause",
+          "type": "copy-overlay",
+          "frames": 25,
+          "material": "curtain_contact",
+          "copies": [
+            {
+              "text": "morning waited outside",
+              "active_frames": [2, 24],
+              "x": 0.055,
+              "y": 0.79,
+              "font_size": 34,
+              "font": "sans",
+              "font_weight": "normal",
+              "font_color": "0xf4efe6",
+              "box_color": "0x080808",
+              "box_opacity": 0.0,
+              "shadow_opacity": 0.25,
+              "shadow_x": 1,
+              "shadow_y": 1
+            }
+          ]
+        },
+        {"id": "opening", "type": "single", "frames": 40, "material": "opening_action"},
+        {"id": "light-arrival", "type": "single", "frames": 60, "material": "light_arrival"},
+        {
+          "id": "invitation-clause",
+          "type": "copy-overlay",
+          "frames": 62,
+          "material": "lit_release",
+          "copies": [
+            {
+              "text": "she let it in",
+              "active_frames": [8, 61],
+              "x": 0.055,
+              "y": 0.79,
+              "font_size": 34,
+              "font": "sans",
+              "font_weight": "normal",
+              "font_color": "0xf4efe6",
+              "box_color": "0x080808",
+              "box_opacity": 0.0,
+              "shadow_opacity": 0.25,
+              "shadow_x": 1,
+              "shadow_y": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

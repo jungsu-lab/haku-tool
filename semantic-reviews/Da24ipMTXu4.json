@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "Da24ipMTXu4",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:22:00Z"
+  },
+  "purpose": "두 학생이 하나의 칠판을 번갈아 채우며 관계와 상상력을 보여주는 행동 중심 미니어처",
+  "format": "9:16 portrait fixed-wide three-phase scene",
+  "story_role": "explicit",
+  "primary_subject": "칠판 앞에서 함께 그림을 만드는 남학생과 여학생",
+  "intended_viewer_response": "같은 공간에서 서로의 그림을 이어 받는 장난스럽고 다정한 교감",
+  "commercial_function": "학교·문구·창작 도구·교육 브랜드의 관계형 광고에 적합",
+  "sequence": {
+    "opening_hook": "이미 바다 생물 그림이 가득한 칠판 앞에서 두 사람이 손짓과 도구를 주고받는다.",
+    "development": "3.7초 점프컷 뒤 남학생이 큰 손 또는 생물 형태를 빠르게 그리며 첫 결과를 만든다.",
+    "peak_or_payoff": "8.067초 점프컷 뒤 여학생이 원형 머리와 촉수를 가진 해파리 형태를 이어 그린다.",
+    "final_image": "두 사람의 서로 다른 그림이 같은 칠판 세계 안에 공존한 상태로 끝난다."
+  },
+  "directing": {
+    "subject_action": "도구 건네기, 지우기 또는 자리 바꾸기, 큰 선 그리기, 다음 사람에게 넘겨주기",
+    "blocking": "카메라는 고정하고 두 사람이 칠판의 좌우와 중앙을 번갈아 차지하게 한다.",
+    "space": "교실의 칠판·교탁·나무 천장을 모두 보존해 행동이 일어나는 실제 무대를 명확히 한다.",
+    "props_surfaces_costume": "초록 칠판과 흰 분필, 흰 셔츠·검은 교복이 단순한 색 대비와 역할 교대를 만든다."
+  },
+  "cinematography": {
+    "composition": "정면 고정 와이드에서 칠판을 무대이자 캔버스로 사용한다.",
+    "distance_or_lens": "전체 행동과 그림 결과를 동시에 읽을 수 있는 동일 거리만 유지한다.",
+    "camera_motion": "관찰된 카메라 이동은 없고 인물의 좌우 이동과 팔 동작이 프레임 내부 변화를 담당한다.",
+    "light": "균일한 교실광으로 그림 선과 인물 동작을 우선시한다.",
+    "palette_texture_depth": "초록·흰색·나무 갈색의 제한된 색과 분필 선의 질감이 중심이다."
+  },
+  "editing": {
+    "cut_logic": "3.7초와 8.067초의 두 점프컷이 행동의 주도권과 그림 단계를 바꾼다.",
+    "shot_duration_progression": "약 3.7초의 공동 준비, 4.37초의 첫 그림, 4.37초의 두 번째 그림으로 균형 잡힌 세 구간이다.",
+    "adjacent_image_relations": "같은 카메라·같은 칠판을 유지해 컷이 공간 전환이 아니라 시간 압축과 역할 교대처럼 느껴진다.",
+    "in_frame_editing": "분필 선이 실제로 늘어나고 인물이 자리를 바꾸는 과정 자체가 화면 내부 편집이다.",
+    "typography_graphics_compositing": "그래픽 합성 대신 실제 칠판 그림이 점진적으로 생성된다.",
+    "repeated_operators": [
+      "fixed_stage_role_exchange",
+      "creation_accumulation_jump",
+      "shared_surface_story",
+      "action_ownership_handoff"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "분필 소리나 음악과 점프컷의 관계는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 3.7,
+      "observation": "바다 생물 그림이 있는 칠판 앞에서 두 사람이 손짓하고 자리를 교환하며 준비한다.",
+      "inference": "결과보다 관계와 규칙을 먼저 보여줘 이후 그림 생성이 공동 놀이로 읽힌다."
+    },
+    {
+      "start_seconds": 3.7,
+      "end_seconds": 5.5,
+      "observation": "점프컷 뒤 남학생이 칠판 중앙에 큰 손 또는 생물 윤곽을 빠르게 그리기 시작한다.",
+      "inference": "고정 프레임의 시간 압축이 첫 번째 창작 단계의 시작을 명확히 한다."
+    },
+    {
+      "start_seconds": 5.5,
+      "end_seconds": 8.067,
+      "observation": "남학생이 큰 형태와 세부 선을 완성하고 옆으로 물러난다.",
+      "inference": "한 행동이 끝나는 자연스러운 지점이 다음 역할 교대의 컷 포인트가 된다."
+    },
+    {
+      "start_seconds": 8.067,
+      "end_seconds": 12.433,
+      "observation": "여학생이 중앙 오른쪽에 둥근 머리와 촉수를 그려 칠판 그림을 확장한다.",
+      "inference": "새 장소 없이도 창작 주체와 결과가 바뀌며 관계 서사가 완결된다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. Haku의 연출이 자연 B-roll뿐 아니라 고정된 일상 공간의 행동·관계 설계에서도 성립한다.",
+    "common_elements": [
+      "교복과 학교 공간",
+      "두 사람의 미세한 교감",
+      "손동작과 실제 소품",
+      "단순한 색과 여백"
+    ],
+    "possible_discriminators": [
+      "같은 표면 위에 서로의 흔적을 누적",
+      "컷을 역할 교대에만 사용",
+      "프레임 내부에서 결과가 실제 생성"
+    ],
+    "forbidden_pattern_evidence": [
+      "고정 숏을 지루하다고 임의 줌으로 흔들 필요가 없다.",
+      "그림 결과만 빠르게 나열하면 관계의 주고받음이 사라진다."
+    ],
+    "ad_strengths": [
+      "문구·미술 도구",
+      "학교·교육 서비스",
+      "협업 기능이 있는 앱·제품"
+    ],
+    "suitable_subjects": [
+      "한 표면을 함께 변화시키는 두 사람의 촬영본",
+      "준비·첫 행동·두 번째 행동이 분명한 장면",
+      "고정 프레임에서 손과 결과가 읽히는 원본"
+    ],
+    "poor_fit_subjects": [
+      "결과 변화가 보이지 않는 단순 대화",
+      "행동의 주도권 교대가 없는 1인 독백"
+    ],
+    "limitations": [
+      "세부 손짓의 정확한 의미와 소리 기반 타이밍은 실시간 재생 없이 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "Haku 스타일은 자연 풍경과 필름 색감만으로 정의되지 않는다.",
+    "세 컷만으로도 화면 내부의 행동과 결과 누적이 충분하면 강한 편집이 된다."
+  ],
+  "confidence": "high"
+}

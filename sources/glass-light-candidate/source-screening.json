@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "glass-light-candidate",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T14:55:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "mxkrv",
+    "page_url": "https://www.pexels.com/video/person-playing-with-the-shadow-5521862/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  "files": [
+    {
+      "path": "5521862-hand-glass-shadow.mp4",
+      "sha256": "A511FEFAAC1705413A35C88F7E8F25ECB56EF8A82702C7D5E8FA353A212D1CAB",
+      "duration_seconds": 15.231667,
+      "width": 1080,
+      "height": 1920,
+      "fps": 29.97003
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timeline": true,
+    "sample_fps": 8,
+    "evidence_path": "../../review-artifacts/glass-light-candidate/5521862-hand-glass-shadow-dense.jpg"
+  },
+  "observations": [
+    "A hand shadow holds a small rectangular object inside a hard-edged window-light field.",
+    "A second hand enters and interacts with the object shadow before leaving.",
+    "No readable rainbow dispersion, reflection path, refracted caustic, transmitted color, or transfer of a light property to a second carrier is visible."
+  ],
+  "routing": {
+    "luminous-texture-relay": "rejected_for_missing_visible_optical_transfer",
+    "action-as-edit-spine": "possible_but_not_priority"
+  },
+  "decision": "Do not treat the page title or glass prop as proof of a luminous relay. A visible optical property and carrier-to-carrier handoff are required."
+}

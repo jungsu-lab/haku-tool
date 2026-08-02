@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_window_meaningful_copy_v002",
+  "created_at": "2026-07-31T14:14:33.729594+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_window_meaningful_copy_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "E7C706F6830A9DCBEAACD196EBDAD080CCFD7CEC498F041B33FBAA7C1C5E5E6B",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 60,
+      "coverage_seconds": 7.48
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 60,
+      "coverage_seconds": 7.48
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-opening",
+      "kind": "segment_boundary",
+      "frame": 25,
+      "seconds": 1.0,
+      "strip": "boundaries\\boundary-01-opening.jpg",
+      "range_seconds": [
+        0.76,
+        1.28
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-light-arrival",
+      "kind": "segment_boundary",
+      "frame": 65,
+      "seconds": 2.6,
+      "strip": "boundaries\\boundary-02-light-arrival.jpg",
+      "range_seconds": [
+        2.36,
+        2.88
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-invitation-clause",
+      "kind": "segment_boundary",
+      "frame": 125,
+      "seconds": 5.0,
+      "strip": "boundaries\\boundary-03-invitation-clause.jpg",
+      "range_seconds": [
+        4.76,
+        5.279999999999999
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:15:48.974598+00:00",
+    "evidence": [
+      "The original, plain, proof, both full dense sheets, all three 25 fps boundary strips, and two full-resolution copy frames were directly inspected. Source motion remains continuous with no freeze, retime, reverse, crop animation, scale animation, or padding.",
+      "Removing the two clauses returns the work to literal curtain opening; with them, the visible dark-to-light action becomes a restrained proposition about morning waiting outside and being invited in.",
+      "Lowercase regular sans copy with a one-pixel 0.25-opacity shadow remains readable without competing with curtain texture, body silhouette, or the light arrival."
+    ],
+    "limitations": [
+      "Audio remains deferred by the user, and this research pass does not count as user acceptance."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

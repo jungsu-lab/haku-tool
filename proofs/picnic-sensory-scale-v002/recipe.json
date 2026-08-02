@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_picnic_sensory_scale_v002",
+  "revision_from": "../picnic-sensory-scale-v001/recipe.json",
+  "changes_from_v001": [
+    "Changed only the relationship-field segment in both plain and proof from cover-cropped single to fixed fit-single.",
+    "Preserved the full 16:9 group frame on a static dark-green canvas so all four people and the shared toast remain visible.",
+    "Kept source anchors, frame counts, grade, other crops, and source-only motion unchanged."
+  ],
+  "operator": {
+    "primary": "sensory-scale-relay",
+    "secondary": "action-as-edit-spine"
+  },
+  "situation": "Three licensed unedited shots from one evening picnic session, containing tactile food-and-glass detail, one person's wine action, an individual laughter reaction, and a four-person toast.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "screening_manifest": "../../sources/picnic-sensory-scale/source-screening.json"
+  },
+  "hypotheses_under_test": [
+    "A sensory relay becomes meaningful when each scale adds a new role: texture, action owner, embodied reaction, and relationship field.",
+    "The same pink wine, hands, food, and evening light can bridge distance changes without generic color matching.",
+    "A fixed non-cover relationship release is justified when it preserves people and shared action that a vertical cover crop would delete."
+  ],
+  "purpose": "Test sensory-scale-relay as a general observational friendship edit without music, copy, effects, zoom, retime, or reference-media reuse.",
+  "material_fit": {
+    "status": "high_with_non_cover_relationship_release",
+    "strengths": [
+      "The sources share people, objects, location, time, light, and social action.",
+      "Each planned shot contributes different information rather than a duplicate crop.",
+      "The full-width fitted toast preserves four people and supplies a real relationship destination."
+    ],
+    "limits": [
+      "The final relationship image is an explicit horizontal memory window inside a vertical canvas.",
+      "The material supports friendship atmosphere but not a product claim or brand recovery."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "materials": {
+    "tactile_detail": {
+      "source": "../../sources/picnic-sensory-scale/10071333-group-landscape.mp4",
+      "source_in": 1.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "action_owner": {
+      "source": "../../sources/picnic-sensory-scale/10071333-group-landscape.mp4",
+      "source_in": 8.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "individual_reaction": {
+      "source": "../../sources/picnic-sensory-scale/10071341-evening-picnic-vertical.mp4",
+      "source_in": 0.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "relationship_field": {
+      "source": "../../sources/picnic-sensory-scale/10071336-wine-group-landscape.mp4",
+      "source_in": 4.8,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {
+          "id": "plain-group-first",
+          "type": "fit-single",
+          "frames": 60,
+          "material": "relationship_field",
+          "canvas_color": "0x111612"
+        },
+        {"id": "plain-reaction", "type": "single", "frames": 45, "material": "individual_reaction"},
+        {"id": "plain-detail", "type": "single", "frames": 40, "material": "tactile_detail"},
+        {"id": "plain-action", "type": "single", "frames": 45, "material": "action_owner"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "touch-and-taste-detail", "type": "single", "frames": 40, "material": "tactile_detail"},
+        {"id": "action-owner-pours", "type": "single", "frames": 45, "material": "action_owner"},
+        {"id": "body-registers-pleasure", "type": "single", "frames": 45, "material": "individual_reaction"},
+        {
+          "id": "sensation-opens-to-relationship",
+          "type": "fit-single",
+          "frames": 60,
+          "material": "relationship_field",
+          "canvas_color": "0x111612"
+        }
+      ]
+    }
+  }
+}

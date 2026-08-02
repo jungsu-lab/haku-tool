@@ -1,0 +1,340 @@
+{
+  "schema_version": "3.0",
+  "provider_handle": "@haku_.photo",
+  "registry_role": "legacy_named_operator_catalog",
+  "routing_precedence": "auto-research-operator-registry.json overrides this file when a proof-cycle operator ID is available",
+  "status": "corpus_supported_user_promotion_in_progress",
+  "design_principle": "범용 Operator는 특정 효과가 아니라 여러 작품과 여러 소재에서 반복되는 장면 판단으로 정의한다.",
+  "core_operators": [
+    {
+      "operator_id": "sensory-scale-relay",
+      "display_name": "감각–인물–공간 스케일 릴레이",
+      "rule": "ECU/CU의 물성이나 신체 일부, MS의 인물 행동, WS/EWS의 관계·공간을 공통된 빛·형태·방향으로 넘겨 같은 감정을 서로 다른 스케일에서 다시 읽게 한다.",
+      "evidence": [
+        {
+          "reel_id": "DbS9D2JziFP",
+          "timecodes": [
+            "0.20-1.50",
+            "7.41-10.81",
+            "11.78-17.45"
+          ]
+        },
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "25.27-36.38"
+          ]
+        },
+        {
+          "reel_id": "DaxG1n-TWOv",
+          "timecodes": [
+            "0.00-17.08"
+          ]
+        }
+      ],
+      "required_coverage": [
+        "실제 ECU/CU와 WS/EWS",
+        "같은 행동·물성·빛 중 하나의 연결축",
+        "스케일이 바뀔 때 추가되는 새 정보"
+      ],
+      "failure_signs": [
+        "와이드의 디지털 크롭을 CU로 위조",
+        "무관한 자연 인서트",
+        "정보 없는 스케일 점프"
+      ],
+      "status": "corpus_supported_proof_pending"
+    },
+    {
+      "operator_id": "density-wave-release",
+      "display_name": "밀도 파동과 해방",
+      "rule": "기준 이미지, 짧은 밀집 군집, 읽을 수 있는 호흡 또는 공간 해방을 파동처럼 배치한다. 빠른 컷을 전체 기본값으로 사용하지 않는다.",
+      "evidence": [
+        {
+          "reel_id": "DbS9D2JziFP",
+          "timecodes": [
+            "0.00-4.00",
+            "4.00-6.81",
+            "6.81-11.21",
+            "11.21-18.39"
+          ]
+        },
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "0.04-34.92",
+            "34.92-36.71",
+            "36.71-55.25"
+          ]
+        }
+      ],
+      "required_coverage": [
+        "공통 모티프가 있는 짧은 조각",
+        "1.2초 이상 유지 가능한 앵커",
+        "마지막 프리즈 없이 움직이는 release"
+      ],
+      "failure_signs": [
+        "전 구간 같은 컷 길이",
+        "호흡 없이 계속 빠름",
+        "같은 프레임·줌 반복",
+        "음악 박자만 따름"
+      ],
+      "research_proofs": [
+        {
+          "cycle_id": "robin-semantic-density-v001",
+          "situation": "one locked single-take animal-behavior source",
+          "research_verdict": "partial_pass",
+          "user_verdict": "pending",
+          "promotion_increment": 0,
+          "limitation": "behavior states change, but scale, place, tactile and human information do not"
+        },
+        {
+          "cycle_id": "flower-field-semantic-density-v001",
+          "situation": "same-session flower-field environment, tactile, creative-action, embodied-reaction and movement-release coverage",
+          "research_verdict": "pass",
+          "user_verdict": "accepted",
+          "promotion_increment": 1,
+          "limitation": "one-person warm stock branch without face, relationship, audio or restrained Haku image authorship"
+        }
+      ],
+      "user_promotion_progress": {
+        "accepted": 1,
+        "required": 3,
+        "accepted_situation_ids": ["same-session-flower-field-creative-action"]
+      },
+      "status": "research_pass_user_promotion_pending"
+    },
+    {
+      "operator_id": "motif-state-return",
+      "display_name": "모티프 상태 변형 귀환",
+      "rule": "같은 물성·형태·방향을 최소 세 번 되돌리되, 매번 스케일·상태·주체·감정 기능 중 하나 이상을 바꾸고 마지막 귀환이 앞 장면의 의미를 회수하게 한다.",
+      "evidence": [
+        {
+          "reel_id": "DbS9D2JziFP",
+          "timecodes": [
+            "0.20",
+            "2.90",
+            "4.60-6.01",
+            "17.45-18.39"
+          ]
+        },
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "0.02-2.46",
+            "12.15-21.06",
+            "33.23-36.38",
+            "49.46-54.23"
+          ]
+        },
+        {
+          "reel_id": "DLaEqK0TisL",
+          "timecodes": [
+            "0.00-2.93",
+            "2.93-5.97",
+            "5.97-9.30",
+            "9.30-13.87"
+          ]
+        },
+        {
+          "reel_id": "DJGM0LsTdxY",
+          "timecodes": [
+            "0.00-5.90",
+            "5.90-8.07",
+            "8.07-13.00",
+            "13.00-18.70"
+          ]
+        }
+      ],
+      "required_coverage": [
+        "세 번 이상 변주할 실제 모티프",
+        "모티프와 사람·제품·관계의 연결",
+        "변형된 마지막 귀환"
+      ],
+      "failure_signs": [
+        "같은 인서트 반복",
+        "색만 비슷한 무관한 매치",
+        "순서를 바꿔도 의미가 같음",
+        "설명적인 회수"
+      ],
+      "status": "corpus_supported_proof_pending",
+      "validation_artifacts": {
+        "hero_proof": "C:/Users/HP-5600G/Desktop/AI ????/vcd-output/haku-tool-completion-v006/hero/summer-memory-v006/proof.mp4",
+        "event_atlas": "C:/Users/HP-5600G/Desktop/AI ????/vcd-output/haku-tool-completion-v006/hero/summer-memory-v006/event-strips/event-atlas.jpg",
+        "agent_result": "technically_valid_user_pending",
+        "user_verdict": "pending"
+      }
+    },
+    {
+      "operator_id": "subject-withholding-reveal",
+      "display_name": "주체 보류와 단계적 발견",
+      "rule": "얼굴·관계·제품을 즉시 설명하지 않고 환경·등·손·실루엣·흔적부터 제시한 뒤, 후반 공개 숏이 사람 수·관계·행동 목적·공간 중 새 정보를 주게 한다.",
+      "evidence": [
+        {
+          "reel_id": "DbS9D2JziFP",
+          "timecodes": [
+            "0.20-4.60",
+            "8.41-9.41",
+            "11.78-15.43"
+          ]
+        },
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "0.02-16.71",
+            "25.27-29.56",
+            "29.56-36.38"
+          ]
+        }
+      ],
+      "required_coverage": [
+        "보류 단계의 식별 가능한 손·등·소품·이동",
+        "후반의 명확한 새 정보",
+        "제품 광고라면 허용 가능한 인지 지연"
+      ],
+      "failure_signs": [
+        "끝까지 주체를 알 수 없음",
+        "공개 숏이 새 정보를 주지 않음",
+        "기능 광고에서 제품 인지가 너무 늦음"
+      ],
+      "status": "corpus_supported_proof_pending"
+    },
+    {
+      "operator_id": "afterimage-handoff",
+      "display_name": "인물에서 잔상으로의 결말 이양",
+      "rule": "사람·관계·행동을 충분히 읽힌 뒤, 주도권을 앞서 반복된 빛·물·꽃·소품·빈 공간으로 넘겨 설명 대신 움직이는 잔상으로 종료한다.",
+      "evidence": [
+        {
+          "reel_id": "DbS9D2JziFP",
+          "timecodes": [
+            "15.43-18.39"
+          ]
+        },
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "45.23-55.25"
+          ]
+        },
+        {
+          "reel_id": "DR4qWQ8E6Kc",
+          "timecodes": [
+            "3.83-7.83"
+          ]
+        },
+        {
+          "reel_id": "DLaEqK0TisL",
+          "timecodes": [
+            "9.30-13.87"
+          ]
+        },
+        {
+          "reel_id": "DJGM0LsTdxY",
+          "timecodes": [
+            "13.00-18.70"
+          ]
+        }
+      ],
+      "required_coverage": [
+        "앞에서 읽힌 인물·관계·행동",
+        "반복된 모티프와 연결되는 종료 숏",
+        "프리즈 없이 지속되는 실제 미세 움직임"
+      ],
+      "failure_signs": [
+        "무관한 풍경 엔딩",
+        "마지막 프레임 패딩",
+        "제품·브랜드 회수 소실",
+        "중심 인물만 남는 답답한 세로 크롭"
+      ],
+      "status": "corpus_supported_proof_pending"
+    }
+  ],
+  "conditional_devices": [
+    {
+      "device_id": "action-prism-continuity",
+      "role": "coverage_dependent_sequence_grammar",
+      "evidence": [
+        {
+          "reel_id": "DaxG1n-TWOv",
+          "timecodes": [
+            "0.00-26.50"
+          ]
+        }
+      ],
+      "gate": "서로 다른 evidence family가 아직 부족하다. 마스터 행동·디테일·반응·결과가 모두 있는 원본에서만 사용한다.",
+      "status": "hypothesis_proof_pending"
+    },
+    {
+      "device_id": "memory-panel-poem",
+      "role": "bounded_in_frame_edit",
+      "evidence": [
+        {
+          "reel_id": "DX6n8iQPsjQ",
+          "timecodes": [
+            "0.00-22.80"
+          ]
+        }
+      ],
+      "gate": "3분할·작은 영상창이 실제 기억 단위를 병렬화할 때만 사용한다. 원작 문구·서체·레이아웃을 복제하지 않는다.",
+      "status": "hypothesis_proof_pending",
+      "validation_artifacts": {
+        "hero_proof": "C:/Users/HP-5600G/Desktop/AI ????/vcd-output/haku-tool-completion-v006/hero/summer-memory-v006/proof.mp4",
+        "within_shot_times_seconds": [
+          1.0,
+          1.52,
+          2.04
+        ],
+        "agent_result": "hypothesis_proof_pending_user_verdict",
+        "user_verdict": "pending"
+      }
+    },
+    {
+      "device_id": "luminous-gaze-sustain",
+      "role": "low_density_image_sustain",
+      "evidence": [
+        {
+          "reel_id": "DTXxF7Fk9rO",
+          "timecodes": [
+            "0.00-10.40"
+          ]
+        }
+      ],
+      "gate": "표정·빛·초점의 실제 변화가 있는 강한 원본에서만 사용한다. 줌·프리즈로 지속을 위조하지 않는다.",
+      "status": "hypothesis_proof_pending"
+    },
+    {
+      "device_id": "negative-space-phrase-gate",
+      "role": "secondary_punctuation",
+      "evidence": [
+        {
+          "reel_id": "DaUibIhzFkf",
+          "timecodes": [
+            "27.25-27.58",
+            "36.04-36.71",
+            "44.75-45.71"
+          ]
+        },
+        {
+          "reel_id": "DX6n8iQPsjQ",
+          "timecodes": [
+            "18.67-19.47"
+          ]
+        }
+      ],
+      "gate": "암전·빈 화면의 기능을 withholding, punctuation, chapter-change 중 하나로 명시해야 한다.",
+      "status": "conditional"
+    }
+  ],
+  "governance": {
+    "allowed_ai_statuses": [
+      "draft",
+      "fixture_passed",
+      "corpus_supported_proof_pending",
+      "ready_for_user_review"
+    ],
+    "promotion_requires": "같은 Operator가 서로 다른 3개 상황의 사용 가능 원본에서 사용자 accepted를 받아야 한다.",
+    "public_reference_reuse": "forbidden",
+    "current_audio_policy": "conditional_verified_free_library_audio",
+    "legacy_bootstrap_cards": "invalid_for_routing_if_encoding_or_json_is_broken",
+    "generalization_progress": "density-wave-release: 1/3 accepted situations; all other Operators: 0/3"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "screening_purpose": "Find licensed unedited material where one visible motif develops through at least three readable states without reset.",
+  "audio_policy": "deferred_by_user",
+  "candidates": [
+    {
+      "candidate_id": "mixkit-3578",
+      "title": "Coffee maker making coffee",
+      "provider": "Mixkit",
+      "source_page": "https://mixkit.co/free-stock-video/coffee-maker-making-coffee-3578/",
+      "license": {
+        "name": "Mixkit Stock Video Free License",
+        "url": "https://mixkit.co/license/"
+      },
+      "local_file": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_process_3578.mp4",
+      "sha256": "A6B4E147013AD580F3028B89BD83C9FE59851A5D80EF54FE763178138C6C6126",
+      "technical": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 12.0
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 96-sample dense sheet at 8 fps.",
+        "observations": [
+          "The sequence changes from grinder detail to portafilter close-up, wider tamping, machine spout, and glass.",
+          "Camera angle, scale, and framing change several times inside the downloaded asset."
+        ],
+        "inference": "The asset is an already edited stock montage, not an unedited source take."
+      },
+      "selection_verdict": "rejected_as_proof_payload",
+      "rejection_reasons": [
+        "It violates the unedited-source proof requirement.",
+        "Existing editorial decisions would be mistaken for Haku Tool decisions."
+      ],
+      "dense_review_sheet": "../../proof-source-audit/motif-state-candidates/coffee_process_3578-dense.jpg"
+    },
+    {
+      "candidate_id": "mixkit-51255",
+      "title": "Woman eats ramen and snaps a selfie",
+      "provider": "Mixkit",
+      "source_page": "https://mixkit.co/free-stock-video/a-young-brunette-woman-playfuly-eats-a-delicious-ramen-noodles-51255/",
+      "license": {
+        "name": "Mixkit Stock Video Free License",
+        "url": "https://mixkit.co/license/"
+      },
+      "local_file": "../../../vcd-output/haku-six-style-proof-v001/sources/video/friend_ramen_selfie_51255.mp4",
+      "sha256": "C5809F52E264BFC156F5468C39A7FBD9C23657DC037DF487DD5C7847E88B6118",
+      "technical": {
+        "width": 1080,
+        "height": 1920,
+        "duration_seconds": 8.925583
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 72-sample dense sheet at 8 fps.",
+        "observations": [
+          "The woman lifts and eats noodles, lowers her hand, looks at a phone, then poses for a selfie.",
+          "The frame and performer remain continuous."
+        ],
+        "inference": "This is a strong action-spine source, but the dominant logic is sequential behavior rather than one motif returning in developed states."
+      },
+      "selection_verdict": "rejected_for_motif_state_return",
+      "possible_other_use": "A separate action-as-edit-spine or experience-before-product test.",
+      "dense_review_sheet": "../../proof-source-audit/motif-state-candidates/friend_ramen_selfie_51255-dense.jpg"
+    },
+    {
+      "candidate_id": "mixkit-810",
+      "title": "Latte art",
+      "provider": "Mixkit",
+      "source_page": "https://mixkit.co/free-stock-video/latte-art-810/",
+      "license": {
+        "name": "Mixkit Stock Video Free License",
+        "url": "https://mixkit.co/license/"
+      },
+      "local_file": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C",
+      "technical": {
+        "width": 1920,
+        "height": 1080,
+        "duration_seconds": 34.0
+      },
+      "direct_visual_review": {
+        "status": "reviewed_by_main_agent",
+        "evidence": "Complete 120-sample dense sheet covering 0.000-33.717 seconds at approximately 3.53 fps.",
+        "observations": [
+          "A fixed overhead composition keeps the same cup and pouring action visible throughout.",
+          "The cup changes from dark coffee to first white contrast, broad swirl, recognizable pattern, refined rings, and a final completed surface.",
+          "The material state develops monotonically; it never returns to an earlier coffee pattern."
+        ],
+        "inference": "The take provides at least five readable states of one persistent motif and can test state-return logic outside nature and relationship footage."
+      },
+      "selection_verdict": "selected_for_motif-state-return-v001",
+      "selection_reasons": [
+        "One unedited fixed take.",
+        "At least five visibly different states of the same motif.",
+        "Stable cup position makes authored temporal jumps legible as state progression rather than camera lurch."
+      ],
+      "dense_review_sheet": "../../proof-source-audit/motif-state-candidates/coffee_latte_810-dense.jpg"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "session_id": "pexels-cottonbro-park-pair-8640842",
+  "rights_basis": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_url": "https://www.pexels.com/license/",
+    "allowed_use": "proof_edit"
+  },
+  "capture_world": {
+    "world_id": "overcast-urban-park-playful-pair",
+    "subject_identity": "the same two adult performers in black leather and cream-rust patterned clothing",
+    "location": "one curved paved path inside the same green urban park",
+    "time_of_day": "daylight",
+    "weather": "soft overcast",
+    "lens_character": "wide camera-followed relationship framing with mild handheld movement",
+    "color_temperature": "neutral-cool daylight",
+    "palette": ["park green", "black leather", "cream", "rust red", "gray path"],
+    "same_world_claim": "The proof uses only one continuous decoded source file; person, wardrobe, path, light, camera axis, and action remain in one capture world."
+  },
+  "sources": [
+    {
+      "source_clip_id": "park-pair-8640842",
+      "file": "8640842.mp4",
+      "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596",
+      "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640842/",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "duration_seconds": 23.44,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {
+        "method": "dense_storyboard_and_boundary_review",
+        "status": "no_detected_splice",
+        "limitations": "Eight chronological /watch frames, source screening, and all proof source boundaries were directly inspected; trustworthy captured full-speed playback was unavailable."
+      },
+      "semantic_role": "contact, distance, reconvergence, lift, shared travel, native frame exit, and moving empty-path release"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_single_take_action_spine_v002",
+  "created_at": "2026-07-31T10:10:58.321083+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\render-report.json",
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-arm-lift",
+      "kind": "segment_boundary",
+      "frame": 25,
+      "seconds": 1.0,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\boundaries\\boundary-01-arm-lift.jpg",
+      "range_seconds": [
+        0.76,
+        1.28
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-reach-apex",
+      "kind": "segment_boundary",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\boundaries\\boundary-02-reach-apex.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-arm-return",
+      "kind": "segment_boundary",
+      "frame": 80,
+      "seconds": 3.2,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\boundaries\\boundary-03-arm-return.jpg",
+      "range_seconds": [
+        2.96,
+        3.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-flower-rise",
+      "kind": "segment_boundary",
+      "frame": 120,
+      "seconds": 4.8,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\boundaries\\boundary-04-flower-rise.jpg",
+      "range_seconds": [
+        4.56,
+        5.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-flower-presence",
+      "kind": "segment_boundary",
+      "frame": 170,
+      "seconds": 6.8,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\single-take-action-spine-v002\\render\\review-auto\\boundaries\\boundary-05-flower-presence.jpg",
+      "range_seconds": [
+        6.56,
+        7.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T10:12:02.162324+00:00",
+    "evidence": [
+      "0.000-2.200: neutral state develops into one continuous arm lift without repeated frames.",
+      "2.200-3.200: later reach apex preserves the rightward arm direction.",
+      "3.200 boundary: wide-to-close framing change preserves arm pose geometry and reads as an authored match cut rather than an animated zoom.",
+      "4.800-6.800: bouquet rises continuously toward the face.",
+      "6.800 boundary: flower position continues forward with no downward reset, black frame, or frozen padding."
+    ],
+    "limitations": [
+      "Live full-speed playback was unavailable; review used the complete 8 fps plain/proof sheets and every 25 fps boundary strip."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

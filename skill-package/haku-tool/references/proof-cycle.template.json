@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.1",
+  "cycle_id": "replace-me",
+  "promotion_situation_id": "replace-me",
+  "project_id": "replace-me",
+  "situation": "Describe a distinct material and purpose situation.",
+  "tested_operator_id": "replace-me",
+  "supporting_operator_ids": [],
+  "decision_contract_version": "1.1",
+  "timeline_grammar": "timeline-grammar.json",
+  "timeline_grammar_axis_count": 10,
+  "source_manifest": "source-manifest.json",
+  "audio_decision": {
+    "policy": "deferred_by_user|deferred_by_rights|licensed_library_track",
+    "reason": ""
+  },
+  "operator_verdicts": {
+    "replace-me": "pending"
+  },
+  "source_rights": {
+    "status": "unverified",
+    "source_url": null,
+    "license_url": null,
+    "local_owner": null
+  },
+  "source_audit": {
+    "complete_sequence_reviewed": false,
+    "existing_edit_detected": null,
+    "material_fit": "pending",
+    "limitations": []
+  },
+  "hypotheses": [],
+  "version": "v001",
+  "causal_changes_from_previous": [],
+  "render": {
+    "plain": null,
+    "proof": null,
+    "comparison": null,
+    "report": null
+  },
+  "direct_visual_review": {
+    "status": "pending",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "all_boundaries_reviewed": false,
+    "full_playback_reviewed": false,
+    "evidence": [],
+    "limitations": []
+  },
+  "research_verdict": {
+    "status": "pending",
+    "allowed_values": ["pass", "partial_pass", "fail"]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": ["accepted", "partial", "rejected"]
+  },
+  "promotion_increment": 0
+}

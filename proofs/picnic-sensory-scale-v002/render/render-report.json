@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_picnic_sensory_scale_v002",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\recipe.json",
+  "recipe_sha256": "32ADDF602D3EDF2050D140BE436AEB279194FF371EA1EB4C52DA1AAC8383E15A",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "action_owner",
+      "individual_reaction",
+      "relationship_field",
+      "tactile_detail"
+    ],
+    "material_ledger": {
+      "tactile_detail": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071333-group-landscape.mp4",
+        "source_in": 1.0,
+        "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14"
+      },
+      "action_owner": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071333-group-landscape.mp4",
+        "source_in": 8.5,
+        "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14"
+      },
+      "individual_reaction": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071341-evening-picnic-vertical.mp4",
+        "source_in": 0.5,
+        "sha256": "6F5CA4D96159B2B1015784AF41DC54DFEB48A1ACA3957E17FD189D4BA2D1DF14"
+      },
+      "relationship_field": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071336-wine-group-landscape.mp4",
+        "source_in": 4.8,
+        "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-group-first",
+          "segment_type": "fit-single",
+          "role": "full_frame_fit",
+          "material_id": "relationship_field",
+          "source_in_seconds": 4.8,
+          "source_out_seconds": 7.199999999999999,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            0,
+            60
+          ]
+        },
+        {
+          "segment_id": "plain-reaction",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "individual_reaction",
+          "source_in_seconds": 0.5,
+          "source_out_seconds": 2.3,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            60,
+            105
+          ]
+        },
+        {
+          "segment_id": "plain-detail",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "tactile_detail",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            105,
+            145
+          ]
+        },
+        {
+          "segment_id": "plain-action",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "action_owner",
+          "source_in_seconds": 8.5,
+          "source_out_seconds": 10.3,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            145,
+            190
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "relationship_field": 1,
+        "individual_reaction": 1,
+        "tactile_detail": 1,
+        "action_owner": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "touch-and-taste-detail",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "tactile_detail",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "action-owner-pours",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "action_owner",
+          "source_in_seconds": 8.5,
+          "source_out_seconds": 10.3,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            40,
+            85
+          ]
+        },
+        {
+          "segment_id": "body-registers-pleasure",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "individual_reaction",
+          "source_in_seconds": 0.5,
+          "source_out_seconds": 2.3,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            85,
+            130
+          ]
+        },
+        {
+          "segment_id": "sensation-opens-to-relationship",
+          "segment_type": "fit-single",
+          "role": "full_frame_fit",
+          "material_id": "relationship_field",
+          "source_in_seconds": 4.8,
+          "source_out_seconds": 7.199999999999999,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            130,
+            190
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "tactile_detail": 1,
+        "action_owner": 1,
+        "individual_reaction": 1,
+        "relationship_field": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\plain.mp4",
+    "frames": 190,
+    "duration_seconds": 7.6,
+    "segments": [
+      {
+        "segment_id": "plain-group-first",
+        "type": "fit-single",
+        "frames": 60,
+        "materials": [
+          "relationship_field"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\plain\\01-plain-group-first.mp4"
+      },
+      {
+        "segment_id": "plain-reaction",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "individual_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\plain\\02-plain-reaction.mp4"
+      },
+      {
+        "segment_id": "plain-detail",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "tactile_detail"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\plain\\03-plain-detail.mp4"
+      },
+      {
+        "segment_id": "plain-action",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "action_owner"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\plain\\04-plain-action.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "190"
+        }
+      ],
+      "format": {
+        "duration": "7.600000"
+      }
+    },
+    "sha256": "1416DBDB38620E21A1DC05ABD8C6DFDE9AB081FE51C3D5C9076144E48B0AFCF9"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\proof.mp4",
+    "frames": 190,
+    "duration_seconds": 7.6,
+    "segments": [
+      {
+        "segment_id": "touch-and-taste-detail",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "tactile_detail"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\proof\\01-touch-and-taste-detail.mp4"
+      },
+      {
+        "segment_id": "action-owner-pours",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "action_owner"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\proof\\02-action-owner-pours.mp4"
+      },
+      {
+        "segment_id": "body-registers-pleasure",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "individual_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\proof\\03-body-registers-pleasure.mp4"
+      },
+      {
+        "segment_id": "sensation-opens-to-relationship",
+        "type": "fit-single",
+        "frames": 60,
+        "materials": [
+          "relationship_field"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\_segments\\proof\\04-sensation-opens-to-relationship.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "190"
+        }
+      ],
+      "format": {
+        "duration": "7.600000"
+      }
+    },
+    "sha256": "100DF7A75F2A96A3847220180F9B8F2A27EE5CCC505DAA80496BA306232C9FA7"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-sensory-scale-v002\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

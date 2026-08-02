@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_nature_luminous_panels_v002",
+  "revision_from": "../nature-luminous-panels-v001/render/render-report.json",
+  "changes_from_v001": [
+    "Shift only the two robin crops from focus_x 0.5 to 0.25 so the bird is deliberately framed instead of clipped.",
+    "Keep every source anchor, duration, panel reveal, grade, and ending unchanged."
+  ],
+  "operator": {
+    "primary": "functional-memory-panels",
+    "secondary": "luminous-texture-relay",
+    "rhythm": "density-wave-release",
+    "ending": "living-horizon-release"
+  },
+  "situation": "No people, no product, multiple unedited nature shots connected by moving light and living motion.",
+  "hypotheses_under_test": [
+    "Functional panels remain readable when their roles are environment, flow, texture, and living presence rather than human relationship.",
+    "Progressive panel density can be motivated by luminous and organic continuity without a literal hand action.",
+    "A living horizon with many birds can act as a full-frame release after intimate forest details.",
+    "The operator should be rejected if the different stock sources feel like an arbitrary nature montage."
+  ],
+  "purpose": "Light passes through forest, water, grass, and a small bird before opening into a horizon full of flight.",
+  "material_fit": {
+    "status": "conditional",
+    "strengths": [
+      "All sources are unedited nature footage.",
+      "Light, wind, water, and bird motion provide a shared organic motif.",
+      "The shots provide wide, medium, texture, and living-detail roles."
+    ],
+    "risks": [
+      "The clips were not captured in one session.",
+      "Color temperature shifts from green forest to orange horizon.",
+      "No human action provides literal causality."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "forest_intro": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/287510_medium.mp4",
+      "source_in": 2.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "stream_context": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/174860-852215326_medium.mp4",
+      "source_in": 4.0,
+      "focus_x": 0.45,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "grass_texture": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/203923-922675870_medium.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "bird_presence": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4",
+      "source_in": 3.3,
+      "focus_x": 0.25,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "bird_breath": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4",
+      "source_in": 12.2,
+      "focus_x": 0.25,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "sunset_release": {
+      "source": "C:/Users/HP-5600G/Desktop/자연영상/140111-774507949_medium.mp4",
+      "source_in": 8.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-forest", "type": "single", "frames": 40, "material": "forest_intro"},
+        {"id": "plain-stream", "type": "single", "frames": 18, "material": "stream_context"},
+        {"id": "plain-grass", "type": "single", "frames": 18, "material": "grass_texture"},
+        {"id": "plain-bird-presence", "type": "single", "frames": 34, "material": "bird_presence"},
+        {"id": "plain-bird-breath", "type": "single", "frames": 30, "material": "bird_breath"},
+        {"id": "plain-sunset", "type": "single", "frames": 60, "material": "sunset_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "forest-light-entry", "type": "single", "frames": 40, "material": "forest_intro"},
+        {
+          "id": "progressive-living-field",
+          "type": "functional-panels",
+          "frames": 70,
+          "canvas_color": "0x080808",
+          "panels": [
+            {
+              "id": "water-flow-dominant",
+              "material": "stream_context",
+              "active_frames": [0, 70],
+              "rect": [0.0, 0.0, 1.0, 0.58]
+            },
+            {
+              "id": "wind-texture-support",
+              "material": "grass_texture",
+              "active_frames": [15, 70],
+              "rect": [0.0, 0.59, 0.495, 0.41]
+            },
+            {
+              "id": "living-presence-support",
+              "material": "bird_presence",
+              "active_frames": [30, 70],
+              "rect": [0.505, 0.59, 0.495, 0.41]
+            }
+          ]
+        },
+        {"id": "bird-breath", "type": "single", "frames": 30, "material": "bird_breath"},
+        {"id": "living-horizon-release", "type": "single", "frames": 60, "material": "sunset_release"}
+      ]
+    }
+  }
+}

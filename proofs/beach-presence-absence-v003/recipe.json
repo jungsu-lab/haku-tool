@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_beach_presence_absence_v003",
+  "operator": {
+    "primary": "presence-to-absence-hold",
+    "secondary": "state-weighted-compression"
+  },
+  "situation": "One licensed, unedited 30.4-second fixed beach take in which a woman enters from frame right, crosses left, exits, and leaves moving water and light reflections.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Taryn Elliott",
+    "page_url": "https://www.pexels.com/video/woman-walking-on-the-beach-5937571/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+  },
+  "hypotheses_under_test": [
+    "A native same-frame trace after a complete exit reads as an afterimage when it receives more time than the plain variant.",
+    "Walking-state compression must keep adjacent source ranges nearly continuous; a correct direction alone does not excuse a visible spatial jump.",
+    "A wide source should remain wide when a vertical crop would remove the authored entrance and exit."
+  ],
+  "purpose": "Retain the strong living-water afterimage from v002 while removing both visible walking jumps.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The single take contains a clean chronological environment, entrance, crossing, full exit, and long moving empty-frame consequence."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "environment_before": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 9.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "entry_from_right": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 10.04,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "crossing": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 11.88,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "exit_left": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 14.82,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "water_afterimage": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 16.57,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-environment", "type": "single", "frames": 24, "material": "environment_before"},
+        {"id": "plain-entry", "type": "single", "frames": 44, "material": "entry_from_right"},
+        {"id": "plain-crossing", "type": "single", "frames": 70, "material": "crossing"},
+        {"id": "plain-exit", "type": "single", "frames": 42, "material": "exit_left"},
+        {"id": "plain-afterimage", "type": "single", "frames": 38, "material": "water_afterimage"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "brief-empty-establish", "type": "single", "frames": 16, "material": "environment_before"},
+        {"id": "compressed-entry", "type": "single", "frames": 34, "material": "entry_from_right"},
+        {"id": "continuous-crossing", "type": "single", "frames": 70, "material": "crossing"},
+        {"id": "complete-frame-exit", "type": "single", "frames": 42, "material": "exit_left"},
+        {"id": "living-water-afterimage", "type": "single", "frames": 56, "material": "water_afterimage"}
+      ]
+    }
+  }
+}

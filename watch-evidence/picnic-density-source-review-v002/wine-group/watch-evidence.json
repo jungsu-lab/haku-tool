@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "kind": "local_file",
+    "value": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/picnic-sensory-scale/10071336-wine-group-landscape.mp4",
+    "rights_status": "licensed",
+    "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217"
+  },
+  "invocation": {
+    "wrapper": "C:/Users/HP-5600G/Desktop/AI 제작과정/tools/run-watch.cmd",
+    "detail": "efficient",
+    "external_transcription_allowed": false,
+    "explicit_user_consent_for_audio_upload": false,
+    "no_whisper": true,
+    "output_directory": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/wine-group",
+    "report_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/wine-group/report.md"
+  },
+  "review": {
+    "reviewer": "main-agent",
+    "every_listed_frame_reviewed": true,
+    "transcript_source": "none",
+    "frame_evidence": [
+      {"timestamp_seconds": 0, "frame_path": "frames/cue_0000.jpg", "observation": "Four friends occupy one seated picnic field with pink-wine glasses and food visible.", "inference": "This angle supplies the relationship information missing from detail and reaction coverage.", "timeline_event_ids": ["event-003-group-toast-release"]},
+      {"timestamp_seconds": 4, "frame_path": "frames/cue_0001.jpg", "observation": "The light-blazer man reaches his glass toward the group while three other bodies remain visible.", "inference": "The reach provides an actionable lead-in to the toast rather than a static wide shot.", "timeline_event_ids": ["event-003-group-toast-release"]},
+      {"timestamp_seconds": 6, "frame_path": "frames/cue_0002.jpg", "observation": "Multiple glasses rise as the four-person field remains legible.", "inference": "This moment can begin as a small preview and continue source-contiguously at full size.", "timeline_event_ids": ["event-002-progressive-social-density", "event-003-group-toast-release"]},
+      {"timestamp_seconds": 8, "frame_path": "frames/cue_0003.jpg", "observation": "The group glasses converge near frame center while the foreground pale-blue back partly blocks the right edge.", "inference": "The toast is clear, but the framing should remain landscape to preserve all participants.", "timeline_event_ids": ["event-003-group-toast-release"]},
+      {"timestamp_seconds": 10, "frame_path": "frames/cue_0004.jpg", "observation": "The light-blazer man turns toward the group as the glasses lower.", "inference": "The release has a native conversational exhale after the toast peak.", "timeline_event_ids": ["event-003-group-toast-release"]},
+      {"timestamp_seconds": 13, "frame_path": "frames/cue_0005.jpg", "observation": "The group stays seated in the same light with glasses distributed across the frame.", "inference": "The scene retains relationship energy after the convergence.", "timeline_event_ids": ["event-003-group-toast-release"]},
+      {"timestamp_seconds": 15, "frame_path": "frames/cue_0006.jpg", "observation": "The four-person conversation continues with another glass gesture.", "inference": "The source has enough native tail for a measured ending without padding.", "timeline_event_ids": ["event-003-group-toast-release"]}
+    ],
+    "limitations": ["Pinned timestamps are not a captured full-speed playback review.", "A foreground back partially occludes the right participant, so vertical cover crop is forbidden."]
+  },
+  "reuse_gate": {"analysis_only": false, "allowed_in_proof": true, "allowed_in_final": true},
+  "conversion": {"status": "mapped", "timeline_grammar_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/proofs/picnic-density-wave-v001/timeline-grammar.json"}
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_candle_presence_absence_v001",
+  "created_at": "2026-07-31T11:58:36.233239+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_candle_presence_absence_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "440CFD4D8A19C3BC8252EB8374673A131CADE56F2B5A945BF175EEEEB4C85561",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 39,
+      "coverage_seconds": 4.791667
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 39,
+      "coverage_seconds": 4.791667
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-pressure-lowers-flame",
+      "kind": "segment_boundary",
+      "frame": 27,
+      "seconds": 1.125,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\boundaries\\boundary-01-pressure-lowers-flame.jpg",
+      "range_seconds": [
+        0.875,
+        1.4166666666666665
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-flame-collapses",
+      "kind": "segment_boundary",
+      "frame": 54,
+      "seconds": 2.25,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\boundaries\\boundary-02-flame-collapses.jpg",
+      "range_seconds": [
+        2.0,
+        2.5416666666666665
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-ember-afterimage",
+      "kind": "segment_boundary",
+      "frame": 79,
+      "seconds": 3.2916666666666665,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\boundaries\\boundary-03-ember-afterimage.jpg",
+      "range_seconds": [
+        3.0416666666666665,
+        3.583333333333333
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T11:59:23.934895+00:00",
+    "evidence": [
+      "Full 0.000-12.958 source: one unedited take; the flame remains active until roughly 10.7 seconds, collapses through roughly 11.6 seconds, then leaves a tiny changing ember rather than an inserted black frame.",
+      "Proof 0.000-2.250: the established flame bends and visibly lowers while the candle position and scale remain fixed.",
+      "Proof 2.250-3.292: the flame collapses into a much smaller source state without an animated crop, zoom, or external transition.",
+      "Proof 3.292-4.792: the remaining ember continues to shrink; it is not a duplicated final frame or padded freeze.",
+      "All three 24 fps boundary strips are technically clean, though the first two cuts retain a small flame-orientation discontinuity inherent to state compression."
+    ],
+    "limitations": [
+      "The proof/plain duration difference is small, so the authored timing advantage is weak.",
+      "The candle occupies little screen area and the smoke trace is almost invisible; the ending can read as ordinary fade-to-black rather than a Haku afterimage.",
+      "Live full-speed playback was unavailable; review used the complete 12 fps source sheet, complete 8 fps plain/proof sheets, and every 24 fps boundary strip."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

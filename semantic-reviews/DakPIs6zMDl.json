@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DakPIs6zMDl",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:52:00Z"
+  },
+  "purpose": "두 학생이 빈 칠판을 하나의 바다 세계로 함께 채우는 긴 창작 과정과 관계의 축적",
+  "format": "16:9 landscape long fixed-stage creation film",
+  "story_role": "explicit",
+  "primary_subject": "칠판에 번갈아 그림을 그리는 남학생과 여학생",
+  "intended_viewer_response": "둘이 함께 보낸 시간과 그림이 완성될 때의 조용한 성취감",
+  "commercial_function": "문구·교육·창작 도구·협업 서비스의 과정 중심 브랜드 필름",
+  "sequence": {
+    "opening_hook": "넓은 교실과 빈 칠판 앞 두 사람을 정면 고정 와이드로 제시한다.",
+    "development": "약 30초 동안 두 사람이 자리를 바꾸고 선을 더하며 바다·생물·물결 형태를 누적한다.",
+    "peak_or_payoff": "30초 이후 손과 몸의 근접, 창가의 두 사람, 칠판 안의 작은 영상 패널처럼 보이는 시각 변주가 들어온다.",
+    "final_image": "완성된 칠판 세계와 두 사람을 다시 넓게 보여 창작 과정의 결과로 돌아온다."
+  },
+  "directing": {
+    "subject_action": "분필 고르기, 선 그리기, 자리 교대, 서로의 그림 보기, 함께 완성하기",
+    "blocking": "칠판 좌우를 번갈아 점유하고 상대가 그릴 때 물러나 보는 관계를 반복한다.",
+    "space": "교실 전체를 무대로 두고 칠판은 시간과 관계가 누적되는 공동 표면으로 사용한다.",
+    "props_surfaces_costume": "초록 칠판·흰 분필·교복·나무 책상이 색과 역할을 단순화한다."
+  },
+  "cinematography": {
+    "composition": "첫 30초는 정면 고정 와이드, 이후에 손·등·창문·칠판 디테일을 제한적으로 추가한다.",
+    "distance_or_lens": "마스터를 오래 유지한 뒤 뒤늦게 근접 정보를 풀어 준다.",
+    "camera_motion": "마스터에서는 거의 고정이고 인물의 이동과 그림 증가가 운동을 만든다.",
+    "light": "균일한 교실광 뒤 후반 창문 숏에서 자연 역광을 잠깐 확장한다.",
+    "palette_texture_depth": "초록·흰색·갈색의 제한 팔레트와 분필 선 누적이 시각 밀도를 만든다."
+  },
+  "editing": {
+    "cut_logic": "0~30.042초의 긴 공동 행동 마스터를 보존한 뒤 후반에만 근접·공간·패널 변주를 허용한다.",
+    "shot_duration_progression": "매우 긴 마스터→0.1~1.5초 디테일 파편→2~3초 관계·공간→완성 마스터의 큰 파동이다.",
+    "adjacent_image_relations": "같은 칠판 그림과 두 사람의 손을 모든 거리에서 반복해 후반 컷이 과정에서 이탈하지 않는다.",
+    "in_frame_editing": "칠판의 선이 실제로 증가하고 두 사람이 역할을 교대하는 과정이 핵심 편집이다.",
+    "typography_graphics_compositing": "39초 부근 칠판 영역 안에 다른 시점의 직사각형 영상 창처럼 보이는 화면 내부 레이어가 관찰된다.",
+    "repeated_operators": [
+      "long_master_then_detail_release",
+      "shared_surface_accumulation",
+      "role_exchange_in_fixed_stage",
+      "motivated_in_frame_memory_window"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "분필·교실 소리와 후반 밀도 전환의 관계는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 10.0,
+      "observation": "고정 와이드에서 두 사람이 빈 칠판을 오가며 첫 선과 형태를 만든다.",
+      "inference": "공간과 협업 규칙을 먼저 충분히 학습시켜 이후 결과가 시간의 누적으로 보이게 한다."
+    },
+    {
+      "start_seconds": 10.0,
+      "end_seconds": 20.0,
+      "observation": "두 사람이 계속 자리와 도구를 교대하며 칠판의 물결·생물 형태가 늘어난다.",
+      "inference": "한 컷 안의 역할 교대와 결과 누적이 카메라 변화 없이도 중간 전개를 만든다."
+    },
+    {
+      "start_seconds": 20.0,
+      "end_seconds": 30.042,
+      "observation": "같은 마스터에서 그림 밀도가 높아지고 두 사람이 완성 상태를 함께 본다.",
+      "inference": "창작 과정의 완결을 자르지 않아 실제 공동 시간을 감정으로 전환한다."
+    },
+    {
+      "start_seconds": 30.042,
+      "end_seconds": 36.833,
+      "observation": "짧은 마스터·손 근접·창가의 두 사람·테이블 장면이 0.1~2.7초 길이로 교차한다.",
+      "inference": "긴 관찰 뒤 처음으로 감정과 접촉 디테일을 풀어 주는 후반 release다."
+    },
+    {
+      "start_seconds": 39.208,
+      "end_seconds": 44.833,
+      "observation": "칠판 안 직사각형 영상 창, 여학생 그림 근접, 두 사람과 완성 칠판 마스터가 이어진다.",
+      "inference": "화면 내부 기억 창을 실제 공동 표면에 결속한 뒤 결과 구도로 닫는다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 30초 고정 행동과 제한된 후반 레이어만으로 Haku의 관계·화면 내부 편집을 함께 보여준다.",
+    "common_elements": [
+      "학교·교복",
+      "두 사람의 공동 행동",
+      "실제 손과 표면",
+      "긴 호흡 뒤 디테일 release"
+    ],
+    "possible_discriminators": [
+      "공동 표면의 30초 누적",
+      "마스터가 충분히 성립한 뒤에만 화면 내부 창 사용",
+      "레이어가 칠판의 기억·창작 기능과 인과적으로 연결"
+    ],
+    "forbidden_pattern_evidence": [
+      "초반부터 작은 창과 효과를 계속 넣으면 실제 창작 과정이 약해진다.",
+      "고정 마스터에 자동 줌을 넣으면 두 사람의 자리 교대와 그림 전체가 비교되지 않는다."
+    ],
+    "ad_strengths": [
+      "문구·교육",
+      "협업 앱·창작 도구",
+      "과정을 파는 브랜드"
+    ],
+    "suitable_subjects": [
+      "한 표면이 시간에 따라 명확히 변하는 긴 원본",
+      "두 사람의 역할 교대와 완성 결과가 있는 촬영본",
+      "후반에 연결할 손·공간·관계 디테일"
+    ],
+    "poor_fit_subjects": [
+      "결과 변화가 없는 대화",
+      "마스터 구도가 불안정하거나 자주 가려지는 원본"
+    ],
+    "limitations": [
+      "39초 부근 레이어의 정확한 출현 애니메이션은 실시간 재생 없이 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "한 컷 안 편집은 작은 사진을 많이 띄우는 것이 아니라 실제 표면 변화가 먼저 성립해야 한다.",
+    "긴 마스터가 지루한 것이 아니라 행동·역할·결과가 누적되지 않는 마스터가 지루하다."
+  ],
+  "confidence": "high"
+}

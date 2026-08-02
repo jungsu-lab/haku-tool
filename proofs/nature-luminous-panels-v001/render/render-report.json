@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_nature_luminous_panels_v001",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "bird_breath",
+      "bird_presence",
+      "forest_intro",
+      "grass_texture",
+      "stream_context",
+      "sunset_release"
+    ],
+    "material_ledger": {
+      "forest_intro": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\287510_medium.mp4",
+        "source_in": 2.0,
+        "sha256": "4884D6EE9BF75DA7AA082B1DFEAFEA8801D35FEED2A1E0428525F87F4D8AF13E"
+      },
+      "stream_context": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\174860-852215326_medium.mp4",
+        "source_in": 4.0,
+        "sha256": "6689FAFB29C40EF50AD7965E971D2F8B1A57C4320A3C38EAB2471D642DE8808A"
+      },
+      "grass_texture": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\203923-922675870_medium.mp4",
+        "source_in": 5.0,
+        "sha256": "30F402CC53E0908F0850E68E08310F84AD2F3FE3001A87642BDBD195A5E45CA5"
+      },
+      "bird_presence": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 3.3,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "bird_breath": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\21723-320725678_medium.mp4",
+        "source_in": 12.2,
+        "sha256": "C4B9C642B55016A28AAC2D07239EC1573BF4113639B36C28DD41A56A0C4B8BC8"
+      },
+      "sunset_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\자연영상\\140111-774507949_medium.mp4",
+        "source_in": 8.0,
+        "sha256": "C560DE583B73034B370F20DA30F9125BB5D7FAA5F1D4AEAC0931D665BCCEC915"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-forest",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "forest_intro",
+          "source_in_seconds": 2.0,
+          "source_out_seconds": 3.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "plain-stream",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "stream_context",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 4.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            40,
+            58
+          ]
+        },
+        {
+          "segment_id": "plain-grass",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "grass_texture",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 5.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            58,
+            76
+          ]
+        },
+        {
+          "segment_id": "plain-bird-presence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "bird_presence",
+          "source_in_seconds": 3.3,
+          "source_out_seconds": 4.66,
+          "duration_frames": 34,
+          "timeline_visible_frames": [
+            76,
+            110
+          ]
+        },
+        {
+          "segment_id": "plain-bird-breath",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "bird_breath",
+          "source_in_seconds": 12.2,
+          "source_out_seconds": 13.399999999999999,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            110,
+            140
+          ]
+        },
+        {
+          "segment_id": "plain-sunset",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "sunset_release",
+          "source_in_seconds": 8.0,
+          "source_out_seconds": 10.4,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            140,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "forest_intro": 1,
+        "stream_context": 1,
+        "grass_texture": 1,
+        "bird_presence": 1,
+        "bird_breath": 1,
+        "sunset_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "forest-light-entry",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "forest_intro",
+          "source_in_seconds": 2.0,
+          "source_out_seconds": 3.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "progressive-living-field",
+          "segment_type": "functional-panels",
+          "role": "water-flow-dominant",
+          "material_id": "stream_context",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 6.8,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            40,
+            110
+          ]
+        },
+        {
+          "segment_id": "progressive-living-field",
+          "segment_type": "functional-panels",
+          "role": "wind-texture-support",
+          "material_id": "grass_texture",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 7.2,
+          "duration_frames": 55,
+          "timeline_visible_frames": [
+            55,
+            110
+          ]
+        },
+        {
+          "segment_id": "progressive-living-field",
+          "segment_type": "functional-panels",
+          "role": "living-presence-support",
+          "material_id": "bird_presence",
+          "source_in_seconds": 3.3,
+          "source_out_seconds": 4.9,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            70,
+            110
+          ]
+        },
+        {
+          "segment_id": "bird-breath",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "bird_breath",
+          "source_in_seconds": 12.2,
+          "source_out_seconds": 13.399999999999999,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            110,
+            140
+          ]
+        },
+        {
+          "segment_id": "living-horizon-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "sunset_release",
+          "source_in_seconds": 8.0,
+          "source_out_seconds": 10.4,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            140,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "forest_intro": 1,
+        "stream_context": 1,
+        "grass_texture": 1,
+        "bird_presence": 1,
+        "bird_breath": 1,
+        "sunset_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\plain.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "plain-forest",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "forest_intro"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\01-plain-forest.mp4"
+      },
+      {
+        "segment_id": "plain-stream",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "stream_context"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\02-plain-stream.mp4"
+      },
+      {
+        "segment_id": "plain-grass",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "grass_texture"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\03-plain-grass.mp4"
+      },
+      {
+        "segment_id": "plain-bird-presence",
+        "type": "single",
+        "frames": 34,
+        "materials": [
+          "bird_presence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\04-plain-bird-presence.mp4"
+      },
+      {
+        "segment_id": "plain-bird-breath",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "bird_breath"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\05-plain-bird-breath.mp4"
+      },
+      {
+        "segment_id": "plain-sunset",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "sunset_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\plain\\06-plain-sunset.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    }
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\proof.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "forest-light-entry",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "forest_intro"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\proof\\01-forest-light-entry.mp4"
+      },
+      {
+        "segment_id": "progressive-living-field",
+        "type": "functional-panels",
+        "frames": 70,
+        "materials": [
+          "bird_presence",
+          "grass_texture",
+          "stream_context"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\proof\\02-progressive-living-field.mp4"
+      },
+      {
+        "segment_id": "bird-breath",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "bird_breath"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\proof\\03-bird-breath.mp4"
+      },
+      {
+        "segment_id": "living-horizon-release",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "sunset_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\_segments\\proof\\04-living-horizon-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    }
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nature-luminous-panels-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

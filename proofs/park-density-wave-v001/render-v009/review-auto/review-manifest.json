@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_park_density_wave_v005",
+  "created_at": "2026-08-01T11:16:49.975235+00:00",
+  "recipe": "..\\..\\recipe-v005.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_park_density_wave_v005",
+    "schema_version": "1.1",
+    "recipe_sha256": "7DAA61CB740B43783F94A5FFBDEEA24AEA1D432AD072900700DB5642123EA091",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 111,
+      "coverage_seconds": 13.88
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 111,
+      "coverage_seconds": 13.88
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-progressive-relationship-density",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\boundary-01-progressive-relationship-density.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-distance-base-start",
+      "kind": "internal_event",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\internal-progressive-relationship-density-distance-base-start.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-reconvergence-support-start",
+      "kind": "internal_event",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\internal-progressive-relationship-density-reconvergence-support-start.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-reconvergence-support-end",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\internal-progressive-relationship-density-reconvergence-support-end.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-density-lift-support-start",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\internal-progressive-relationship-density-lift-support-start.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-native-shared-exit-release",
+      "kind": "segment_boundary",
+      "frame": 110,
+      "seconds": 4.4,
+      "strip": "boundaries\\boundary-02-native-shared-exit-release.jpg",
+      "range_seconds": [
+        4.16,
+        4.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-08-01T11:20:41.880688+00:00",
+    "evidence": [
+      "8fps dense proof sheet directly reviewed across 13.88 seconds: no black frames, freeze padding, fake zoom, or stalled exit.",
+      "At 2.80 seconds reconvergence support ends on the same frame that lift support begins; direct boundary strips and v004-v005 comparison show no blank frame and clearer central pair readability than v004.",
+      "At 4.40 seconds the lower-right source inset hands off to the immediately following source frame full-screen without rewind, skip, or retime.",
+      "From approximately 13.28 to 13.88 seconds both performers have exited, leaving an actual empty park path as the release."
+    ],
+    "limitations": [
+      "Trustworthy full-speed playback capture was not available; full_playback_reviewed remains false.",
+      "The visible support-window layout is a creative treatment that still requires the user verdict; no acceptance or promotion increment is inferred."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

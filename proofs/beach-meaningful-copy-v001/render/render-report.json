@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_beach_meaningful_copy_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\recipe.json",
+  "recipe_sha256": "17076C3303D4D2C8A0076B9CE9B537D9D5278EF01F6577701D1B116663C4D1B6",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "crossing",
+      "entry_from_right",
+      "environment_before",
+      "exit_left",
+      "water_afterimage"
+    ],
+    "material_ledger": {
+      "environment_before": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 9.0,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "entry_from_right": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 10.04,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "crossing": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 11.88,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "exit_left": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 14.82,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      },
+      "water_afterimage": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\pexels-presence-absence\\pexels-5937571-woman-beach-walk.mp4",
+        "source_in": 16.57,
+        "sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": true,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-before",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "environment_before",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 10.0,
+          "duration_frames": 24,
+          "timeline_visible_frames": [
+            0,
+            24
+          ]
+        },
+        {
+          "segment_id": "plain-entry",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "entry_from_right",
+          "source_in_seconds": 10.04,
+          "source_out_seconds": 11.873333333333333,
+          "duration_frames": 44,
+          "timeline_visible_frames": [
+            24,
+            68
+          ]
+        },
+        {
+          "segment_id": "plain-crossing",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "crossing",
+          "source_in_seconds": 11.88,
+          "source_out_seconds": 14.796666666666667,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            68,
+            138
+          ]
+        },
+        {
+          "segment_id": "plain-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "exit_left",
+          "source_in_seconds": 14.82,
+          "source_out_seconds": 16.57,
+          "duration_frames": 42,
+          "timeline_visible_frames": [
+            138,
+            180
+          ]
+        },
+        {
+          "segment_id": "plain-after",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "water_afterimage",
+          "source_in_seconds": 16.57,
+          "source_out_seconds": 18.153333333333332,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            180,
+            218
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "environment_before": 1,
+        "entry_from_right": 1,
+        "crossing": 1,
+        "exit_left": 1,
+        "water_afterimage": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "before-chapter",
+          "segment_type": "copy-overlay",
+          "role": "full_frame",
+          "material_id": "environment_before",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 10.0,
+          "duration_frames": 24,
+          "timeline_visible_frames": [
+            0,
+            24
+          ]
+        },
+        {
+          "segment_id": "entry",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "entry_from_right",
+          "source_in_seconds": 10.04,
+          "source_out_seconds": 11.873333333333333,
+          "duration_frames": 44,
+          "timeline_visible_frames": [
+            24,
+            68
+          ]
+        },
+        {
+          "segment_id": "crossing",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "crossing",
+          "source_in_seconds": 11.88,
+          "source_out_seconds": 14.796666666666667,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            68,
+            138
+          ]
+        },
+        {
+          "segment_id": "complete-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "exit_left",
+          "source_in_seconds": 14.82,
+          "source_out_seconds": 16.57,
+          "duration_frames": 42,
+          "timeline_visible_frames": [
+            138,
+            180
+          ]
+        },
+        {
+          "segment_id": "after-proposition",
+          "segment_type": "copy-overlay",
+          "role": "full_frame",
+          "material_id": "water_afterimage",
+          "source_in_seconds": 16.57,
+          "source_out_seconds": 18.153333333333332,
+          "duration_frames": 38,
+          "timeline_visible_frames": [
+            180,
+            218
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "environment_before": 1,
+        "entry_from_right": 1,
+        "crossing": 1,
+        "exit_left": 1,
+        "water_afterimage": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\plain.mp4",
+    "frames": 218,
+    "duration_seconds": 9.083333333333334,
+    "segments": [
+      {
+        "segment_id": "plain-before",
+        "type": "single",
+        "frames": 24,
+        "materials": [
+          "environment_before"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\plain\\01-plain-before.mp4"
+      },
+      {
+        "segment_id": "plain-entry",
+        "type": "single",
+        "frames": 44,
+        "materials": [
+          "entry_from_right"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\plain\\02-plain-entry.mp4"
+      },
+      {
+        "segment_id": "plain-crossing",
+        "type": "single",
+        "frames": 70,
+        "materials": [
+          "crossing"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\plain\\03-plain-crossing.mp4"
+      },
+      {
+        "segment_id": "plain-exit",
+        "type": "single",
+        "frames": 42,
+        "materials": [
+          "exit_left"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\plain\\04-plain-exit.mp4"
+      },
+      {
+        "segment_id": "plain-after",
+        "type": "single",
+        "frames": 38,
+        "materials": [
+          "water_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\plain\\05-plain-after.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "218"
+        }
+      ],
+      "format": {
+        "duration": "9.083333"
+      }
+    },
+    "sha256": "9C56B7C787978BB970C835559B66FCCC230A63B2F425559D6079DF9BFBE0F7A0"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\proof.mp4",
+    "frames": 218,
+    "duration_seconds": 9.083333333333334,
+    "segments": [
+      {
+        "segment_id": "before-chapter",
+        "type": "copy-overlay",
+        "frames": 24,
+        "materials": [
+          "environment_before"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\proof\\01-before-chapter.mp4"
+      },
+      {
+        "segment_id": "entry",
+        "type": "single",
+        "frames": 44,
+        "materials": [
+          "entry_from_right"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\proof\\02-entry.mp4"
+      },
+      {
+        "segment_id": "crossing",
+        "type": "single",
+        "frames": 70,
+        "materials": [
+          "crossing"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\proof\\03-crossing.mp4"
+      },
+      {
+        "segment_id": "complete-exit",
+        "type": "single",
+        "frames": 42,
+        "materials": [
+          "exit_left"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\proof\\04-complete-exit.mp4"
+      },
+      {
+        "segment_id": "after-proposition",
+        "type": "copy-overlay",
+        "frames": 38,
+        "materials": [
+          "water_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\_segments\\proof\\05-after-proposition.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "218"
+        }
+      ],
+      "format": {
+        "duration": "9.083333"
+      }
+    },
+    "sha256": "DD8208C118B58D881CEF6ECA050540E05B79A4DDFBFCD5B662FE3F3329BDE5F5"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

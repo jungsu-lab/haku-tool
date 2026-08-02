@@ -1,0 +1,1007 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku-auto-research",
+  "created_at": "2026-07-31T07:53:20.454628+00:00",
+  "account": "@haku_.photo",
+  "source_manifest": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\reference-manifest-40.json",
+  "rights_policy": "public-reference-only-analysis",
+  "promotion_progress": "0/3 accepted situations",
+  "stop_requested": false,
+  "counts": {
+    "total": 40,
+    "legacy_golden_reviewed": 8,
+    "semantic_complete": 32,
+    "pending_visual_review": 0,
+    "needs_second_review": 0
+  },
+  "reels": [
+    {
+      "index": 1,
+      "reel_id": "DbS9D2JziFP",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DbS9D2JziFP/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\01_20260727_DbS9D2JziFP.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\01_DbS9D2JziFP.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DbS9D2JziFP.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 2,
+      "reel_id": "DbQf99sT2rh",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DbQf99sT2rh/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\02_20260726_DbQf99sT2rh.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\02_DbQf99sT2rh.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DbQf99sT2rh.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DbQf99sT2rh.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 2,
+      "priority": 401,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:04.474498+00:00"
+    },
+    {
+      "index": 3,
+      "reel_id": "Da24ipMTXu4",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/Da24ipMTXu4/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\03_20260716_Da24ipMTXu4.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\03_Da24ipMTXu4.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\Da24ipMTXu4.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\Da24ipMTXu4.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 2,
+      "priority": 201,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:27.963059+00:00"
+    },
+    {
+      "index": 4,
+      "reel_id": "DakPIs6zMDl",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DakPIs6zMDl/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\04_20260709_DakPIs6zMDl.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\04_DakPIs6zMDl.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DakPIs6zMDl.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DakPIs6zMDl.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 301,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.383331+00:00"
+    },
+    {
+      "index": 5,
+      "reel_id": "DaX8TkKzqIH",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DaX8TkKzqIH/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\05_20260704_DaX8TkKzqIH.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\05_DaX8TkKzqIH.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DaX8TkKzqIH.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DaX8TkKzqIH.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 402,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:04.930499+00:00"
+    },
+    {
+      "index": 6,
+      "reel_id": "DaUibIhzFkf",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DaUibIhzFkf/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\06_20260703_DaUibIhzFkf.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\06_DaUibIhzFkf.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DaUibIhzFkf.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 7,
+      "reel_id": "DZsDeJ-TeM_",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DZsDeJ-TeM_/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\07_20260617_DZsDeJ-TeM_.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\07_DZsDeJ-TeM_.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZsDeJ-TeM_.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DZsDeJ-TeM_.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 2,
+      "priority": 106,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T08:03:06.475583+00:00"
+    },
+    {
+      "index": 8,
+      "reel_id": "DZXiQ_jz2tg",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DZXiQ_jz2tg/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\08_20260609_DZXiQ_jz2tg.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\08_DZXiQ_jz2tg.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZXiQ_jz2tg.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DZXiQ_jz2tg.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 101,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T08:03:06.692583+00:00"
+    },
+    {
+      "index": 9,
+      "reel_id": "DZSp9hhSC3P",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DZSp9hhSC3P/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\09_20260608_DZSp9hhSC3P.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\09_DZSp9hhSC3P.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZSp9hhSC3P.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DZSp9hhSC3P.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 302,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.460331+00:00"
+    },
+    {
+      "index": 10,
+      "reel_id": "DOyJ6k3Ewmb",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DOyJ6k3Ewmb/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\10_20250919_DOyJ6k3Ewmb.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\10_DOyJ6k3Ewmb.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOyJ6k3Ewmb.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DOyJ6k3Ewmb.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 403,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:05.437500+00:00"
+    },
+    {
+      "index": 11,
+      "reel_id": "DOdPyazk0k7",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DOdPyazk0k7/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\11_20250911_DOdPyazk0k7.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\11_DOdPyazk0k7.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOdPyazk0k7.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DOdPyazk0k7.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 105,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T08:08:27.890058+00:00"
+    },
+    {
+      "index": 12,
+      "reel_id": "DaxG1n-TWOv",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DaxG1n-TWOv/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\12_20260714_DaxG1n-TWOv.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\12_DaxG1n-TWOv.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DaxG1n-TWOv.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 13,
+      "reel_id": "DZFOV3Qz7Gs",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DZFOV3Qz7Gs/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\13_20260602_DZFOV3Qz7Gs.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\13_DZFOV3Qz7Gs.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZFOV3Qz7Gs.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DZFOV3Qz7Gs.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 205,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:28.265059+00:00"
+    },
+    {
+      "index": 14,
+      "reel_id": "DYrhH-6zH-1",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DYrhH-6zH-1/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\14_20260523_DYrhH-6zH-1.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\14_DYrhH-6zH-1.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DYrhH-6zH-1.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DYrhH-6zH-1.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 303,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.532331+00:00"
+    },
+    {
+      "index": 15,
+      "reel_id": "DYql5NyTBeO",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DYql5NyTBeO/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\15_20260523_DYql5NyTBeO.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\15_DYql5NyTBeO.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DYql5NyTBeO.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DYql5NyTBeO.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 202,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:28.041058+00:00"
+    },
+    {
+      "index": 16,
+      "reel_id": "DX6n8iQPsjQ",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DX6n8iQPsjQ/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\16_20260504_DX6n8iQPsjQ.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\16_DX6n8iQPsjQ.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DX6n8iQPsjQ.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 17,
+      "reel_id": "DXzIEytzWhP",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DXzIEytzWhP/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\17_20260501_DXzIEytzWhP.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\17_DXzIEytzWhP.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DXzIEytzWhP.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DXzIEytzWhP.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 404,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:05.909498+00:00"
+    },
+    {
+      "index": 18,
+      "reel_id": "DXJ2bohkzbV",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DXJ2bohkzbV/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\18_20260415_DXJ2bohkzbV.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\18_DXJ2bohkzbV.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DXJ2bohkzbV.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DXJ2bohkzbV.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 304,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.608333+00:00"
+    },
+    {
+      "index": 19,
+      "reel_id": "DWuZaCfE-WF",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DWuZaCfE-WF/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\19_20260404_DWuZaCfE-WF.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\19_DWuZaCfE-WF.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWuZaCfE-WF.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DWuZaCfE-WF.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 2,
+      "priority": 102,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T08:03:06.549583+00:00"
+    },
+    {
+      "index": 20,
+      "reel_id": "DWoUT9rk1ry",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DWoUT9rk1ry/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\20_20260402_DWoUT9rk1ry.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\20_DWoUT9rk1ry.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWoUT9rk1ry.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DWoUT9rk1ry.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 405,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:06.391501+00:00"
+    },
+    {
+      "index": 21,
+      "reel_id": "DWENozKk1lk",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DWENozKk1lk/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\21_20260319_DWENozKk1lk.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\21_DWENozKk1lk.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWENozKk1lk.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DWENozKk1lk.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 305,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.682331+00:00"
+    },
+    {
+      "index": 22,
+      "reel_id": "DVdX-WBk4L5",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DVdX-WBk4L5/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\22_20260304_DVdX-WBk4L5.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\22_DVdX-WBk4L5.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DVdX-WBk4L5.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DVdX-WBk4L5.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 1,
+      "priority": 501,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:28.850883+00:00"
+    },
+    {
+      "index": 23,
+      "reel_id": "DTr45oQkxeM",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DTr45oQkxeM/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\23_20260119_DTr45oQkxeM.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\23_DTr45oQkxeM.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DTr45oQkxeM.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DTr45oQkxeM.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 502,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:29.320466+00:00"
+    },
+    {
+      "index": 24,
+      "reel_id": "DTXxF7Fk9rO",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DTXxF7Fk9rO/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\24_20260111_DTXxF7Fk9rO.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\24_DTXxF7Fk9rO.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DTXxF7Fk9rO.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 25,
+      "reel_id": "DS5xPk1E_NT",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DS5xPk1E_NT/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\25_20251230_DS5xPk1E_NT.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\25_DS5xPk1E_NT.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DS5xPk1E_NT.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DS5xPk1E_NT.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 406,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:06.850501+00:00"
+    },
+    {
+      "index": 26,
+      "reel_id": "DSxLPd6k6X7",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DSxLPd6k6X7/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\26_20251227_DSxLPd6k6X7.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\26_DSxLPd6k6X7.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DSxLPd6k6X7.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DSxLPd6k6X7.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 206,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:28.340061+00:00"
+    },
+    {
+      "index": 27,
+      "reel_id": "DR4qWQ8E6Kc",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DR4qWQ8E6Kc/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\27_20251205_DR4qWQ8E6Kc.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\27_DR4qWQ8E6Kc.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DR4qWQ8E6Kc.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 28,
+      "reel_id": "DRUNg3UE0c2",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DRUNg3UE0c2/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\28_20251121_DRUNg3UE0c2.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\28_DRUNg3UE0c2.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DRUNg3UE0c2.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DRUNg3UE0c2.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 2,
+      "priority": 204,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:28.190060+00:00"
+    },
+    {
+      "index": 29,
+      "reel_id": "DRJvMoQk6Cy",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DRJvMoQk6Cy/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\29_20251117_DRJvMoQk6Cy.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\29_DRJvMoQk6Cy.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DRJvMoQk6Cy.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DRJvMoQk6Cy.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 407,
+      "priority_reasons": [
+        "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives."
+      ],
+      "last_updated_at": "2026-07-31T08:24:07.317502+00:00"
+    },
+    {
+      "index": 30,
+      "reel_id": "DQrTzfpk9iR",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DQrTzfpk9iR/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\30_20251105_DQrTzfpk9iR.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\30_DQrTzfpk9iR.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DQrTzfpk9iR.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DQrTzfpk9iR.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 1,
+      "priority": 503,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:29.791467+00:00"
+    },
+    {
+      "index": 31,
+      "reel_id": "DQi8EW5k0-o",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DQi8EW5k0-o/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\31_20251102_DQi8EW5k0-o.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\31_DQi8EW5k0-o.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DQi8EW5k0-o.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DQi8EW5k0-o.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 103,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T13:04:10+00:00"
+    },
+    {
+      "index": 32,
+      "reel_id": "DPqzqkwE9zP",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DPqzqkwE9zP/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\32_20251011_DPqzqkwE9zP.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\32_DPqzqkwE9zP.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DPqzqkwE9zP.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DPqzqkwE9zP.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 504,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:30.257062+00:00"
+    },
+    {
+      "index": 33,
+      "reel_id": "DPa8H64k1Vx",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DPa8H64k1Vx/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\33_20251005_DPa8H64k1Vx.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\33_DPa8H64k1Vx.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DPa8H64k1Vx.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DPa8H64k1Vx.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 306,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.756333+00:00"
+    },
+    {
+      "index": 34,
+      "reel_id": "DOTAz9lE11A",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DOTAz9lE11A/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\34_20250907_DOTAz9lE11A.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\34_DOTAz9lE11A.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOTAz9lE11A.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DOTAz9lE11A.json",
+      "evidence_range_count": 4,
+      "inference_count": 4,
+      "counterexample_count": 2,
+      "priority": 203,
+      "priority_reasons": [
+        "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device."
+      ],
+      "last_updated_at": "2026-07-31T08:08:28.117059+00:00"
+    },
+    {
+      "index": 35,
+      "reel_id": "DLrwgLYzr7T",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DLrwgLYzr7T/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\35_20250704_DLrwgLYzr7T.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\35_DLrwgLYzr7T.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DLrwgLYzr7T.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DLrwgLYzr7T.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 505,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:30.738321+00:00"
+    },
+    {
+      "index": 36,
+      "reel_id": "DLmsnfszuQc",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DLmsnfszuQc/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\36_20250702_DLmsnfszuQc.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\36_DLmsnfszuQc.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DLmsnfszuQc.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DLmsnfszuQc.json",
+      "evidence_range_count": 3,
+      "inference_count": 3,
+      "counterexample_count": 1,
+      "priority": 506,
+      "priority_reasons": [
+        "Boundary cases reserved for counterexample and generalization review."
+      ],
+      "last_updated_at": "2026-07-31T08:28:31.214587+00:00"
+    },
+    {
+      "index": 37,
+      "reel_id": "DLaEqK0TisL",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DLaEqK0TisL/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\37_20250627_DLaEqK0TisL.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\37_DLaEqK0TisL.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DLaEqK0TisL.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    },
+    {
+      "index": 38,
+      "reel_id": "DJrTFPaTXHI",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DJrTFPaTXHI/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\38_20250515_DJrTFPaTXHI.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\38_DJrTFPaTXHI.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DJrTFPaTXHI.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DJrTFPaTXHI.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 2,
+      "priority": 307,
+      "priority_reasons": [
+        "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization."
+      ],
+      "last_updated_at": "2026-07-31T08:16:15.829331+00:00"
+    },
+    {
+      "index": 39,
+      "reel_id": "DJKFdm6TKL1",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DJKFdm6TKL1/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\39_20250502_DJKFdm6TKL1.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\39_DJKFdm6TKL1.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DJKFdm6TKL1.json",
+      "research_status": "semantic_complete",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\semantic-reviews\\DJKFdm6TKL1.json",
+      "evidence_range_count": 5,
+      "inference_count": 5,
+      "counterexample_count": 3,
+      "priority": 104,
+      "priority_reasons": [
+        "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts."
+      ],
+      "last_updated_at": "2026-07-31T13:07:00+00:00"
+    },
+    {
+      "index": 40,
+      "reel_id": "DJGM0LsTdxY",
+      "account": "@haku_.photo",
+      "locator": "https://www.instagram.com/reel/DJGM0LsTdxY/",
+      "rights": {
+        "status": "public-reference-only",
+        "output_reuse": false
+      },
+      "private_analysis_copy": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\40_20250501_DJGM0LsTdxY.mp4",
+      "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\40_DJGM0LsTdxY.jpg",
+      "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DJGM0LsTdxY.json",
+      "research_status": "reviewed_legacy_golden",
+      "direct_visual_review": true,
+      "full_playback_review": false,
+      "semantic_review_path": null,
+      "evidence_range_count": 0,
+      "inference_count": 0,
+      "counterexample_count": 0,
+      "priority": null,
+      "priority_reasons": [],
+      "last_updated_at": null
+    }
+  ],
+  "cycles": [],
+  "queue_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\state\\research-queue.json",
+  "queue_generated_at": "2026-07-31T07:54:03.981155+00:00",
+  "updated_at": "2026-07-31T13:07:00+00:00"
+}

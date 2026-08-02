@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DPa8H64k1Vx",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T09:10:00Z"
+  },
+  "purpose": "한 인물과 계절 풍경을 느린 관찰에서 기억 폭주, 다시 자연의 긴 여운으로 이동시키는 계절 사진 영화",
+  "format": "16:9 landscape long-form density-wave essay",
+  "story_role": "implicit",
+  "primary_subject": "기차·바다·학교·꽃·눈·숲을 지나가는 한 인물",
+  "intended_viewer_response": "계절의 장면이 한꺼번에 밀려온 뒤 작은 자연 움직임에 오래 머무는 느낌",
+  "commercial_function": "철도·관광·카메라·패션의 장소 기억형 브랜드 필름",
+  "sequence": {
+    "opening_hook": "인물 초상·기차 문빛·수면·해질녘 인물·창가를 비교적 긴 숏으로 읽힌다.",
+    "development": "창문·꽃·설경·복도·보케·벚꽃 인물을 0.7~2.4초 장으로 축적한다.",
+    "peak_or_payoff": "17.375초부터 발·손·나무·피아노·달리기·눈·불꽃·해바라기·숲을 더 짧게 몰아친다.",
+    "final_image": "37.458초부터 파란 하늘의 잠자리 또는 작은 비행체를 약 3.6초 유지하고 검은 크레딧으로 닫는다."
+  },
+  "directing": {
+    "subject_action": "기차·창가에서 바라보기, 꽃 사이 걷기, 피아노 치기, 눈과 바다에서 움직이기",
+    "blocking": "인물을 환경 속 작은 표식과 얼굴·발 디테일 사이에서 교대한다.",
+    "space": "기차·학교·바다·설원·꽃밭을 연속 여행보다 계절 기억의 장으로 묶는다.",
+    "props_surfaces_costume": "흰옷·기차 창·피아노·꽃·눈·하늘이 시간과 장소를 표지한다."
+  },
+  "cinematography": {
+    "composition": "인물 초상, 창 프레임, 넓은 하늘·바다, 꽃·눈 디테일을 사진처럼 정돈한다.",
+    "distance_or_lens": "전반은 각 장을 읽을 거리, 중앙 burst는 원경·디테일을 빠르게 교대, 끝은 작은 자연 피사체 원경이다.",
+    "camera_motion": "대부분 관찰적이며 마지막 잠자리의 실제 이동이 긴 release를 만든다.",
+    "light": "차가운 설경·청록 수면·분홍 꽃·주황 석양을 계절 곡선으로 순환한다.",
+    "palette_texture_depth": "저채도 필름 톤 안에서 계절별 색면과 보케·물결·눈 질감이 달라진다."
+  },
+  "editing": {
+    "cut_logic": "0~17.375초 읽기 장→17.375~37.458초 감각 폭주→37.458~41.042초 자연 release→검은 크레딧이다.",
+    "shot_duration_progression": "초반 0.7~2.4초, 중앙 0.16~1.3초, 마지막 3.6초와 2초 크레딧의 거대한 밀도 파동이다.",
+    "adjacent_image_relations": "흰옷·창·빛·꽃·하늘을 반복해 계절과 장소의 차이를 한 인물의 기록으로 묶는다.",
+    "in_frame_editing": "중앙은 실제 걷기·연주·놀이의 시작·결과를 짧게 채집하고 마지막은 자연 움직임을 자르지 않는다.",
+    "typography_graphics_compositing": "초반 일부 작은 캡션과 마지막 검은 크레딧 외 그래픽은 절제된다.",
+    "repeated_operators": [
+      "long_read_burst_nature_release",
+      "seasonal_sensory_catalogue",
+      "human_memory_to_nonhuman_finale",
+      "minimal_credit_seal"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "중앙 burst와 마지막 자연 release의 음악 변화는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 7.625,
+      "observation": "인물 초상·기차 문빛·수면·해질녘 인물·창가 인물이 1.5~2.4초 단위로 이어진다.",
+      "inference": "인물과 이동·물의 큰 주제를 서두르지 않고 먼저 읽힌다."
+    },
+    {
+      "start_seconds": 7.625,
+      "end_seconds": 17.375,
+      "observation": "빈 창문·숲빛·꽃·하늘의 인물·기차 설경·복도·보케·벚꽃 인물이 이어진다.",
+      "inference": "계절과 장소를 한 장씩 쌓아 중앙 폭주가 압축할 기억 재료를 준비한다."
+    },
+    {
+      "start_seconds": 17.375,
+      "end_seconds": 29.542,
+      "observation": "발·물속 손·나무·그림자·모자·인물·피아노·커튼·석양·눈·불꽃·해바라기가 0.16~1.3초로 교차한다.",
+      "inference": "앞에서 학습한 인물·빛·물성 어휘를 고밀도 기억 카탈로그로 재조합한다."
+    },
+    {
+      "start_seconds": 29.542,
+      "end_seconds": 37.458,
+      "observation": "창가·거울빛·들판 인물·숲·꽃·낙엽·바다·하늘이 계속 빠르게 이어진다.",
+      "inference": "인물 관계보다 계절 표면이 앞서며 다음 비인간 자연 결말로 시선을 이동시킨다."
+    },
+    {
+      "start_seconds": 37.458,
+      "end_seconds": 43.083,
+      "observation": "파란 하늘의 잠자리 또는 작은 비행체가 약 3.6초 유지되고 41.042초부터 검은 크레딧이 나온다.",
+      "inference": "인간 기억 폭주를 작은 자연 생명의 실제 움직임으로 release한 뒤 기록물처럼 봉인한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 40초 작품에서도 density-wave-release가 미세 효과가 아니라 전체 macro arc로 작동한다.",
+    "common_elements": [
+      "흰옷 인물",
+      "기차·학교·바다·꽃",
+      "환경과 디테일 교대",
+      "자연 움직임의 긴 결말"
+    ],
+    "possible_discriminators": [
+      "폭주 전 충분한 이미지 학습 구간",
+      "폭주 뒤 인물이 아닌 자연 피사체로 release",
+      "계절 색면을 순서 조직 원리로 사용"
+    ],
+    "forbidden_pattern_evidence": [
+      "중앙 burst만 떼어 복제하면 초반 학습과 후반 여운이 사라진다.",
+      "마지막 잠자리 숏에 자동 줌을 넣으면 실제 자연 움직임의 섬세함이 무너진다."
+    ],
+    "ad_strengths": [
+      "철도·여행",
+      "카메라·필름",
+      "패션·계절 캠페인"
+    ],
+    "suitable_subjects": [
+      "여러 계절·장소의 동일 인물 기록",
+      "폭주 전 읽힐 대표 장면",
+      "마지막에 오래 볼 작은 자연 움직임 또는 제품 물성"
+    ],
+    "poor_fit_subjects": [
+      "모든 장면이 같은 계절·거리·밝기인 원본",
+      "release할 hero 숏이 없는 B-roll 묶음"
+    ],
+    "limitations": [
+      "마지막 작은 피사체의 정확한 종류와 캡션 문구는 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "고밀도 편집은 영상 전체의 기본값이 아니라 중간에 한 번 크게 사용하는 macro event일 수 있다.",
+    "감정 결말은 인물 얼굴이 아니라 작은 자연 움직임을 오래 남기는 방식으로도 가능하다."
+  ],
+  "confidence": "high"
+}

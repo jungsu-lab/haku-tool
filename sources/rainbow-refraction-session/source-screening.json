@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "rainbow-refraction-session",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T15:18:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "www.kaboompics.com",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "pages": [
+      "https://www.pexels.com/video/woman-placing-her-hand-at-the-rainbow-color-lights-5239422/",
+      "https://www.pexels.com/video/a-refracted-light-on-the-wall-5239424/"
+    ]
+  },
+  "files": [
+    {
+      "path": "5239422-woman-hand-rainbow.mp4",
+      "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5",
+      "duration_seconds": 21.36,
+      "width": 1920,
+      "height": 1080,
+      "fps": 25
+    },
+    {
+      "path": "5239424-refracted-light-hand.mp4",
+      "sha256": "19B807596EEA9AB4DCCCCC2C81855B274016D3833F1AC35B1326FBB411014FE0",
+      "duration_seconds": 31.16,
+      "width": 1080,
+      "height": 1920,
+      "fps": 25
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timelines": true,
+    "evidence_paths": [
+      "../../review-artifacts/rainbow-refraction-5239422/5239422-woman-hand-rainbow-dense.jpg",
+      "../../review-artifacts/rainbow-refraction-5239424/5239424-refracted-light-hand-dense.jpg"
+    ]
+  },
+  "same_session_evidence": [
+    "Both files show the same blue upper edge, warm white center, orange-red lower band, light direction, dark wall, hand proportions, nails, and ring styling.",
+    "The optical band remains at the same relative wall height while the hand changes orientation and receives the same colors.",
+    "The different landscape and portrait framing appears to be alternate coverage of the same setup, not proof that the files can be mixed without a canvas decision."
+  ],
+  "routing": {
+    "luminous-texture-relay": "strong_for_real_wall_to_hand_refraction",
+    "action-as-edit-spine": "supporting",
+    "functional-memory-panels": "not_needed",
+    "mixed_orientation_use": "conditional"
+  },
+  "decision": "Use one native orientation per proof unless a deliberate information-preserving layout is justified. Never synthesize or intensify the rainbow with exposure pumping or generated effects."
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_tea_action_spine_v002",
+  "created_at": "2026-07-31T14:25:22.991065+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_tea_action_spine_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "13D28309E3B08FF28343DA0DCFCCB68216800024F85998DE4A2E3046D3B4BF0F",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 79,
+      "coverage_seconds": 9.833333
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 79,
+      "coverage_seconds": 9.833333
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-pot-arrival-to-stream",
+      "kind": "segment_boundary",
+      "frame": 20,
+      "seconds": 0.6666666666666666,
+      "strip": "boundaries\\boundary-01-pot-arrival-to-stream.jpg",
+      "range_seconds": [
+        0.4666666666666667,
+        0.9
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-continuous-pour-body",
+      "kind": "segment_boundary",
+      "frame": 79,
+      "seconds": 2.6333333333333333,
+      "strip": "boundaries\\boundary-02-continuous-pour-body.jpg",
+      "range_seconds": [
+        2.433333333333333,
+        2.8666666666666663
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-continuous-pour-release",
+      "kind": "segment_boundary",
+      "frame": 191,
+      "seconds": 6.366666666666666,
+      "strip": "boundaries\\boundary-03-continuous-pour-release.jpg",
+      "range_seconds": [
+        6.166666666666667,
+        6.6000000000000005
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-hand-completes-service",
+      "kind": "segment_boundary",
+      "frame": 250,
+      "seconds": 8.333333333333334,
+      "strip": "boundaries\\boundary-04-hand-completes-service.jpg",
+      "range_seconds": [
+        8.133333333333333,
+        8.566666666666666
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:26:20.182190+00:00",
+    "evidence": [
+      "The original, plain, proof, and all four 30 fps boundary strips were directly inspected. The proof preserves the pour from source 1.3 through 8.97 seconds in contiguous ranges, so pot body, stream, and release no longer lurch.",
+      "The only large source-time compression occurs after the pot has fully exited and before the later hand action; the locked cup, table, window, and background make this idle-time removal visually stable.",
+      "The proof gives the causal pour and hand-completed service more time than the untouched setup, while using no freeze, retime, reverse, zoom, crop animation, transition, or padding."
+    ],
+    "limitations": [
+      "The opaque cup hides liquid level, so motif-state-return remains only a partial supporting observation rather than an independent pass.",
+      "Audio remains deferred by the user, and research approval is not user acceptance."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

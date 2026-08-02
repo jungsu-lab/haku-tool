@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_lighthouse_functional_memory_v002",
+  "operator": {
+    "primary": "functional-memory-panels",
+    "secondary": "density-wave-release",
+    "supporting": ["meaningful-copy-gate", "action-as-edit-spine"]
+  },
+  "revision_from": "../lighthouse-shared-memory-v001/recipe.json",
+  "failure_corrected": "The prior proof was a warm sequential montage. It omitted Haku's authored microcut burst, role-distinct in-frame information field, meaningful copy, density hinge and full-frame subtraction release.",
+  "situation": "Four licensed continuous takes from one lighthouse picnic session: tactile objects, landmark, album reaction and three friends lifting a real instant photograph.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license": "https://www.pexels.com/license/",
+    "source_manifest": "../../sources/lighthouse-shared-memory-session/source-manifest.json"
+  },
+  "reference_evidence": [
+    "../../timeline-grammar/DWoUT9rk1ry-v3.json",
+    "../../timeline-grammar/DS5xPk1E_NT-v2.json"
+  ],
+  "hypotheses_under_test": [
+    "Fast full-frame fragments can establish touch, place and memory-object roles before panels appear.",
+    "The album can act as an associative trigger for a role-distinct moving memory field without pretending to literally generate the panels.",
+    "A short evidence-matched sentence can name the fragmented memory state without becoming generic promotional typography.",
+    "Removing every panel before the real instant photograph rises can make the native full-frame action feel larger than any synthetic zoom."
+  ],
+  "purpose": "A technical Haku-informed mood edit that demonstrates microcut rhythm, meaningful copy, functional small-video accumulation and full-frame recovery using only licensed unedited source takes.",
+  "material_fit": {
+    "status": "strong",
+    "same_capture_world_verified": true,
+    "panel_roles": {
+      "place": "striped lighthouse and daylight scale",
+      "touch": "hand, apple, cups and picnic fabric",
+      "memory_object": "black album held by the red-haired woman",
+      "relationship": "three converging eyelines around the album"
+    },
+    "release": "The real black-bordered instant photograph rises inside a continuous three-person shot and remains alive through their reaction."
+  },
+  "audio_policy": "licensed_library_track",
+  "licensed_audio": {
+    "file": "../../audio-library/mixkit-valley-sunset-127.mp3",
+    "audio_rights_manifest": "../../audio-library/mixkit-valley-sunset-127.audio-rights.json",
+    "music_event_map": "music-event-map.json",
+    "timeline_grammar": "timeline-grammar.json",
+    "source_in_seconds": 6.6,
+    "source_out_seconds": 17.8,
+    "gain_db": -9.0,
+    "fade_in_seconds": 0.2,
+    "fade_out_seconds": 0.8,
+    "same_for_plain_and_proof": true
+  },
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "decorative_border", "decorative_red_code", "sfx"]
+  },
+  "materials": {
+    "touch": {"source": "../../sources/lighthouse-shared-memory-session/5081863-picnic-object-action.mp4", "source_in": 3.2, "focus_x": 0.50, "focus_y": 0.56, "grade": "haku-memory"},
+    "place": {"source": "../../sources/lighthouse-shared-memory-session/5081860-lighthouse-gesture.mp4", "source_in": 8.0, "focus_x": 0.46, "focus_y": 0.48, "grade": "haku-memory"},
+    "album": {"source": "../../sources/lighthouse-shared-memory-session/5081861-album-reaction.mp4", "source_in": 2.4, "focus_x": 0.55, "focus_y": 0.48, "grade": "haku-memory"},
+    "relation": {"source": "../../sources/lighthouse-shared-memory-session/5081866-shared-polaroid.mp4", "source_in": 0.8, "focus_x": 0.50, "focus_y": 0.50, "grade": "haku-memory"},
+    "photo_release": {"source": "../../sources/lighthouse-shared-memory-session/5081866-shared-polaroid.mp4", "source_in": 1.6, "focus_x": 0.50, "focus_y": 0.50, "grade": "haku-memory"}
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-touch-01", "type": "single", "frames": 12, "material": "touch"},
+        {"id": "plain-place-01", "type": "single", "frames": 11, "material": "place"},
+        {"id": "plain-album-01", "type": "single", "frames": 11, "material": "album"},
+        {"id": "plain-touch-02", "type": "single", "frames": 16, "material": "touch", "source_in": 4.0},
+        {"id": "plain-album-copy-base", "type": "single", "frames": 20, "material": "album", "source_in": 3.0},
+        {"id": "plain-panel-place", "type": "single", "frames": 18, "material": "place", "source_in": 8.4},
+        {"id": "plain-panel-touch", "type": "single", "frames": 17, "material": "touch", "source_in": 3.8},
+        {"id": "plain-panel-album", "type": "single", "frames": 18, "material": "album", "source_in": 3.4},
+        {"id": "plain-panel-relation", "type": "single", "frames": 17, "material": "relation", "source_in": 1.2},
+        {"id": "plain-photo-release", "type": "single", "frames": 140, "material": "photo_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "microcut-touch", "type": "single", "frames": 12, "material": "touch"},
+        {"id": "microcut-place", "type": "single", "frames": 11, "material": "place"},
+        {"id": "microcut-album", "type": "single", "frames": 11, "material": "album"},
+        {"id": "microcut-touch-return", "type": "single", "frames": 16, "material": "touch", "source_in": 4.0},
+        {
+          "id": "fragment-copy",
+          "type": "copy-overlay",
+          "frames": 20,
+          "material": "album",
+          "source_in": 3.0,
+          "copies": [
+            {
+              "text": "the day stayed in pieces",
+              "active_frames": [1, 19],
+              "x": 0.055,
+              "y": 0.80,
+              "font_size": 31,
+              "font": "sans",
+              "font_weight": "normal",
+              "font_color": "0xf4efe6",
+              "box_color": "0x080808",
+              "box_opacity": 0.0,
+              "shadow_opacity": 0.22,
+              "shadow_x": 1,
+              "shadow_y": 1
+            }
+          ]
+        },
+        {
+          "id": "album-opens-role-memory-field",
+          "type": "functional-panels",
+          "frames": 70,
+          "canvas_color": "0x080A09",
+          "common_anchor": "same three friends, lighthouse picnic, album, instant photograph, wardrobe and daylight",
+          "panels": [
+            {"id": "place-strip", "role": "where the memory happened", "material": "place", "source_in": 8.4, "active_frames": [0, 70], "fade_in_frames": 3, "fade_out_frames": 2, "rect": [0.0, 0.0, 1.0, 0.32]},
+            {"id": "touch-trace", "role": "how the day felt", "material": "touch", "source_in": 3.8, "active_frames": [10, 70], "fade_in_frames": 3, "fade_out_frames": 2, "rect": [0.0, 0.34, 0.42, 0.30]},
+            {"id": "album-dominant", "role": "the physical object that gathers the fragments", "material": "album", "source_in": 3.4, "active_frames": [22, 70], "fade_in_frames": 3, "fade_out_frames": 2, "rect": [0.44, 0.34, 0.56, 0.66]},
+            {"id": "relation-witness", "role": "the three-person gaze that gives the object meaning", "material": "relation", "source_in": 1.2, "active_frames": [40, 70], "fade_in_frames": 3, "fade_out_frames": 2, "rect": [0.0, 0.66, 0.42, 0.34]}
+          ]
+        },
+        {"id": "all-panels-clear-to-physical-photo", "type": "single", "frames": 140, "material": "photo_release"}
+      ]
+    }
+  }
+}

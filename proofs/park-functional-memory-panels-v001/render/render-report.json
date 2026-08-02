@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_functional_memory_panels_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\recipe.json",
+  "recipe_sha256": "7CA7BEA91276B79D6674AE19FB71B5E2C85A8AC54FC598C433FDD110301198A3",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay",
+      "decorative_border",
+      "drop_shadow"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "close_exchange",
+      "hand_cause",
+      "place_afterimage",
+      "reconvergence",
+      "relationship_release",
+      "shared_travel"
+    ],
+    "material_ledger": {
+      "hand_cause": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 0.0,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "shared_travel": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640845.mp4",
+        "source_in": 1.0,
+        "sha256": "067D204480E05E18CD077A5751084D77C05C81860F5D6F0653C67C10AE5C0333"
+      },
+      "close_exchange": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640844.mp4",
+        "source_in": 20.0,
+        "sha256": "2EBDAD2157F6115EF9903A4C22D35EB3B59E315AF435B827D498D13FBEF33AFD"
+      },
+      "place_afterimage": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640845.mp4",
+        "source_in": 18.0,
+        "sha256": "067D204480E05E18CD077A5751084D77C05C81860F5D6F0653C67C10AE5C0333"
+      },
+      "reconvergence": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 9.3,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "relationship_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 10.9,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-hand",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_cause",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "plain-travel",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "shared_travel",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 1.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            40,
+            58
+          ]
+        },
+        {
+          "segment_id": "plain-close",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "close_exchange",
+          "source_in_seconds": 20.0,
+          "source_out_seconds": 20.72,
+          "duration_frames": 18,
+          "timeline_visible_frames": [
+            58,
+            76
+          ]
+        },
+        {
+          "segment_id": "plain-place",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "place_afterimage",
+          "source_in_seconds": 18.0,
+          "source_out_seconds": 19.36,
+          "duration_frames": 34,
+          "timeline_visible_frames": [
+            76,
+            110
+          ]
+        },
+        {
+          "segment_id": "plain-reconvergence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reconvergence",
+          "source_in_seconds": 9.3,
+          "source_out_seconds": 10.5,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            110,
+            140
+          ]
+        },
+        {
+          "segment_id": "plain-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "relationship_release",
+          "source_in_seconds": 10.9,
+          "source_out_seconds": 13.3,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            140,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "hand_cause": 1,
+        "shared_travel": 1,
+        "close_exchange": 1,
+        "place_afterimage": 1,
+        "reconvergence": 1,
+        "relationship_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "hand-opens-memory",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_cause",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-memory-field",
+          "segment_type": "functional-panels",
+          "role": "shared-travel-dominant",
+          "material_id": "shared_travel",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 3.8,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            40,
+            110
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-memory-field",
+          "segment_type": "functional-panels",
+          "role": "close-exchange-support",
+          "material_id": "close_exchange",
+          "source_in_seconds": 20.0,
+          "source_out_seconds": 22.2,
+          "duration_frames": 55,
+          "timeline_visible_frames": [
+            55,
+            110
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-memory-field",
+          "segment_type": "functional-panels",
+          "role": "place-afterimage-support",
+          "material_id": "place_afterimage",
+          "source_in_seconds": 18.0,
+          "source_out_seconds": 19.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            70,
+            110
+          ]
+        },
+        {
+          "segment_id": "reconvergence-confirms-memory",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reconvergence",
+          "source_in_seconds": 9.3,
+          "source_out_seconds": 10.5,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            110,
+            140
+          ]
+        },
+        {
+          "segment_id": "relationship-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "relationship_release",
+          "source_in_seconds": 10.9,
+          "source_out_seconds": 13.3,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            140,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "hand_cause": 1,
+        "shared_travel": 1,
+        "close_exchange": 1,
+        "place_afterimage": 1,
+        "reconvergence": 1,
+        "relationship_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\plain.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "plain-hand",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "hand_cause"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\01-plain-hand.mp4"
+      },
+      {
+        "segment_id": "plain-travel",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "shared_travel"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\02-plain-travel.mp4"
+      },
+      {
+        "segment_id": "plain-close",
+        "type": "single",
+        "frames": 18,
+        "materials": [
+          "close_exchange"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\03-plain-close.mp4"
+      },
+      {
+        "segment_id": "plain-place",
+        "type": "single",
+        "frames": 34,
+        "materials": [
+          "place_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\04-plain-place.mp4"
+      },
+      {
+        "segment_id": "plain-reconvergence",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "reconvergence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\05-plain-reconvergence.mp4"
+      },
+      {
+        "segment_id": "plain-release",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "relationship_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\plain\\06-plain-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "26C37E4D9007DB0479D65CBDF1764DF4B1E300CA4AA84CA1549DE23E99906DC0"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\proof.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "hand-opens-memory",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "hand_cause"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\proof\\01-hand-opens-memory.mp4"
+      },
+      {
+        "segment_id": "progressive-relationship-memory-field",
+        "type": "functional-panels",
+        "frames": 70,
+        "materials": [
+          "close_exchange",
+          "place_afterimage",
+          "shared_travel"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\proof\\02-progressive-relationship-memory-field.mp4"
+      },
+      {
+        "segment_id": "reconvergence-confirms-memory",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "reconvergence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\proof\\03-reconvergence-confirms-memory.mp4"
+      },
+      {
+        "segment_id": "relationship-release",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "relationship_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\_segments\\proof\\04-relationship-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "E9051B1076F953965A756BC9F2547FF1D75E732598BA38557392BAA481AF70F7"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "0.00-1.60s: live hand contact supplies a causal opening before any composite appears",
+      "1.60s: one dominant same-pair panel replaces the action cleanly; no border, drop shadow, zoom, or accidental black frame",
+      "2.20s internal event: flower-framed close exchange adds an intimacy and tactile role rather than duplicating the dominant panel",
+      "2.80s internal event: empty park field adds a place/afterimage role and completes the three-role field",
+      "4.40s: the full panel field releases to one reconvergence shot, reducing density before the hero action",
+      "5.60-8.00s: full-frame lift onset supplies live relationship payoff and restores body-scale information omitted by the panels",
+      "plain uses the same six materials and duration but presents them only as serial full-frame shots, so their simultaneous memory relationship is absent"
+    ],
+    "limitations": [
+      "The dominant top panel communicates shared presence more strongly than walking-body motion because its source is shoulder-close.",
+      "Validated for one same-session urban pair; unrelated footage, product grids, native vertical layout, typography, and music remain untested."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-functional-memory-panels-v001\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

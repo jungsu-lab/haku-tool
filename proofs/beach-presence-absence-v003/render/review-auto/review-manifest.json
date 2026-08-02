@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_beach_presence_absence_v003",
+  "created_at": "2026-07-31T12:25:29.451770+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_beach_presence_absence_v003",
+    "schema_version": "1.1",
+    "recipe_sha256": "D4CCBDEE2ECC402BF8FB919835C0E99B278400E67CC0EBAAB562EF9EA5490E09",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 73,
+      "coverage_seconds": 9.083333
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 73,
+      "coverage_seconds": 9.083333
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-compressed-entry",
+      "kind": "segment_boundary",
+      "frame": 16,
+      "seconds": 0.6666666666666666,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\boundaries\\boundary-01-compressed-entry.jpg",
+      "range_seconds": [
+        0.4166666666666667,
+        0.9583333333333333
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-continuous-crossing",
+      "kind": "segment_boundary",
+      "frame": 50,
+      "seconds": 2.0833333333333335,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\boundaries\\boundary-02-continuous-crossing.jpg",
+      "range_seconds": [
+        1.8333333333333333,
+        2.375
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-complete-frame-exit",
+      "kind": "segment_boundary",
+      "frame": 120,
+      "seconds": 5.0,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\boundaries\\boundary-03-complete-frame-exit.jpg",
+      "range_seconds": [
+        4.75,
+        5.291666666666667
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-living-water-afterimage",
+      "kind": "segment_boundary",
+      "frame": 162,
+      "seconds": 6.75,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-presence-absence-v003\\render\\review-auto\\boundaries\\boundary-04-living-water-afterimage.jpg",
+      "range_seconds": [
+        6.5,
+        7.041666666666667
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T12:26:18.205073+00:00",
+    "evidence": [
+      "Complete 0.000-30.197 source sheet establishes a native environment-presence-absence event: empty water, right-to-left crossing, full exit, then the same moving water and reflections.",
+      "Proof 0.000-6.250 preserves the right-to-left walk with small or near-contiguous source gaps; boundaries 02 and 03 keep direction, scale, horizon, and adjacent spatial position without the v002 lurch.",
+      "Proof about 6.250-9.083 holds the same living water after the full exit; plain reaches the empty consequence later and gives it roughly 1.2 seconds less visual weight.",
+      "Boundary 04 continues the last leftward body fragment into the native empty frame; no freeze, reverse, retime, zoom, animated crop, or duplicated last frame is present."
+    ],
+    "limitations": [
+      "The proof is intentionally 16:9 because a 9:16 cover crop would delete the authored right entrance and left exit; a vertical delivery needs a separately shot vertical source or an explicit non-cover layout.",
+      "Live full-speed playback was not used; review covered the complete source sheet, complete 8 fps plain/proof sheets, and all four 24 fps boundary strips."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

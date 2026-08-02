@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_candle_presence_absence_v001",
+  "operator": {
+    "primary": "presence-to-absence-hold",
+    "secondary": "state-weighted-compression"
+  },
+  "situation": "One licensed, unedited 12.96-second candle take in which the flame weakens and disappears.",
+  "source_rights": {
+    "provider": "Mixkit",
+    "creator": "Mixkit contributor",
+    "page_url": "https://mixkit.co/free-stock-video/candle-lighting-in-the-dark-3458/",
+    "license_name": "Mixkit Stock Video Free License",
+    "license_url": "https://mixkit.co/license/",
+    "recorded_sha256": "CC00BA5C3DC7754C7784FB4F8B02760FF929AF49695740D6ECC0D7441EEE29D7"
+  },
+  "hypotheses_under_test": [
+    "Presence-to-absence can work without a person when one material state is clearly established before it disappears.",
+    "State-weighted timing can make the remaining ember feel like consequence instead of an accidental black ending.",
+    "A dark source must not be classified as a black-frame error when the flame and ember continue changing.",
+    "If the final ember has no visible micro-motion, the operator should fail rather than pad or zoom the shot."
+  ],
+  "purpose": "Turn a small flame from active presence into a dark afterimage without adding a transition, freeze, zoom, or unrelated smoke shot.",
+  "material_fit": {
+    "status": "conditional",
+    "reason": "The take contains a complete state change, but the candle is tiny and the smoke trace is weak against black."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "full_flame": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/candle_out_3458.mp4",
+      "source_in": 7.5,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lower_flame": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/candle_out_3458.mp4",
+      "source_in": 9.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "collapse": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/candle_out_3458.mp4",
+      "source_in": 10.35,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "ember_afterimage": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/candle_out_3458.mp4",
+      "source_in": 11.4,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-full-flame", "type": "single", "frames": 29, "material": "full_flame"},
+        {"id": "plain-lower-flame", "type": "single", "frames": 29, "material": "lower_flame"},
+        {"id": "plain-collapse", "type": "single", "frames": 25, "material": "collapse"},
+        {"id": "plain-ember", "type": "single", "frames": 32, "material": "ember_afterimage"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "establish-flame", "type": "single", "frames": 27, "material": "full_flame"},
+        {"id": "pressure-lowers-flame", "type": "single", "frames": 27, "material": "lower_flame"},
+        {"id": "flame-collapses", "type": "single", "frames": 25, "material": "collapse"},
+        {"id": "ember-afterimage", "type": "single", "frames": 36, "material": "ember_afterimage"}
+      ]
+    }
+  }
+}

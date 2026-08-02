@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "session_id": "pexels-cottonbro-evening-picnic-10071333-10071341",
+  "rights_basis": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_url": "https://www.pexels.com/license/",
+    "allowed_use": "proof_edit"
+  },
+  "capture_world": {
+    "world_id": "evening-park-picnic-four-friends",
+    "subject_identity": "the same four adult friends, including a man in a light blazer and a woman in a pale blue overshirt",
+    "location": "one grass picnic beside the same tree line and water edge",
+    "time_of_day": "late daylight into warm early evening",
+    "weather": "clear calm outdoor light",
+    "lens_character": "shallow-depth handheld close and medium social coverage with one vertical reaction angle",
+    "color_temperature": "cool green-blue ambient light with warm candle and skin highlights",
+    "palette": ["pink wine", "pale blue", "cream", "deep green", "warm candle amber"],
+    "same_world_claim": "Three consecutive Pexels assets from the same creator show the same four people, wardrobe, pink wine, picnic food, grass, tree line, and evening light. Orientation changes, but the capture world remains visually coherent."
+  },
+  "sources": [
+    {
+      "source_clip_id": "picnic-group-landscape-10071333",
+      "file": "10071333-group-landscape.mp4",
+      "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14",
+      "page_url": "https://www.pexels.com/video/group-of-people-having-picnic-10071333/",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "duration_seconds": 47.68,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {
+        "method": "dense_storyboard_and_boundary_review",
+        "status": "no_detected_splice",
+        "limitations": "Eleven chronological /watch frames and the previously generated dense proof-source review were inspected; trustworthy captured full-speed playback was unavailable."
+      },
+      "semantic_role": "food-and-glass tactile premise, visible wine-pour action owner, hand convergence, and close social reaction"
+    },
+    {
+      "source_clip_id": "picnic-wine-group-10071336",
+      "file": "10071336-wine-group-landscape.mp4",
+      "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217",
+      "page_url": "https://www.pexels.com/video/group-of-people-drinking-wine-in-park-10071336/",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "duration_seconds": 16.16,
+      "width": 4096,
+      "height": 2160,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {
+        "method": "dense_storyboard_and_boundary_review",
+        "status": "no_detected_splice",
+        "limitations": "Seven chronological /watch frames and the prior 25fps proof boundaries were inspected; trustworthy captured full-speed playback was unavailable."
+      },
+      "semantic_role": "four-person relationship field, glass convergence, toast, smile, and conversational release"
+    },
+    {
+      "source_clip_id": "picnic-vertical-reaction-10071341",
+      "file": "10071341-evening-picnic-vertical.mp4",
+      "sha256": "6F5CA4D96159B2B1015784AF41DC54DFEB48A1ACA3957E17FD189D4BA2D1DF14",
+      "page_url": "https://www.pexels.com/video/friends-having-picnic-at-evening-10071341/",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "cottonbro studio",
+      "duration_seconds": 21.84,
+      "width": 1440,
+      "height": 2732,
+      "fps": 25,
+      "audio_stream_present": false,
+      "single_take": true,
+      "existing_edit_detected": false,
+      "hidden_retake_review": {
+        "method": "dense_storyboard_and_boundary_review",
+        "status": "no_detected_splice",
+        "limitations": "Eight chronological /watch frames and the prior dense proof-source review were inspected; trustworthy captured full-speed playback was unavailable."
+      },
+      "semantic_role": "individual laughter, wine glass, food reach, bite, and embodied sensory response"
+    }
+  ]
+}

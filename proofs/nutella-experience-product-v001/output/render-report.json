@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_nutella_experience_product_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\recipe.json",
+  "recipe_sha256": "C042210093141A54EFE151B438384B2B6D96DC0387601279E0BD68C5D51087DA",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "brand_hold",
+      "lid_contact",
+      "lid_release",
+      "smell_response"
+    ],
+    "material_ledger": {
+      "lid_contact": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\nutella-experience-product-session\\6466127-eating-hd.mp4",
+        "source_in": 1.8,
+        "sha256": "0E6980460987FC3A04072D728F0FF44DD9451E111A070E2EC1E11CEAA8B6926A"
+      },
+      "lid_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\nutella-experience-product-session\\6466127-eating-hd.mp4",
+        "source_in": 5.0,
+        "sha256": "0E6980460987FC3A04072D728F0FF44DD9451E111A070E2EC1E11CEAA8B6926A"
+      },
+      "smell_response": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\nutella-experience-product-session\\6466127-eating-hd.mp4",
+        "source_in": 7.0,
+        "sha256": "0E6980460987FC3A04072D728F0FF44DD9451E111A070E2EC1E11CEAA8B6926A"
+      },
+      "brand_hold": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\nutella-experience-product-session\\6466128-holding-hd.mp4",
+        "source_in": 4.0,
+        "sha256": "AAA89E1AED2C18EC8668BE85DB94D0730B3AE4E653BD7686122F47C65E8CF8D3"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-brand-first",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "brand_hold",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 5.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "plain-lid-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lid_contact",
+          "source_in_seconds": 1.8,
+          "source_out_seconds": 3.2,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            40,
+            75
+          ]
+        },
+        {
+          "segment_id": "plain-lid-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lid_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 6.8,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            75,
+            120
+          ]
+        },
+        {
+          "segment_id": "plain-smell-response",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "smell_response",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 9.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            120,
+            170
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "brand_hold": 1,
+        "lid_contact": 1,
+        "lid_release": 1,
+        "smell_response": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "ritual-lid-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lid_contact",
+          "source_in_seconds": 1.8,
+          "source_out_seconds": 3.2,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            0,
+            35
+          ]
+        },
+        {
+          "segment_id": "ritual-lid-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lid_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 6.8,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            35,
+            80
+          ]
+        },
+        {
+          "segment_id": "sensory-smell-response",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "smell_response",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 9.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            80,
+            130
+          ]
+        },
+        {
+          "segment_id": "readable-brand-recovery",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "brand_hold",
+          "source_in_seconds": 4.0,
+          "source_out_seconds": 5.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            130,
+            170
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "lid_contact": 1,
+        "lid_release": 1,
+        "smell_response": 1,
+        "brand_hold": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\plain.mp4",
+    "frames": 170,
+    "duration_seconds": 6.8,
+    "segments": [
+      {
+        "segment_id": "plain-brand-first",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "brand_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\plain\\01-plain-brand-first.mp4"
+      },
+      {
+        "segment_id": "plain-lid-contact",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "lid_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\plain\\02-plain-lid-contact.mp4"
+      },
+      {
+        "segment_id": "plain-lid-release",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "lid_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\plain\\03-plain-lid-release.mp4"
+      },
+      {
+        "segment_id": "plain-smell-response",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "smell_response"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\plain\\04-plain-smell-response.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "170"
+        }
+      ],
+      "format": {
+        "duration": "6.800000"
+      }
+    },
+    "sha256": "0B43F2254D0514BB60417F1342B536B695E2223B65CFF51E9B357D03A4810027"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\proof.mp4",
+    "frames": 170,
+    "duration_seconds": 6.8,
+    "segments": [
+      {
+        "segment_id": "ritual-lid-contact",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "lid_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\proof\\01-ritual-lid-contact.mp4"
+      },
+      {
+        "segment_id": "ritual-lid-release",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "lid_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\proof\\02-ritual-lid-release.mp4"
+      },
+      {
+        "segment_id": "sensory-smell-response",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "smell_response"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\proof\\03-sensory-smell-response.mp4"
+      },
+      {
+        "segment_id": "readable-brand-recovery",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "brand_hold"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\_segments\\proof\\04-readable-brand-recovery.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "170"
+        }
+      ],
+      "format": {
+        "duration": "6.800000"
+      }
+    },
+    "sha256": "E474A3BAA768F7405490E69ABE8010D06D0C1A1EDF7BB15D85C28AC259BCFA49"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "Both licensed originals, frame-identical plain/proof dense sequences, and all three 25 fps boundary strips were directly reviewed. The fixed 9:16 crop preserves hands, lid, nose response, jar, and readable Nutella label. Proof keeps the real lid-opening action, near-contiguous release-to-smell hinge, closed-eye sensory response, and later front-label recovery. Plain opens on the later closed-jar hold and then resets to the earlier opening action. No zoom, freeze, retime, reverse, animated crop, transition, synthetic packshot, or padding was used."
+    ],
+    "limitations": [
+      "Partial only: the label is readable from the first proof frame, so this does not validate a hidden-product reveal or full product-delay branch. The final holding shot is readable but visually flatter than the sensory peak, and the jump from open smelling jar to later closed jar is an inferred later recovery rather than a visibly completed closing action. User verdict remains pending and contributes no acceptance increment."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\nutella-experience-product-v001\\output\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

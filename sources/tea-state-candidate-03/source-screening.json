@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "tea-state-candidate-03",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T14:42:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "TIVASEE",
+    "page_url": "https://www.pexels.com/video/close-up-on-pouring-tea-to-cup-7612397/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  "files": [
+    {
+      "path": "7612397-tea-pour.mp4",
+      "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF",
+      "duration_seconds": 35.52,
+      "width": 720,
+      "height": 1280,
+      "fps": 30
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timeline": true,
+    "sample_fps": 4,
+    "evidence_path": "../../review-artifacts/tea-state-candidate-03/7612397-tea-pour-dense.jpg"
+  },
+  "observations": [
+    "One locked vertical composition holds the same floral cup, wooden surface, window, and outdoor background for the full take.",
+    "A red pot enters near 1.5 seconds, pours continuously from roughly 2.4 to 8.9 seconds, then exits.",
+    "The cup remains alone as a long consequence; near 15.2 seconds a hand enters and places a small tea-service object beside it.",
+    "No state reset, embedded montage, zoom, freeze, reverse, typography, or transition is visible."
+  ],
+  "routing": {
+    "action-as-edit-spine": "strong",
+    "motif-state-return": "partial_only_because_fill_level_is_hidden_by_opaque_cup",
+    "experience-before-product": "not_applicable_without_identifiable_product_or_claim"
+  }
+}

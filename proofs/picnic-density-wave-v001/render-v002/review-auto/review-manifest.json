@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_picnic_density_wave_v001",
+  "created_at": "2026-08-01T11:44:53.186163+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_picnic_density_wave_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "F8288377ECC6B7863C0457F3E9E920B8A14DD06D496A37E20385FE9D97F3B801",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 67,
+      "coverage_seconds": 8.4
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 67,
+      "coverage_seconds": 8.4
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-progressive-social-density",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\boundary-01-progressive-social-density.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-social-density-pour-base-start",
+      "kind": "internal_event",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\internal-progressive-social-density-pour-base-start.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-social-density-reaction-support-start",
+      "kind": "internal_event",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\internal-progressive-social-density-reaction-support-start.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-social-density-reaction-support-end",
+      "kind": "internal_event",
+      "frame": 85,
+      "seconds": 3.4,
+      "strip": "boundaries\\internal-progressive-social-density-reaction-support-end.jpg",
+      "range_seconds": [
+        3.16,
+        3.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-social-density-group-preview-support-start",
+      "kind": "internal_event",
+      "frame": 85,
+      "seconds": 3.4,
+      "strip": "boundaries\\internal-progressive-social-density-group-preview-support-start.jpg",
+      "range_seconds": [
+        3.16,
+        3.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-group-toast-release",
+      "kind": "segment_boundary",
+      "frame": 115,
+      "seconds": 4.6,
+      "strip": "boundaries\\boundary-02-group-toast-release.jpg",
+      "range_seconds": [
+        4.36,
+        4.880000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-08-01T11:46:41.209589+00:00",
+    "evidence": [
+      "All 26 pinned source frames across three licensed unedited same-session takes were directly reviewed and linked to the three timeline events.",
+      "The 8fps dense plain and proof sheets were directly reviewed across 8.40 seconds; no black frames, freeze padding, synthetic zoom, retime, reverse, or stalled source motion were found.",
+      "At output 2.20 seconds the portrait reaction window begins; at 3.40 seconds it clears on the same frame the group preview begins, so only one support window is active at a time.",
+      "At output 4.60 seconds the group preview ends at source frame 150 exclusive and the full-frame group release begins at source frame 150, preserving the exact next 25fps source frame.",
+      "The full-frame release preserves the four-person landscape relationship field and a native conversational tail."
+    ],
+    "limitations": [
+      "Trustworthy captured full-speed playback was unavailable; full_playback_reviewed remains false.",
+      "The proof is more authored than the plain sequence, but the visible support-window treatment remains an aesthetic choice requiring the user verdict."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

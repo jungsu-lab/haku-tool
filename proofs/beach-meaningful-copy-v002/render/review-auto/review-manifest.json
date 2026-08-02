@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_beach_meaningful_copy_v002",
+  "created_at": "2026-07-31T12:38:37.400178+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_beach_meaningful_copy_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "4827BEDA0F959DA4DE342802860B8452D9454440669E389611C5D54D81F1C5B9",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 73,
+      "coverage_seconds": 9.083333
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 73,
+      "coverage_seconds": 9.083333
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-entry",
+      "kind": "segment_boundary",
+      "frame": 24,
+      "seconds": 1.0,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\boundaries\\boundary-01-entry.jpg",
+      "range_seconds": [
+        0.75,
+        1.2916666666666665
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-crossing",
+      "kind": "segment_boundary",
+      "frame": 68,
+      "seconds": 2.8333333333333335,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\boundaries\\boundary-02-crossing.jpg",
+      "range_seconds": [
+        2.5833333333333335,
+        3.125
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-complete-exit",
+      "kind": "segment_boundary",
+      "frame": 138,
+      "seconds": 5.75,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\boundaries\\boundary-03-complete-exit.jpg",
+      "range_seconds": [
+        5.5,
+        6.041666666666667
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-after-proposition",
+      "kind": "segment_boundary",
+      "frame": 180,
+      "seconds": 7.5,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\beach-meaningful-copy-v002\\render\\review-auto\\boundaries\\boundary-04-after-proposition.jpg",
+      "range_seconds": [
+        7.25,
+        7.791666666666667
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T12:40:08.424790+00:00",
+    "evidence": [
+      "Plain and proof are frame-identical except for two readable sentences. The proof turns simple observation into a verifiable before/after proposition: a person crosses, then the same practical lights and moving water remain. Both sentences name visible states rather than inventing unsupported biography. Full-resolution checks show the serif copy is readable without a sticker box, while all four cut boundaries preserve the source motion inherited from the accepted beach v003 sequence."
+    ],
+    "limitations": [
+      "This validates semantic copy as a reusable gate, not the full Haku account mood; wording and typography still require purpose-specific authorship, and full-speed playback remains pending."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

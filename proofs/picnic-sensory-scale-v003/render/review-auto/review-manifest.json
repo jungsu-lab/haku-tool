@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_picnic_sensory_scale_v003",
+  "created_at": "2026-07-31T13:28:51.359850+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_picnic_sensory_scale_v003",
+    "schema_version": "1.1",
+    "recipe_sha256": "88E15D39AAB47D11B7B69575CD20BF71817A7523703755D496BA18705D59889F",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 61,
+      "coverage_seconds": 7.6
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 61,
+      "coverage_seconds": 7.6
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-action-owner-pours",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\boundary-01-action-owner-pours.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-body-registers-pleasure",
+      "kind": "segment_boundary",
+      "frame": 85,
+      "seconds": 3.4,
+      "strip": "boundaries\\boundary-02-body-registers-pleasure.jpg",
+      "range_seconds": [
+        3.16,
+        3.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-sensation-opens-to-relationship",
+      "kind": "segment_boundary",
+      "frame": 130,
+      "seconds": 5.2,
+      "strip": "boundaries\\boundary-03-sensation-opens-to-relationship.jpg",
+      "range_seconds": [
+        4.96,
+        5.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T13:29:57.620430+00:00",
+    "evidence": [
+      "proof 0.00-1.56s: hands, food, patterned cloth, and pink wine establish tactile scale without synthetic motion",
+      "boundary frame 40 / 1.60s: clean hard cut into an already-legible continuous wine-pour action; no freeze, lurch, or animated crop",
+      "boundary frame 85 / 3.40s: action owner yields immediately to a laughing participant in the same session, preserving object and evening-field continuity",
+      "boundary frame 130 / 5.20s: individual reaction opens to a four-person toast relationship field with all participants visible",
+      "proof 5.20-7.60s: native landscape group coverage functions as the destination; plain ordering delays sensory and action ownership"
+    ],
+    "limitations": [
+      "Validated only for a single-session landscape friendship film with shared people, objects, location, light, and social action.",
+      "Does not validate mixed locations, native 9:16 relationship coverage, product advertising, music synchronization, or decorative multi-window effects."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

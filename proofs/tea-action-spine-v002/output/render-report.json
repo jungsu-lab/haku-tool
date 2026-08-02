@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_tea_action_spine_v002",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\recipe.json",
+  "recipe_sha256": "13D28309E3B08FF28343DA0DCFCCB68216800024F85998DE4A2E3046D3B4BF0F",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "pot_to_onset",
+      "pour_release",
+      "service_completion",
+      "sustained_pour",
+      "untouched_tableau"
+    ],
+    "material_ledger": {
+      "untouched_tableau": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\tea-state-candidate-03\\7612397-tea-pour.mp4",
+        "source_in": 0.0,
+        "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+      },
+      "pot_to_onset": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\tea-state-candidate-03\\7612397-tea-pour.mp4",
+        "source_in": 1.3,
+        "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+      },
+      "sustained_pour": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\tea-state-candidate-03\\7612397-tea-pour.mp4",
+        "source_in": 3.266667,
+        "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+      },
+      "pour_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\tea-state-candidate-03\\7612397-tea-pour.mp4",
+        "source_in": 7.0,
+        "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+      },
+      "service_completion": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\tea-state-candidate-03\\7612397-tea-pour.mp4",
+        "source_in": 14.8,
+        "sha256": "8DEEAC59EB3F9049EB91B3BF21A755C4318783042955C8DE50C55EE01AFF9BCF"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-tableau",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "untouched_tableau",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.9666666666666666,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            0,
+            59
+          ]
+        },
+        {
+          "segment_id": "plain-pot-onset",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pot_to_onset",
+          "source_in_seconds": 1.3,
+          "source_out_seconds": 3.2666666666666666,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            59,
+            118
+          ]
+        },
+        {
+          "segment_id": "plain-sustain",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "sustained_pour",
+          "source_in_seconds": 3.266667,
+          "source_out_seconds": 5.233333666666667,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            118,
+            177
+          ]
+        },
+        {
+          "segment_id": "plain-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pour_release",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 8.966666666666667,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            177,
+            236
+          ]
+        },
+        {
+          "segment_id": "plain-completion",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "service_completion",
+          "source_in_seconds": 14.8,
+          "source_out_seconds": 16.766666666666666,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            236,
+            295
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "untouched_tableau": 1,
+        "pot_to_onset": 1,
+        "sustained_pour": 1,
+        "pour_release": 1,
+        "service_completion": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "brief-tableau",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "untouched_tableau",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 0.6666666666666666,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            0,
+            20
+          ]
+        },
+        {
+          "segment_id": "pot-arrival-to-stream",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pot_to_onset",
+          "source_in_seconds": 1.3,
+          "source_out_seconds": 3.2666666666666666,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            20,
+            79
+          ]
+        },
+        {
+          "segment_id": "continuous-pour-body",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "sustained_pour",
+          "source_in_seconds": 3.266667,
+          "source_out_seconds": 7.000000333333333,
+          "duration_frames": 112,
+          "timeline_visible_frames": [
+            79,
+            191
+          ]
+        },
+        {
+          "segment_id": "continuous-pour-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pour_release",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 8.966666666666667,
+          "duration_frames": 59,
+          "timeline_visible_frames": [
+            191,
+            250
+          ]
+        },
+        {
+          "segment_id": "hand-completes-service",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "service_completion",
+          "source_in_seconds": 14.8,
+          "source_out_seconds": 16.3,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            250,
+            295
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "untouched_tableau": 1,
+        "pot_to_onset": 1,
+        "sustained_pour": 1,
+        "pour_release": 1,
+        "service_completion": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\plain.mp4",
+    "frames": 295,
+    "duration_seconds": 9.833333333333334,
+    "segments": [
+      {
+        "segment_id": "plain-tableau",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "untouched_tableau"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\plain\\01-plain-tableau.mp4"
+      },
+      {
+        "segment_id": "plain-pot-onset",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "pot_to_onset"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\plain\\02-plain-pot-onset.mp4"
+      },
+      {
+        "segment_id": "plain-sustain",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "sustained_pour"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\plain\\03-plain-sustain.mp4"
+      },
+      {
+        "segment_id": "plain-release",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "pour_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\plain\\04-plain-release.mp4"
+      },
+      {
+        "segment_id": "plain-completion",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "service_completion"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\plain\\05-plain-completion.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "nb_read_frames": "295"
+        }
+      ],
+      "format": {
+        "duration": "9.833333"
+      }
+    },
+    "sha256": "A9530A81C6B3441CF730EFCAECF32A91D1C5D5CF1338C9AEC7F3BAAC7B6FDB79"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\proof.mp4",
+    "frames": 295,
+    "duration_seconds": 9.833333333333334,
+    "segments": [
+      {
+        "segment_id": "brief-tableau",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "untouched_tableau"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\proof\\01-brief-tableau.mp4"
+      },
+      {
+        "segment_id": "pot-arrival-to-stream",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "pot_to_onset"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\proof\\02-pot-arrival-to-stream.mp4"
+      },
+      {
+        "segment_id": "continuous-pour-body",
+        "type": "single",
+        "frames": 112,
+        "materials": [
+          "sustained_pour"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\proof\\03-continuous-pour-body.mp4"
+      },
+      {
+        "segment_id": "continuous-pour-release",
+        "type": "single",
+        "frames": 59,
+        "materials": [
+          "pour_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\proof\\04-continuous-pour-release.mp4"
+      },
+      {
+        "segment_id": "hand-completes-service",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "service_completion"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\_segments\\proof\\05-hand-completes-service.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "nb_read_frames": "295"
+        }
+      ],
+      "format": {
+        "duration": "9.833333"
+      }
+    },
+    "sha256": "E5CEF79D39A09CF69D81A1F17AAAFCF34AB4BA57BEF571BC601664C68B544597"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "The original, plain, proof, and all four 30 fps boundary strips were directly inspected. The proof preserves the pour from source 1.3 through 8.97 seconds in contiguous ranges, so pot body, stream, and release no longer lurch.",
+      "The only large source-time compression occurs after the pot has fully exited and before the later hand action; the locked cup, table, window, and background make this idle-time removal visually stable.",
+      "The proof gives the causal pour and hand-completed service more time than the untouched setup, while using no freeze, retime, reverse, zoom, crop animation, transition, or padding."
+    ],
+    "limitations": [
+      "The opaque cup hides liquid level, so motif-state-return remains only a partial supporting observation rather than an independent pass.",
+      "Audio remains deferred by the user, and research approval is not user acceptance."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\tea-action-spine-v002\\output\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_latte_motif_state_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\recipe.json",
+  "recipe_sha256": "5DBB7AE4CBB763CEE7F88BC0610D26804519331175233C9B4E7FCB468DFD626E",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "dark_base",
+      "final_surface",
+      "first_white_line",
+      "pattern_forms",
+      "rings_refine",
+      "swirl_emerges"
+    ],
+    "material_ledger": {
+      "dark_base": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 0.6,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      },
+      "first_white_line": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 2.6,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      },
+      "swirl_emerges": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 7.0,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      },
+      "pattern_forms": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 13.0,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      },
+      "rings_refine": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 21.0,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      },
+      "final_surface": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\coffee_latte_810.mp4",
+        "source_in": 31.0,
+        "sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-dark-base",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "dark_base",
+          "source_in_seconds": 0.6,
+          "source_out_seconds": 1.7666666666666666,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            0,
+            28
+          ]
+        },
+        {
+          "segment_id": "plain-first-line",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "first_white_line",
+          "source_in_seconds": 2.6,
+          "source_out_seconds": 3.7666666666666666,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            28,
+            56
+          ]
+        },
+        {
+          "segment_id": "plain-swirl",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "swirl_emerges",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 8.166666666666666,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            56,
+            84
+          ]
+        },
+        {
+          "segment_id": "plain-pattern",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pattern_forms",
+          "source_in_seconds": 13.0,
+          "source_out_seconds": 14.166666666666666,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            84,
+            112
+          ]
+        },
+        {
+          "segment_id": "plain-rings",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "rings_refine",
+          "source_in_seconds": 21.0,
+          "source_out_seconds": 22.166666666666668,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            112,
+            140
+          ]
+        },
+        {
+          "segment_id": "plain-final",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "final_surface",
+          "source_in_seconds": 31.0,
+          "source_out_seconds": 32.166666666666664,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            140,
+            168
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "dark_base": 1,
+        "first_white_line": 1,
+        "swirl_emerges": 1,
+        "pattern_forms": 1,
+        "rings_refine": 1,
+        "final_surface": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "establish-dark-base",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "dark_base",
+          "source_in_seconds": 0.6,
+          "source_out_seconds": 1.4333333333333333,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            0,
+            20
+          ]
+        },
+        {
+          "segment_id": "first-contrast",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "first_white_line",
+          "source_in_seconds": 2.6,
+          "source_out_seconds": 3.4333333333333336,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            20,
+            40
+          ]
+        },
+        {
+          "segment_id": "swirl-state",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "swirl_emerges",
+          "source_in_seconds": 7.0,
+          "source_out_seconds": 8.0,
+          "duration_frames": 24,
+          "timeline_visible_frames": [
+            40,
+            64
+          ]
+        },
+        {
+          "segment_id": "recognizable-pattern",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "pattern_forms",
+          "source_in_seconds": 13.0,
+          "source_out_seconds": 14.166666666666666,
+          "duration_frames": 28,
+          "timeline_visible_frames": [
+            64,
+            92
+          ]
+        },
+        {
+          "segment_id": "refined-rings",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "rings_refine",
+          "source_in_seconds": 21.0,
+          "source_out_seconds": 22.25,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            92,
+            122
+          ]
+        },
+        {
+          "segment_id": "completed-motif",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "final_surface",
+          "source_in_seconds": 31.0,
+          "source_out_seconds": 32.916666666666664,
+          "duration_frames": 46,
+          "timeline_visible_frames": [
+            122,
+            168
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "dark_base": 1,
+        "first_white_line": 1,
+        "swirl_emerges": 1,
+        "pattern_forms": 1,
+        "rings_refine": 1,
+        "final_surface": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\plain.mp4",
+    "frames": 168,
+    "duration_seconds": 7.0,
+    "segments": [
+      {
+        "segment_id": "plain-dark-base",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "dark_base"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\01-plain-dark-base.mp4"
+      },
+      {
+        "segment_id": "plain-first-line",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "first_white_line"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\02-plain-first-line.mp4"
+      },
+      {
+        "segment_id": "plain-swirl",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "swirl_emerges"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\03-plain-swirl.mp4"
+      },
+      {
+        "segment_id": "plain-pattern",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "pattern_forms"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\04-plain-pattern.mp4"
+      },
+      {
+        "segment_id": "plain-rings",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "rings_refine"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\05-plain-rings.mp4"
+      },
+      {
+        "segment_id": "plain-final",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "final_surface"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\plain\\06-plain-final.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "168"
+        }
+      ],
+      "format": {
+        "duration": "7.000000"
+      }
+    },
+    "sha256": "655FDC743310BC158ED0673EEF566C53E0EC34110DB37D34F3DABCD51B8081A7"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\proof.mp4",
+    "frames": 168,
+    "duration_seconds": 7.0,
+    "segments": [
+      {
+        "segment_id": "establish-dark-base",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "dark_base"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\01-establish-dark-base.mp4"
+      },
+      {
+        "segment_id": "first-contrast",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "first_white_line"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\02-first-contrast.mp4"
+      },
+      {
+        "segment_id": "swirl-state",
+        "type": "single",
+        "frames": 24,
+        "materials": [
+          "swirl_emerges"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\03-swirl-state.mp4"
+      },
+      {
+        "segment_id": "recognizable-pattern",
+        "type": "single",
+        "frames": 28,
+        "materials": [
+          "pattern_forms"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\04-recognizable-pattern.mp4"
+      },
+      {
+        "segment_id": "refined-rings",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "rings_refine"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\05-refined-rings.mp4"
+      },
+      {
+        "segment_id": "completed-motif",
+        "type": "single",
+        "frames": 46,
+        "materials": [
+          "final_surface"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\_segments\\proof\\06-completed-motif.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "168"
+        }
+      ],
+      "format": {
+        "duration": "7.000000"
+      }
+    },
+    "sha256": "625BCF159B5112B608365F43AEF8F22441EE7149A958ED5BE9F25A095E4F9428"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "Complete 0.000-33.717 source sheet shows one fixed overhead take: dark coffee develops monotonically through first white contrast, swirl, recognizable pattern, refined rings, and completed surface.",
+      "All five proof boundaries retain the same cup, camera scale, and floor geometry while the material state advances; no boundary returns the coffee to an earlier pattern.",
+      "Proof gives 46 frames to the completed motif versus 28 in plain and removes the same 18 frames from early setup, making the final state a clearer destination at the same total 168 frames.",
+      "No freeze, reverse, retime, zoom, animated crop, duplicated last frame, or already edited source montage is used."
+    ],
+    "limitations": [
+      "This validates the reusable motif-state progression grammar, not the full natural or relationship mood of the Haku account.",
+      "Live full-speed playback was not used; review covered the complete source sheet, complete 8 fps plain/proof sheets, and all five 24 fps boundary strips."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

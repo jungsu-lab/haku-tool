@@ -1,0 +1,440 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_rainbow_luminous_relay_v002",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\recipe.json",
+  "recipe_sha256": "2C5A685B1D6C802AEB2DBB75ED0D7CB5A5926565123CE0D0695F569A1B7C643D",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "generated_glow",
+      "exposure_pumping"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "fingertips_enter",
+      "hand_turns_colors",
+      "open_palm_release",
+      "palm_receives_band",
+      "second_hand_intercepts",
+      "wall_only"
+    ],
+    "material_ledger": {
+      "wall_only": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 9.6,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      },
+      "fingertips_enter": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 10.4,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      },
+      "palm_receives_band": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 11.2,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      },
+      "hand_turns_colors": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 12.0,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      },
+      "second_hand_intercepts": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 18.4,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      },
+      "open_palm_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\rainbow-refraction-session\\5239422-woman-hand-rainbow.mp4",
+        "source_in": 20.48,
+        "sha256": "0AE43A31E9180711A07C06D065E757EE0BDFAE92C0F07C9C2BB9049FAF8A00C5"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-wall",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "wall_only",
+          "source_in_seconds": 9.6,
+          "source_out_seconds": 10.48,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            0,
+            22
+          ]
+        },
+        {
+          "segment_id": "plain-fingers",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "fingertips_enter",
+          "source_in_seconds": 10.4,
+          "source_out_seconds": 11.280000000000001,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            22,
+            44
+          ]
+        },
+        {
+          "segment_id": "plain-palm",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "palm_receives_band",
+          "source_in_seconds": 11.2,
+          "source_out_seconds": 12.08,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            44,
+            66
+          ]
+        },
+        {
+          "segment_id": "plain-turn",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_turns_colors",
+          "source_in_seconds": 12.0,
+          "source_out_seconds": 12.88,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            66,
+            88
+          ]
+        },
+        {
+          "segment_id": "plain-second-hand",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "second_hand_intercepts",
+          "source_in_seconds": 18.4,
+          "source_out_seconds": 19.279999999999998,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            88,
+            110
+          ]
+        },
+        {
+          "segment_id": "plain-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "open_palm_release",
+          "source_in_seconds": 20.48,
+          "source_out_seconds": 21.36,
+          "duration_frames": 22,
+          "timeline_visible_frames": [
+            110,
+            132
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "wall_only": 1,
+        "fingertips_enter": 1,
+        "palm_receives_band": 1,
+        "hand_turns_colors": 1,
+        "second_hand_intercepts": 1,
+        "open_palm_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "wall-carrier",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "wall_only",
+          "source_in_seconds": 9.6,
+          "source_out_seconds": 10.24,
+          "duration_frames": 16,
+          "timeline_visible_frames": [
+            0,
+            16
+          ]
+        },
+        {
+          "segment_id": "fingertip-carrier",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "fingertips_enter",
+          "source_in_seconds": 10.4,
+          "source_out_seconds": 11.040000000000001,
+          "duration_frames": 16,
+          "timeline_visible_frames": [
+            16,
+            32
+          ]
+        },
+        {
+          "segment_id": "palm-carrier",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "palm_receives_band",
+          "source_in_seconds": 11.2,
+          "source_out_seconds": 12.0,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            32,
+            52
+          ]
+        },
+        {
+          "segment_id": "turning-color-carrier",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_turns_colors",
+          "source_in_seconds": 12.0,
+          "source_out_seconds": 12.84,
+          "duration_frames": 21,
+          "timeline_visible_frames": [
+            52,
+            73
+          ]
+        },
+        {
+          "segment_id": "two-hand-interception",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "second_hand_intercepts",
+          "source_in_seconds": 18.4,
+          "source_out_seconds": 20.0,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            73,
+            113
+          ]
+        },
+        {
+          "segment_id": "open-palm-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "open_palm_release",
+          "source_in_seconds": 20.48,
+          "source_out_seconds": 21.240000000000002,
+          "duration_frames": 19,
+          "timeline_visible_frames": [
+            113,
+            132
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "wall_only": 1,
+        "fingertips_enter": 1,
+        "palm_receives_band": 1,
+        "hand_turns_colors": 1,
+        "second_hand_intercepts": 1,
+        "open_palm_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\plain.mp4",
+    "frames": 132,
+    "duration_seconds": 5.28,
+    "segments": [
+      {
+        "segment_id": "plain-wall",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "wall_only"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\01-plain-wall.mp4"
+      },
+      {
+        "segment_id": "plain-fingers",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "fingertips_enter"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\02-plain-fingers.mp4"
+      },
+      {
+        "segment_id": "plain-palm",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "palm_receives_band"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\03-plain-palm.mp4"
+      },
+      {
+        "segment_id": "plain-turn",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "hand_turns_colors"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\04-plain-turn.mp4"
+      },
+      {
+        "segment_id": "plain-second-hand",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "second_hand_intercepts"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\05-plain-second-hand.mp4"
+      },
+      {
+        "segment_id": "plain-release",
+        "type": "single",
+        "frames": 22,
+        "materials": [
+          "open_palm_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\plain\\06-plain-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "132"
+        }
+      ],
+      "format": {
+        "duration": "5.280000"
+      }
+    },
+    "sha256": "0ADB78541C2E528844A0AD32A798655CF7B686F2096FA8991FD285A7B77B6F74"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\proof.mp4",
+    "frames": 132,
+    "duration_seconds": 5.28,
+    "segments": [
+      {
+        "segment_id": "wall-carrier",
+        "type": "single",
+        "frames": 16,
+        "materials": [
+          "wall_only"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\01-wall-carrier.mp4"
+      },
+      {
+        "segment_id": "fingertip-carrier",
+        "type": "single",
+        "frames": 16,
+        "materials": [
+          "fingertips_enter"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\02-fingertip-carrier.mp4"
+      },
+      {
+        "segment_id": "palm-carrier",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "palm_receives_band"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\03-palm-carrier.mp4"
+      },
+      {
+        "segment_id": "turning-color-carrier",
+        "type": "single",
+        "frames": 21,
+        "materials": [
+          "hand_turns_colors"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\04-turning-color-carrier.mp4"
+      },
+      {
+        "segment_id": "two-hand-interception",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "second_hand_intercepts"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\05-two-hand-interception.mp4"
+      },
+      {
+        "segment_id": "open-palm-release",
+        "type": "single",
+        "frames": 19,
+        "materials": [
+          "open_palm_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\_segments\\proof\\06-open-palm-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "132"
+        }
+      ],
+      "format": {
+        "duration": "5.280000"
+      }
+    },
+    "sha256": "1AE253B8502268479063CAE9831B8EEBFF386497017888FE390E6682BA23A48A"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "Both licensed candidate originals, the selected original, frame-identical plain/proof dense sheets, and all five 25 fps boundary strips were directly reviewed. The same stable blue-white-orange-red optical band transfers from wall to fingertips to palm to the two-hand/open-palm state. V2 removes the V1 near-camera dark silhouette and keeps the light carrier readable at the final release. No generated glow, exposure pumping, zoom, freeze, retime, reverse, animated crop, transition, or padding was used."
+    ],
+    "limitations": [
+      "Validates one locked single-take real rainbow/refraction wall-to-skin situation. Water reflections, night light, moving camera, mixed locations, mixed orientation, and music remain untested. User verdict remains pending and contributes no acceptance increment."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\rainbow-luminous-relay-v002\\output-rerender\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

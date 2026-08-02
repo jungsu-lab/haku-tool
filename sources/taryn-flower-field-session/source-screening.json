@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "session_id": "taryn-flower-field-session",
+  "provider": "Pexels",
+  "creator": "Taryn Elliott",
+  "license": "https://www.pexels.com/license/",
+  "screening_method": {
+    "automated_preflight": "scene-change, freeze and black-frame candidates",
+    "main_agent_visual_review": "complete storyboard of every source viewed at original detail",
+    "decision_rule": "include only unedited, single-take coverage that contributes a distinct semantic role inside one coherent flower-field world"
+  },
+  "same_session_basis": [
+    "matching yellow-flower field and daylight",
+    "matching woman, white top and denim styling across the four human-action sources",
+    "matching warm yellow, green and pale-blue palette",
+    "complementary environment, tactile detail, action-owner, embodied-reaction and movement-release coverage"
+  ],
+  "sources": [
+    {
+      "filename": "5271930-aerial-field.mp4",
+      "page_url": "https://www.pexels.com/video/aerial-view-of-a-flower-field-5271930/",
+      "observed_content": "ground-level yellow-flower field texture and environmental movement; the title is not used as visual evidence",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": true,
+      "semantic_role": "environment premise"
+    },
+    {
+      "filename": "5271785-pocket-flowers.mp4",
+      "page_url": "https://www.pexels.com/video/woman-putting-yellow-flowers-on-pocket-5271785/",
+      "observed_content": "close view of hands placing and arranging yellow flowers in a denim bib pocket",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": true,
+      "semantic_role": "tactile action and material detail"
+    },
+    {
+      "filename": "5271713-taking-pictures.mp4",
+      "page_url": "https://www.pexels.com/video/a-woman-taking-pictures-in-a-field-5271713/",
+      "observed_content": "the same woman moves through the flower field and raises a camera to photograph",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": true,
+      "semantic_role": "action owner and creative act"
+    },
+    {
+      "filename": "5271828-sitting-field.mp4",
+      "page_url": "https://www.pexels.com/video/a-woman-in-a-flower-field-5271828/",
+      "observed_content": "the same woman rises into view and raises both arms among the flowers",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": true,
+      "semantic_role": "embodied emotional reaction"
+    },
+    {
+      "filename": "5271714-running-field.mp4",
+      "page_url": "https://www.pexels.com/video/a-woman-running-in-a-field-5271714/",
+      "observed_content": "the same woman runs away through the yellow-flower field",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": true,
+      "semantic_role": "movement release"
+    },
+    {
+      "filename": "5271658-woman-field-camera.mp4",
+      "page_url": "https://www.pexels.com/video/woman-standing-in-a-flower-field-5271658/",
+      "observed_content": "vertical, mostly static wide view of a woman holding a camera",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": false,
+      "exclusion_reason": "orientation and static coverage add no semantic role not already supplied more clearly"
+    },
+    {
+      "filename": "5271945-coffee-field.mp4",
+      "page_url": "https://www.pexels.com/video/a-woman-holding-a-cup-of-coffee-in-a-field-5271945/",
+      "observed_content": "rear view of the woman holding a coffee container in the same field",
+      "single_take": true,
+      "existing_edit_detected": false,
+      "included": false,
+      "exclusion_reason": "coffee introduces a second action-purpose that weakens the flower-and-photography spine"
+    }
+  ],
+  "selected_semantic_chain": [
+    "environment premise",
+    "tactile action",
+    "creative act",
+    "embodied reaction",
+    "movement release"
+  ]
+}

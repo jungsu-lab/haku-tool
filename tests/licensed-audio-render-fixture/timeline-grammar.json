@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.1",
+  "reel_id": "licensed-audio-render-fixture",
+  "account": "haku_tool technical fixture",
+  "artifact_type": "proof_edit",
+  "timeline_duration_seconds": 1.0,
+  "timeline_fps": 25,
+  "audio_policy": "licensed_library_track",
+  "audio_rights_manifest": "../../audio-library/mixkit-valley-sunset-127.audio-rights.json",
+  "music_event_map": "music-event-map.json",
+  "toolchain": {"primary_editor": "ffmpeg deterministic proof renderer", "secondary_tools": ["direct listening", "ffprobe"], "why_this_toolchain": "Exercise the licensed-audio mux path with identical audio in plain and proof."},
+  "narrative_arc": {
+    "hook": {"status": "present", "event_ids": ["visual-001"], "reason": "A field image and a quiet ambient phrase begin together."},
+    "setup": {"status": "not_applicable", "event_ids": [], "reason": "One-second technical fixture."},
+    "buildup": {"status": "not_applicable", "event_ids": [], "reason": "One-second technical fixture."},
+    "climax": {"status": "not_applicable", "event_ids": [], "reason": "One-second technical fixture."},
+    "resolution": {"status": "not_applicable", "event_ids": [], "reason": "One-second technical fixture."},
+    "cta": {"status": "not_applicable", "event_ids": [], "reason": "No advertisement CTA in a technical fixture."}
+  },
+  "events": [{
+    "event_id": "visual-001", "start_seconds": 0.0, "end_seconds": 1.0,
+    "timecode_display": "00:00.00~00:01.00",
+    "observation": "A yellow-flower field moves continuously while the licensed track opens with a low atmospheric synth phrase.",
+    "inference": "The quiet phrase supports a held sensory premise without forcing a cut on every beat.",
+    "source_mapping": {"source_clip_id": "field_premise", "source_path": "../../sources/taryn-flower-field-session/5271930-aerial-field.mp4", "source_sha256": "21D61952CADF19EC18E7603D33E66692AB0D082E73D17D0E55058F5D3DEF22FB", "source_fps": 25, "source_in_seconds": 5.0, "source_out_seconds": 6.0, "source_frame_in": 125, "source_frame_out_exclusive": 150, "output_in_seconds": 0.0, "output_out_seconds": 1.0, "output_frame_in": 0, "output_frame_out_exclusive": 25, "retime": "none"},
+    "narrative": {"stage": "hook", "function": "licensed-audio visual premise"},
+    "shot": {"shot_type": "environment insert", "subject": "yellow-flower field", "framing": "WS", "camera_angle": "eye-level", "camera_motion": "source drift", "shot_duration_seconds": 1.0},
+    "cut": {"cut_type": "opening hold", "cut_reason": "test audio mux without changing source motion", "incoming_motion": "none", "outgoing_motion": "native flowers", "continuity": "single source"},
+    "timing": {"pace": "held", "rhythm": "one phrase opening", "beat_position": "phrase start rather than beat cut", "pause_seconds": 0.0, "speed_change": "none"},
+    "transition": {"transition_type": "none", "duration_seconds": 0.0, "direction": "none", "visual_anchor": "flower movement", "sound_anchor": "low ambient synth phrase begins"},
+    "text": {"content": "", "font_style": "none", "position": "none", "emphasis": "none", "animation": "none", "duration_seconds": 0.0},
+    "color": {"exposure": "daylight", "contrast": "soft", "saturation": "warm moderate", "temperature": "warm", "palette": ["yellow", "green", "blue"], "mood": "quiet anticipation"},
+    "audio": {"status": "reviewed", "dialogue": "not_present", "music": "Valley Sunset atmospheric synth opening", "sfx": "not_present", "ambience": "not_present", "beat": "140 BPM metadata; no beat-forced cut in this fixture", "volume_curve": "-18 dB with 0.10 s fade-in and 0.20 s fade-out"},
+    "motion": {"zoom": "none", "pan": "source drift only", "shake": "source micro-movement", "tracking": "none", "easing": "source natural", "motion_blur": "source"},
+    "purpose": {"primary": "attention", "effect_name": "licensed_phrase_hold", "when_used": "opening second", "applied_scene": "flower-field premise", "why_used": "verify that licensed music and visual hold share an intentional event", "viewer_feeling": ["curiosity", "calm"]},
+    "operator_links": ["density-wave-release"], "confidence": "high"
+  }]
+}

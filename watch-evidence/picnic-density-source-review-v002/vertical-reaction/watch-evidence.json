@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "kind": "local_file",
+    "value": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/picnic-sensory-scale/10071341-evening-picnic-vertical.mp4",
+    "rights_status": "licensed",
+    "sha256": "6F5CA4D96159B2B1015784AF41DC54DFEB48A1ACA3957E17FD189D4BA2D1DF14"
+  },
+  "invocation": {
+    "wrapper": "C:/Users/HP-5600G/Desktop/AI 제작과정/tools/run-watch.cmd",
+    "detail": "efficient",
+    "external_transcription_allowed": false,
+    "explicit_user_consent_for_audio_upload": false,
+    "no_whisper": true,
+    "output_directory": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/vertical-reaction",
+    "report_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/picnic-density-source-review-v002/vertical-reaction/report.md"
+  },
+  "review": {
+    "reviewer": "main-agent",
+    "every_listed_frame_reviewed": true,
+    "transcript_source": "none",
+    "frame_evidence": [
+      {"timestamp_seconds": 0, "frame_path": "frames/cue_0000.jpg", "observation": "The pale-blue woman laughs with a pink-wine glass above the food and candle field.", "inference": "Her face, glass, and food connect sensation to an embodied participant.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 3, "frame_path": "frames/cue_0001.jpg", "observation": "She leans toward the food while still smiling and holding the glass.", "inference": "The reaction has real body motion rather than a posed portrait.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 6, "frame_path": "frames/cue_0002.jpg", "observation": "Her gaze and right hand stay directed toward the picnic surface.", "inference": "The shared eyeline and food action preserve the group-world connection.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 10, "frame_path": "frames/cue_0003.jpg", "observation": "She reaches farther across the grapes and bread while holding the wine glass.", "inference": "The hand action can make a live reaction window functional instead of decorative.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 14, "frame_path": "frames/cue_0004.jpg", "observation": "Her hand remains in the food field and her body bends toward the group.", "inference": "The action continues smoothly through a bounded portrait panel.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 16, "frame_path": "frames/cue_0005.jpg", "observation": "She smiles while lifting a small bite toward her mouth.", "inference": "This is the clearest pleasure-response hinge available in the vertical take.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 18, "frame_path": "frames/cue_0006.jpg", "observation": "She eats and laughs with the glass still visible below.", "inference": "The sensory response is causally grounded in food and shared company.", "timeline_event_ids": ["event-002-progressive-social-density"]},
+      {"timestamp_seconds": 21, "frame_path": "frames/cue_0007.jpg", "observation": "The light-blazer man enters the right side as foreground glasses converge below.", "inference": "The take returns naturally toward the group rather than ending as an isolated portrait.", "timeline_event_ids": ["event-002-progressive-social-density"]}
+    ],
+    "limitations": ["Pinned timestamps are not a captured full-speed playback review.", "The portrait source must stay in a bounded panel or fixed crop that preserves face, glass, and food."]
+  },
+  "reuse_gate": {"analysis_only": false, "allowed_in_proof": true, "allowed_in_final": true},
+  "conversion": {"status": "mapped", "timeline_grammar_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/proofs/picnic-density-wave-v001/timeline-grammar.json"}
+}

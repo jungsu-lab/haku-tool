@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_perfume_experience_product_v001",
+  "created_at": "2026-07-31T12:46:51.273463+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_perfume_experience_product_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "CB30CEBD470F2C8AA84E5D7AD4388E7D11D4EB13EC43DC4A7018E6875C10E22F",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-ritual-spray-release",
+      "kind": "segment_boundary",
+      "frame": 36,
+      "seconds": 1.44,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\boundaries\\boundary-01-ritual-spray-release.jpg",
+      "range_seconds": [
+        1.2,
+        1.72
+      ],
+      "review_status": "pending_direct_visual_review"
+    },
+    {
+      "id": "boundary-02-sensory-wrist-response",
+      "kind": "segment_boundary",
+      "frame": 74,
+      "seconds": 2.96,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\boundaries\\boundary-02-sensory-wrist-response.jpg",
+      "range_seconds": [
+        2.72,
+        3.24
+      ],
+      "review_status": "pending_direct_visual_review"
+    },
+    {
+      "id": "boundary-03-product-enters-emphasis",
+      "kind": "segment_boundary",
+      "frame": 124,
+      "seconds": 4.96,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\boundaries\\boundary-03-product-enters-emphasis.jpg",
+      "range_seconds": [
+        4.72,
+        5.24
+      ],
+      "review_status": "pending_direct_visual_review"
+    },
+    {
+      "id": "boundary-04-product-recovery",
+      "kind": "segment_boundary",
+      "frame": 154,
+      "seconds": 6.16,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\perfume-experience-product-v001\\render\\review-auto\\boundaries\\boundary-04-product-recovery.jpg",
+      "range_seconds": [
+        5.92,
+        6.4399999999999995
+      ],
+      "review_status": "pending_direct_visual_review"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "all_boundary_strips_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "research_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

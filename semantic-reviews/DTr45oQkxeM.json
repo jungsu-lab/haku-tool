@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DTr45oQkxeM",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T10:53:00Z"},
+  "purpose": "하늘·책·숲빛·물·불꽃·그림자 같은 감각 표식을 짧은 이미지 섬으로 이어 하루의 무드를 만드는 비서사 몽타주",
+  "format": "9:16 portrait with landscape image islands",
+  "story_role": "none",
+  "primary_subject": "흰옷 인물과 자연 물성·불꽃·그림자",
+  "intended_viewer_response": "서사보다 색·빛·촉감이 연속해서 떠오르는 감각 회상",
+  "commercial_function": "향수·여행·패션·카메라의 비서사 무드 필름",
+  "sequence": {"opening_hook": "구름 아래 뒷모습 인물", "development": "책·숲빛·물·소품·구름·불꽃을 빠르게 교대", "peak_or_payoff": "불꽃과 수면 반사가 가장 강한 빛·행동 결합", "final_image": "창가 인물·석양 원경·바닥 그림자로 신체의 흔적을 남김"},
+  "directing": {"subject_action": "바라보기, 책 읽기, 물에 손 넣기, 불꽃 들기, 걷기", "blocking": "인물을 환경 속 작은 표식 또는 실루엣으로 둔다.", "space": "서로 다른 공간을 물리 동선 없이 감각 유사성으로 연결한다.", "props_surfaces_costume": "책, 물, 불꽃, 모자, 흰옷"},
+  "cinematography": {"composition": "환경 원경과 손·수면·불꽃 근접 교대", "distance_or_lens": "극단적인 scale relay", "camera_motion": "각 컷의 물·불꽃·보행 움직임", "light": "역광·수면 반짝임·불꽃의 점광원", "palette_texture_depth": "청록·흰색과 순간적인 주황빛"},
+  "editing": {
+    "cut_logic": "0.4~1.3초 이미지 섬과 검정 여백으로 물성 유사 이미지를 연쇄한다.",
+    "shot_duration_progression": "대부분 0.4~1.3초이며 11.13~12.47초 검정이 가장 긴 쉼이다.",
+    "adjacent_image_relations": "흰 하이라이트와 물·불의 반짝임, 흰옷 실루엣이 공간을 넘겨준다.",
+    "in_frame_editing": "손·물결·불꽃·보행이 각 이미지 섬의 단일 사건이다.",
+    "typography_graphics_compositing": "타이포 없이 검정 여백과 이미지 크기로만 군집을 만든다.",
+    "repeated_operators": ["sensory_scale_relay", "luminous_texture_relay", "black_canvas_cluster_gate"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {"start_seconds": 0.833333, "end_seconds": 4.633333, "observation": "구름 아래 인물, 창가 책, 숲바닥의 빛과 발이 짧게 이어지고 검정으로 닫힌다.", "inference": "인물 소개보다 하늘·책·빛·발의 감각 역할을 분담한다."},
+    {"start_seconds": 4.633333, "end_seconds": 10.266667, "observation": "물속 손, 모자와 카메라, 구름, 보케, 물결, 불꽃, 수면 위 발이 이어진다.", "inference": "손-소품-환경-점광원-반사의 물성 relay다."},
+    {"start_seconds": 12.466667, "end_seconds": 15.666667, "observation": "창가 인물 실루엣, 석양 원경, 바닥에 드리운 두 사람의 그림자로 끝난다.", "inference": "파편 감각을 신체와 관계의 흔적으로 접지한다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "중간 이상. 비서사 Haku가 가능한 범위를 보여주지만 단독으로는 관계·행동 서사보다 일반 감성 몽타주에 가깝다.",
+    "common_elements": ["흰옷", "물", "구름", "손", "불꽃", "그림자"],
+    "possible_discriminators": ["물성 역할의 명확성", "긴 검정 release", "마지막 신체 흔적"],
+    "forbidden_pattern_evidence": ["유사 광질 없는 임의 B-roll", "모든 컷 동일 길이", "디지털 줌으로 움직임 보충"],
+    "ad_strengths": ["향수·패션·여행 무드"],
+    "suitable_subjects": ["환경·손·물성·인물 원경이 함께 있는 원본"],
+    "poor_fit_subjects": ["제품 기능 설명이 필요한 단일 제품 클립"],
+    "limitations": ["명시적 인과가 약해 범용 기본값이 아니라 분위기 우선 요청에만 적합하다."]
+  },
+  "counterexamples": ["이 구조를 모든 영상의 기본값으로 쓰면 사용자가 지적한 단순 화면전환 모음으로 퇴행한다."],
+  "confidence": "high"
+}

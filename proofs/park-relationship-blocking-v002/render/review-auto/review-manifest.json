@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_park_relationship_blocking_v002",
+  "created_at": "2026-07-31T13:44:37.215102+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_park_relationship_blocking_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "189E4025333C9CB59BE53960CA204F4C304123EC2B9DBB7B23202BA53D0B8E61",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 125,
+      "coverage_seconds": 15.6
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 125,
+      "coverage_seconds": 15.6
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-distance-makes-two-positions",
+      "kind": "segment_boundary",
+      "frame": 25,
+      "seconds": 1.0,
+      "strip": "boundaries\\boundary-01-distance-makes-two-positions.jpg",
+      "range_seconds": [
+        0.76,
+        1.28
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-reconvergence-changes-relation",
+      "kind": "segment_boundary",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\boundary-02-reconvergence-changes-relation.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-lift-transfers-action-ownership",
+      "kind": "segment_boundary",
+      "frame": 95,
+      "seconds": 3.8,
+      "strip": "boundaries\\boundary-03-lift-transfers-action-ownership.jpg",
+      "range_seconds": [
+        3.56,
+        4.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-continuous-carry-becomes-shared-exit",
+      "kind": "segment_boundary",
+      "frame": 195,
+      "seconds": 7.8,
+      "strip": "boundaries\\boundary-04-continuous-carry-becomes-shared-exit.jpg",
+      "range_seconds": [
+        7.56,
+        8.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-path-inherits-their-absence",
+      "kind": "segment_boundary",
+      "frame": 355,
+      "seconds": 14.2,
+      "strip": "boundaries\\boundary-05-path-inherits-their-absence.jpg",
+      "range_seconds": [
+        13.96,
+        14.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T13:45:37.246360+00:00",
+    "evidence": [
+      "proof 0.00-3.80s: hand contact opens into two positions and reconverges without identity or axis change",
+      "boundary 3 at 3.80s is source-contiguous at approximately 10.9s and preserves the onset of the lift instead of jumping to a completed pose",
+      "proof 3.80-14.20s preserves the physical hinge from lift through carry, shared running, close camera pass, and frame exit with source-only motion",
+      "boundary 4 at 7.80s is source-contiguous at approximately 14.9s and shows no blocking lurch",
+      "boundary 5 at 14.20s cuts from the last performer edge to a genuinely empty path; the empty state remains live source motion",
+      "plain uses the same six ranges and durations but resets from lift to initial contact near 4.0s and from post-run intimacy to earlier separation near 12.8s"
+    ],
+    "limitations": [
+      "Validated for one playful camera-followed pair in a park; conflict, reconciliation, family hierarchy, locked-off staging, vertical coverage, and advertising remain untested.",
+      "The first two compression cuts are intentional state changes, not seamless action matches; they require stable identity and spatial axis."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

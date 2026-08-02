@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_window_meaningful_copy_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\recipe.json",
+  "recipe_sha256": "F34298875B3DFF6F2E9E99EFC1F606FE99D48FE27FA472E59D1E9BCD153D5E1D",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "curtain_contact",
+      "light_arrival",
+      "lit_release",
+      "opening_action"
+    ],
+    "material_ledger": {
+      "curtain_contact": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\window-copy-candidate\\6704807-woman-opening-curtains.mp4",
+        "source_in": 0.0,
+        "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+      },
+      "opening_action": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\window-copy-candidate\\6704807-woman-opening-curtains.mp4",
+        "source_in": 1.0,
+        "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+      },
+      "light_arrival": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\window-copy-candidate\\6704807-woman-opening-curtains.mp4",
+        "source_in": 2.6,
+        "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+      },
+      "lit_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\window-copy-candidate\\6704807-woman-opening-curtains.mp4",
+        "source_in": 5.0,
+        "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": true,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "curtain_contact",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.0,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            0,
+            25
+          ]
+        },
+        {
+          "segment_id": "plain-opening",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "opening_action",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            25,
+            65
+          ]
+        },
+        {
+          "segment_id": "plain-arrival",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "light_arrival",
+          "source_in_seconds": 2.6,
+          "source_out_seconds": 5.0,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            65,
+            125
+          ]
+        },
+        {
+          "segment_id": "plain-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lit_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 7.48,
+          "duration_frames": 62,
+          "timeline_visible_frames": [
+            125,
+            187
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "curtain_contact": 1,
+        "opening_action": 1,
+        "light_arrival": 1,
+        "lit_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "outside-clause",
+          "segment_type": "copy-overlay",
+          "role": "full_frame",
+          "material_id": "curtain_contact",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.0,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            0,
+            25
+          ]
+        },
+        {
+          "segment_id": "opening",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "opening_action",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            25,
+            65
+          ]
+        },
+        {
+          "segment_id": "light-arrival",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "light_arrival",
+          "source_in_seconds": 2.6,
+          "source_out_seconds": 5.0,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            65,
+            125
+          ]
+        },
+        {
+          "segment_id": "invitation-clause",
+          "segment_type": "copy-overlay",
+          "role": "full_frame",
+          "material_id": "lit_release",
+          "source_in_seconds": 5.0,
+          "source_out_seconds": 7.48,
+          "duration_frames": 62,
+          "timeline_visible_frames": [
+            125,
+            187
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "curtain_contact": 1,
+        "opening_action": 1,
+        "light_arrival": 1,
+        "lit_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\plain.mp4",
+    "frames": 187,
+    "duration_seconds": 7.48,
+    "segments": [
+      {
+        "segment_id": "plain-contact",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "curtain_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\plain\\01-plain-contact.mp4"
+      },
+      {
+        "segment_id": "plain-opening",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "opening_action"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\plain\\02-plain-opening.mp4"
+      },
+      {
+        "segment_id": "plain-arrival",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "light_arrival"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\plain\\03-plain-arrival.mp4"
+      },
+      {
+        "segment_id": "plain-release",
+        "type": "single",
+        "frames": 62,
+        "materials": [
+          "lit_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\plain\\04-plain-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "187"
+        }
+      ],
+      "format": {
+        "duration": "7.480000"
+      }
+    },
+    "sha256": "C1E4C95602AF7DB78F72BE6689EECD9FCC23E0CB7F4CA6E12A302F7125766BAD"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\proof.mp4",
+    "frames": 187,
+    "duration_seconds": 7.48,
+    "segments": [
+      {
+        "segment_id": "outside-clause",
+        "type": "copy-overlay",
+        "frames": 25,
+        "materials": [
+          "curtain_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\proof\\01-outside-clause.mp4"
+      },
+      {
+        "segment_id": "opening",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "opening_action"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\proof\\02-opening.mp4"
+      },
+      {
+        "segment_id": "light-arrival",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "light_arrival"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\proof\\03-light-arrival.mp4"
+      },
+      {
+        "segment_id": "invitation-clause",
+        "type": "copy-overlay",
+        "frames": 62,
+        "materials": [
+          "lit_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\_segments\\proof\\04-invitation-clause.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "187"
+        }
+      ],
+      "format": {
+        "duration": "7.480000"
+      }
+    },
+    "sha256": "B372AEF707B09D1DEDBD44DB17EF079ACEA3DE6205B068EB64D6FC939D5B9757"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "The single unedited take has a clean shadow-to-light action spine and all three segment boundaries preserve continuous body and curtain motion."
+    ],
+    "limitations": [
+      "The all-caps bold-serif copy and default heavy two-pixel shadow dominate the quiet image and read as generic promotional typography; this is a visual-design failure, not a source or continuity failure."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\window-meaningful-copy-v001\\output\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

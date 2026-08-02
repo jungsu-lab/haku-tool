@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DZFOV3Qz7Gs",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:31:00Z"
+  },
+  "purpose": "해질녘 두 사람이 불꽃을 주고받는 하나의 놀이를 거리 변화와 실제 동작으로 오래 체험시키는 관계 초상",
+  "format": "16:9 landscape action-coverage sequence",
+  "story_role": "explicit",
+  "primary_subject": "바닷가에서 손불꽃을 들고 움직이는 두 사람",
+  "intended_viewer_response": "장난 속 친밀감과 불꽃이 꺼지기 전 순간을 함께 보는 느낌",
+  "commercial_function": "여행·패션·관계형 브랜드의 체험 중심 필름",
+  "sequence": {
+    "opening_hook": "인물 한 명과 불꽃을 가까이 보여주며 얼굴보다 빛의 움직임을 먼저 잡는다.",
+    "development": "두 사람의 와이드로 넓혀 서로 쫓거나 불꽃을 건네는 놀이의 관계를 보여준다.",
+    "peak_or_payoff": "근접 불꽃과 인물 실루엣을 다시 길게 붙잡아 빛과 몸의 움직임을 겹친다.",
+    "final_image": "불꽃이 카메라 가까이 크게 번지며 사건보다 촉감과 밝기의 잔상으로 끝난다."
+  },
+  "directing": {
+    "subject_action": "불꽃 흔들기, 서로 다가가고 피하기, 나란히 달리거나 장난치기",
+    "blocking": "한 사람 근접과 두 사람 원경을 번갈아 관계의 거리와 빛의 크기를 조절한다.",
+    "space": "수평선과 얕은 물을 비워 두어 두 사람과 불꽃 궤적이 선명하게 읽힌다.",
+    "props_surfaces_costume": "손불꽃이 행동의 이유·광원·전환 표식 세 역할을 동시에 수행한다."
+  },
+  "cinematography": {
+    "composition": "석양 수평선을 고정 배경으로 근접 인물과 두 사람 전신을 교대한다.",
+    "distance_or_lens": "불꽃 클로즈업, 한 사람 중경, 두 사람 와이드가 반복된다.",
+    "camera_motion": "카메라는 인물의 실제 달리기와 불꽃 궤적을 따라가며 완벽한 안정성보다 현장성을 남긴다.",
+    "light": "푸른 저녁과 주황 수평선 위에 손불꽃의 백색 하이라이트가 유일한 강한 광원이다.",
+    "palette_texture_depth": "남색·주황·검은 실루엣·흰 불꽃의 제한된 색이 깊이와 시간을 만든다."
+  },
+  "editing": {
+    "cut_logic": "같은 행동을 근접↔와이드↔근접으로 커버해 공간과 관계를 번갈아 읽힌다.",
+    "shot_duration_progression": "2초 안팎의 근접, 약 3초 와이드, 짧은 근접 파편, 약 2초 와이드, 5.5초에 가까운 긴 인물 근접으로 후반을 붙잡는다.",
+    "adjacent_image_relations": "모든 컷에 동일한 불꽃과 수평선이 있어 거리 점프가 다른 사건이 아니라 같은 놀이의 연속으로 읽힌다.",
+    "in_frame_editing": "불꽃의 궤적과 두 사람의 접근·이탈이 각 숏 안의 컷 포인트 후보를 만든다.",
+    "typography_graphics_compositing": "타이포·합성 없이 실제 불꽃이 자연 광학 효과를 만든다.",
+    "repeated_operators": [
+      "single_action_multi_distance_coverage",
+      "prop_as_light_and_continuity",
+      "relationship_revealed_in_wide",
+      "long_final_embodied_hold"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "불꽃 소리와 인물 움직임, 컷의 동기는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.041,
+      "observation": "한 인물과 손불꽃을 중근경에서 약 2초 보여주며 불꽃이 얼굴 앞을 오간다.",
+      "inference": "관계보다 물성과 인물의 반응을 먼저 제시하는 촉각적 도입이다."
+    },
+    {
+      "start_seconds": 2.958,
+      "end_seconds": 5.875,
+      "observation": "두 사람이 바닷가에서 불꽃을 들고 서로 움직이는 와이드가 유지된다.",
+      "inference": "근접에서 숨겼던 동행을 공간과 함께 공개해 장난의 인과를 설명한다."
+    },
+    {
+      "start_seconds": 6.0,
+      "end_seconds": 7.625,
+      "observation": "어두운 파편과 불꽃 근접, 인물 중경이 짧게 교차한다.",
+      "inference": "동일한 소품의 밝기 변화로 밀도를 잠시 높여 다음 와이드로 넘긴다."
+    },
+    {
+      "start_seconds": 7.625,
+      "end_seconds": 9.583,
+      "observation": "두 사람이 다시 와이드에서 뛰거나 불꽃을 주고받는다.",
+      "inference": "관계 행동을 재확인해 앞의 근접 파편이 공간적으로 끊기지 않게 한다."
+    },
+    {
+      "start_seconds": 9.583,
+      "end_seconds": 16.75,
+      "observation": "한 인물과 불꽃이 긴 근접 구간을 이루고 마지막에는 불꽃이 렌즈 가까이 크게 번진다.",
+      "inference": "후반을 과도하게 자르지 않고 실제 퍼포먼스와 광학적 절정을 충분히 기다린다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. Haku 관계 연출이 다수 장소보다 하나의 소품·행동에 대한 커버리지로도 성립한다.",
+    "common_elements": [
+      "해질녘 바다",
+      "두 사람의 장난",
+      "손과 불꽃",
+      "현장성 있는 카메라"
+    ],
+    "possible_discriminators": [
+      "소품이 광원과 관계 행동을 동시에 생성",
+      "와이드에서 관계를 공개하고 근접에서 감각을 회수",
+      "마지막 실제 행동을 길게 유지"
+    ],
+    "forbidden_pattern_evidence": [
+      "모든 불꽃 변화마다 컷을 넣으면 놀이의 연속성과 친밀감이 끊긴다.",
+      "서로 다른 불꽃 B-roll만 모으면 두 사람의 관계가 사라진다."
+    ],
+    "ad_strengths": [
+      "여행·축제",
+      "커플·우정 캠페인",
+      "의류·카메라의 체험형 광고"
+    ],
+    "suitable_subjects": [
+      "같은 행동을 근접·와이드로 촬영한 커버리지",
+      "두 사람의 접근·이탈이 읽히는 원본",
+      "불꽃·천·물처럼 움직임이 자체적으로 아름다운 소품"
+    ],
+    "poor_fit_subjects": [
+      "관계 숏 없이 한 사람 디테일만 있는 영상",
+      "소품과 행동의 연속성이 맞지 않는 촬영본"
+    ],
+    "limitations": [
+      "14개 자동 경계 중 일부는 불꽃 밝기 변화에 의한 오검출일 수 있으며 실제 하드컷 수는 실시간 재생으로 재확인해야 한다."
+    ]
+  },
+  "counterexamples": [
+    "불꽃 장면의 강함은 효과 합성이 아니라 실제 소품·행동·거리 커버리지에서 나온다.",
+    "후반 5초 이상을 한 인물 행동으로 유지하므로 Haku를 초단 컷의 집합으로 정의할 수 없다."
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DS5xPk1E_NT",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:35:00Z"
+  },
+  "purpose": "짧은 문장과 도시·물·눈·관계·불꽃의 기억 조각을 반복 충돌시켜 한 해의 감정 아카이브를 만드는 몽타주",
+  "format": "9:16 black canvas, red copy and centered landscape memories",
+  "story_role": "implicit",
+  "primary_subject": "한 인물 또는 두 사람의 도시·물·하늘·숲 기억",
+  "intended_viewer_response": "문장 사이로 불연속적인 기억이 섬광처럼 되돌아오는 느낌",
+  "commercial_function": "연말 회고·브랜드 아카이브·여행·사진 서비스 필름",
+  "sequence": {
+    "opening_hook": "약 3초 동안 검정 위 작은 적색 문장이 유지된다.",
+    "development": "도시 인물의 긴 장 뒤 짧은 물·구름·수중·눈·관계 이미지가 문장 사이에 밀집한다.",
+    "peak_or_payoff": "중반 이후 석양 달리기와 불꽃처럼 강한 행위·빛 이미지가 들어온다.",
+    "final_image": "관계·하늘·물성 디테일 뒤 긴 적색 문장 장으로 닫힌다."
+  },
+  "directing": {
+    "subject_action": "도시 걷기, 물속 이동, 방 안에서 마주하기, 석양에 달리기, 불꽃 들기",
+    "blocking": "대부분 한 인물을 환경 속 작게 두고 관계 장면만 두 사람을 명확히 보여준다.",
+    "space": "도시·바다·방·숲·해변을 시간 순서보다 감정 연상으로 연결한다.",
+    "props_surfaces_costume": "흰옷, 창, 물, 불꽃, 모자, 빛나는 도시"
+  },
+  "cinematography": {
+    "composition": "검정 세로 캔버스 중앙의 작은 가로 이미지와 작은 적색 문장을 교대한다.",
+    "distance_or_lens": "도시 중경·눈 근접·수면·환경 원경·관계 중경을 급격히 전환한다.",
+    "camera_motion": "각 기억 장은 짧아도 내부 행동이 명확하고 임의 줌은 보이지 않는다.",
+    "light": "네온·수중 청록·흰 실내·석양·불꽃의 광질 변화",
+    "palette_texture_depth": "검정과 적색을 고정 프레임으로 두고 이미지 색은 기억마다 바뀐다."
+  },
+  "editing": {
+    "cut_logic": "긴 문장·긴 도시 장으로 기준을 만든 뒤 0.3~1초 기억·문장 조각을 묶고 다시 긴 행동 장으로 release한다.",
+    "shot_duration_progression": "0~6.1초 저밀도, 6.1~14.7초 고밀도, 14.7~16.2초 석양 행동 hold, 이후 중밀도와 1.6초 결말 문장",
+    "adjacent_image_relations": "눈·물·구름의 흰 물성, 흰옷 인물, 빛의 섬광이 서로 다른 시간의 이미지를 묶는다.",
+    "in_frame_editing": "한 컷의 눈 깜박임·손·달리기·불꽃 움직임이 짧은 지속시간 안에서도 독립된 사건을 만든다.",
+    "typography_graphics_compositing": "적색 문장은 고밀도 이미지 군을 분절하고 기억을 언어로 회수한다.",
+    "repeated_operators": ["density_wave_release", "meaningful_copy_gate", "sensory_scale_relay", "action_as_edit_spine"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 6.133333,
+      "observation": "0~3.067초 적색 문장, 3.067~4.5초 도시 인물, 4.5~6.133초 다시 문장이 이어진다.",
+      "inference": "긴 언어 장과 긴 이미지 장으로 이후 고밀도 기억 폭주의 기준 호흡을 만든다."
+    },
+    {
+      "start_seconds": 6.133333,
+      "end_seconds": 14.7,
+      "observation": "물·구름·수중·창가·눈 근접·방 안 두 사람·불꽃·석양·하늘·폭포가 0.3~1.2초 단위 문장 장과 교대한다.",
+      "inference": "행동·물성·관계가 다른 기억을 흰빛과 흰옷 모티프로 묶은 밀도 파동이다."
+    },
+    {
+      "start_seconds": 14.7,
+      "end_seconds": 20.766667,
+      "observation": "숲과 석양 달리기, 불꽃, 관계 장면, 하늘·물성 디테일 뒤 19.2초부터 문장이 지속된다.",
+      "inference": "고밀도 조각을 실제 달리기와 관계 행동으로 접지한 뒤 언어로 종료한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. Haku의 문장·밀도 파동·감각 relay가 결합된 복합 사례다.",
+    "common_elements": ["흰옷 인물", "물·구름", "손·눈 디테일", "관계 행동", "검정 여백"],
+    "possible_discriminators": ["저밀도-고밀도-행동 release", "문장과 기억의 인과", "반복 물성으로 시간 통합"],
+    "forbidden_pattern_evidence": ["모든 클립을 같은 0.5초로 자름", "의미 없는 적색 선", "행동 release 없이 이미지 폭주로 끝냄"],
+    "ad_strengths": ["연말 회고", "여행·사진 서비스", "브랜드 아카이브"],
+    "suitable_subjects": ["여러 장소라도 같은 인물·의상·빛·물성 모티프가 반복되는 원본"],
+    "poor_fit_subjects": ["공통 모티프가 없고 각 클립이 이미 과편집된 원본"],
+    "limitations": ["작은 문장의 정확한 의미를 읽지 않았으므로 문장과 특정 이미지의 언어적 대응은 확정하지 않는다."]
+  },
+  "counterexamples": ["고밀도 구간만 모방하면 화면전환 모음이 된다. 앞의 기준 호흡과 뒤의 행동 release가 함께 있어야 한다."],
+  "confidence": "high"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_lupine_luminous_relay_v001",
+  "operator": {
+    "primary": "luminous-texture-relay",
+    "secondary": "action-as-edit-spine"
+  },
+  "situation": "Three licensed, unedited shots from one cottonbro lupine-field session, with direct sunlight, purple foreground flowers, and real flower shadows moving across white fabric, a hand, a flower, and a face.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "provenance_manifest": "../../../vcd-output/haku-tool-finalization-v004/sources/source-provenance.json"
+  },
+  "hypotheses_under_test": [
+    "Luminous texture can function as a sequence relay when the same real light-and-flower field changes carriers from fabric to hand to flower to face.",
+    "A same-session relay can create cohesion without synthetic flare, overlay, animated crop, or mixed-world stock montage.",
+    "Each cut must hand off a visible property: crisp flower shadow, sunlit skin, purple flower contact, or foreground flower light."
+  ],
+  "purpose": "Test the real-light branch of luminous-texture-relay without music, generated imagery, compositing, zoom, retime, or reference-media reuse.",
+  "material_fit": {
+    "status": "high_for_light_shadow_branch",
+    "strengths": [
+      "All three sources share creator, session, people, location, wardrobe, flowers, and direct sunlight.",
+      "The light and flower texture physically touches each carrier in the source footage.",
+      "The hand-touch action supplies a concrete middle event instead of a purely decorative montage."
+    ],
+    "limits": [
+      "This test does not validate water reflection, lens flare, or night-light branches.",
+      "The sources support atmosphere and embodied sensation, not a product or advertising claim."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_flare",
+      "light_overlay"
+    ]
+  },
+  "materials": {
+    "fabric_shadow": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887275-woman-hand-flowers-vertical.mp4",
+      "source_in": 1.8,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "hand_shadow": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887275-woman-hand-flowers-vertical.mp4",
+      "source_in": 14.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "flower_contact": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887277-hand-touch-flower-vertical.mp4",
+      "source_in": 18.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "face_light": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887049-man-portrait-vertical.mp4",
+      "source_in": 18.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-face-first", "type": "single", "frames": 50, "material": "face_light"},
+        {"id": "plain-flower-contact", "type": "single", "frames": 50, "material": "flower_contact"},
+        {"id": "plain-fabric-shadow", "type": "single", "frames": 50, "material": "fabric_shadow"},
+        {"id": "plain-hand-shadow", "type": "single", "frames": 50, "material": "hand_shadow"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "light-written-on-fabric", "type": "single", "frames": 50, "material": "fabric_shadow"},
+        {"id": "shadow-migrates-to-hand", "type": "single", "frames": 50, "material": "hand_shadow"},
+        {"id": "hand-meets-flower", "type": "single", "frames": 50, "material": "flower_contact"},
+        {"id": "flower-light-arrives-on-face", "type": "single", "frames": 50, "material": "face_light"}
+      ]
+    }
+  }
+}

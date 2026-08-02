@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "audio_rights_manifest": "../../audio-library/mixkit-valley-sunset-127.audio-rights.json",
+  "audio_file_sha256": "F50D822CB8D6CB3DA8BC9D6CFCCC020786FB0C25E2C222A75D11CA06091050E7",
+  "track_source_in_seconds": 6.6,
+  "track_source_out_seconds": 17.8,
+  "analysis_method": ["waveform", "direct_listening"],
+  "events": [
+    {"event_id": "music-001-fragment-entry", "track_seconds": 6.6, "timeline_seconds": 0.0, "type": "phrase_start", "observation": "The previously reviewed licensed phrase supports a sparse but moving fragment entry.", "visual_response": "cut", "target_visual_event_id": "event-001-fragment-burst", "intentional_offset_ms": 0, "confidence": "medium"},
+    {"event_id": "music-002-density-rise", "track_seconds": 9.4, "timeline_seconds": 2.8, "type": "accent", "observation": "The waveform becomes denser as the role field begins.", "visual_response": "in_frame_event", "target_visual_event_id": "event-003-role-panel-field", "intentional_offset_ms": 0, "confidence": "medium"},
+    {"event_id": "music-003-release", "track_seconds": 12.2, "timeline_seconds": 5.6, "type": "accent", "observation": "The previously reviewed fuller waveform point aligns with subtraction into the real photograph lift.", "visual_response": "cut", "target_visual_event_id": "event-004-full-frame-photo-release", "intentional_offset_ms": 0, "confidence": "medium"},
+    {"event_id": "music-004-living-tail", "track_seconds": 16.6, "timeline_seconds": 10.0, "type": "ending", "observation": "The phrase remains alive under the final shared reaction.", "visual_response": "hold", "target_visual_event_id": "event-005-relationship-afterglow", "intentional_offset_ms": 0, "confidence": "medium"}
+  ]
+}

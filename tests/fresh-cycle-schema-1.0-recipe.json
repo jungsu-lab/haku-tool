@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_research_regression_schema_1_0_v001",
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 360,
+    "height": 640,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 23,
+    "motion_policy": "source-motion-only"
+  },
+  "variants": {
+    "plain": {
+      "clips": [
+        {
+          "id": "source-motion",
+          "source": "../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+          "source_in": 0.0,
+          "frames": 50,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "grade": "haku-neutral"
+        }
+      ]
+    },
+    "proof": {
+      "clips": [
+        {
+          "id": "source-motion",
+          "source": "../../vcd-output/haku-tool-finalization/sources/pexels-haku-raw/pexels-10415802-woman-windy-field.mp4",
+          "source_in": 0.0,
+          "frames": 50,
+          "focus_x": 0.5,
+          "focus_y": 0.5,
+          "grade": "haku-neutral"
+        }
+      ]
+    }
+  }
+}

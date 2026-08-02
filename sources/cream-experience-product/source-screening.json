@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "provider": "Pexels",
+  "creator": "PinkWitch 诸葛筱暖",
+  "license_name": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "screening_verdict": "rejected_as_product_sequence",
+  "reason": "Consecutive source IDs and the same creator do not establish session or product identity. Direct dense review shows different products, containers, backgrounds, props, and lighting.",
+  "items": [
+    {
+      "source_id": "13422838",
+      "page_url": "https://www.pexels.com/video/beauty-products-and-flowers-13422838/",
+      "file": "13422838-products-flowers.mp4",
+      "sha256": "51D4CE0DBF9DEE83D346FDD7C804B0EE71C7458E8E8F7ABCE29D7EBE4D42D698",
+      "duration_seconds": 2.535,
+      "resolution": "3840x2160",
+      "fps": "30000/1001",
+      "direct_visual_observation": "Blue and yellow bottle group on pale fabric with tulips; one hand moves the yellow bottle.",
+      "selection": "rejected_for_joint_proof"
+    },
+    {
+      "source_id": "13422839",
+      "page_url": "https://www.pexels.com/video/close-up-view-of-taking-cream-from-bottle-13422839/",
+      "file": "13422839-cream-action.mp4",
+      "sha256": "0202805E984D3481231919A6493DF395D823BF3A37D2BE0B6B1AB726D7617031",
+      "duration_seconds": 1.701667,
+      "resolution": "3840x2160",
+      "fps": "30000/1001",
+      "direct_visual_observation": "Gold-trimmed crystal cream jar with spatula and a different graphic background.",
+      "selection": "rejected_for_joint_proof"
+    }
+  ],
+  "forbidden_inference": "Do not combine these clips as use and product recovery for one advertised product.",
+  "audit_evidence": "../../proof-source-audit/cream-experience-product/dense-review-report.json"
+}

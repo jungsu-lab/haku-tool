@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_candle_presence_absence_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\recipe.json",
+  "recipe_sha256": "440CFD4D8A19C3BC8252EB8374673A131CADE56F2B5A945BF175EEEEB4C85561",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "collapse",
+      "ember_afterimage",
+      "full_flame",
+      "lower_flame"
+    ],
+    "material_ledger": {
+      "full_flame": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\candle_out_3458.mp4",
+        "source_in": 7.5,
+        "sha256": "CC00BA5C3DC7754C7784FB4F8B02760FF929AF49695740D6ECC0D7441EEE29D7"
+      },
+      "lower_flame": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\candle_out_3458.mp4",
+        "source_in": 9.0,
+        "sha256": "CC00BA5C3DC7754C7784FB4F8B02760FF929AF49695740D6ECC0D7441EEE29D7"
+      },
+      "collapse": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\candle_out_3458.mp4",
+        "source_in": 10.35,
+        "sha256": "CC00BA5C3DC7754C7784FB4F8B02760FF929AF49695740D6ECC0D7441EEE29D7"
+      },
+      "ember_afterimage": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-six-style-proof-v001\\sources\\video\\candle_out_3458.mp4",
+        "source_in": 11.4,
+        "sha256": "CC00BA5C3DC7754C7784FB4F8B02760FF929AF49695740D6ECC0D7441EEE29D7"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-full-flame",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "full_flame",
+          "source_in_seconds": 7.5,
+          "source_out_seconds": 8.708333333333334,
+          "duration_frames": 29,
+          "timeline_visible_frames": [
+            0,
+            29
+          ]
+        },
+        {
+          "segment_id": "plain-lower-flame",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lower_flame",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 10.208333333333334,
+          "duration_frames": 29,
+          "timeline_visible_frames": [
+            29,
+            58
+          ]
+        },
+        {
+          "segment_id": "plain-collapse",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "collapse",
+          "source_in_seconds": 10.35,
+          "source_out_seconds": 11.391666666666666,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            58,
+            83
+          ]
+        },
+        {
+          "segment_id": "plain-ember",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "ember_afterimage",
+          "source_in_seconds": 11.4,
+          "source_out_seconds": 12.733333333333334,
+          "duration_frames": 32,
+          "timeline_visible_frames": [
+            83,
+            115
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "full_flame": 1,
+        "lower_flame": 1,
+        "collapse": 1,
+        "ember_afterimage": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "establish-flame",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "full_flame",
+          "source_in_seconds": 7.5,
+          "source_out_seconds": 8.625,
+          "duration_frames": 27,
+          "timeline_visible_frames": [
+            0,
+            27
+          ]
+        },
+        {
+          "segment_id": "pressure-lowers-flame",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lower_flame",
+          "source_in_seconds": 9.0,
+          "source_out_seconds": 10.125,
+          "duration_frames": 27,
+          "timeline_visible_frames": [
+            27,
+            54
+          ]
+        },
+        {
+          "segment_id": "flame-collapses",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "collapse",
+          "source_in_seconds": 10.35,
+          "source_out_seconds": 11.391666666666666,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            54,
+            79
+          ]
+        },
+        {
+          "segment_id": "ember-afterimage",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "ember_afterimage",
+          "source_in_seconds": 11.4,
+          "source_out_seconds": 12.9,
+          "duration_frames": 36,
+          "timeline_visible_frames": [
+            79,
+            115
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "full_flame": 1,
+        "lower_flame": 1,
+        "collapse": 1,
+        "ember_afterimage": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\plain.mp4",
+    "frames": 115,
+    "duration_seconds": 4.791666666666667,
+    "segments": [
+      {
+        "segment_id": "plain-full-flame",
+        "type": "single",
+        "frames": 29,
+        "materials": [
+          "full_flame"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\plain\\01-plain-full-flame.mp4"
+      },
+      {
+        "segment_id": "plain-lower-flame",
+        "type": "single",
+        "frames": 29,
+        "materials": [
+          "lower_flame"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\plain\\02-plain-lower-flame.mp4"
+      },
+      {
+        "segment_id": "plain-collapse",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "collapse"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\plain\\03-plain-collapse.mp4"
+      },
+      {
+        "segment_id": "plain-ember",
+        "type": "single",
+        "frames": 32,
+        "materials": [
+          "ember_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\plain\\04-plain-ember.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "115"
+        }
+      ],
+      "format": {
+        "duration": "4.791667"
+      }
+    },
+    "sha256": "4EA71A3A23736389336C49A020731EE728131AA658C0AB8E5957AF3BD17AB5B7"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\proof.mp4",
+    "frames": 115,
+    "duration_seconds": 4.791666666666667,
+    "segments": [
+      {
+        "segment_id": "establish-flame",
+        "type": "single",
+        "frames": 27,
+        "materials": [
+          "full_flame"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\proof\\01-establish-flame.mp4"
+      },
+      {
+        "segment_id": "pressure-lowers-flame",
+        "type": "single",
+        "frames": 27,
+        "materials": [
+          "lower_flame"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\proof\\02-pressure-lowers-flame.mp4"
+      },
+      {
+        "segment_id": "flame-collapses",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "collapse"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\proof\\03-flame-collapses.mp4"
+      },
+      {
+        "segment_id": "ember-afterimage",
+        "type": "single",
+        "frames": 36,
+        "materials": [
+          "ember_afterimage"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\_segments\\proof\\04-ember-afterimage.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "115"
+        }
+      ],
+      "format": {
+        "duration": "4.791667"
+      }
+    },
+    "sha256": "1F471BB681DA1BB0C84C43A56C0CD255CDBAE6ECFC868AE38B54767B0082B2EE"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "Full 0.000-12.958 source: one unedited take; the flame remains active until roughly 10.7 seconds, collapses through roughly 11.6 seconds, then leaves a tiny changing ember rather than an inserted black frame.",
+      "Proof 0.000-2.250: the established flame bends and visibly lowers while the candle position and scale remain fixed.",
+      "Proof 2.250-3.292: the flame collapses into a much smaller source state without an animated crop, zoom, or external transition.",
+      "Proof 3.292-4.792: the remaining ember continues to shrink; it is not a duplicated final frame or padded freeze.",
+      "All three 24 fps boundary strips are technically clean, though the first two cuts retain a small flame-orientation discontinuity inherent to state compression."
+    ],
+    "limitations": [
+      "The proof/plain duration difference is small, so the authored timing advantage is weak.",
+      "The candle occupies little screen area and the smoke trace is almost invisible; the ending can read as ordinary fade-to-black rather than a Haku afterimage.",
+      "Live full-speed playback was unavailable; review used the complete 12 fps source sheet, complete 8 fps plain/proof sheets, and every 24 fps boundary strip."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\candle-presence-absence-v001\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

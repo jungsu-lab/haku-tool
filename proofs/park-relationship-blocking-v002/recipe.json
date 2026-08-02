@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_relationship_blocking_v002",
+  "revision_from": "../park-relationship-blocking-v001/recipe.json",
+  "changes_from_v001": [
+    "Moved the lift anchor from 13.2s to 10.9s so the lift begins immediately after reconvergence.",
+    "Preserved nearly continuous source time from 10.9s through the 20.6s exit instead of jumping from lifted pose to running.",
+    "Moved the true empty-path anchor from 20.6s to 21.3s after both performers have cleared frame.",
+    "Made plain and proof use the exact same six source ranges and durations; only their order differs."
+  ],
+  "operator": {
+    "primary": "relationship-through-blocking",
+    "secondary": "presence-to-absence-hold"
+  },
+  "situation": "One licensed unedited continuous park take in which the same pair changes from hand contact to separation, reconvergence, lift/carry, shared running, and a native frame exit.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "page_url": "https://www.pexels.com/video/a-couple-walking-at-a-park-8640842/",
+    "recorded_sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596",
+    "screening_manifest": "../../sources/park-relationship-blocking/source-screening.json"
+  },
+  "hypotheses_under_test": [
+    "A relationship arc can be compressed without dialogue when every selected state changes distance, touch, action ownership, or shared direction.",
+    "The physical hinge from reconvergence through lift, carry, running, and exit must remain near-contiguous even when earlier states are compressed.",
+    "A native empty-path consequence closes the arc only after both performers visibly clear the frame."
+  ],
+  "purpose": "Test relationship-through-blocking in a playful urban-park situation using only one continuous source take and source motion.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The same pair and stable park axis undergo at least five distinct spatial and action states before leaving the frame.",
+    "limits": [
+      "The source is camera-followed rather than locked-off.",
+      "The proof tests a playful couple or friendship reading, not conflict, reconciliation, family hierarchy, or product advertising."
+    ]
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "materials": {
+    "contact_seed": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 0.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "distance_opens": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 5.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "reconvergence": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 9.3,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lift_and_carry": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 10.9,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "carry_to_shared_exit": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 14.9,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "empty_path": {
+      "source": "../../sources/park-relationship-blocking/8640842.mp4",
+      "source_in": 21.3,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-highlight-lift-first", "type": "single", "frames": 100, "material": "lift_and_carry"},
+        {"id": "plain-contact", "type": "single", "frames": 25, "material": "contact_seed"},
+        {"id": "plain-reconvergence", "type": "single", "frames": 40, "material": "reconvergence"},
+        {"id": "plain-long-shared-motion", "type": "single", "frames": 160, "material": "carry_to_shared_exit"},
+        {"id": "plain-distance", "type": "single", "frames": 30, "material": "distance_opens"},
+        {"id": "plain-empty", "type": "single", "frames": 35, "material": "empty_path"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "contact-establishes-pair", "type": "single", "frames": 25, "material": "contact_seed"},
+        {"id": "distance-makes-two-positions", "type": "single", "frames": 30, "material": "distance_opens"},
+        {"id": "reconvergence-changes-relation", "type": "single", "frames": 40, "material": "reconvergence"},
+        {"id": "lift-transfers-action-ownership", "type": "single", "frames": 100, "material": "lift_and_carry"},
+        {"id": "continuous-carry-becomes-shared-exit", "type": "single", "frames": 160, "material": "carry_to_shared_exit"},
+        {"id": "path-inherits-their-absence", "type": "single", "frames": 35, "material": "empty_path"}
+      ]
+    }
+  }
+}

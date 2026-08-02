@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_nutella_experience_product_v002",
+  "created_at": "2026-07-31T14:50:12.745627+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_nutella_experience_product_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "7BD32BDA17A08A11A1AE6C6339C28BEC03F623BA03434D0D381A67B97A098974",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 52,
+      "coverage_seconds": 6.4
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 52,
+      "coverage_seconds": 6.4
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-ritual-lid-release",
+      "kind": "segment_boundary",
+      "frame": 35,
+      "seconds": 1.4,
+      "strip": "boundaries\\boundary-01-ritual-lid-release.jpg",
+      "range_seconds": [
+        1.16,
+        1.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-sensory-smell-response",
+      "kind": "segment_boundary",
+      "frame": 80,
+      "seconds": 3.2,
+      "strip": "boundaries\\boundary-02-sensory-smell-response.jpg",
+      "range_seconds": [
+        2.96,
+        3.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-concise-blue-brand-recovery",
+      "kind": "segment_boundary",
+      "frame": 136,
+      "seconds": 5.44,
+      "strip": "boundaries\\boundary-03-concise-blue-brand-recovery.jpg",
+      "range_seconds": [
+        5.2,
+        5.720000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:50:38.365434+00:00",
+    "evidence": [
+      "Both complete licensed originals, V1 proof, V2 frame-identical plain/proof dense sequences, and all three V2 25 fps boundary strips were directly reviewed. V2 preserves the lid action and near-contiguous release-to-smell hinge, extends the closed-eye sensory response, and changes the final recovery to a concise same-session blue-violet label hold. The final cut now retains the preceding light world and ends before the passive hold becomes dominant. Plain still opens with the later product state and then resets to the earlier action. No zoom, freeze, retime, reverse, animated crop, transition, synthetic packshot, or padding was used."
+    ],
+    "limitations": [
+      "Improved over V1 but still partial: the label is visible throughout the proof, so hidden-product reveal and strong product delay remain untested. The later closed jar still implies rather than shows closure, no supported claim or new product information appears, and user verdict remains pending with zero promotion increment."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

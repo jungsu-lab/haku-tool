@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.1",
+  "reel_id": "",
+  "account": "@haku_.photo",
+  "artifact_type": "reference_analysis|proof_edit|final_edit",
+  "timeline_duration_seconds": 0.0,
+  "timeline_fps": 25,
+  "audio_policy": "deferred_by_user|deferred_by_rights|reference_audio_reviewed|licensed_library_track",
+  "audio_rights_manifest": "required path when audio_policy=licensed_library_track",
+  "music_event_map": "required path when audio_policy=licensed_library_track",
+  "toolchain": {
+    "primary_editor": "DaVinci Resolve Edit|DaVinci Resolve Fusion|ffmpeg deterministic proof renderer|other",
+    "secondary_tools": [],
+    "why_this_toolchain": ""
+  },
+  "narrative_arc": {
+    "hook": {"status": "present|not_applicable", "event_ids": [], "reason": ""},
+    "setup": {"status": "present|not_applicable", "event_ids": [], "reason": ""},
+    "buildup": {"status": "present|not_applicable", "event_ids": [], "reason": ""},
+    "climax": {"status": "present|not_applicable", "event_ids": [], "reason": ""},
+    "resolution": {"status": "present|not_applicable", "event_ids": [], "reason": ""},
+    "cta": {"status": "present|not_applicable", "event_ids": [], "reason": ""}
+  },
+  "events": [
+    {
+      "event_id": "event-001",
+      "start_seconds": 2.1,
+      "end_seconds": 2.6,
+      "timecode_display": "00:02.1~00:02.6",
+      "observation": "제품이 화면 중앙에 등장한다.",
+      "inference": "제품 공개를 편집의 강조점으로 만든다.",
+      "source_mapping": {
+        "source_clip_id": "clip-001",
+        "source_path": "source/clip-001.mp4",
+        "source_sha256": "64 hexadecimal characters",
+        "source_fps": 25,
+        "source_in_seconds": 2.1,
+        "source_out_seconds": 2.6,
+        "source_frame_in": 53,
+        "source_frame_out_exclusive": 65,
+        "output_in_seconds": 2.1,
+        "output_out_seconds": 2.6,
+        "output_frame_in": 53,
+        "output_frame_out_exclusive": 65,
+        "retime": "none"
+      },
+      "narrative": {"stage": "hook|setup|buildup|climax|resolution|cta", "function": ""},
+      "shot": {"shot_type": "", "subject": "", "framing": "", "camera_angle": "", "camera_motion": "", "shot_duration_seconds": 0.5},
+      "cut": {"cut_type": "", "cut_reason": "", "incoming_motion": "", "outgoing_motion": "", "continuity": ""},
+      "timing": {"pace": "", "rhythm": "", "beat_position": "", "pause_seconds": 0.0, "speed_change": "none"},
+      "transition": {"transition_type": "none", "duration_seconds": 0.0, "direction": "none", "visual_anchor": "", "sound_anchor": "not_reviewed"},
+      "text": {"content": "", "font_style": "none", "position": "none", "emphasis": "none", "animation": "none", "duration_seconds": 0.0},
+      "color": {"exposure": "", "contrast": "", "saturation": "", "temperature": "", "palette": [], "mood": ""},
+      "audio": {"status": "deferred_by_user|deferred_by_rights|reviewed|not_present", "dialogue": "not_reviewed", "music": "not_reviewed", "sfx": "not_reviewed", "ambience": "not_reviewed", "beat": "not_reviewed", "volume_curve": "not_reviewed"},
+      "motion": {"zoom": "105% to 125%", "pan": "none", "shake": "none", "tracking": "none", "easing": "ease-out", "motion_blur": "source|added|none|unknown"},
+      "purpose": {"primary": "attention|explanation|emotion|product_emphasis|transition|cta", "effect_name": "fast_push_in", "when_used": "제품이 화면 중앙에 등장하는 순간", "applied_scene": "중앙 제품 hero shot", "why_used": "제품 등장을 강조하기 위해", "viewer_feeling": ["강렬함", "확신"]},
+      "operator_links": [],
+      "confidence": "low|medium|high"
+    }
+  ]
+}

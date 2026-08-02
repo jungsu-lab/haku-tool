@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "tea-state-candidate-02",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T14:34:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "Max Vakhtbovych",
+    "page_url": "https://www.pexels.com/video/close-up-view-of-pouring-tea-6771491/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  "files": [
+    {
+      "path": "6771491-tea-pour.mp4",
+      "sha256": "47B57655D19FC192FBF77FC19D21E941E82915D30C7C8B886849913D8A65A318",
+      "duration_seconds": 9.386667,
+      "width": 1280,
+      "height": 720,
+      "fps": 29.97003
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timeline": true,
+    "sample_fps": 8,
+    "evidence_path": "../../review-artifacts/tea-state-candidate-02/6771491-tea-pour-dense.jpg"
+  },
+  "observations": [
+    "The pour appears continuous and no state-reset splice is visible.",
+    "A foreground person's hair and shoulder obscure most of the cup throughout the take.",
+    "The starting fill level, final fill level, surface response, and completed state cannot be read confidently."
+  ],
+  "routing": {
+    "motif-state-return": "rejected_for_missing_visible_after_state",
+    "action-as-edit-spine": "weak"
+  },
+  "decision": "Do not render a motif-state proof. Atmosphere and continuity are insufficient when the motif's changed return is hidden."
+}

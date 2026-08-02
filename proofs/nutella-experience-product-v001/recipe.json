@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_nutella_experience_product_v001",
+  "operator": {
+    "primary": "experience-before-product",
+    "secondary": "action-as-edit-spine"
+  },
+  "situation": "Two licensed, unedited same-session locked takes containing a complete Nutella lid-opening and smell response plus a later readable front-label hold under changing television light.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Engin Akyurt",
+    "pages": [
+      "https://www.pexels.com/video/woman-eating-nutella-6466126/",
+      "https://www.pexels.com/video/woman-holding-jar-of-nutella-6466128/"
+    ],
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": {
+      "6466127-eating-hd.mp4": "0E6980460987FC3A04072D728F0FF44DD9451E111A070E2EC1E11CEAA8B6926A",
+      "6466128-holding-hd.mp4": "AAA89E1AED2C18EC8668BE85DB94D0730B3AE4E653BD7686122F47C65E8CF8D3"
+    }
+  },
+  "hypotheses_under_test": [
+    "A real use action followed by a bodily sensory response and then a steady readable brand hold is more persuasive than opening on the product hold and resetting to the earlier action.",
+    "Product visibility during use does not invalidate experience-before-product when explicit brand emphasis is reserved for the final recovery.",
+    "A fixed 9:16 crop is valid only if the complete hands, lid, nose response, jar, and readable label remain inside frame."
+  ],
+  "purpose": "Test the branded-recovery branch of experience-before-product without copy, music, synthetic packshots, zoom, retime, transition effects, or reference-media reuse.",
+  "material_fit": {
+    "status": "conditional_high",
+    "reason": "Use, sensory response, and label recovery are real and same-session, but the product is already visible from the first frame and therefore cannot validate a hidden-product reveal."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "lid_contact": {
+      "source": "../../sources/nutella-experience-product-session/6466127-eating-hd.mp4",
+      "source_in": 1.8,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "lid_release": {
+      "source": "../../sources/nutella-experience-product-session/6466127-eating-hd.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "smell_response": {
+      "source": "../../sources/nutella-experience-product-session/6466127-eating-hd.mp4",
+      "source_in": 7.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "brand_hold": {
+      "source": "../../sources/nutella-experience-product-session/6466128-holding-hd.mp4",
+      "source_in": 4.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-brand-first", "type": "single", "frames": 40, "material": "brand_hold"},
+        {"id": "plain-lid-contact", "type": "single", "frames": 35, "material": "lid_contact"},
+        {"id": "plain-lid-release", "type": "single", "frames": 45, "material": "lid_release"},
+        {"id": "plain-smell-response", "type": "single", "frames": 50, "material": "smell_response"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "ritual-lid-contact", "type": "single", "frames": 35, "material": "lid_contact"},
+        {"id": "ritual-lid-release", "type": "single", "frames": 45, "material": "lid_release"},
+        {"id": "sensory-smell-response", "type": "single", "frames": 50, "material": "smell_response"},
+        {"id": "readable-brand-recovery", "type": "single", "frames": 40, "material": "brand_hold"}
+      ]
+    }
+  }
+}

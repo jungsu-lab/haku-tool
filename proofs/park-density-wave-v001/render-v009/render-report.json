@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_density_wave_v005",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\recipe-v005.json",
+  "recipe_sha256": "7DAA61CB740B43783F94A5FFBDEEA24AEA1D432AD072900700DB5642123EA091",
+  "audio_policy": "deferred_by_user",
+  "audio_render": {
+    "policy": "deferred_by_user",
+    "stream_expected": false
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay",
+      "text",
+      "music",
+      "sfx",
+      "decorative_border",
+      "drop_shadow"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "contact_anchor",
+      "distance_state",
+      "lift_state",
+      "reconvergence_state",
+      "shared_exit_release"
+    ],
+    "material_ledger": {
+      "contact_anchor": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 0.0,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "distance_state": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 5.2,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "reconvergence_state": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 9.32,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "lift_state": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 10.92,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "shared_exit_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 12.52,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "contact_anchor",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "plain-distance",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "distance_state",
+          "source_in_seconds": 5.2,
+          "source_out_seconds": 6.0,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            40,
+            60
+          ]
+        },
+        {
+          "segment_id": "plain-reconvergence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reconvergence_state",
+          "source_in_seconds": 9.32,
+          "source_out_seconds": 10.120000000000001,
+          "duration_frames": 20,
+          "timeline_visible_frames": [
+            60,
+            80
+          ]
+        },
+        {
+          "segment_id": "plain-lift",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lift_state",
+          "source_in_seconds": 10.92,
+          "source_out_seconds": 12.12,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            80,
+            110
+          ]
+        },
+        {
+          "segment_id": "plain-shared-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "shared_exit_release",
+          "source_in_seconds": 12.52,
+          "source_out_seconds": 22.0,
+          "duration_frames": 237,
+          "timeline_visible_frames": [
+            110,
+            347
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "contact_anchor": 1,
+        "distance_state": 1,
+        "reconvergence_state": 1,
+        "lift_state": 1,
+        "shared_exit_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "contact-anchor",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "contact_anchor",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-density",
+          "segment_type": "functional-panels",
+          "role": "distance-base",
+          "material_id": "distance_state",
+          "source_in_seconds": 5.2,
+          "source_out_seconds": 8.0,
+          "duration_frames": 70,
+          "timeline_visible_frames": [
+            40,
+            110
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-density",
+          "segment_type": "functional-panels",
+          "role": "reconvergence-support",
+          "material_id": "reconvergence_state",
+          "source_in_seconds": 9.32,
+          "source_out_seconds": 9.92,
+          "duration_frames": 15,
+          "timeline_visible_frames": [
+            55,
+            70
+          ]
+        },
+        {
+          "segment_id": "progressive-relationship-density",
+          "segment_type": "functional-panels",
+          "role": "lift-support",
+          "material_id": "lift_state",
+          "source_in_seconds": 10.92,
+          "source_out_seconds": 12.52,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            70,
+            110
+          ]
+        },
+        {
+          "segment_id": "native-shared-exit-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "shared_exit_release",
+          "source_in_seconds": 12.52,
+          "source_out_seconds": 22.0,
+          "duration_frames": 237,
+          "timeline_visible_frames": [
+            110,
+            347
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "contact_anchor": 1,
+        "distance_state": 1,
+        "reconvergence_state": 1,
+        "lift_state": 1,
+        "shared_exit_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\plain.mp4",
+    "frames": 347,
+    "duration_seconds": 13.88,
+    "segments": [
+      {
+        "segment_id": "plain-contact",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "contact_anchor"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\plain\\01-plain-contact.mp4"
+      },
+      {
+        "segment_id": "plain-distance",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "distance_state"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\plain\\02-plain-distance.mp4"
+      },
+      {
+        "segment_id": "plain-reconvergence",
+        "type": "single",
+        "frames": 20,
+        "materials": [
+          "reconvergence_state"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\plain\\03-plain-reconvergence.mp4"
+      },
+      {
+        "segment_id": "plain-lift",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "lift_state"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\plain\\04-plain-lift.mp4"
+      },
+      {
+        "segment_id": "plain-shared-exit",
+        "type": "single",
+        "frames": 237,
+        "materials": [
+          "shared_exit_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\plain\\05-plain-shared-exit.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "347"
+        }
+      ],
+      "format": {
+        "duration": "13.880000"
+      }
+    },
+    "sha256": "F03A065EC6E0AE2A574E9A16F337F0B378AF9B3F542D8D144EF6C1F73C76B234"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\proof.mp4",
+    "frames": 347,
+    "duration_seconds": 13.88,
+    "segments": [
+      {
+        "segment_id": "contact-anchor",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "contact_anchor"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\proof\\01-contact-anchor.mp4"
+      },
+      {
+        "segment_id": "progressive-relationship-density",
+        "type": "functional-panels",
+        "frames": 70,
+        "materials": [
+          "distance_state",
+          "lift_state",
+          "reconvergence_state"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\proof\\02-progressive-relationship-density.mp4"
+      },
+      {
+        "segment_id": "native-shared-exit-release",
+        "type": "single",
+        "frames": 237,
+        "materials": [
+          "shared_exit_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\_segments\\proof\\03-native-shared-exit-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "347"
+        }
+      ],
+      "format": {
+        "duration": "13.880000"
+      }
+    },
+    "sha256": "60C39E2E4CD338B8A19EDFED88123EA7855C11A4D1C15D03DEF27E27FB6746C8"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "8fps dense proof sheet directly reviewed across 13.88 seconds: no black frames, freeze padding, fake zoom, or stalled exit.",
+      "At 2.80 seconds reconvergence support ends on the same frame that lift support begins; direct boundary strips and v004-v005 comparison show no blank frame and clearer central pair readability than v004.",
+      "At 4.40 seconds the lower-right source inset hands off to the immediately following source frame full-screen without rewind, skip, or retime.",
+      "From approximately 13.28 to 13.88 seconds both performers have exited, leaving an actual empty park path as the release."
+    ],
+    "limitations": [
+      "Trustworthy full-speed playback capture was not available; full_playback_reviewed remains false.",
+      "The visible support-window layout is a creative treatment that still requires the user verdict; no acceptance or promotion increment is inferred."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-density-wave-v001\\render-v009\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

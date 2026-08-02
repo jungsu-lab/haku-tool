@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_robin_semantic_density_v001",
+  "created_at": "2026-08-01T07:09:22.795012+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_robin_semantic_density_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "4A94EE240D757FBAF1026B2203D4BAF79BB147913BB958EFF0036470F7F04263",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 62,
+      "coverage_seconds": 7.68
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 62,
+      "coverage_seconds": 7.68
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-away-glimpse",
+      "kind": "segment_boundary",
+      "frame": 18,
+      "seconds": 0.72,
+      "strip": "boundaries\\boundary-01-away-glimpse.jpg",
+      "range_seconds": [
+        0.48,
+        1.0
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-profile-recovery",
+      "kind": "segment_boundary",
+      "frame": 35,
+      "seconds": 1.4,
+      "strip": "boundaries\\boundary-02-profile-recovery.jpg",
+      "range_seconds": [
+        1.16,
+        1.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-readable-song-hold",
+      "kind": "segment_boundary",
+      "frame": 60,
+      "seconds": 2.4,
+      "strip": "boundaries\\boundary-03-readable-song-hold.jpg",
+      "range_seconds": [
+        2.16,
+        2.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-departure-preparation",
+      "kind": "segment_boundary",
+      "frame": 132,
+      "seconds": 5.28,
+      "strip": "boundaries\\boundary-04-departure-preparation.jpg",
+      "range_seconds": [
+        5.04,
+        5.5600000000000005
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-native-departure-release",
+      "kind": "segment_boundary",
+      "frame": 162,
+      "seconds": 6.48,
+      "strip": "boundaries\\boundary-05-native-departure-release.jpg",
+      "range_seconds": [
+        6.24,
+        6.76
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-08-01T07:10:45.188674+00:00",
+    "evidence": [
+      "The proof creates a readable duration contrast: short orientation states resolve into a longer profile/vocal hold and a native departure.",
+      "All five boundaries preserve live source motion; no freeze, retime, animated crop, synthetic zoom, overlay, or last-frame padding is visible in the reviewed strips.",
+      "Compared with the uniform plain, the proof makes the bird profile the temporal center and preserves the real exit as consequence."
+    ],
+    "limitations": [
+      "The locked single composition supplies behavior states but no change of scale, environment, person, or tactile information; the central hold is visually subtle without audio.",
+      "Full-speed playback opened in PotPlayer, but Windows capture failed, so full_playback_reviewed remains false.",
+      "This is a partial animal-behavior branch only and does not yet validate semantic-density-hinge as a general Haku Operator."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

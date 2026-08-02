@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_robin_semantic_density_v001",
+  "operator": {"primary": "density-wave-release", "secondary": "action-as-edit-spine"},
+  "situation": "One user-provided, unedited 21.17-second locked telephoto take of a robin turning, settling, singing, turning away, returning, and leaving the perch.",
+  "source_rights": {"provider": "user-provided workspace media", "rights_basis": "user supplied for editing and testing", "source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4"},
+  "hypotheses_under_test": [
+    "A cut-density change is meaningful only if it increases the readability of an action state.",
+    "Short orientation fragments can build attention before a longer vocal hold without synthetic motion.",
+    "The final turn and departure can release the vocal hold as a real consequence rather than a decorative ending."
+  ],
+  "purpose": "Test semantic-density-hinge on a single unedited animal-behavior take without music, copy, overlays, zoom, retime, freeze, or reference-media reuse.",
+  "material_fit": {"status": "medium_high_for_observational_nature", "strengths": ["one continuous take", "clear behavior states", "stable framing and light", "native departure"], "limits": ["no human relationship", "no distance-scale coverage", "no tactile close-up", "one locked composition"]},
+  "audio_policy": "deferred_by_user",
+  "canvas": {"width": 1280, "height": 720, "fps": 25},
+  "render_policy": {"max_threads": 2, "preset": "medium", "crf": 17, "motion_policy": "source-motion-only", "forbid": ["freeze", "retime", "reverse", "animated_crop", "animated_scale", "last_frame_padding", "synthetic_overlay"]},
+  "materials": {
+    "arrival": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 0.0, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "turn_away": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 0.8, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "return_profile": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 3.9, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "song_hold": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 6.0, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "late_turn": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 16.8, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"},
+    "departure": {"source": "C:/Users/HP-5600G/Desktop/자연영상/21723-320725678_medium.mp4", "source_in": 19.7, "focus_x": 0.5, "focus_y": 0.5, "grade": "haku-neutral"}
+  },
+  "variants": {
+    "plain": {"segments": [
+      {"id": "plain-arrival", "type": "single", "frames": 32, "material": "arrival"},
+      {"id": "plain-turn-away", "type": "single", "frames": 32, "material": "turn_away"},
+      {"id": "plain-return", "type": "single", "frames": 32, "material": "return_profile"},
+      {"id": "plain-song", "type": "single", "frames": 32, "material": "song_hold"},
+      {"id": "plain-late-turn", "type": "single", "frames": 32, "material": "late_turn"},
+      {"id": "plain-departure", "type": "single", "frames": 32, "material": "departure"}
+    ]},
+    "proof": {"segments": [
+      {"id": "orientation-glimpse", "type": "single", "frames": 18, "material": "arrival"},
+      {"id": "away-glimpse", "type": "single", "frames": 17, "material": "turn_away"},
+      {"id": "profile-recovery", "type": "single", "frames": 25, "material": "return_profile"},
+      {"id": "readable-song-hold", "type": "single", "frames": 72, "material": "song_hold"},
+      {"id": "departure-preparation", "type": "single", "frames": 30, "material": "late_turn"},
+      {"id": "native-departure-release", "type": "single", "frames": 30, "material": "departure"}
+    ]}
+  }
+}

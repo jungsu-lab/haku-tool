@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DRUNg3UE0c2",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:29:00Z"
+  },
+  "purpose": "빛이 드는 낡은 방에서 인물의 출현과 퇴장을 같은 공간으로 비교해 잔상처럼 만드는 공간 초상",
+  "format": "16:9 landscape empty-presence-empty sequence",
+  "story_role": "implicit",
+  "primary_subject": "숲이 보이는 낡은 실내와 그 안에 잠시 나타나는 흰옷 인물",
+  "intended_viewer_response": "누군가 있었던 것 같은 고요함과 사라진 뒤 더 선명해지는 존재감",
+  "commercial_function": "공간·패션·향수·숙박 브랜드의 미스터리형 무드 필름",
+  "sequence": {
+    "opening_hook": "창문과 숲, 바닥의 빛만 있는 빈 방을 3.5초 유지한다.",
+    "development": "같은 공간에 흰옷 인물이 나타난 중경으로 전환해 시선을 위쪽으로 끌어올린다.",
+    "peak_or_payoff": "5.433초에 더 넓은 방과 인물의 위치를 보여주며 존재를 공간 전체에 결속한다.",
+    "final_image": "6.767초에 인물을 제거한 빈 방으로 돌아와 첫 이미지와 다른 여운을 만든다."
+  },
+  "directing": {
+    "subject_action": "창가 또는 천장을 바라보며 거의 움직이지 않고 서 있기",
+    "blocking": "인물을 창문과 벽 사이의 밝은 세로축 아래에 두고, 마지막에는 같은 축을 비운다.",
+    "space": "낡은 창문·나무 바닥·숲 바깥을 하나의 기억 무대로 유지한다.",
+    "props_surfaces_costume": "흰옷과 창문 빛이 어두운 벽·바닥의 검은 질감 속 유일한 밝은 피사체다."
+  },
+  "cinematography": {
+    "composition": "빈 방 와이드, 인물 중경, 더 넓은 인물 와이드, 빈 방 복귀의 구도 변주다.",
+    "distance_or_lens": "공간→인물→공간 속 인물→빈 공간으로 거리가 호흡한다.",
+    "camera_motion": "각 숏은 거의 고정이며 프레이밍 변화가 시점 이동을 담당한다.",
+    "light": "창문을 통과한 강한 자연광이 바닥의 대각선 패턴과 인물의 흰 형체를 만든다.",
+    "palette_texture_depth": "검은 실내, 흰 창빛, 바깥 숲의 녹색이 깊은 층을 만든다."
+  },
+  "editing": {
+    "cut_logic": "3.5·5.433·6.767초의 세 컷으로 빈 공간→인물→공간화→부재를 단계적으로 만든다.",
+    "shot_duration_progression": "3.5초 빈 방, 1.93초 인물, 1.33초 더 넓은 인물, 2.1초 빈 방으로 바깥 호흡이 길다.",
+    "adjacent_image_relations": "창문과 빛의 축을 유지해 인물의 유무와 거리 변화만 비교하게 한다.",
+    "in_frame_editing": "인물 동작보다 빛의 흔들림과 공간 안의 미세 변화가 한 컷 내부 시간을 만든다.",
+    "typography_graphics_compositing": "관찰된 타이포나 합성은 없다.",
+    "repeated_operators": [
+      "empty_presence_empty",
+      "same_space_subject_toggle",
+      "distance_pulse_in_static_room",
+      "absence_recontextualizes_opening"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "실내 잔향이나 자연음이 부재에 주는 영향은 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 3.5,
+      "observation": "인물 없이 창문·숲·바닥 빛만 있는 어두운 방이 유지된다.",
+      "inference": "공간을 먼저 충분히 학습시켜 이후 인물의 등장 자체를 사건으로 만든다."
+    },
+    {
+      "start_seconds": 3.5,
+      "end_seconds": 5.433,
+      "observation": "같은 공간의 창문 앞에 흰옷 인물이 나타나 거의 정지한 채 위를 본다.",
+      "inference": "작은 행동보다 존재의 추가가 프레임 상태를 바꾸는 편집이다."
+    },
+    {
+      "start_seconds": 5.433,
+      "end_seconds": 6.767,
+      "observation": "더 넓은 구도에서 인물과 여러 창문, 바닥 빛이 함께 보인다.",
+      "inference": "인물을 공간의 일부로 다시 배치해 다음 부재가 남길 자리를 명확히 한다."
+    },
+    {
+      "start_seconds": 6.767,
+      "end_seconds": 8.867,
+      "observation": "인물이 사라진 빈 방으로 돌아오며 처음과 유사한 창문·바닥 빛이 남는다.",
+      "inference": "동일한 빈 공간이 이제는 단순 배경이 아니라 사라진 사람의 흔적으로 읽힌다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 자연·인물 몽타주 없이도 공간 상태 비교와 부재로 Haku의 잔상 감정을 만들 수 있다.",
+    "common_elements": [
+      "흰옷 인물",
+      "창문 역광",
+      "낡은 학교·실내",
+      "고요한 행동"
+    ],
+    "possible_discriminators": [
+      "인물보다 공간을 먼저 보여주기",
+      "같은 공간을 인물 유무로 재해석",
+      "마지막 빈 프레임이 도입보다 더 많은 의미를 가짐"
+    ],
+    "forbidden_pattern_evidence": [
+      "빈 도입을 짧게 자르면 인물 출현의 차이가 약해진다.",
+      "마지막 빈 방에 다른 효과나 자막을 채우면 부재의 여운이 감소한다."
+    ],
+    "ad_strengths": [
+      "공간·숙박·건축",
+      "향수·패션의 미스터리 초상",
+      "장소 기억형 캠페인"
+    ],
+    "suitable_subjects": [
+      "같은 공간의 빈 버전과 인물 버전이 모두 있는 촬영본",
+      "빛과 건축 축이 강한 고정 구도",
+      "정지한 인물도 실루엣으로 버틸 수 있는 원본"
+    ],
+    "poor_fit_subjects": [
+      "카메라 위치가 매번 달라 전후 비교가 불가능한 원본",
+      "배경이 복잡해 인물 유무가 즉시 읽히지 않는 촬영본"
+    ],
+    "limitations": [
+      "인물 숏 사이의 카메라 이동이 실제 촬영 이동인지 컷 프레이밍 변화인지는 실시간 재생 없이 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "마지막 빈 프레임은 아무 일도 없는 정지가 아니라 앞의 인물을 회상시키는 능동적 결말이다.",
+    "색감만 복제하고 동일 공간의 전후 비교를 만들지 않으면 이 작품의 핵심은 재현되지 않는다."
+  ],
+  "confidence": "high"
+}

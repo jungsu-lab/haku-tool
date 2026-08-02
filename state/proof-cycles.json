@@ -1,0 +1,602 @@
+{
+  "schema_version": "1.0",
+  "account": "@haku_.photo",
+  "audio_policy": "conditional_verified_free_library_audio",
+  "promotion_rule": "The same tested Operator must receive explicit user acceptance in three distinct situations.",
+  "user_promotion_progress": {
+    "accepted": 1,
+    "required": 3,
+    "meaning": "portfolio-level accepted proof count; not sufficient for Operator promotion"
+  },
+  "operator_promotion_progress": {
+    "density-wave-release": {
+      "accepted": 1,
+      "required": 3,
+      "accepted_situation_ids": ["same-session-flower-field-creative-action"]
+    }
+  },
+  "decision_contract": {
+    "version": "1.1",
+    "enforced_from_cycle_id": "flower-field-semantic-density-v001",
+    "required_axis_count": 10
+  },
+  "cycles": [
+    {
+      "cycle_id": "functional-memory-panels-v002",
+      "promotion_situation_id": "lupine-session-relationship",
+      "situation": "Same-session two-person lupine field material with relationship, tactile flower, and person-presence roles.",
+      "tested_operator_id": "functional-memory-panels",
+      "supporting_operator_ids": ["relationship-through-blocking"],
+      "operator_verdicts": {
+        "functional-memory-panels": "pass",
+        "relationship-through-blocking": "not_independently_tested"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/functional-memory-panels-v002/CRITIQUE.md"
+    },
+    {
+      "cycle_id": "nature-luminous-panels-v002",
+      "promotion_situation_id": "user-nature-mixed-session",
+      "situation": "User nature clips from separate shoots: forest, stream, grass, robin, and sunset birds.",
+      "tested_operator_id": "functional-memory-panels",
+      "supporting_operator_ids": ["luminous-texture-relay"],
+      "operator_verdicts": {
+        "functional-memory-panels": "partial_pass",
+        "luminous-texture-relay": "partial_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/nature-luminous-panels-v002/CRITIQUE.md",
+      "learned_gate": "Motif continuity does not establish session continuity."
+    },
+    {
+      "cycle_id": "single-take-action-spine-v002",
+      "promotion_situation_id": "woman-single-take-action",
+      "situation": "One unedited 30.24-second portrait take with a complete reach, return, and flower-action progression.",
+      "tested_operator_id": "action-as-edit-spine",
+      "supporting_operator_ids": ["motif-state-return"],
+      "operator_verdicts": {
+        "action-as-edit-spine": "pass",
+        "motif-state-return": "not_independently_tested"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/single-take-action-spine-v002/CRITIQUE.md",
+      "learned_gate": "State cuts preserve motion direction or pose geometry and never reset an object backward."
+    },
+    {
+      "cycle_id": "summer-between-us-v004",
+      "promotion_situation_id": "lupine-session-relationship",
+      "situation": "Same-session two-person lupine field material; action detail expands into relationship blocking and returns to the shared field.",
+      "tested_operator_id": "relationship-through-blocking",
+      "supporting_operator_ids": [
+        "action-as-edit-spine",
+        "sensory-scale-relay"
+      ],
+      "operator_verdicts": {
+        "relationship-through-blocking": "pass",
+        "action-as-edit-spine": "supporting_pass",
+        "sensory-scale-relay": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "manifest": "../../vcd-output/haku-tool-finalization-v004/hero/summer-between-us-v004/review-auto/review-manifest.json",
+      "promotion_note": "This reuses the same source situation as functional-memory-panels-v002 and therefore cannot count as a distinct promotion situation."
+    },
+    {
+      "cycle_id": "candle-presence-absence-v001",
+      "promotion_situation_id": "single-take-candle-extinction",
+      "situation": "One licensed, unedited candle take: active flame, weakening, collapse, and tiny ember.",
+      "tested_operator_id": "presence-to-absence-hold",
+      "supporting_operator_ids": [],
+      "operator_verdicts": {
+        "presence-to-absence-hold": "partial_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/candle-presence-absence-v001/CRITIQUE.md",
+      "learned_gate": "Absence needs a visible inherited trace; near-pure black is not enough."
+    },
+    {
+      "cycle_id": "beach-presence-absence-v002",
+      "promotion_situation_id": "single-take-beach-frame-exit",
+      "situation": "One licensed, unedited fixed beach take with a right-to-left frame exit and native moving water afterward.",
+      "tested_operator_id": "presence-to-absence-hold",
+      "supporting_operator_ids": [],
+      "operator_verdicts": {
+        "presence-to-absence-hold": "partial_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/beach-presence-absence-v002/CRITIQUE.md",
+      "learned_gate": "Correct motion direction does not excuse large spatial jumps; one-second walking skips can still read as a lurch."
+    },
+    {
+      "cycle_id": "beach-presence-absence-v003",
+      "promotion_situation_id": "single-take-beach-frame-exit",
+      "situation": "The same licensed fixed beach take, rebuilt with near-contiguous walking ranges and more time on the native empty-water consequence.",
+      "tested_operator_id": "presence-to-absence-hold",
+      "supporting_operator_ids": [],
+      "operator_verdicts": {
+        "presence-to-absence-hold": "pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/beach-presence-absence-v003/CRITIQUE.md",
+      "promotion_note": "This supersedes v002 but uses the same source situation, so the pair can never count as two promotion situations."
+    },
+    {
+      "cycle_id": "latte-motif-state-v001",
+      "promotion_situation_id": "single-take-latte-art",
+      "situation": "One licensed, unedited fixed overhead latte-art take in which the same cup develops through more than five material states.",
+      "tested_operator_id": "motif-state-return",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "motif-state-return": "pass",
+        "action-as-edit-spine": "not_independently_tested"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/latte-motif-state-v001/CRITIQUE.md",
+      "learned_gate": "A large time jump can remain legible when a stable spatial anchor persists and the visible material state advances monotonically."
+    },
+    {
+      "cycle_id": "beach-meaningful-copy-v002",
+      "promotion_situation_id": "single-take-beach-copy-proposition",
+      "situation": "One licensed fixed beach take rendered with frame-identical plain and proof timelines; only two evidence-bound semantic sentences differ.",
+      "tested_operator_id": "meaningful-copy-gate",
+      "supporting_operator_ids": [
+        "presence-to-absence-hold"
+      ],
+      "operator_verdicts": {
+        "meaningful-copy-gate": "pass",
+        "presence-to-absence-hold": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/beach-meaningful-copy-v002/CRITIQUE.md",
+      "learned_gate": "Copy passes only when it is readable, names a visible state, and changes observation into a chapter or proposition without sticker-like decoration."
+    },
+    {
+      "cycle_id": "perfume-experience-product-v004",
+      "promotion_situation_id": "single-take-perfume-use",
+      "situation": "One licensed perfume-use take reordered from object-first display into chronological spray, wrist response, and bottle recovery in a fixed 9:16 crop.",
+      "tested_operator_id": "experience-before-product",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "experience-before-product": "partial_pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/perfume-experience-product-v004/CRITIQUE.md",
+      "learned_gate": "Ritual-first sequence order cannot earn a full advertising pass when the source lacks a readable label, claim, or isolated brand recovery."
+    },
+    {
+      "cycle_id": "lupine-luminous-relay-v002",
+      "promotion_situation_id": "lupine-session-light-shadow-carriers",
+      "situation": "Three licensed unedited shots from one lupine-field session, ordered so real flower shadow and purple foreground texture move from fabric to hand to flower contact to face.",
+      "tested_operator_id": "luminous-texture-relay",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "luminous-texture-relay": "pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/lupine-luminous-relay-v002/CRITIQUE.md",
+      "learned_gate": "A luminous relay passes only when the same visible phenomenon changes carriers across cuts; palette similarity or generic sunlight is insufficient.",
+      "scope_limit": "Validates direct sunlight, flower shadow, and foreground floral occlusion in one session; it does not validate reflection, glass, lens flare, night light, or mixed-location bridges."
+    },
+    {
+      "cycle_id": "picnic-sensory-scale-v003",
+      "promotion_situation_id": "evening-picnic-friendship",
+      "situation": "Three licensed unedited shots from one evening picnic session, ordered from tactile table detail to wine-pour action owner to individual laughter and a four-person toast relationship field.",
+      "tested_operator_id": "sensory-scale-relay",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "sensory-scale-relay": "pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/picnic-sensory-scale-v003/CRITIQUE.md",
+      "learned_gate": "Each distance must add a distinct information role, and the destination canvas must preserve the complete relationship or environment coverage rather than deleting it with a cover crop.",
+      "scope_limit": "Validates one coherent landscape friendship session; it does not validate mixed locations, native 9:16 group coverage, product advertising, music synchronization, or decorative in-frame layouts."
+    },
+    {
+      "cycle_id": "park-relationship-blocking-v001",
+      "promotion_situation_id": "continuous-park-pair-play",
+      "situation": "One licensed continuous park take compressed through contact, separation, reconvergence, lift, running, and a purported empty-path ending.",
+      "tested_operator_id": "relationship-through-blocking",
+      "supporting_operator_ids": [
+        "presence-to-absence-hold"
+      ],
+      "operator_verdicts": {
+        "relationship-through-blocking": "fail",
+        "presence-to-absence-hold": "fail"
+      },
+      "research_verdict": "fail",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/park-relationship-blocking-v001/CRITIQUE.md",
+      "learned_gate": "Chronological state labels do not excuse skipping the physical hinge; a performer still crossing frame cannot be called empty space."
+    },
+    {
+      "cycle_id": "park-relationship-blocking-v002",
+      "promotion_situation_id": "continuous-park-pair-play",
+      "situation": "The same licensed continuous park take rebuilt so contact, separation, reconvergence, lift, carry, shared running, exit, and true empty path develop without relationship-state reset.",
+      "tested_operator_id": "relationship-through-blocking",
+      "supporting_operator_ids": [
+        "presence-to-absence-hold",
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "relationship-through-blocking": "pass",
+        "presence-to-absence-hold": "supporting_pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/park-relationship-blocking-v002/CRITIQUE.md",
+      "learned_gate": "Relationship states must develop monotonically, and the physical hinge that transfers action ownership should remain near-contiguous even if the result must breathe longer.",
+      "scope_limit": "Validates one playful camera-followed pair; conflict, reconciliation, family hierarchy, locked-off staging, native vertical coverage, advertising, and music remain untested."
+    },
+    {
+      "cycle_id": "park-functional-memory-panels-v001",
+      "promotion_situation_id": "urban-park-pair-memory-field",
+      "situation": "Three licensed unedited takes from one urban-park pair session, arranged as hand cause, progressively revealed shared-presence, intimate-exchange and place panels, then full-frame reconvergence and lift.",
+      "tested_operator_id": "functional-memory-panels",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "functional-memory-panels": "pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/park-functional-memory-panels-v001/CRITIQUE.md",
+      "learned_gate": "Every panel needs a named non-substitutable information role, and the completed field must release to one stronger live image that restores withheld body, action, object, or spatial information.",
+      "scope_limit": "Validates one same-session landscape urban pair; unrelated footage, product grids, native vertical layout, typography, and music remain untested."
+    },
+    {
+      "cycle_id": "window-meaningful-copy-v001",
+      "promotion_situation_id": "single-take-interior-light-invitation",
+      "situation": "One licensed unedited interior take with chronological curtain contact, opening, light arrival, and lit release, overlaid with two evidence-bound copy clauses in a heavy all-caps serif treatment.",
+      "tested_operator_id": "meaningful-copy-gate",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "meaningful-copy-gate": "fail",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "fail",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/window-meaningful-copy-v001/CRITIQUE.md",
+      "learned_gate": "Semantic relevance and readability do not rescue typography that dominates the scene; copy weight, case, and shadow must remain subordinate to the visual evidence."
+    },
+    {
+      "cycle_id": "window-meaningful-copy-v002",
+      "promotion_situation_id": "single-take-interior-light-invitation",
+      "situation": "The same licensed unedited interior take with frame-identical plain and proof variants, using restrained lowercase copy only during the dark-curtain and post-light-arrival states.",
+      "tested_operator_id": "meaningful-copy-gate",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "meaningful-copy-gate": "pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/window-meaningful-copy-v002/CRITIQUE.md",
+      "learned_gate": "Copy must pass separate semantic and visual-hierarchy gates: show it only when the named state is visible, and keep its treatment quieter than the action that proves it.",
+      "scope_limit": "Validates one solitary interior light-change situation; dialogue, group action, brand claims, Korean typography, dense montage, and music remain untested."
+    },
+    {
+      "cycle_id": "tea-action-spine-v001",
+      "promotion_situation_id": "locked-tea-service-ritual",
+      "situation": "One licensed unedited locked tea-service take compressed into untouched cup, pot arrival, pour onset, sustained pour, release, and a later hand-delivered service detail.",
+      "tested_operator_id": "action-as-edit-spine",
+      "supporting_operator_ids": [
+        "motif-state-return"
+      ],
+      "operator_verdicts": {
+        "action-as-edit-spine": "fail",
+        "motif-state-return": "partial_pass"
+      },
+      "research_verdict": "fail",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/tea-action-spine-v001/CRITIQUE.md",
+      "learned_gate": "A matched stream does not justify deleting the pot that owns it; preserve the physical release hinge rather than allowing an object-body lurch.",
+      "scope_limit": "The opaque cup hides fill level, so motif-state-return cannot earn an independent pass from this source."
+    },
+    {
+      "cycle_id": "tea-action-spine-v002",
+      "promotion_situation_id": "locked-tea-service-ritual",
+      "situation": "The same licensed unedited locked tea-service take rebuilt with source-contiguous pot arrival, pour body and release, followed by compression of only the inactive hold before service completion.",
+      "tested_operator_id": "action-as-edit-spine",
+      "supporting_operator_ids": [
+        "motif-state-return"
+      ],
+      "operator_verdicts": {
+        "action-as-edit-spine": "pass",
+        "motif-state-return": "partial_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/tea-action-spine-v002/CRITIQUE.md",
+      "learned_gate": "Compress inactivity, not the object that owns the action; preserve the causal hinge near-contiguously even when the edit must run longer.",
+      "scope_limit": "Validates one locked object ritual; handheld action, multi-angle coverage, branded recovery, relationships, and music remain untested. The opaque cup prevents a full motif-state pass."
+    },
+    {
+      "cycle_id": "rainbow-luminous-relay-v001",
+      "promotion_situation_id": "single-take-rainbow-wall-hand",
+      "situation": "One licensed unedited locked take in which a stable blue-white-orange-red refracted band moves from wall to fingertips, palm, turning hand, a near-camera two-hand interception, and open palm.",
+      "tested_operator_id": "luminous-texture-relay",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "luminous-texture-relay": "fail",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "fail",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/rainbow-luminous-relay-v001/CRITIQUE.md",
+      "learned_gate": "A real luminous carrier does not excuse a body-scale lurch; the destination must keep the light readable rather than replace it with a dominant near-camera silhouette.",
+      "scope_limit": "The source supports a real wall-to-skin optical relay, but this edit fails at its final scale and occlusion boundary."
+    },
+    {
+      "cycle_id": "rainbow-luminous-relay-v002",
+      "promotion_situation_id": "single-take-rainbow-wall-hand",
+      "situation": "The same licensed unedited locked rainbow take rebuilt around empty wall, fingertips, palm, stable hand turn, two-hand interception, and an open-palm release that preserves the refracted carrier.",
+      "tested_operator_id": "luminous-texture-relay",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "luminous-texture-relay": "pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/rainbow-luminous-relay-v002/CRITIQUE.md",
+      "learned_gate": "Name the optical phenomenon and carrier at every state, then reject any boundary whose occlusion or scale change makes that carrier less readable at the destination.",
+      "scope_limit": "Validates one locked single-take wall-to-skin rainbow/refraction branch; water reflection, night light, moving camera, mixed locations, mixed orientation, and music remain untested."
+    },
+    {
+      "cycle_id": "nutella-experience-product-v001",
+      "promotion_situation_id": "locked-branded-food-smell-ritual",
+      "situation": "Two licensed unedited same-session locked takes containing a complete Nutella lid opening, an open-jar smell response, and a later steady front-label hold under changing television light.",
+      "tested_operator_id": "experience-before-product",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "experience-before-product": "partial_pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/nutella-experience-product-v001/CRITIQUE.md",
+      "learned_gate": "Separate product presence, explicit product emphasis, and brand recovery: a readable label may complete the last branch while preventing a strong product-delay claim.",
+      "scope_limit": "Validates a branded locked food-smell ritual only; the label is visible from the first frame, the closing action is inferred, and hidden reveal, claims, moving camera, social context, music, and endorsement remain untested."
+    },
+    {
+      "cycle_id": "nutella-experience-product-v002",
+      "promotion_situation_id": "locked-branded-food-smell-ritual",
+      "situation": "The same licensed same-session Nutella ritual rebuilt with a longer closed-eye smell response and a concise blue-violet front-label recovery matched to the preceding television-light world.",
+      "tested_operator_id": "experience-before-product",
+      "supporting_operator_ids": [
+        "action-as-edit-spine"
+      ],
+      "operator_verdicts": {
+        "experience-before-product": "partial_pass",
+        "action-as-edit-spine": "supporting_pass"
+      },
+      "research_verdict": "partial_pass",
+      "direct_review": {
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/nutella-experience-product-v002/CRITIQUE.md",
+      "learned_gate": "Match the brand recovery to the sensory peak's light world and hold it only long enough for recognition; a longer passive label hold can weaken the close.",
+      "scope_limit": "Improves the branded recovery of one locked food-smell ritual, but the always-readable label, inferred closure, absent claim, moving-camera gap, music gap, and endorsement restriction keep the full Operator unvalidated."
+    },
+    {
+      "cycle_id": "robin-semantic-density-v001",
+      "promotion_situation_id": "locked-single-take-animal-behavior",
+      "situation": "One user-provided unedited locked telephoto take of a robin turning, settling, holding a readable profile, turning away, returning, and leaving the perch.",
+      "tested_operator_id": "density-wave-release",
+      "supporting_operator_ids": ["action-as-edit-spine"],
+      "operator_verdicts": {"density-wave-release": "partial_pass", "action-as-edit-spine": "supporting_pass"},
+      "research_verdict": "partial_pass",
+      "direct_review": {"complete_dense_sequence": true, "boundary_strips": true, "full_playback_reviewed": false},
+      "user_verdict": "pending",
+      "promotion_increment": 0,
+      "critique": "../proofs/robin-semantic-density-v001/CRITIQUE.md",
+      "learned_gate": "A density change counts only when the longer or shorter region reveals a more readable behavior, action, place, relationship, or tactile function.",
+      "scope_limit": "The locked single composition provides behavior states but no scale, environment, relationship, or tactile change; without reviewed audio the central vocal hold is visually subtle, so the general semantic-density-hinge remains unvalidated."
+    },
+    {
+      "cycle_id": "flower-field-semantic-density-v001",
+      "promotion_situation_id": "same-session-flower-field-creative-action",
+      "situation": "Seven unedited single-take fragments from one coherent flower-field session provide environment, tactile flower-pocket action, photography action, embodied arm-raise reaction, and native running release.",
+      "tested_operator_id": "density-wave-release",
+      "supporting_operator_ids": ["action-as-edit-spine", "sensory-scale-relay"],
+      "operator_verdicts": {
+        "density-wave-release": "pass",
+        "action-as-edit-spine": "supporting_pass",
+        "sensory-scale-relay": "supporting_pass"
+      },
+      "research_verdict": "pass",
+      "direct_review": {
+        "complete_source_storyboards": true,
+        "complete_reference_dense_sequences": true,
+        "complete_dense_sequence": true,
+        "boundary_strips": true,
+        "full_playback_reviewed": false
+      },
+      "user_verdict": "accepted",
+      "promotion_increment": 1,
+      "user_verdict_evidence": "User response after reviewing the comparison: 'ㅇㅇ 괜찮은데' followed by '일단 ㄱㄱ'.",
+      "decision_contract_version": "1.1",
+      "timeline_grammar": "../proofs/flower-field-semantic-density-v001/timeline-grammar.json",
+      "timeline_grammar_axis_count": 10,
+      "source_manifest": "../sources/taryn-flower-field-session/source-manifest.json",
+      "audio_decision": {
+        "policy": "deferred_by_user",
+        "reason": "This accepted visual proof predates the user's conditional permission for licensed public music and isolates visual duration grammar."
+      },
+      "critique": "../proofs/flower-field-semantic-density-v001/CRITIQUE.md",
+      "learned_gate": "A semantic-density hinge must add distinct place, tactile, action-owner, embodied-response or destination information; the longer hold begins at the first frame where the central action becomes legible, not at an arbitrary rhythmic count.",
+      "scope_limit": "Research-validates one same-session, one-person flower-field branch without audio, relationship, face-closeup or restrained Haku-grade image authorship; the user accepted this situation, so density-wave-release is 1/3 and still needs two materially different approvals."
+    }
+  ]
+}

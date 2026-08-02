@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DPqzqkwE9zP",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T10:59:00Z"},
+  "purpose": "흰옷 인물의 학교·바다·도시·불꽃 기억을 밝은 광질과 얼굴·행동 변화로 압축한 인물 몽타주",
+  "format": "9:16 full-frame portrait montage with persistent center watermark",
+  "story_role": "implicit",
+  "primary_subject": "짧은 머리의 흰옷 인물",
+  "intended_viewer_response": "한 인물의 여러 계절·장소를 빛에 씻긴 기억처럼 느낌",
+  "commercial_function": "인물·패션·청춘 캠페인",
+  "sequence": {"opening_hook": "밝은 인물 근접과 머리카락 동작", "development": "관계 장면·교실·후드·바다 실루엣·복도·도시를 빠르게 이동", "peak_or_payoff": "카메라를 든 인물과 불꽃 실루엣", "final_image": "바람을 맞는 인물의 측면과 난간 행동"},
+  "directing": {"subject_action": "머리 만지기, 친구와 마주하기, 교실에 앉기, 걷기, 카메라 들기, 불꽃 보기", "blocking": "같은 인물을 정면·후면·실루엣으로 반복한다.", "space": "학교·바다·도시를 인물 정체성으로 묶는다.", "props_surfaces_costume": "흰 상의·후드, 카메라, 난간, 불꽃"},
+  "cinematography": {"composition": "세로 전면 프레임의 인물 중근경과 환경 원경", "distance_or_lens": "얼굴·상반신 중심, 간헐적 환경 원경", "camera_motion": "인물 행동과 바람", "light": "고키·역광·불꽃 실루엣", "palette_texture_depth": "흰색과 옅은 청록, 불꽃의 분홍"},
+  "editing": {
+    "cut_logic": "같은 인물·흰옷을 앵커로 공간과 행동을 바꾸며 빠른 인물 초상 montage를 만든다.",
+    "shot_duration_progression": "대부분 0.9~1.3초, 4초대에 0.1~0.2초 미세 burst",
+    "adjacent_image_relations": "흰옷·얼굴 방향·밝은 하늘이 장소 변화를 연결한다.",
+    "in_frame_editing": "머리·손·카메라·바람·불꽃이 한 컷 내부 사건을 만든다.",
+    "typography_graphics_compositing": "전 구간 중앙 표식은 워터마크로 판단하며 스타일 연산자로 학습하지 않는다.",
+    "repeated_operators": ["subject_identity_anchor", "action_as_edit_spine", "luminous_texture_relay"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {"start_seconds": 0.0, "end_seconds": 6.133333, "observation": "같은 흰옷 인물이 머리를 만지고 친구와 마주하며 교실·후드 모습으로 이어진다.", "inference": "의상과 얼굴을 정체성 앵커로 두고 행동·장소를 바꾼다."},
+    {"start_seconds": 7.133333, "end_seconds": 12.833333, "observation": "바다 실루엣, 복도, 도시 보행, 강한 역광의 인물이 이어진다.", "inference": "밝은 광질과 실루엣 방향으로 공간 도약을 연결한다."},
+    {"start_seconds": 12.833333, "end_seconds": 19.6, "observation": "얼굴 근접, 카메라를 든 인물, 불꽃 실루엣, 바람 맞는 측면과 난간 행동으로 끝난다.", "inference": "관찰받는 인물에서 스스로 기록하는 인물로 역할을 확장한다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "중간. 인물 정체성 montage는 유용하지만 중앙 워터마크와 높은 밝기를 계정 문법으로 오인하면 안 된다.",
+    "common_elements": ["흰옷 인물", "학교·바다", "카메라", "역광", "불꽃"],
+    "possible_discriminators": ["동일 인물 앵커", "행동 변화", "카메라를 드는 역할 전환"],
+    "forbidden_pattern_evidence": ["중앙 워터마크 복제", "전 클립 일괄 고키 보정", "인물 정체성이 다른 클립 혼합"],
+    "ad_strengths": ["패션·인물·카메라"],
+    "suitable_subjects": ["같은 인물·의상이 여러 장소에서 반복되는 원본"],
+    "poor_fit_subjects": ["서로 다른 인물만 있는 원본"],
+    "limitations": ["중앙 표식의 정확한 출처는 확인하지 않았으나 전 구간 고정되어 편집 내용과 무관한 워터마크로 분리했다."]
+  },
+  "counterexamples": ["화면 중앙의 표식을 스타일 요소로 복제하지 않는다."],
+  "confidence": "high"
+}

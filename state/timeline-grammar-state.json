@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "account": "@haku_.photo",
+  "target_reel_count": 40,
+  "completed_reel_count": 4,
+  "total_event_count": 24,
+  "audio_policy": "deferred_by_user",
+  "completed": [
+    {
+      "reel_id": "DVdX-WBk4L5",
+      "event_count": 14,
+      "dataset": "../timeline-grammar/DVdX-WBk4L5.json",
+      "focus": "single-location relationship action, material detail, black chapter breaths, relationship resolution"
+    },
+    {
+      "reel_id": "DQi8EW5k0-o",
+      "event_count": 3,
+      "dataset": "../timeline-grammar/DQi8EW5k0-o.json",
+      "focus": "slow breath, fixed-pulse memory burst, place-name signoff"
+    },
+    {
+      "reel_id": "DYql5NyTBeO",
+      "event_count": 3,
+      "dataset": "../timeline-grammar/DYql5NyTBeO.json",
+      "focus": "product-free performance proof, interrogative claim, explicit brand answer"
+    },
+    {
+      "reel_id": "DWuZaCfE-WF",
+      "event_count": 4,
+      "dataset": "../timeline-grammar/DWuZaCfE-WF.json",
+      "focus": "sensory catalogue, motif-bound memory field, density hinge, tactile recovery"
+    }
+  ],
+  "next_selection_rule": "Choose the unfilled Reel that maximizes contrast in purpose, shot density, in-frame editing, transition family, and commercial function. Do not merely follow upload date.",
+  "promotion_policy": "Continue research without waiting for user approval, but never infer or record accepted on the user's behalf."
+}

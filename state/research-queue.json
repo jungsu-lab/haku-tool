@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku-auto-research",
+  "generated_at": "2026-07-31T07:54:03.981155+00:00",
+  "selection_basis": "quantitative-extremes-for-direct-visual-review",
+  "semantic_claim": false,
+  "batches": [
+    {
+      "batch": 1,
+      "reason": "Cut-density and sub-0.5-second extremes. Visually separate real montage, repeated frames, and detector artifacts.",
+      "items": [
+        {
+          "order": 1,
+          "reel_id": "DZXiQ_jz2tg",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\08_20260609_DZXiQ_jz2tg.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\08_DZXiQ_jz2tg.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZXiQ_jz2tg.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 2,
+          "reel_id": "DWuZaCfE-WF",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\19_20260404_DWuZaCfE-WF.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\19_DWuZaCfE-WF.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWuZaCfE-WF.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 3,
+          "reel_id": "DQi8EW5k0-o",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\31_20251102_DQi8EW5k0-o.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\31_DQi8EW5k0-o.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DQi8EW5k0-o.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 4,
+          "reel_id": "DJKFdm6TKL1",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\39_20250502_DJKFdm6TKL1.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\39_DJKFdm6TKL1.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DJKFdm6TKL1.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 5,
+          "reel_id": "DOdPyazk0k7",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\11_20250911_DOdPyazk0k7.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\11_DOdPyazk0k7.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOdPyazk0k7.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 6,
+          "reel_id": "DZsDeJ-TeM_",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\07_20260617_DZsDeJ-TeM_.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\07_DZsDeJ-TeM_.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZsDeJ-TeM_.json",
+          "status": "pending_visual_review"
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "reason": "Sparse-cut and long-shot cases. Test what carries meaning when cutting is not the main device.",
+      "items": [
+        {
+          "order": 1,
+          "reel_id": "Da24ipMTXu4",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\03_20260716_Da24ipMTXu4.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\03_Da24ipMTXu4.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\Da24ipMTXu4.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 2,
+          "reel_id": "DYql5NyTBeO",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\15_20260523_DYql5NyTBeO.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\15_DYql5NyTBeO.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DYql5NyTBeO.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 3,
+          "reel_id": "DOTAz9lE11A",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\34_20250907_DOTAz9lE11A.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\34_DOTAz9lE11A.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOTAz9lE11A.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 4,
+          "reel_id": "DRUNg3UE0c2",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\28_20251121_DRUNg3UE0c2.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\28_DRUNg3UE0c2.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DRUNg3UE0c2.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 5,
+          "reel_id": "DZFOV3Qz7Gs",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\13_20260602_DZFOV3Qz7Gs.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\13_DZFOV3Qz7Gs.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZFOV3Qz7Gs.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 6,
+          "reel_id": "DSxLPd6k6X7",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\26_20251227_DSxLPd6k6X7.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\26_DSxLPd6k6X7.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DSxLPd6k6X7.json",
+          "status": "pending_visual_review"
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "reason": "Longer and higher-shot-count works. Inspect macro arcs, density waves, and motif organization.",
+      "items": [
+        {
+          "order": 1,
+          "reel_id": "DakPIs6zMDl",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\04_20260709_DakPIs6zMDl.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\04_DakPIs6zMDl.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DakPIs6zMDl.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 2,
+          "reel_id": "DZSp9hhSC3P",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\09_20260608_DZSp9hhSC3P.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\09_DZSp9hhSC3P.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DZSp9hhSC3P.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 3,
+          "reel_id": "DYrhH-6zH-1",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\14_20260523_DYrhH-6zH-1.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\14_DYrhH-6zH-1.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DYrhH-6zH-1.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 4,
+          "reel_id": "DXJ2bohkzbV",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\18_20260415_DXJ2bohkzbV.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\18_DXJ2bohkzbV.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DXJ2bohkzbV.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 5,
+          "reel_id": "DWENozKk1lk",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\21_20260319_DWENozKk1lk.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\21_DWENozKk1lk.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWENozKk1lk.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 6,
+          "reel_id": "DPa8H64k1Vx",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\33_20251005_DPa8H64k1Vx.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\33_DPa8H64k1Vx.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DPa8H64k1Vx.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 7,
+          "reel_id": "DJrTFPaTXHI",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\38_20250515_DJrTFPaTXHI.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\38_DJrTFPaTXHI.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DJrTFPaTXHI.json",
+          "status": "pending_visual_review"
+        }
+      ]
+    },
+    {
+      "batch": 4,
+      "reason": "High freeze estimates, dark measurements, and black ranges. Distinguish real holds from false positives.",
+      "items": [
+        {
+          "order": 1,
+          "reel_id": "DbQf99sT2rh",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\02_20260726_DbQf99sT2rh.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\02_DbQf99sT2rh.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DbQf99sT2rh.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 2,
+          "reel_id": "DaX8TkKzqIH",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\05_20260704_DaX8TkKzqIH.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\05_DaX8TkKzqIH.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DaX8TkKzqIH.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 3,
+          "reel_id": "DOyJ6k3Ewmb",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\10_20250919_DOyJ6k3Ewmb.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\10_DOyJ6k3Ewmb.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DOyJ6k3Ewmb.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 4,
+          "reel_id": "DXzIEytzWhP",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\17_20260501_DXzIEytzWhP.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\17_DXzIEytzWhP.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DXzIEytzWhP.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 5,
+          "reel_id": "DWoUT9rk1ry",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\20_20260402_DWoUT9rk1ry.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\20_DWoUT9rk1ry.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DWoUT9rk1ry.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 6,
+          "reel_id": "DS5xPk1E_NT",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\25_20251230_DS5xPk1E_NT.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\25_DS5xPk1E_NT.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DS5xPk1E_NT.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 7,
+          "reel_id": "DRJvMoQk6Cy",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\29_20251117_DRJvMoQk6Cy.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\29_DRJvMoQk6Cy.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DRJvMoQk6Cy.json",
+          "status": "pending_visual_review"
+        }
+      ]
+    },
+    {
+      "batch": 5,
+      "reason": "Boundary cases reserved for counterexample and generalization review.",
+      "items": [
+        {
+          "order": 1,
+          "reel_id": "DVdX-WBk4L5",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\22_20260304_DVdX-WBk4L5.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\22_DVdX-WBk4L5.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DVdX-WBk4L5.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 2,
+          "reel_id": "DTr45oQkxeM",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\23_20260119_DTr45oQkxeM.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\23_DTr45oQkxeM.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DTr45oQkxeM.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 3,
+          "reel_id": "DQrTzfpk9iR",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\30_20251105_DQrTzfpk9iR.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\30_DQrTzfpk9iR.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DQrTzfpk9iR.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 4,
+          "reel_id": "DPqzqkwE9zP",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\32_20251011_DPqzqkwE9zP.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\32_DPqzqkwE9zP.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DPqzqkwE9zP.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 5,
+          "reel_id": "DLrwgLYzr7T",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\35_20250704_DLrwgLYzr7T.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\35_DLrwgLYzr7T.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DLrwgLYzr7T.json",
+          "status": "pending_visual_review"
+        },
+        {
+          "order": 6,
+          "reel_id": "DLmsnfszuQc",
+          "video": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\36_20250702_DLmsnfszuQc.mp4",
+          "storyboard": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\storyboards\\36_DLmsnfszuQc.jpg",
+          "quantitative_card": "C:\\Users\\HP-5600G\\Desktop\\편집 영상 참고\\haku_photo_reference\\analysis-v3\\reel-cards\\DLmsnfszuQc.json",
+          "status": "pending_visual_review"
+        }
+      ]
+    }
+  ]
+}

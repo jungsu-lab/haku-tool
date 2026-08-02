@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DYql5NyTBeO",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:24:00Z"
+  },
+  "purpose": "땀과 움직임을 한 번의 탑숏 퍼포먼스로 증명한 뒤 질문과 브랜드로 전환하는 Pocari Sweat 광고",
+  "format": "9:16 portrait one-shot performance plus copy end card",
+  "story_role": "explicit",
+  "primary_subject": "넓은 흙바닥을 움직이며 흔적과 긴 그림자를 만드는 한 인물",
+  "intended_viewer_response": "몸을 움직이고 싶은 충동과 '준비됐는가'라는 직접적 도전",
+  "commercial_function": "운동·음료·의류 브랜드의 행동 증명형 광고",
+  "sequence": {
+    "opening_hook": "극단적 탑숏에서 작은 인물과 긴 그림자가 넓은 흙 표면을 가른다.",
+    "development": "약 6.4초 동안 인물이 회전하거나 팔을 벌리고 이동하며 몸의 에너지와 땀의 맥락을 만든다.",
+    "peak_or_payoff": "이미지를 갑자기 검게 끊고 일본어 질문 카피를 충분히 읽게 한다.",
+    "final_image": "Pocari Sweat 로고를 늦게 제시해 앞의 퍼포먼스를 브랜드 명제로 회수한다."
+  },
+  "directing": {
+    "subject_action": "달리거나 회전하고 팔을 벌리며 흙 위에서 큰 제스처를 만든다.",
+    "blocking": "인물을 화면 중앙 근처의 작은 점으로 두고 긴 그림자와 이동 궤적이 더 크게 보이게 한다.",
+    "space": "비어 있는 흙바닥 전체를 운동의 흔적을 기록하는 캔버스로 사용한다.",
+    "props_surfaces_costume": "밝은 상의, 갈색 흙, 검은 그림자만으로 제품 없이도 수분·땀의 맥락을 준비한다."
+  },
+  "cinematography": {
+    "composition": "수직 탑숏 한 구도로 인물·그림자·바닥의 비율을 그래픽처럼 정리한다.",
+    "distance_or_lens": "극단적 원거리만 유지해 개인 초상보다 행동과 환경의 관계를 강조한다.",
+    "camera_motion": "프레임은 거의 고정되고 인물의 궤적이 운동감을 담당한다.",
+    "light": "강한 측광이 긴 그림자를 만들어 시간대와 신체 에너지를 시각화한다.",
+    "palette_texture_depth": "흙의 단색 질감 위에 흰 인물과 검은 그림자가 명확한 표식이 된다."
+  },
+  "editing": {
+    "cut_logic": "6.417초까지 단일 퍼포먼스를 유지한 뒤 영상→질문→브랜드의 정보 계층으로 전환한다.",
+    "shot_duration_progression": "긴 행동 증명, 약 3.2초 카피 유지, 약 1.5초 로고 유지의 세 덩어리다.",
+    "adjacent_image_relations": "흙 위 실제 행동의 피로·땀 맥락이 검은 화면의 질문과 제품 로고에 인과적으로 연결된다.",
+    "in_frame_editing": "인물의 이동 궤적과 그림자 변화가 한 컷 내부의 리듬을 만든다.",
+    "typography_graphics_compositing": "검은 화면 중앙의 일본어 질문 뒤 우하단 또는 중앙 하단 브랜드 로고로 정보 우선순위를 분리한다.",
+    "repeated_operators": [
+      "single_action_proof_then_claim",
+      "overhead_body_graphic",
+      "delayed_brand_reveal",
+      "performance_copy_logo_ladder"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "퍼포먼스 종료와 카피 전환의 음향 충격 여부는 듣지 않았다."
+  },
+  "timeline_grammar_events_path": "../timeline-grammar/DYql5NyTBeO.json",
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.5,
+      "observation": "넓은 흙바닥 탑숏에서 작은 인물과 긴 그림자가 천천히 위치를 바꾼다.",
+      "inference": "제품을 먼저 보여주지 않고 몸과 환경으로 캠페인의 질문을 준비한다."
+    },
+    {
+      "start_seconds": 2.5,
+      "end_seconds": 4.75,
+      "observation": "인물이 팔을 크게 벌리거나 회전하며 그림자와 몸의 형태가 계속 변한다.",
+      "inference": "고정 카메라 안의 실제 퍼포먼스가 편집 효과 대신 에너지를 증명한다."
+    },
+    {
+      "start_seconds": 4.75,
+      "end_seconds": 6.417,
+      "observation": "인물이 더 작아지거나 중앙에서 멀어지며 행동 구간이 끝난다.",
+      "inference": "몸의 에너지를 충분히 축적한 뒤 카피로 넘어갈 명확한 행동 종료점이다."
+    },
+    {
+      "start_seconds": 6.417,
+      "end_seconds": 9.667,
+      "observation": "검은 화면에 '汗かく準備、できてますか。'라는 일본어 문장이 유지된다.",
+      "inference": "앞의 몸짓을 '땀 흘릴 준비가 되었는가'라는 도전형 명제로 전환한다."
+    },
+    {
+      "start_seconds": 9.667,
+      "end_seconds": 11.167,
+      "observation": "검은 화면에 POCARI SWEAT 로고가 나타나 유지된다.",
+      "inference": "제품을 마지막에만 밝혀 퍼포먼스와 질문이 브랜드 의미로 회수된다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. Haku 감성 문법이 직접적인 광고 정보 구조와 결합된 명확한 사례다.",
+    "common_elements": [
+      "작은 인물과 큰 환경",
+      "한 번의 실제 행동",
+      "강한 그림자",
+      "절제된 그래픽"
+    ],
+    "possible_discriminators": [
+      "제품 없이 행동을 먼저 증명",
+      "질문 카피와 로고를 서로 다른 시간층으로 분리",
+      "단일 구도에서 인물 궤적을 그래픽화"
+    ],
+    "forbidden_pattern_evidence": [
+      "초반부터 제품 팩샷을 넣으면 행동의 발견과 마지막 회수가 약해진다.",
+      "한 숏이 길다는 이유로 디지털 줌을 추가하면 탑숏의 그래픽 질서가 흐트러진다."
+    ],
+    "ad_strengths": [
+      "음료·스포츠웨어",
+      "운동 앱·이벤트",
+      "행동을 촉구하는 캠페인"
+    ],
+    "suitable_subjects": [
+      "고정 구도 안에서 큰 몸짓이나 궤적이 있는 원본",
+      "제품 효용을 행동으로 먼저 보여줄 수 있는 소재",
+      "한 줄 질문과 명확한 브랜드 사인오프가 있는 광고"
+    ],
+    "poor_fit_subjects": [
+      "행동 증명 없이 제품 설명만 필요한 광고",
+      "배경이 복잡해 인물 궤적과 그림자가 읽히지 않는 영상"
+    ],
+    "limitations": [
+      "일본어 카피의 의미는 화면 문맥에 따른 해석이며 공식 번역을 확인하지 않았다.",
+      "오디오에 의한 브랜드 전환 강도는 보류했다."
+    ]
+  },
+  "counterexamples": [
+    "Haku 스타일은 비상업적 감성 영상에만 한정되지 않는다.",
+    "제품이 화면에 등장하지 않아도 행동→질문→로고의 인과 구조로 광고 부합성이 강해질 수 있다."
+  ],
+  "confidence": "high"
+}

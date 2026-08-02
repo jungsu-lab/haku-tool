@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DZSp9hhSC3P",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:55:00Z"
+  },
+  "purpose": "한 교실의 두 사람을 여름과 겨울, 공동 노동과 놀이, 마지막 빈 풍경으로 확장하는 관계 단편",
+  "format": "16:9 landscape chaptered relationship film",
+  "story_role": "explicit",
+  "primary_subject": "학교와 야외에서 함께 시간을 보내는 두 학생",
+  "intended_viewer_response": "계절이 지나도 남는 관계와 둘이 떠난 뒤 공간에 남는 기억",
+  "commercial_function": "학교·지역·여행·청춘 브랜드의 서사형 광고",
+  "sequence": {
+    "opening_hook": "바다 위 작은 한 인물을 2.4초 보여준 뒤 긴 검은 제목 구간으로 분리한다.",
+    "development": "창가 책상에 마주 앉은 두 사람, 혼자 창가에 있는 인물, 교실 물건을 옮기는 행동을 각 4~7초의 장으로 보여준다.",
+    "peak_or_payoff": "일몰 문과 불꽃 놀이를 거쳐 두 사람이 큰 구름 아래 함께 앉는 이미지로 관계를 확장한다.",
+    "final_image": "눈밭에서 두 사람이 장난치고 프레임 밖으로 떠난 뒤 빈 겨울 풍경을 오래 남긴다."
+  },
+  "directing": {
+    "subject_action": "마주 앉기, 창밖 보기, 책상·의자 옮기기, 불꽃 흔들기, 눈밭에서 장난치고 떠나기",
+    "blocking": "두 사람의 마주보기·나란히 있기와 한 사람의 고립, 마지막 두 사람의 퇴장을 교대한다.",
+    "space": "교실·바다·여름 하늘·눈밭을 계절 장으로 연결한다.",
+    "props_surfaces_costume": "책상·의자·창문·불꽃·눈이 관계가 함께 만드는 행동과 계절을 표지한다."
+  },
+  "cinematography": {
+    "composition": "창문 대칭, 문 프레임, 넓은 하늘과 눈밭처럼 인물이 작은 환경 구도를 반복한다.",
+    "distance_or_lens": "대부분 관계가 읽히는 와이드·중와이드이며 불꽃 구간에서만 근접 파편이 늘어난다.",
+    "camera_motion": "각 장은 고정 또는 절제된 움직임으로 행동을 충분히 읽게 한다.",
+    "light": "교실 창빛→일몰 문광→불꽃→차가운 겨울빛으로 계절과 감정이 진행된다.",
+    "palette_texture_depth": "나무 갈색·흰 교복·주황 석양·푸른 겨울이 장별 색 온도를 만든다."
+  },
+  "editing": {
+    "cut_logic": "한 장당 하나의 관계 상태나 공동 행동을 4~7초 유지하고 불꽃만 짧은 파편으로 가속한다.",
+    "shot_duration_progression": "고독 도입→긴 제목→긴 교실 장들→짧은 불꽃 burst→긴 구름·겨울 release다.",
+    "adjacent_image_relations": "창·문·하늘의 밝은 사각과 두 사람의 실루엣을 반복해 계절 이동을 묶는다.",
+    "in_frame_editing": "마지막 눈밭에서 두 사람이 실제로 움직이고 떠난 뒤 같은 숏의 빈 풍경이 결말이 된다.",
+    "typography_graphics_compositing": "2.417~6.375초 검은 화면의 작은 제목이 작품을 본편과 분리한다.",
+    "repeated_operators": [
+      "chaptered_relationship_actions",
+      "seasonal_light_progression",
+      "firework_density_peak",
+      "exit_to_empty_landscape"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "제목·불꽃·눈밭 장 사이의 음악 구조는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 6.375,
+      "observation": "바다 위 작은 인물 뒤 2.417~6.375초 검은 제목 구간이 나온다.",
+      "inference": "고독 이미지를 프롤로그로 두고 본편 관계 서사와 분리한다."
+    },
+    {
+      "start_seconds": 6.375,
+      "end_seconds": 16.417,
+      "observation": "창가 책상에 마주 앉은 두 사람 뒤 한 인물이 다른 창가에 혼자 있다.",
+      "inference": "같은 학교 공간 안에서 함께와 혼자를 긴 두 장으로 직접 비교한다."
+    },
+    {
+      "start_seconds": 16.417,
+      "end_seconds": 29.417,
+      "observation": "교실에서 큰 물건을 옮기는 인물과 일몰 문 앞 실루엣이 각각 길게 유지된다.",
+      "inference": "관계의 감정을 대사보다 노동과 기다림 같은 행동·빛으로 축적한다."
+    },
+    {
+      "start_seconds": 29.417,
+      "end_seconds": 36.792,
+      "observation": "불꽃 근접 파편이 빠르게 교차한 뒤 큰 구름 아래 두 사람이 함께 앉는다.",
+      "inference": "유일한 고밀도 절정 뒤 안정된 관계 이미지로 착지한다."
+    },
+    {
+      "start_seconds": 36.792,
+      "end_seconds": 48.375,
+      "observation": "눈밭의 두 사람이 움직이고 42초대 이후 프레임을 떠나 빈 겨울 풍경이 끝까지 남는다.",
+      "inference": "한 숏 안의 퇴장과 부재가 계절이 지나간 관계의 여운을 만든다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 긴 서사에서도 행동 장·밀도 파동·퇴장 후 부재라는 동일 문법이 유지된다.",
+    "common_elements": [
+      "학교·교복",
+      "두 사람의 관계",
+      "불꽃·계절 자연",
+      "빈 공간 결말"
+    ],
+    "possible_discriminators": [
+      "각 장마다 하나의 관계 상태를 충분히 유지",
+      "고밀도 구간을 불꽃 절정 한 곳에만 제한",
+      "같은 숏 안에서 두 사람이 떠난 뒤 공간을 남김"
+    ],
+    "forbidden_pattern_evidence": [
+      "각 장을 짧게 잘게 나누면 계절과 관계 변화가 체크리스트처럼 된다.",
+      "마지막 빈 눈밭을 제거하면 사람의 퇴장이 감정 사건이 되지 못한다."
+    ],
+    "ad_strengths": [
+      "학교·지역 캠페인",
+      "청춘·우정 브랜드",
+      "계절형 여행 광고"
+    ],
+    "suitable_subjects": [
+      "두 사람의 공동 행동과 혼자 있는 장면이 모두 있는 원본",
+      "계절·시간대가 다른 환경 커버리지",
+      "프레임 밖 퇴장을 끝까지 촬영한 긴 숏"
+    ],
+    "poor_fit_subjects": [
+      "관계 변화 없이 포즈만 반복되는 영상",
+      "장별 색·행동·공간 차이가 없는 촬영본"
+    ],
+    "limitations": [
+      "검은 제목의 정확한 문구와 오디오 장 구분은 판정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "긴 관계 영상도 장마다 새로운 행동·계절 정보를 주면 느슨하지 않다.",
+    "빈 풍경은 별도 컷이 아니라 인물이 떠나는 실제 행동의 결과일 때 더 강하다."
+  ],
+  "confidence": "high"
+}

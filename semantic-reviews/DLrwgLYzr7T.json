@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DLrwgLYzr7T",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T11:02:00Z"},
+  "purpose": "눈을 뜨는 근접에서 자연 속 정지 인물, 석양 속 달리기로 감각→존재→행동을 세 숏만에 전개",
+  "format": "9:16 portrait, three-shot micro film",
+  "story_role": "implicit",
+  "primary_subject": "눈과 환경 속 한 인물",
+  "intended_viewer_response": "눈을 뜨며 세계를 보고 마지막에 몸이 움직이는 각성",
+  "commercial_function": "향수·패션·여행의 짧은 감각 광고",
+  "sequence": {"opening_hook": "닫힌 눈이 천천히 열린다.", "development": "나무 그늘 아래 작은 인물이 정지에 가깝게 선다.", "peak_or_payoff": "석양 해변에서 인물이 달리며 행동이 크게 열린다.", "final_image": "달리기의 진행 중인 몸"},
+  "directing": {"subject_action": "눈 뜨기, 서 있기, 달리기", "blocking": "신체의 최소 움직임에서 전신 운동으로 확대한다.", "space": "얼굴 내부 감각→그늘진 환경→열린 석양 공간", "props_surfaces_costume": "눈, 나무 실루엣, 해변"},
+  "cinematography": {"composition": "극근접→환경 원경→석양 전신 원경", "distance_or_lens": "세 단계 거리 확장", "camera_motion": "카메라보다 눈과 달리기 행동", "light": "밝은 피부→어두운 그늘→주황 석양", "palette_texture_depth": "흰색·짙은 녹색·청주황"},
+  "editing": {
+    "cut_logic": "감각 기관→환경 속 존재→전신 행동의 인과적 scale relay",
+    "shot_duration_progression": "각 숏 약 2.4초, 2.3초, 3.9초이며 두 전환은 약 0.1초 검정",
+    "adjacent_image_relations": "눈의 열림이 환경 보기로, 정지한 인물이 달리기로 발전한다.",
+    "in_frame_editing": "눈꺼풀과 달리기가 각 숏의 명확한 내부 변화다.",
+    "typography_graphics_compositing": "그래픽 없이 행동과 거리만으로 구성한다.",
+    "repeated_operators": ["sensory_scale_relay", "micro_action_escalation", "action_as_edit_spine"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {"start_seconds": 0.0, "end_seconds": 2.435769, "observation": "눈 극근접에서 눈꺼풀이 닫힘에서 열림으로 변한다.", "inference": "최소 신체 행동이 전체 필름의 시작 원인이 된다."},
+    {"start_seconds": 2.569236, "end_seconds": 4.871538, "observation": "나무 그늘 아래 한 인물이 작은 실루엣으로 서 있다.", "inference": "감각 근접을 환경 속 존재로 확장하며 충분히 멈춰 읽게 한다."},
+    {"start_seconds": 4.971638, "end_seconds": 8.842176, "observation": "석양 해변에서 인물이 프레임을 가로질러 달린다.", "inference": "정지 상태를 큰 전신 행동으로 해소한다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 짧은 영상도 전환 효과가 아니라 거리·행동 발전으로 완결될 수 있음을 보여준다.",
+    "common_elements": ["눈 디테일", "작은 인물", "자연", "달리기", "석양"],
+    "possible_discriminators": ["세 단계 거리", "행동 크기 상승", "아주 짧은 검정"],
+    "forbidden_pattern_evidence": ["정지 원경에 자동 줌", "두 전환을 과한 효과로 대체", "행동 방향이 충돌하는 달리기"],
+    "ad_strengths": ["향수·패션·여행"],
+    "suitable_subjects": ["눈 또는 손의 미세 행동, 환경 원경, 전신 행동이 함께 있는 원본"],
+    "poor_fit_subjects": ["세 숏이 모두 같은 거리·행동인 원본"],
+    "limitations": ["서사는 암시적이며 제품 기능 설명에는 별도 회수 숏이 필요하다."]
+  },
+  "counterexamples": ["짧다고 해서 빠른 컷이나 줌이 필요한 것이 아니다. 세 숏의 행동 발전이 충분하다."],
+  "confidence": "high"
+}

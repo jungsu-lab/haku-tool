@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_park_functional_memory_panels_v001",
+  "created_at": "2026-07-31T13:50:36.840069+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_park_functional_memory_panels_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "7CA7BEA91276B79D6674AE19FB71B5E2C85A8AC54FC598C433FDD110301198A3",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 64,
+      "coverage_seconds": 8.0
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-progressive-relationship-memory-field",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\boundary-01-progressive-relationship-memory-field.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-memory-field-shared-travel-dominant-start",
+      "kind": "internal_event",
+      "frame": 40,
+      "seconds": 1.6,
+      "strip": "boundaries\\internal-progressive-relationship-memory-field-shared-travel-dominant-start.jpg",
+      "range_seconds": [
+        1.36,
+        1.8800000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-memory-field-close-exchange-support-start",
+      "kind": "internal_event",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\internal-progressive-relationship-memory-field-close-exchange-support-start.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-progressive-relationship-memory-field-place-afterimage-support-start",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\internal-progressive-relationship-memory-field-place-afterimage-support-start.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-reconvergence-confirms-memory",
+      "kind": "segment_boundary",
+      "frame": 110,
+      "seconds": 4.4,
+      "strip": "boundaries\\boundary-02-reconvergence-confirms-memory.jpg",
+      "range_seconds": [
+        4.16,
+        4.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-relationship-release",
+      "kind": "segment_boundary",
+      "frame": 140,
+      "seconds": 5.6,
+      "strip": "boundaries\\boundary-03-relationship-release.jpg",
+      "range_seconds": [
+        5.36,
+        5.880000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T13:51:48.596160+00:00",
+    "evidence": [
+      "0.00-1.60s: live hand contact supplies a causal opening before any composite appears",
+      "1.60s: one dominant same-pair panel replaces the action cleanly; no border, drop shadow, zoom, or accidental black frame",
+      "2.20s internal event: flower-framed close exchange adds an intimacy and tactile role rather than duplicating the dominant panel",
+      "2.80s internal event: empty park field adds a place/afterimage role and completes the three-role field",
+      "4.40s: the full panel field releases to one reconvergence shot, reducing density before the hero action",
+      "5.60-8.00s: full-frame lift onset supplies live relationship payoff and restores body-scale information omitted by the panels",
+      "plain uses the same six materials and duration but presents them only as serial full-frame shots, so their simultaneous memory relationship is absent"
+    ],
+    "limitations": [
+      "The dominant top panel communicates shared presence more strongly than walking-body motion because its source is shoulder-close.",
+      "Validated for one same-session urban pair; unrelated footage, product grids, native vertical layout, typography, and music remain untested."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

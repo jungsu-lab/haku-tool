@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_latte_motif_state_v001",
+  "operator": {
+    "primary": "motif-state-return",
+    "secondary": "action-as-edit-spine"
+  },
+  "situation": "One licensed, unedited 34-second fixed overhead latte-art take with one cup developing through multiple material states.",
+  "source_rights": {
+    "provider": "Mixkit",
+    "creator": "Mixkit contributor",
+    "page_url": "https://mixkit.co/free-stock-video/latte-art-810/",
+    "license_name": "Mixkit Stock Video Free License",
+    "license_url": "https://mixkit.co/license/",
+    "recorded_sha256": "56D7338010706854315A0BE58B520ACF45C04C4A4DCE2A6481D351F2B12F8F7C"
+  },
+  "hypotheses_under_test": [
+    "One persistent object can function as a returning motif when each cut reveals a genuinely later material state.",
+    "Stable composition can make large chronological skips feel like intentional state progression instead of a spatial lurch.",
+    "The final completed motif needs more time than the early setup states to read as a destination."
+  ],
+  "purpose": "Test motif-state-return on a craft process rather than nature or relationship footage, without using a transition, zoom, freeze, reverse, or repeated frame.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The same cup, camera, and action persist while the visible coffee pattern changes monotonically through more than five states."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "dark_base": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 0.6,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "first_white_line": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 2.6,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "swirl_emerges": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 7.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "pattern_forms": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 13.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "rings_refine": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 21.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "final_surface": {
+      "source": "../../../vcd-output/haku-six-style-proof-v001/sources/video/coffee_latte_810.mp4",
+      "source_in": 31.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-dark-base", "type": "single", "frames": 28, "material": "dark_base"},
+        {"id": "plain-first-line", "type": "single", "frames": 28, "material": "first_white_line"},
+        {"id": "plain-swirl", "type": "single", "frames": 28, "material": "swirl_emerges"},
+        {"id": "plain-pattern", "type": "single", "frames": 28, "material": "pattern_forms"},
+        {"id": "plain-rings", "type": "single", "frames": 28, "material": "rings_refine"},
+        {"id": "plain-final", "type": "single", "frames": 28, "material": "final_surface"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "establish-dark-base", "type": "single", "frames": 20, "material": "dark_base"},
+        {"id": "first-contrast", "type": "single", "frames": 20, "material": "first_white_line"},
+        {"id": "swirl-state", "type": "single", "frames": 24, "material": "swirl_emerges"},
+        {"id": "recognizable-pattern", "type": "single", "frames": 28, "material": "pattern_forms"},
+        {"id": "refined-rings", "type": "single", "frames": 30, "material": "rings_refine"},
+        {"id": "completed-motif", "type": "single", "frames": 46, "material": "final_surface"}
+      ]
+    }
+  }
+}

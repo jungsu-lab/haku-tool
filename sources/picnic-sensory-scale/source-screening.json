@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "screened_at": "2026-07-31",
+  "operator_candidate": "sensory-scale-relay",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "proof_role": "licensed-production-source"
+  },
+  "session_fit": {
+    "status": "same_session_high_confidence",
+    "evidence": [
+      "The same four friends, clothing, pink wine, picnic food, grass, tree line, and evening light recur.",
+      "The three consecutive Pexels asset IDs are credited to the same creator and describe the same outdoor picnic."
+    ]
+  },
+  "sources": [
+    {
+      "filename": "10071333-group-landscape.mp4",
+      "page_url": "https://www.pexels.com/video/group-of-people-having-picnic-10071333/",
+      "asset_url": "https://www.pexels.com/download/video/10071333/",
+      "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14",
+      "bytes": 142457345,
+      "duration_seconds": 47.68,
+      "resolution": [4096, 2160],
+      "direct_review": {
+        "status": "complete_dense_sequence",
+        "observations": [
+          "0.0-5.5: hands, food, and pink wine establish tactile picnic detail.",
+          "6.0-14.5: one man pours and handles wine while other glasses enter the foreground.",
+          "15.0-23.5: the man and foreground glasses create person-plus-object interaction.",
+          "29.5-37.5: several hands and glasses converge for a shared toast.",
+          "37.5-44.8: a woman laughs and drinks while the man remains beside her."
+        ]
+      }
+    },
+    {
+      "filename": "10071336-wine-group-landscape.mp4",
+      "page_url": "https://www.pexels.com/video/group-of-people-drinking-wine-in-park-10071336/",
+      "asset_url": "https://www.pexels.com/download/video/10071336/",
+      "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217",
+      "bytes": 47658367,
+      "duration_seconds": 16.16,
+      "resolution": [4096, 2160],
+      "direct_review": {
+        "status": "complete_dense_sequence",
+        "observations": [
+          "0.0-4.5: four friends converse with glasses held at different depths.",
+          "4.5-8.5: the group raises and converges the glasses.",
+          "8.5-12.5: the toast relaxes into smiles and conversation.",
+          "12.5-16.0: glasses rise again while the full relationship field remains visible."
+        ]
+      }
+    },
+    {
+      "filename": "10071341-evening-picnic-vertical.mp4",
+      "page_url": "https://www.pexels.com/video/friends-having-picnic-at-evening-10071341/",
+      "asset_url": "https://www.pexels.com/download/video/10071341/",
+      "sha256": "6F5CA4D96159B2B1015784AF41DC54DFEB48A1ACA3957E17FD189D4BA2D1DF14",
+      "bytes": 25681402,
+      "duration_seconds": 21.84,
+      "resolution": [1440, 2732],
+      "direct_review": {
+        "status": "complete_dense_sequence",
+        "observations": [
+          "0.0-4.0: one seated woman laughs with a pink wine glass and food visible below.",
+          "4.0-10.0: her gaze and hands return toward the shared picnic surface.",
+          "10.0-15.5: she reaches toward food while maintaining the same relationship eyeline.",
+          "15.5-18.0: she eats and laughs, supplying a clear sensory reaction.",
+          "18.0-21.8: she bends back toward the food and another person enters the lower frame."
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "status": "selected_for_first_proof",
+    "planned_roles": [
+      "food-and-hands tactile detail",
+      "wine-pour action owner",
+      "individual laughter reaction",
+      "group toast relationship field"
+    ],
+    "risk": "A 9:16 cover crop may remove too much of the landscape group frame. Reject or switch to an explicit non-cover layout if fewer than three people remain readable."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DQrTzfpk9iR",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T10:56:00Z"},
+  "purpose": "여행의 출발·이동·휴식·자연·귀환을 검정 장 간격으로 기록하는 2025 여정 에세이",
+  "format": "9:16 black canvas, chaptered landscape travel diary",
+  "story_role": "explicit",
+  "primary_subject": "헬멧을 쓴 여행자, 오토바이·길·바다·숲·고양이",
+  "intended_viewer_response": "여러 장소가 목적지 목록이 아니라 한 번의 긴 여정으로 축적됨",
+  "commercial_function": "여행·모빌리티·아웃도어·카메라의 journey film",
+  "sequence": {"opening_hook": "손에 든 작은 물체 또는 여행 소품 근접", "development": "창가 책→바닷가 오토바이→도로 그림자→산과 물→랜턴→헬멧 인물", "peak_or_payoff": "물고기·두 사람의 그림자·숲·도약하는 고양이로 여행 생태를 넓힘", "final_image": "수면 빛 뒤 검정 크레딧 '2025 / haku_photo / Becoming Through Journeys'"},
+  "directing": {"subject_action": "장비 들기, 이동하기, 길을 달리기, 풍경 보기, 야영, 동물 관찰", "blocking": "여행자를 환경 속 작은 표식 또는 그림자로 둔다.", "space": "바다·산·도로·숲을 이동 수단과 반복 인물로 연결한다.", "props_surfaces_costume": "헬멧, 오토바이, 랜턴, 책, 물"},
+  "cinematography": {"composition": "중앙 가로 이미지와 검정 세로 여백", "distance_or_lens": "손·장비 근접과 대형 풍경 원경 교대", "camera_motion": "실제 이동·도로 그림자·동물 도약", "light": "낮의 청색, 랜턴 주황, 수면 하이라이트", "palette_texture_depth": "청록·초록·주황의 여행 시간 변화"},
+  "editing": {
+    "cut_logic": "1.2~2.4초 여행 장면마다 1.1~1.5초 검정 chapter break를 두어 장소 이동을 명확히 한다.",
+    "shot_duration_progression": "균일한 숨이 아니라 장면 1.2~2.4초와 검정 1.1~1.5초의 반복, 마지막 2.3초 크레딧",
+    "adjacent_image_relations": "손의 소품→이동수단→도로 그림자→풍경→야영빛→생물로 여정 기능이 발전한다.",
+    "in_frame_editing": "달리기·오토바이·고양이 도약처럼 실제 이동이 다음 장의 추진력을 만든다.",
+    "typography_graphics_compositing": "끝의 크레딧만 명시적 언어로 여정의 주제를 회수한다.",
+    "repeated_operators": ["journey_function_chain", "black_chapter_breath", "action_as_edit_spine", "experience_before_claim"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {"start_seconds": 0.041667, "end_seconds": 11.291667, "observation": "손의 여행 소품, 창가 책, 바닷가 오토바이, 도로 그림자가 검정 장 사이에 나온다.", "inference": "준비→사색→출발→이동이라는 여정 기능 순서가 있다."},
+    {"start_seconds": 12.541667, "end_seconds": 23.083333, "observation": "산과 물, 랜턴, 헬멧 인물, 물고기가 각 장으로 이어진다.", "inference": "목적지·야영·여행자·생태 관찰로 경험의 범위를 넓힌다."},
+    {"start_seconds": 24.625, "end_seconds": 35.125, "observation": "두 사람의 그림자, 숲길, 바다 앞 도약하는 고양이, 수면 빛이 이어진다.", "inference": "관계와 우연한 발견을 여정의 후반 보상으로 둔다."},
+    {"start_seconds": 35.125, "end_seconds": 37.458333, "observation": "검정 위 '2025', 'haku_photo', 'Becoming Through Journeys'가 표시된다.", "inference": "앞선 경험을 마지막에만 언어적 명제로 회수한다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 장소가 달라도 기능 순서를 가지면 일반 B-roll 나열을 피할 수 있음을 보여준다.",
+    "common_elements": ["여행자", "이동수단", "물", "숲", "그림자", "검정 여백"],
+    "possible_discriminators": ["준비-이동-머묾-발견-회수", "실제 이동 행동", "마지막 한 번의 주제 문장"],
+    "forbidden_pattern_evidence": ["장소만 랜덤 셔플", "모든 검정 장을 오류로 제거", "행동 없는 풍경만 연속"],
+    "ad_strengths": ["여행·모빌리티·아웃도어·카메라"],
+    "suitable_subjects": ["출발 소품·이동·목적지·관계·발견을 갖춘 촬영본"],
+    "poor_fit_subjects": ["한 장소의 정적인 풍경만 있는 원본"],
+    "limitations": ["각 이동의 실제 시간 순서는 메타데이터 없이 확정하지 않는다."]
+  },
+  "counterexamples": ["검정 장의 반복은 모든 스타일의 기본 규칙이 아니며 실제 장소·기능 전환이 있을 때만 쓴다."],
+  "confidence": "high"
+}

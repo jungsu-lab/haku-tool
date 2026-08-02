@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_park_relationship_blocking_v001",
+  "created_at": "2026-07-31T13:39:49.929135+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_park_relationship_blocking_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "E9EF3EFF32213A874E46ACA556CDE3334335601743B9D454A1B3C944CD6262FD",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 68,
+      "coverage_seconds": 8.4
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 68,
+      "coverage_seconds": 8.4
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-distance-makes-two-positions",
+      "kind": "segment_boundary",
+      "frame": 25,
+      "seconds": 1.0,
+      "strip": "boundaries\\boundary-01-distance-makes-two-positions.jpg",
+      "range_seconds": [
+        0.76,
+        1.28
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-reconvergence-changes-relation",
+      "kind": "segment_boundary",
+      "frame": 55,
+      "seconds": 2.2,
+      "strip": "boundaries\\boundary-02-reconvergence-changes-relation.jpg",
+      "range_seconds": [
+        1.96,
+        2.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-lift-transfers-action-ownership",
+      "kind": "segment_boundary",
+      "frame": 90,
+      "seconds": 3.6,
+      "strip": "boundaries\\boundary-03-lift-transfers-action-ownership.jpg",
+      "range_seconds": [
+        3.36,
+        3.88
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-shared-direction-becomes-exit",
+      "kind": "segment_boundary",
+      "frame": 135,
+      "seconds": 5.4,
+      "strip": "boundaries\\boundary-04-shared-direction-becomes-exit.jpg",
+      "range_seconds": [
+        5.16,
+        5.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-path-inherits-their-absence",
+      "kind": "segment_boundary",
+      "frame": 175,
+      "seconds": 7.0,
+      "strip": "boundaries\\boundary-05-path-inherits-their-absence.jpg",
+      "range_seconds": [
+        6.76,
+        7.279999999999999
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T13:41:14.106307+00:00",
+    "evidence": [
+      "proof boundary 3 at 3.60s jumps from standing reconvergence to an already-developed lift/carry pose, skipping the action onset",
+      "proof boundary 4 at 5.40s jumps from a sideways lifted body to both performers already running front-facing, creating a visible blocking lurch",
+      "proof boundary 5 at 7.00s is mislabeled as empty path: one performer crosses close to camera for roughly the first half-second"
+    ],
+    "limitations": [
+      "The source strongly supports relationship blocking, but this edit does not preserve the decisive lift-to-exit action continuity.",
+      "No Operator pass may be recorded from v001."
+    ]
+  },
+  "research_verdict": {
+    "status": "fail",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

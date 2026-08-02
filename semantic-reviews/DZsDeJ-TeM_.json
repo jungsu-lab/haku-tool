@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DZsDeJ-TeM_",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:05:00Z"
+  },
+  "purpose": "여름날의 장난을 물의 촉감과 작은 마술처럼 기억시키는 감각 필름",
+  "format": "16:9 landscape short montage",
+  "story_role": "implicit",
+  "primary_subject": "뜰채를 든 흰옷의 인물과 물가의 동행",
+  "intended_viewer_response": "시원함, 장난기, 한철의 기억에 대한 그리움",
+  "commercial_function": "직접 판매보다 여행·의류·음료·공간 브랜드의 계절 무드 구축에 적합",
+  "sequence": {
+    "opening_hook": "인물이 뜰채를 들고 프레임을 가로지르며 목적이 아직 설명되지 않은 행동을 시작한다.",
+    "development": "다리 아래 물, 위에서 본 인물, 물속 발과 수면 입자를 거쳐 뜰채의 대상이 물 자체인 것처럼 확장한다.",
+    "peak_or_payoff": "손 위의 물방울이 다음 장면의 손-held 불꽃으로 의미와 빛을 바꾼다.",
+    "final_image": "처음의 산과 흰옷 인물 구도로 되돌아가 장난을 하나의 닫힌 기억으로 만든다."
+  },
+  "directing": {
+    "subject_action": "달리기, 물가를 내려다보기, 뜰채를 휘두르기, 물에 발 담그기, 손을 내밀기, 불꽃을 건네기",
+    "blocking": "대부분 인물을 넓은 자연 안의 작은 흰 표식으로 두고, 손과 발 디테일에서만 신체를 크게 사용한다.",
+    "space": "산길·다리·수면을 서로 다른 장소가 아니라 하나의 여름 놀이 동선으로 연결한다.",
+    "props_surfaces_costume": "흰옷과 흰 뜰채가 수면의 흰 반사·물방울·불꽃과 반복되는 시각 모티프가 된다."
+  },
+  "cinematography": {
+    "composition": "원경의 작은 인물, 수직 탑숏, 손·발 클로즈업을 교차해 규모를 흔든다.",
+    "distance_or_lens": "환경 원경과 신체 디테일의 대비가 크며 중간 거리 설명 숏은 최소화한다.",
+    "camera_motion": "행동을 따라가는 짧은 움직임과 거의 고정된 수면 관찰 숏을 섞는다.",
+    "light": "낮의 청록 수면과 석양의 주황 불꽃을 후반에서 충돌시킨다.",
+    "palette_texture_depth": "청록·짙은 녹색·흰색이 기본이며, 물 입자와 역광 반사가 질감의 중심이다."
+  },
+  "editing": {
+    "cut_logic": "장소 일치보다 흰 형태, 손의 방향, 반짝임, 물체의 기능을 릴레이해 연결한다.",
+    "shot_duration_progression": "0.9~1.8초의 비교적 읽히는 행동 숏 사이에 0.2~0.5초 검은 쉼과 짧은 감각 삽입을 둔다.",
+    "adjacent_image_relations": "뜰채의 흰 망↔흰 수면 반사, 물방울↔불꽃, 인물 원경↔동일 인물 원경의 형태 대응이 핵심이다.",
+    "in_frame_editing": "인물이 뛰고 휘두르고 손을 내미는 실제 행동이 컷의 시작·종료점을 만든다.",
+    "typography_graphics_compositing": "관찰된 타이포그래피나 합성은 없고, 물성과 행동으로 초현실적 연속성을 만든다.",
+    "repeated_operators": [
+      "gesture_object_morph_chain",
+      "white_shape_relay",
+      "water_to_fire_payoff",
+      "opening_return_bookend"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "현재 연구 단계에서는 오디오 의미 분석을 승격 조건에서 제외했다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.708,
+      "observation": "뜰채를 든 인물의 달리기 뒤에 다리 아래 수면 탑숏이 이어지고 2.708초부터 검은 간격이 나온다.",
+      "inference": "행동의 목적을 설명하기보다 흰 도구와 수면의 형태를 먼저 결속하는 도입이다."
+    },
+    {
+      "start_seconds": 3.25,
+      "end_seconds": 5.708,
+      "observation": "위에서 본 인물과 뜰채, 수면 그림자, 뜰채 클로즈업, 물속 발이 순서대로 이어진다.",
+      "inference": "인물 전체에서 도구와 신체 디테일로 점차 가까워지며 물놀이의 촉각을 만든다."
+    },
+    {
+      "start_seconds": 6.041,
+      "end_seconds": 8.916,
+      "observation": "물속 인물·수면 입자·수면 위 손이 푸른 계열 안에서 연결되고 8.916초에 검은 쉼이 온다.",
+      "inference": "색과 입자 일치가 장소 설명 없이도 하나의 감각 구간을 유지한다."
+    },
+    {
+      "start_seconds": 9.166,
+      "end_seconds": 11.833,
+      "observation": "잔잔한 물 위 인물 다음에 손-held 불꽃을 주고받는 장면, 마지막 산과 인물 구도가 나온다.",
+      "inference": "물방울과 불꽃의 반짝임을 교환한 뒤 시작의 환경으로 돌아가 미니 서사를 닫는다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. Haku의 감성은 단순 자연 B-roll이 아니라 반복 소품·행동·물성 변환으로 발생한다는 근거다.",
+    "common_elements": [
+      "흰옷 인물을 자연 안의 작은 표식으로 사용",
+      "물·역광·입자 디테일",
+      "설명 없는 작은 공동 행동",
+      "원경과 신체 디테일의 대비"
+    ],
+    "possible_discriminators": [
+      "소품 기능이 다음 장면의 물성으로 변하는 연결",
+      "같은 인물·장소로 돌아오는 짧은 책갈피 구조"
+    ],
+    "forbidden_pattern_evidence": [
+      "임의 디지털 줌이 없어도 리듬과 감정이 성립한다.",
+      "전환 효과 자체가 아니라 실제 손동작과 형태 대응이 연결을 만든다."
+    ],
+    "ad_strengths": [
+      "계절 캠페인",
+      "여행·리조트",
+      "흰 의상·액세서리",
+      "음료·향수의 물성 무드"
+    ],
+    "suitable_subjects": [
+      "함께 할 수 있는 작은 행동이 있는 인물 영상",
+      "물·반사·입자·천 소재가 있는 촬영본",
+      "반복 가능한 소품이 있는 원본"
+    ],
+    "poor_fit_subjects": [
+      "행동도 반복 모티프도 없는 풍경 모음",
+      "제품 팩샷만 있고 손이나 환경 상호작용이 없는 영상"
+    ],
+    "limitations": [
+      "전체 실시간 재생과 오디오 검토는 아직 수행하지 못했다.",
+      "정확한 속도 램프 유무는 고밀도 프레임 검토만으로 확정하지 않았다."
+    ]
+  },
+  "counterexamples": [
+    "컷 수가 많아서 Haku다운 것이 아니다. 이 작품은 일부 긴 행동 숏이 의미의 중심이다.",
+    "물 장면을 푸르게 보정하는 것만으로는 재현되지 않으며 뜰채·손·불꽃의 인과 연결이 필요하다."
+  ],
+  "confidence": "high"
+}

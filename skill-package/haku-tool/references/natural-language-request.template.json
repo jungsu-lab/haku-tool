@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "request_id": "replace-me",
+  "natural_language": "원하는 느낌과 영상 목적을 자연어로 적는다.",
+  "purpose": "general",
+  "target_duration_seconds": null,
+  "audio_policy": "deferred_by_user",
+  "text_policy": "only_if_semantically_required",
+  "source_rights": {
+    "status": "unverified",
+    "source_manifest": null
+  },
+  "material_observations": {
+    "reviewed_by_main_agent": false,
+    "existing_edit_detected": null,
+    "tags": [],
+    "limitations": []
+  },
+  "explicit_operator_id": null
+}

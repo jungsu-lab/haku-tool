@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DVdX-WBk4L5",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T10:50:00Z"},
+  "purpose": "빛이 강한 교실에서 두 사람의 비눗방울 놀이·피아노·춤을 행동 연속성과 반복 공간으로 엮는 관계 필름",
+  "format": "9:16 portrait, single-location relationship sequence",
+  "story_role": "explicit",
+  "primary_subject": "교실의 두 사람과 비눗방울·피아노",
+  "intended_viewer_response": "둘이 함께 놀이를 만들고 같은 공간의 기억으로 남는 느낌",
+  "commercial_function": "청춘·학교·카메라·음료·패션의 관계 중심 브랜드 필름",
+  "sequence": {
+    "opening_hook": "창가 교실의 두 사람과 강한 창빛으로 장소·관계를 한 번에 제시한다.",
+    "development": "한 사람이 비눗방울을 만들고 다른 인물이 바라보며, 피아노 손과 교실 원경이 교대한다.",
+    "peak_or_payoff": "빛 속 비눗방울과 손 근접 뒤 두 사람이 함께 움직이고 춤추는 행동으로 확장한다.",
+    "final_image": "다시 창가 책상에 함께 앉은 두 사람의 가까운 관계 장면으로 끝난다."
+  },
+  "directing": {
+    "subject_action": "비눗방울 불기·잡기, 피아노 치기, 교실에서 함께 움직이기, 마주 앉기",
+    "blocking": "창가 역광을 공통축으로 둘의 거리와 역할을 관찰자→공동행동으로 변화시킨다.",
+    "space": "하나의 교실 안에서 책상·피아노·창가·바닥 동선을 순환한다.",
+    "props_surfaces_costume": "비눗방울 막대, 피아노, 책상, 큰 창, 흰 상의"
+  },
+  "cinematography": {
+    "composition": "넓은 교실 원경, 두 사람 중경, 입·손·피아노 건반 근접을 교대한다.",
+    "distance_or_lens": "환경→행동→촉각 디테일→환경의 scale relay",
+    "camera_motion": "행동을 따라가되 창 격자와 역광 축을 안정적으로 유지한다.",
+    "light": "강한 창빛과 어두운 교실 내부, 비눗방울 보케의 반짝임",
+    "palette_texture_depth": "따뜻한 목재와 흰빛, 투명 비눗방울의 깊이"
+  },
+  "editing": {
+    "cut_logic": "공간 master→행동 중경→손·물성 근접→관계 master로 되돌아간다.",
+    "shot_duration_progression": "대체로 1~4초의 읽기 가능한 행동 단위, 13.7~14.8초와 23.25~24.04초 검정 chapter break",
+    "adjacent_image_relations": "비눗방울을 부는 행위와 손·보케를 연결하고 피아노 손에서 전신 움직임으로 확장한다.",
+    "in_frame_editing": "비눗방울의 발생·손의 접근·두 사람의 춤이 각 컷 내부에 시작과 결과를 만든다.",
+    "typography_graphics_compositing": "합성보다 실제 창빛과 비눗방울이 화면 내부 그래픽을 만든다.",
+    "repeated_operators": ["action_as_edit_spine", "relationship_through_blocking", "sensory_scale_relay", "location_master_return"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "timeline_grammar_events_path": "../timeline-grammar/DVdX-WBk4L5.json",
+  "evidence": [
+    {"start_seconds": 0.0, "end_seconds": 7.75, "observation": "교실의 두 사람 원경, 비눗방울을 부는 중경·근접, 창가의 한 인물이 순서대로 나온다.", "inference": "장소 master에서 실제 행위의 원인과 물성 결과로 들어간다."},
+    {"start_seconds": 7.75, "end_seconds": 14.791667, "observation": "피아노를 치는 손, 교실을 걷는 인물, 빛 속 비눗방울과 손 근접 뒤 검정으로 닫힌다.", "inference": "음악 행동과 투명 물성을 손의 움직임으로 연결한 첫 장이다."},
+    {"start_seconds": 14.791667, "end_seconds": 23.25, "observation": "두 사람이 다시 함께 나타나고 발·전신의 공동 움직임과 춤이 이어진 뒤 검정으로 들어간다.", "inference": "관찰 관계가 공동 퍼포먼스로 발전한다."},
+    {"start_seconds": 24.041667, "end_seconds": 33.166667, "observation": "두 사람이 창가 책상에 마주 앉아 장난하고 더 가까운 프레임으로 끝난다.", "inference": "행동 절정을 안정된 관계 master로 회수한다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 한 장소·두 인물·소품 행동만으로 화면 내부 편집과 관계 서사를 모두 만든다.",
+    "common_elements": ["흰옷", "창빛", "손 디테일", "두 사람", "반짝이는 물성"],
+    "possible_discriminators": ["행동의 원인-결과 커버리지", "master 반복", "관찰자에서 공동행동으로 변화"],
+    "forbidden_pattern_evidence": ["행동 중간을 잘라 원인과 결과 단절", "정적인 master에 자동 줌", "비눗방울 보케를 임의 오버레이로 대체"],
+    "ad_strengths": ["청춘·음료·교육·카메라·패션"],
+    "suitable_subjects": ["같은 공간에서 두 인물이 소품을 함께 다루는 원본"],
+    "poor_fit_subjects": ["인물 상호작용과 행동 완결이 없는 무작위 교실 B-roll"],
+    "limitations": ["피아노 연주와 실제 음악의 동기는 이번 단계에서 듣지 않았다."]
+  },
+  "counterexamples": ["이 사례의 힘은 전환 효과가 아니라 실제 행동·관계·공간 커버리지에 있다."],
+  "confidence": "high"
+}

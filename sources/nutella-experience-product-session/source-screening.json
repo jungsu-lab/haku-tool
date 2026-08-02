@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "nutella-experience-product-session",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T15:55:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "Engin Akyurt",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "pages": [
+      "https://www.pexels.com/video/woman-eating-nutella-6466126/",
+      "https://www.pexels.com/video/woman-holding-jar-of-nutella-6466128/"
+    ],
+    "constraint": "Research edit only; do not imply endorsement by the identifiable person or brand."
+  },
+  "files": [
+    {
+      "path": "6466127-eating-hd.mp4",
+      "sha256": "0E6980460987FC3A04072D728F0FF44DD9451E111A070E2EC1E11CEAA8B6926A",
+      "duration_seconds": 10.777433,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "actual_content": "A woman holds a Nutella jar, unscrews and lifts its lid, then smells the open jar; no spoon or eating action is visible."
+    },
+    {
+      "path": "6466128-holding-hd.mp4",
+      "sha256": "AAA89E1AED2C18EC8668BE85DB94D0730B3AE4E653BD7686122F47C65E8CF8D3",
+      "duration_seconds": 9.576233,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "actual_content": "The same woman holds the same front-facing Nutella jar while changing television light colors move over her face and clothing."
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timelines": true,
+    "sample_fps": 8,
+    "evidence_paths": [
+      "../../review-artifacts/nutella-experience-product-session/6466127-eating-hd-dense.jpg",
+      "../../review-artifacts/nutella-experience-product-session/6466128-holding-hd-dense.jpg"
+    ]
+  },
+  "same_session_evidence": [
+    "Both files show the same woman, gray top, centered jar, camera height, dark television environment, and changing blue-green screen light.",
+    "The jar geometry, lid, label, hand placement, and product scale match; the Nutella wordmark remains readable.",
+    "Adjacent asset IDs and the same creator support, but do not replace, the direct visual identity check."
+  ],
+  "routing": {
+    "experience-before-product": "conditional_brand_recovery_test",
+    "action-as-edit-spine": "strong_for_lid_opening_and_smell",
+    "brand_recovery": "strong",
+    "product_delay": "weak_because_label_is_visible_from_the_first_frame"
+  },
+  "decision": "Use only to test action-to-sensory-response-to-readable-brand-recovery ordering. Do not claim that it proves a hidden-product reveal, spoon use, eating, or endorsement."
+}

@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_park_relationship_blocking_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\recipe.json",
+  "recipe_sha256": "E9EF3EFF32213A874E46ACA556CDE3334335601743B9D454A1B3C944CD6262FD",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "contact_seed",
+      "distance_opens",
+      "empty_path",
+      "lift_and_carry",
+      "reconvergence",
+      "shared_run"
+    ],
+    "material_ledger": {
+      "contact_seed": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 0.0,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "distance_opens": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 5.2,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "reconvergence": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 9.3,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "lift_and_carry": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 13.2,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "shared_run": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 17.4,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      },
+      "empty_path": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\park-relationship-blocking\\8640842.mp4",
+        "source_in": 20.6,
+        "sha256": "B7BCBD3B1EEAB9BC91D830DCCFF0AF05EA6BABC8CEC57259C5566A411BD32596"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "contact_seed",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.4,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            0,
+            35
+          ]
+        },
+        {
+          "segment_id": "plain-distance",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "distance_opens",
+          "source_in_seconds": 5.2,
+          "source_out_seconds": 6.6,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            35,
+            70
+          ]
+        },
+        {
+          "segment_id": "plain-reconvergence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reconvergence",
+          "source_in_seconds": 9.3,
+          "source_out_seconds": 10.700000000000001,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            70,
+            105
+          ]
+        },
+        {
+          "segment_id": "plain-lift",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lift_and_carry",
+          "source_in_seconds": 13.2,
+          "source_out_seconds": 14.6,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            105,
+            140
+          ]
+        },
+        {
+          "segment_id": "plain-run",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "shared_run",
+          "source_in_seconds": 17.4,
+          "source_out_seconds": 18.799999999999997,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            140,
+            175
+          ]
+        },
+        {
+          "segment_id": "plain-empty-path",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "empty_path",
+          "source_in_seconds": 20.6,
+          "source_out_seconds": 22.0,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            175,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "contact_seed": 1,
+        "distance_opens": 1,
+        "reconvergence": 1,
+        "lift_and_carry": 1,
+        "shared_run": 1,
+        "empty_path": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "contact-establishes-pair",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "contact_seed",
+          "source_in_seconds": 0.0,
+          "source_out_seconds": 1.0,
+          "duration_frames": 25,
+          "timeline_visible_frames": [
+            0,
+            25
+          ]
+        },
+        {
+          "segment_id": "distance-makes-two-positions",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "distance_opens",
+          "source_in_seconds": 5.2,
+          "source_out_seconds": 6.4,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            25,
+            55
+          ]
+        },
+        {
+          "segment_id": "reconvergence-changes-relation",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "reconvergence",
+          "source_in_seconds": 9.3,
+          "source_out_seconds": 10.700000000000001,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            55,
+            90
+          ]
+        },
+        {
+          "segment_id": "lift-transfers-action-ownership",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "lift_and_carry",
+          "source_in_seconds": 13.2,
+          "source_out_seconds": 15.0,
+          "duration_frames": 45,
+          "timeline_visible_frames": [
+            90,
+            135
+          ]
+        },
+        {
+          "segment_id": "shared-direction-becomes-exit",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "shared_run",
+          "source_in_seconds": 17.4,
+          "source_out_seconds": 19.0,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            135,
+            175
+          ]
+        },
+        {
+          "segment_id": "path-inherits-their-absence",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "empty_path",
+          "source_in_seconds": 20.6,
+          "source_out_seconds": 22.0,
+          "duration_frames": 35,
+          "timeline_visible_frames": [
+            175,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "contact_seed": 1,
+        "distance_opens": 1,
+        "reconvergence": 1,
+        "lift_and_carry": 1,
+        "shared_run": 1,
+        "empty_path": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\plain.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "plain-contact",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "contact_seed"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\01-plain-contact.mp4"
+      },
+      {
+        "segment_id": "plain-distance",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "distance_opens"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\02-plain-distance.mp4"
+      },
+      {
+        "segment_id": "plain-reconvergence",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "reconvergence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\03-plain-reconvergence.mp4"
+      },
+      {
+        "segment_id": "plain-lift",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "lift_and_carry"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\04-plain-lift.mp4"
+      },
+      {
+        "segment_id": "plain-run",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "shared_run"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\05-plain-run.mp4"
+      },
+      {
+        "segment_id": "plain-empty-path",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "empty_path"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\plain\\06-plain-empty-path.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "1FCE6BDAD15EA3AD64876050F09DC472603EACA1C1EFC381A2FF0263A2EAD40C"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\proof.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "contact-establishes-pair",
+        "type": "single",
+        "frames": 25,
+        "materials": [
+          "contact_seed"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\01-contact-establishes-pair.mp4"
+      },
+      {
+        "segment_id": "distance-makes-two-positions",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "distance_opens"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\02-distance-makes-two-positions.mp4"
+      },
+      {
+        "segment_id": "reconvergence-changes-relation",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "reconvergence"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\03-reconvergence-changes-relation.mp4"
+      },
+      {
+        "segment_id": "lift-transfers-action-ownership",
+        "type": "single",
+        "frames": 45,
+        "materials": [
+          "lift_and_carry"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\04-lift-transfers-action-ownership.mp4"
+      },
+      {
+        "segment_id": "shared-direction-becomes-exit",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "shared_run"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\05-shared-direction-becomes-exit.mp4"
+      },
+      {
+        "segment_id": "path-inherits-their-absence",
+        "type": "single",
+        "frames": 35,
+        "materials": [
+          "empty_path"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\_segments\\proof\\06-path-inherits-their-absence.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "2D61CBFB96A0BBE62788020FC03A426491746C37ACA638B7A72975B1D664F5F1"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "proof boundary 3 at 3.60s jumps from standing reconvergence to an already-developed lift/carry pose, skipping the action onset",
+      "proof boundary 4 at 5.40s jumps from a sideways lifted body to both performers already running front-facing, creating a visible blocking lurch",
+      "proof boundary 5 at 7.00s is mislabeled as empty path: one performer crosses close to camera for roughly the first half-second"
+    ],
+    "limitations": [
+      "The source strongly supports relationship blocking, but this edit does not preserve the decisive lift-to-exit action continuity.",
+      "No Operator pass may be recorded from v001."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\park-relationship-blocking-v001\\render\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_perfume_experience_product_v003",
+  "operator": {
+    "primary": "experience-before-product",
+    "secondary": "action-as-edit-spine"
+  },
+  "revision_from": "../perfume-experience-product-v002/recipe.json",
+  "changes_from_v002": [
+    "Changed the canvas from 16:9 to a fixed 9:16 center crop after direct source-frame tests.",
+    "The crop keeps the spray finger, wrist target, and bottle inside one stable reel composition.",
+    "No animated crop, scale, zoom, retime, reverse, freeze, or padding was added."
+  ],
+  "situation": "One licensed, unedited 18.28-second perfume-use take containing repeated wrist spray, sensory hand response, and a later upright bottle recovery.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "cottonbro studio",
+    "page_url": "https://www.pexels.com/video/hands-hand-perfume-cosmetics-4154241/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "3F7FD67BA952A25F5873168E3652EE4842C8A924BFAD1F12177491CFA6BA1685"
+  },
+  "hypotheses_under_test": [
+    "A product may remain physically visible during use while explicit product emphasis is delayed until the experience is established.",
+    "A fixed vertical crop can strengthen the hand-product relationship when it preserves every required action rather than manufacturing motion.",
+    "The product recovery must end before another hand obscures the object, while the absent label still caps advertising claims."
+  ],
+  "purpose": "Test experience-before-product as a reel sequence-ordering rule without music, claims, synthetic packshots, zoom, retime, or reference-media reuse.",
+  "material_fit": {
+    "status": "conditional_high",
+    "reason": "The fixed 9:16 crop clearly preserves real use and later bottle recovery, but the object remains label-free and cannot establish brand identity."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "spray_contact": {
+      "source": "../../sources/experience-product-candidates/pexels-4154241-perfume-wrist.mp4",
+      "source_in": 0.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "spray_release": {
+      "source": "../../sources/experience-product-candidates/pexels-4154241-perfume-wrist.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "wrist_response": {
+      "source": "../../sources/experience-product-candidates/pexels-4154241-perfume-wrist.mp4",
+      "source_in": 8.2,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "product_raise": {
+      "source": "../../sources/experience-product-candidates/pexels-4154241-perfume-wrist.mp4",
+      "source_in": 10.4,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "product_hold": {
+      "source": "../../sources/experience-product-candidates/pexels-4154241-perfume-wrist.mp4",
+      "source_in": 11.6,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-product-raise-first", "type": "single", "frames": 30, "material": "product_raise"},
+        {"id": "plain-product-hold-first", "type": "single", "frames": 46, "material": "product_hold"},
+        {"id": "plain-spray-contact", "type": "single", "frames": 36, "material": "spray_contact"},
+        {"id": "plain-spray-release", "type": "single", "frames": 38, "material": "spray_release"},
+        {"id": "plain-wrist-response", "type": "single", "frames": 50, "material": "wrist_response"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "ritual-spray-contact", "type": "single", "frames": 46, "material": "spray_contact"},
+        {"id": "ritual-spray-release", "type": "single", "frames": 54, "material": "spray_release"},
+        {"id": "sensory-wrist-response", "type": "single", "frames": 50, "material": "wrist_response"},
+        {"id": "product-enters-emphasis", "type": "single", "frames": 30, "material": "product_raise"},
+        {"id": "product-recovery", "type": "single", "frames": 20, "material": "product_hold"}
+      ]
+    }
+  }
+}

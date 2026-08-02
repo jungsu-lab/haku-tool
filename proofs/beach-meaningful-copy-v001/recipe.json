@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_beach_meaningful_copy_v001",
+  "operator": {
+    "primary": "meaningful-copy-gate",
+    "secondary": "presence-to-absence-hold"
+  },
+  "situation": "One licensed, unedited fixed beach take with a complete entrance, crossing, exit, and living empty-frame consequence.",
+  "source_rights": {
+    "provider": "Pexels",
+    "creator": "Taryn Elliott",
+    "page_url": "https://www.pexels.com/video/woman-walking-on-the-beach-5937571/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/",
+    "recorded_sha256": "363C170CC72BFFDD4307E9D84BB1D92F5BF10B2F51495280E7222B9C4758AFB7"
+  },
+  "hypotheses_under_test": [
+    "Readable copy can define a before-and-after chapter without replacing the scene's own motion.",
+    "The final sentence should name the persistent visual fact rather than explain an invented story.",
+    "Copy earns its place only if removing it changes the sequence from a proposition back into simple observation."
+  ],
+  "purpose": "Isolate semantic copy from timing, source selection, grade, and motion by keeping the plain and proof variants frame-identical.",
+  "material_fit": {
+    "status": "strong",
+    "reason": "The source visibly contains both named states: a crossing subject and light that continues moving after her complete exit."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "environment_before": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 9.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "entry_from_right": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 10.04,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "crossing": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 11.88,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "exit_left": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 14.82,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    },
+    "water_afterimage": {
+      "source": "../../sources/pexels-presence-absence/pexels-5937571-woman-beach-walk.mp4",
+      "source_in": 16.57,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-neutral"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-before", "type": "single", "frames": 24, "material": "environment_before"},
+        {"id": "plain-entry", "type": "single", "frames": 44, "material": "entry_from_right"},
+        {"id": "plain-crossing", "type": "single", "frames": 70, "material": "crossing"},
+        {"id": "plain-exit", "type": "single", "frames": 42, "material": "exit_left"},
+        {"id": "plain-after", "type": "single", "frames": 38, "material": "water_afterimage"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {
+          "id": "before-chapter",
+          "type": "copy-overlay",
+          "frames": 24,
+          "material": "environment_before",
+          "copies": [
+            {
+              "text": "BEFORE SHE CROSSED",
+              "active_frames": [2, 23],
+              "x": 0.055,
+              "y": 0.82,
+              "font_size": 34,
+              "font_color": "0xf4efe6",
+              "box_color": "0x080808",
+              "box_opacity": 0.48
+            }
+          ]
+        },
+        {"id": "entry", "type": "single", "frames": 44, "material": "entry_from_right"},
+        {"id": "crossing", "type": "single", "frames": 70, "material": "crossing"},
+        {"id": "complete-exit", "type": "single", "frames": 42, "material": "exit_left"},
+        {
+          "id": "after-proposition",
+          "type": "copy-overlay",
+          "frames": 38,
+          "material": "water_afterimage",
+          "copies": [
+            {
+              "text": "THE LIGHT STAYED",
+              "active_frames": [5, 37],
+              "x": 0.055,
+              "y": 0.82,
+              "font_size": 34,
+              "font_color": "0xf4efe6",
+              "box_color": "0x080808",
+              "box_opacity": 0.48
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "kind": "local_file",
+    "value": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/sources/window-copy-candidate/6704807-woman-opening-curtains.mp4",
+    "rights_status": "licensed",
+    "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C"
+  },
+  "invocation": {
+    "wrapper": "C:/Users/HP-5600G/Desktop/AI 제작과정/tools/run-watch.cmd",
+    "detail": "efficient",
+    "external_transcription_allowed": false,
+    "explicit_user_consent_for_audio_upload": false,
+    "no_whisper": true,
+    "output_directory": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001",
+    "report_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/report.md"
+  },
+  "review": {
+    "reviewer": "main-agent",
+    "every_listed_frame_reviewed": true,
+    "transcript_source": "none",
+    "frame_evidence": [
+      {"timestamp_seconds": 0.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0001.jpg", "observation": "The subject reaches the mostly closed curtain in a dark room.", "inference": "This supplies the readable shadow baseline.", "timeline_event_ids": ["event-001-shadow-anchor"]},
+      {"timestamp_seconds": 1.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0002.jpg", "observation": "Both arms begin separating the curtain and the subject silhouette becomes readable.", "inference": "The hand action is the causal spine for the density build.", "timeline_event_ids": ["event-002-progressive-light-density"]},
+      {"timestamp_seconds": 2.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0003.jpg", "observation": "The curtains are spread wide and direct backlight floods the frame.", "inference": "The light-transfer panel has genuinely different visual information from the dark anchor.", "timeline_event_ids": ["event-002-progressive-light-density", "event-003-light-arrival-hinge"]},
+      {"timestamp_seconds": 3.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0004.jpg", "observation": "The open-curtain pose remains while lens flare and fabric continue moving.", "inference": "A longer hinge can breathe without becoming a freeze.", "timeline_event_ids": ["event-003-light-arrival-hinge"]},
+      {"timestamp_seconds": 4.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0005.jpg", "observation": "One arm lifts as the body leaves the symmetrical opening pose.", "inference": "The source begins a new embodied release state.", "timeline_event_ids": ["event-004-native-body-release"]},
+      {"timestamp_seconds": 5.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0006.jpg", "observation": "Both hands meet overhead while curtain edges and hair move.", "inference": "Native micro-motion prevents a stopped ending.", "timeline_event_ids": ["event-004-native-body-release"]},
+      {"timestamp_seconds": 6.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0007.jpg", "observation": "The body rotates under the light.", "inference": "The release continues to add body-direction information.", "timeline_event_ids": ["event-004-native-body-release"]},
+      {"timestamp_seconds": 7.0, "frame_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/watch-evidence/window-density-watch-v001/frames/frame_0008.jpg", "observation": "The subject turns toward camera and extends an arm into the foreground.", "inference": "The final movement resolves toward the viewer without padding the last frame.", "timeline_event_ids": ["event-004-native-body-release"]}
+    ],
+    "limitations": [
+      "Uniform one-second frames do not locate every exact hand-motion boundary.",
+      "The existing dense 8 fps review remains the source-of-truth for hidden-cut screening."
+    ]
+  },
+  "reuse_gate": {"analysis_only": false, "allowed_in_proof": true, "allowed_in_final": true},
+  "conversion": {"status": "mapped", "timeline_grammar_path": "C:/Users/HP-5600G/Desktop/AI 제작과정/haku-auto-research/proofs/window-density-wave-v001/timeline-grammar.json"}
+}

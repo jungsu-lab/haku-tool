@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_nutella_experience_product_v001",
+  "created_at": "2026-07-31T14:47:02.515945+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_nutella_experience_product_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "C042210093141A54EFE151B438384B2B6D96DC0387601279E0BD68C5D51087DA",
+    "recipe_hash_recorded_by_renderer": true,
+    "legacy_recipe_path_match": true,
+    "frame_canvas_and_source_identity_verified": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 55,
+      "coverage_seconds": 6.8
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 55,
+      "coverage_seconds": 6.8
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-ritual-lid-release",
+      "kind": "segment_boundary",
+      "frame": 35,
+      "seconds": 1.4,
+      "strip": "boundaries\\boundary-01-ritual-lid-release.jpg",
+      "range_seconds": [
+        1.16,
+        1.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-sensory-smell-response",
+      "kind": "segment_boundary",
+      "frame": 80,
+      "seconds": 3.2,
+      "strip": "boundaries\\boundary-02-sensory-smell-response.jpg",
+      "range_seconds": [
+        2.96,
+        3.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-readable-brand-recovery",
+      "kind": "segment_boundary",
+      "frame": 130,
+      "seconds": 5.2,
+      "strip": "boundaries\\boundary-03-readable-brand-recovery.jpg",
+      "range_seconds": [
+        4.96,
+        5.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T14:47:39.902055+00:00",
+    "evidence": [
+      "Both licensed originals, frame-identical plain/proof dense sequences, and all three 25 fps boundary strips were directly reviewed. The fixed 9:16 crop preserves hands, lid, nose response, jar, and readable Nutella label. Proof keeps the real lid-opening action, near-contiguous release-to-smell hinge, closed-eye sensory response, and later front-label recovery. Plain opens on the later closed-jar hold and then resets to the earlier opening action. No zoom, freeze, retime, reverse, animated crop, transition, synthetic packshot, or padding was used."
+    ],
+    "limitations": [
+      "Partial only: the label is readable from the first proof frame, so this does not validate a hidden-product reveal or full product-delay branch. The final holding shot is readable but visually flatter than the sensory peak, and the jump from open smelling jar to later closed jar is an inferred later recovery rather than a visibly completed closing action. User verdict remains pending and contributes no acceptance increment."
+    ]
+  },
+  "research_verdict": {
+    "status": "partial_pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

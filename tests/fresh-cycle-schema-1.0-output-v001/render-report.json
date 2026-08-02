@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_research_regression_schema_1_0_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-recipe.json",
+  "recipe_sha256": "D566DB7BA44C0E14F976F915C3EBB2D216C588DC61E74B06134D2CC7E9F14DAC",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 23,
+    "motion_policy": "source-motion-only"
+  },
+  "same_source_set_verified": true,
+  "variant_source_usage": {
+    "plain": [
+      {
+        "clip_id": "source-motion",
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 0.0,
+        "frames": 50,
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "grade": "haku-neutral",
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      }
+    ],
+    "proof": [
+      {
+        "clip_id": "source-motion",
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization\\sources\\pexels-haku-raw\\pexels-10415802-woman-windy-field.mp4",
+        "source_in": 0.0,
+        "frames": 50,
+        "focus_x": 0.5,
+        "focus_y": 0.5,
+        "grade": "haku-neutral",
+        "sha256": "25A1D5B2BC9D6BD07BA959FBB4EDDB796F5F5D03C74276681A412607FA930FD2"
+      }
+    ]
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-output-v001\\plain.mp4",
+    "frames": 50,
+    "duration_seconds": 2.0,
+    "boundaries": [],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 360,
+          "height": 640,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "50"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      }
+    },
+    "automated_qc": {
+      "freeze_events": [],
+      "black_events": []
+    }
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-output-v001\\proof.mp4",
+    "frames": 50,
+    "duration_seconds": 2.0,
+    "boundaries": [],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 360,
+          "height": 640,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "50"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      }
+    },
+    "automated_qc": {
+      "freeze_events": [],
+      "black_events": []
+    }
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-output-v001\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-output-v001\\storyboards\\plain-storyboard.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\tests\\fresh-cycle-schema-1.0-output-v001\\storyboards\\proof-storyboard.jpg"
+  },
+  "transition_strips": [],
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "every_transition_reviewed": false,
+    "notes": []
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "audio_rights_manifest": "../../audio-library/mixkit-valley-sunset-127.audio-rights.json",
+  "audio_file_sha256": "F50D822CB8D6CB3DA8BC9D6CFCCC020786FB0C25E2C222A75D11CA06091050E7",
+  "track_source_in_seconds": 0.0,
+  "track_source_out_seconds": 8.0,
+  "analysis_method": ["waveform", "direct_listening"],
+  "events": [{
+    "event_id": "music-001", "track_seconds": 0.0, "timeline_seconds": 0.0,
+    "type": "phrase_start", "observation": "A low atmospheric synth phrase begins immediately without a preceding silence.",
+    "visual_response": "hold", "target_visual_event_id": "visual-001",
+    "intentional_offset_ms": 0, "confidence": "high"
+  }]
+}

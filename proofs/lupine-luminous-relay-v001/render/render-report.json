@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_lupine_luminous_relay_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\recipe.json",
+  "recipe_sha256": "525CD774792FC6F50B5A79DA1F897359A80DCC638E9978ADBAD9723844FEB90F",
+  "audio_policy": "deferred_by_user",
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_flare",
+      "light_overlay"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "fabric_shadow",
+      "face_light",
+      "flower_contact",
+      "hand_shadow"
+    ],
+    "material_ledger": {
+      "fabric_shadow": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization-v004\\sources\\cottonbro-lupine-session\\4887275-woman-hand-flowers-vertical.mp4",
+        "source_in": 1.8,
+        "sha256": "462F1BB9EF53AF60AB818F9B38572EC709E647EF122957375865EA57F1642879"
+      },
+      "hand_shadow": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization-v004\\sources\\cottonbro-lupine-session\\4887275-woman-hand-flowers-vertical.mp4",
+        "source_in": 14.2,
+        "sha256": "462F1BB9EF53AF60AB818F9B38572EC709E647EF122957375865EA57F1642879"
+      },
+      "flower_contact": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization-v004\\sources\\cottonbro-lupine-session\\4887277-hand-touch-flower-vertical.mp4",
+        "source_in": 18.2,
+        "sha256": "478DDCFD1464738CC7164FD8D5193C34E369A2547171C3C84202C5A859727645"
+      },
+      "face_light": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\vcd-output\\haku-tool-finalization-v004\\sources\\cottonbro-lupine-session\\4887049-man-portrait-vertical.mp4",
+        "source_in": 18.0,
+        "sha256": "E93A51733692BD6EACA00A9AB2CB72AA568CE9A5A7B17C6753FB873454B42A81"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-face-first",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "face_light",
+          "source_in_seconds": 18.0,
+          "source_out_seconds": 20.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            0,
+            50
+          ]
+        },
+        {
+          "segment_id": "plain-flower-contact",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_contact",
+          "source_in_seconds": 18.2,
+          "source_out_seconds": 20.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            50,
+            100
+          ]
+        },
+        {
+          "segment_id": "plain-fabric-shadow",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "fabric_shadow",
+          "source_in_seconds": 1.8,
+          "source_out_seconds": 3.8,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            100,
+            150
+          ]
+        },
+        {
+          "segment_id": "plain-hand-shadow",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_shadow",
+          "source_in_seconds": 14.2,
+          "source_out_seconds": 16.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            150,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "face_light": 1,
+        "flower_contact": 1,
+        "fabric_shadow": 1,
+        "hand_shadow": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "light-written-on-fabric",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "fabric_shadow",
+          "source_in_seconds": 1.8,
+          "source_out_seconds": 3.8,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            0,
+            50
+          ]
+        },
+        {
+          "segment_id": "shadow-migrates-to-hand",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "hand_shadow",
+          "source_in_seconds": 14.2,
+          "source_out_seconds": 16.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            50,
+            100
+          ]
+        },
+        {
+          "segment_id": "hand-meets-flower",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "flower_contact",
+          "source_in_seconds": 18.2,
+          "source_out_seconds": 20.2,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            100,
+            150
+          ]
+        },
+        {
+          "segment_id": "flower-light-arrives-on-face",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "face_light",
+          "source_in_seconds": 18.0,
+          "source_out_seconds": 20.0,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            150,
+            200
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "fabric_shadow": 1,
+        "hand_shadow": 1,
+        "flower_contact": 1,
+        "face_light": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\plain.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "plain-face-first",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "face_light"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\plain\\01-plain-face-first.mp4"
+      },
+      {
+        "segment_id": "plain-flower-contact",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "flower_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\plain\\02-plain-flower-contact.mp4"
+      },
+      {
+        "segment_id": "plain-fabric-shadow",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "fabric_shadow"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\plain\\03-plain-fabric-shadow.mp4"
+      },
+      {
+        "segment_id": "plain-hand-shadow",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "hand_shadow"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\plain\\04-plain-hand-shadow.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "AD864E8CC9EFA68BC9C2BCF20B0F27A0F124C593BFA914F9C38760EBDD26CD11"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\proof.mp4",
+    "frames": 200,
+    "duration_seconds": 8.0,
+    "segments": [
+      {
+        "segment_id": "light-written-on-fabric",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "fabric_shadow"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\proof\\01-light-written-on-fabric.mp4"
+      },
+      {
+        "segment_id": "shadow-migrates-to-hand",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "hand_shadow"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\proof\\02-shadow-migrates-to-hand.mp4"
+      },
+      {
+        "segment_id": "hand-meets-flower",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "flower_contact"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\proof\\03-hand-meets-flower.mp4"
+      },
+      {
+        "segment_id": "flower-light-arrives-on-face",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "face_light"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\_segments\\proof\\04-flower-light-arrives-on-face.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "8.000000"
+      }
+    },
+    "sha256": "1495292FC066244A0EBF1F92792B12FD70B3A78716AC9993F330AFDFD3184CB3"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\lupine-luminous-relay-v001\\render\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "pending_main_agent_review",
+    "originals_reviewed": false,
+    "plain_reviewed": false,
+    "proof_reviewed": false,
+    "internal_events_reviewed": false,
+    "full_playback_reviewed": false
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

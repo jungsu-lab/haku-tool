@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "screening_id": "window-copy-candidate",
+  "reviewer": "main-agent",
+  "reviewed_at": "2026-07-31T14:20:00Z",
+  "rights": {
+    "provider": "Pexels",
+    "creator": "Yan Krukau",
+    "page_url": "https://www.pexels.com/video/a-woman-opening-a-window-curtains-6704807/",
+    "license_name": "Pexels License",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  "files": [
+    {
+      "path": "6704807-woman-opening-curtains.mp4",
+      "sha256": "43BB7BB4FBCAF4806A27CB7DCD1237B7CE18F3A348C5567FF0344B5317C8AB4C",
+      "duration_seconds": 7.52,
+      "width": 3840,
+      "height": 2160,
+      "fps": 25,
+      "edited_source_rejection": false
+    }
+  ],
+  "direct_visual_review": {
+    "complete_dense_timeline": true,
+    "sample_fps": 8,
+    "evidence_path": "../../review-artifacts/window-copy-candidate/6704807-woman-opening-curtains-dense.jpg"
+  },
+  "observations": [
+    "A single fixed take progresses from mostly closed curtains and a darker room through continuous hand and arm action to fully spread curtains and direct light.",
+    "Body position, curtain folds, window geometry, and light direction remain continuous; there is no embedded montage, typography, border, watermark, or transition.",
+    "The source contains a visible before state, causal action, light-arrival state, and settled consequence without requiring reverse, retime, freeze, zoom, or synthetic coverage."
+  ],
+  "routing": {
+    "meaningful-copy-gate": "strong",
+    "action-as-edit-spine": "supporting",
+    "presence-to-absence-hold": "not_applicable",
+    "experience-before-product": "not_applicable"
+  }
+}

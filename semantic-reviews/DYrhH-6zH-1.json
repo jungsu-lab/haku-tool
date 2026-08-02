@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DYrhH-6zH-1",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T08:58:00Z"
+  },
+  "purpose": "학교의 여름·운동·우정을 먼저 체험하게 한 뒤 '여름을 시작하자'는 명제와 Pocari Sweat로 회수하는 브랜드 필름",
+  "format": "16:9 landscape experiential beverage advertisement",
+  "story_role": "implicit",
+  "primary_subject": "학교에서 함께 움직이고 쉬는 학생들과 Pocari Sweat",
+  "intended_viewer_response": "청량한 여름을 친구들과 시작하고 싶은 충동",
+  "commercial_function": "음료 브랜드의 계절·라이프스타일 광고",
+  "sequence": {
+    "opening_hook": "수중·계단의 등·창가·구름·농구공·복도·수영·눈을 빠르게 교차해 여름 감각을 연다.",
+    "development": "구름 아래 학생, 함께 앉은 두 사람, 탑숏 퍼포먼스 뒤 13.7초에 첫 Pocari 로고로 한 번 회수한다.",
+    "peak_or_payoff": "15.5초부터 줄넘기·수영장·교실·농구·일몰·친구·불꽃·집단 활동을 더 긴 관계 장으로 확장한다.",
+    "final_image": "45.583~47.375초 검은 카피 '夏を、始めよう。' 뒤 수영장 옆 병을 든 인물과 브랜드 표시로 끝난다."
+  },
+  "directing": {
+    "subject_action": "수영하기, 농구·줄넘기, 친구와 앉기, 교실에서 웃기, 불꽃 보기, 음료 들기",
+    "blocking": "한 사람 감각 디테일에서 두 사람, 교실 집단으로 사람 수를 확장한 뒤 마지막에 제품을 든 한 사람으로 수렴한다.",
+    "space": "수영장·체육관·복도·교실·야외 하늘을 학교의 한 여름 경험으로 묶는다.",
+    "props_surfaces_costume": "흰 교복·파란 물·농구공·Pocari 병이 청량함과 활동의 표식이다."
+  },
+  "cinematography": {
+    "composition": "물속 클로즈업·복도 원근·하늘 원경·체육 탑숏·교실 관계 숏을 넓게 교대한다.",
+    "distance_or_lens": "감각 디테일→환경·행동→관계 중경→제품 중경으로 정보 거리가 진행된다.",
+    "camera_motion": "스포츠와 친구 행동은 현장성을 남기고 구름·복도·교실은 안정된 축으로 호흡을 준다.",
+    "light": "파란 수중광, 교실 창빛, 일몰, 불꽃을 여름 하루의 빛 변화로 사용한다.",
+    "palette_texture_depth": "Pocari의 파랑·흰색을 물·구름·교복 전체에 미리 분산시킨다."
+  },
+  "editing": {
+    "cut_logic": "첫 13.7초는 감각·행동 카탈로그, 중간 로고 뒤 30초는 관계·생활 확장, 마지막은 카피→제품 인물이다.",
+    "shot_duration_progression": "초반 0.16~1.6초 burst, 중반 1~3초 관계 장, 후반 1.79초 카피와 4초 제품 release다.",
+    "adjacent_image_relations": "파랑·흰색·물·구름·운동·친구를 반복해 제품이 늦게 등장해도 브랜드 색과 효용이 먼저 체험된다.",
+    "in_frame_editing": "줄넘기·농구·수영·웃음 같은 실제 행동이 각 숏의 에너지를 만든다.",
+    "typography_graphics_compositing": "13.708~15.458초 첫 로고, 45.583~47.375초 카피, 마지막 제품·브랜드 표시의 계층이 있다.",
+    "repeated_operators": [
+      "experience_before_product",
+      "brand_palette_preload",
+      "sensory_burst_to_relationship_chapters",
+      "claim_then_product_release"
+    ]
+  },
+  "sound_relation": {
+    "status": "deferred_by_user",
+    "observation": "스포츠·불꽃·카피 전환의 음악·효과음 관계는 듣지 않았다."
+  },
+  "evidence": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 7.75,
+      "observation": "수중 인물·계단의 학생·창가·구름·농구공과 병·복도·수영·눈이 빠르게 교차한다.",
+      "inference": "제품 설명보다 색·온도·몸의 감각으로 브랜드 세계를 먼저 주입한다."
+    },
+    {
+      "start_seconds": 7.75,
+      "end_seconds": 15.458,
+      "observation": "구름 아래 학생·함께 앉은 두 사람·탑숏 퍼포먼스 뒤 검은 Pocari 로고가 나온다.",
+      "inference": "개인 감각을 관계와 활동으로 넓힌 뒤 첫 브랜드 회수 지점을 만든다."
+    },
+    {
+      "start_seconds": 15.458,
+      "end_seconds": 29.917,
+      "observation": "줄넘기·수영장 친구·교실 마주보기·구름 아래 두 사람·교실 집단·농구·일몰이 이어진다.",
+      "inference": "제품 효용을 다양한 실제 여름 행동과 관계로 반복 증명한다."
+    },
+    {
+      "start_seconds": 30.458,
+      "end_seconds": 45.583,
+      "observation": "창가 친구들·숲의 인물·밤 불꽃·집단 활동·구름·수중·교실·수영장으로 경험이 확장된다.",
+      "inference": "한 제품 상황이 아니라 여러 학교 생활에 맞는 범용 여름 동반자로 브랜드를 위치시킨다."
+    },
+    {
+      "start_seconds": 45.583,
+      "end_seconds": 51.625,
+      "observation": "검은 화면의 '夏を、始めよう。' 뒤 수영장 옆 인물이 Pocari 병을 들고 브랜드 표시와 함께 유지된다.",
+      "inference": "축적된 경험을 '여름을 시작하자'는 행동 명제와 제품으로 명확히 회수한다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "매우 높음. 감성 영상미와 광고 적합성이 경험→명제→제품의 구조로 직접 결합된 사례다.",
+    "common_elements": [
+      "학교·교복·친구",
+      "물·구름·역광",
+      "운동과 작은 행동",
+      "밀도 파동"
+    ],
+    "possible_discriminators": [
+      "브랜드 색을 환경 전체에 선행 배치",
+      "제품보다 사용자의 여름 경험을 먼저 축적",
+      "중간 로고와 마지막 카피·제품의 두 번 회수"
+    ],
+    "forbidden_pattern_evidence": [
+      "제품 팩샷을 초반부터 반복하면 경험을 발견하는 구조가 약해진다.",
+      "모든 행동을 같은 컷 길이로 자르면 감각 burst와 관계 장의 차이가 사라진다."
+    ],
+    "ad_strengths": [
+      "음료·스포츠웨어",
+      "청춘·학교 캠페인",
+      "계절 라이프스타일 브랜드"
+    ],
+    "suitable_subjects": [
+      "제품 색과 맞는 환경·의상·소품",
+      "사용 효용을 보여주는 여러 실제 행동",
+      "개인·친구·집단 커버리지와 마지막 제품 hero"
+    ],
+    "poor_fit_subjects": [
+      "제품과 환경 색·행동의 연결이 없는 원본",
+      "팩샷만 있고 사용자의 생활 장면이 없는 광고"
+    ],
+    "limitations": [
+      "일본어 카피는 화면 문맥에 따른 번역이며 공식 문구 설명을 확인하지 않았다.",
+      "음악과 광고 회수 지점의 동기는 보류했다."
+    ]
+  },
+  "counterexamples": [
+    "감성 광고는 제품을 숨기는 것이 아니라 효용과 색을 경험 속에 선행 배치한 뒤 제품으로 회수한다.",
+    "짧은 Reel에서도 한 번의 로고 노출로 끝내지 않고 경험을 다시 확장한 뒤 최종 명제를 줄 수 있다."
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DLmsnfszuQc",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {"storyboard_reviewed": true, "dense_timeline_reviewed": true, "full_playback_reviewed": false, "reviewer": "main-agent", "reviewed_at": "2026-07-31T11:05:00Z"},
+  "purpose": "두 사람의 바다·나무·꽃·석양 이동을 아주 넓은 환경과 반복 흰옷으로 묶는 네 장 관계 필름",
+  "format": "source encoded sideways; visually reviewed after 90-degree counterclockwise normalization as 16:9 landscape",
+  "story_role": "implicit",
+  "primary_subject": "흰옷을 입은 두 사람과 자연 환경",
+  "intended_viewer_response": "두 사람이 넓은 자연을 함께 통과하며 하루가 석양으로 닫힘",
+  "commercial_function": "관계·웨딩·여행·패션의 자연 필름",
+  "sequence": {"opening_hook": "거의 빈 하늘과 바다 아래 작은 두 사람", "development": "큰 나무 아래 두 사람의 이동", "peak_or_payoff": "꽃밭 앞 나란히 선 두 사람과 긴 그림자", "final_image": "석양 바다 앞 작은 두 사람을 오래 유지"},
+  "directing": {"subject_action": "함께 걷기·서기·바다 보기", "blocking": "항상 두 사람을 넓은 환경의 작은 단위로 둔다.", "space": "바다→나무→꽃→석양 바다의 자연 장", "props_surfaces_costume": "흰옷, 큰 나무, 꽃벽, 해안"},
+  "cinematography": {"composition": "하늘과 환경이 대부분이며 인물은 하단 또는 나무 아래 작다.", "distance_or_lens": "네 장 모두 환경 원경이나 배경 구조가 달라진다.", "camera_motion": "인물의 작은 보행과 자연의 미세 움직임", "light": "옅은 낮→나무 그늘→꽃의 확산광→주황 석양", "palette_texture_depth": "흰옷을 고정하고 배경의 청색·녹색·꽃색·주황을 변화"},
+  "editing": {
+    "cut_logic": "같은 두 사람과 흰옷을 앵커로 하루의 자연 장을 시간·광질 순서로 연결한다.",
+    "shot_duration_progression": "약 5초, 2.27초, 2.7초, 5.43초로 처음과 끝을 길게 둔다.",
+    "adjacent_image_relations": "인물 수·의상은 유지하고 환경의 규모와 광질만 바꾼다.",
+    "in_frame_editing": "한 컷 안에서 두 사람의 작은 걸음과 거리 변화가 관계를 만든다.",
+    "typography_graphics_compositing": "그래픽 없이 자연 구조와 인물 블로킹으로 구성한다.",
+    "repeated_operators": ["relationship_through_blocking", "environment_chapter_progression", "long_final_hold"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {"start_seconds": 0.0, "end_seconds": 4.966667, "observation": "정상화 방향에서 넓은 흰 하늘과 바다 아래 두 인물이 작게 이동한다.", "inference": "관계보다 환경을 크게 두어 함께 있음의 규모를 먼저 만든다."},
+    {"start_seconds": 4.966667, "end_seconds": 11.033333, "observation": "큰 나무 아래 두 사람, 확산광의 꽃벽 앞 나란한 두 사람이 이어진다.", "inference": "같은 두 사람을 공간 구조와 빛만 바꾸어 관계의 여러 상태로 제시한다."},
+    {"start_seconds": 11.033333, "end_seconds": 16.466667, "observation": "주황 석양 바다 앞 작은 두 사람이 약 5.4초 유지된다.", "inference": "마지막 환경 장을 가장 길게 유지해 하루와 관계를 함께 닫는다."}
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 방향 오류를 정상화하면 효과 없이도 환경·인물 블로킹이 성립하는 사례다.",
+    "common_elements": ["흰옷 두 사람", "넓은 하늘", "나무·꽃·바다", "긴 결말"],
+    "possible_discriminators": ["항상 두 사람 유지", "광질의 시간 진행", "가장 긴 석양 결말"],
+    "forbidden_pattern_evidence": ["메타데이터만 믿고 옆으로 누운 상태에서 구도 학습", "긴 마지막 숏에 자동 줌", "인물 수가 바뀌는 임의 삽입"],
+    "ad_strengths": ["웨딩·관계·여행·패션"],
+    "suitable_subjects": ["같은 두 사람·의상이 여러 자연 장소에 반복되는 원본"],
+    "poor_fit_subjects": ["한 사람만 있거나 촬영 방향이 판정되지 않은 원본"],
+    "limitations": ["원본 스트림에는 회전 메타데이터가 없고 픽셀이 옆으로 저장되어 있어 시각 검증 후 반시계 90도를 정상 방향으로 채택했다."]
+  },
+  "counterexamples": ["방향이 애매한 파일은 수평선과 중력 방향을 확인하기 전까지 자동 분석 결과를 운영자에 등록하지 않는다."],
+  "confidence": "high"
+}

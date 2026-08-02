@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_auto_latte_motif_state_v001",
+  "created_at": "2026-07-31T12:30:03.346218+00:00",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\recipe.json",
+  "render_report": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_auto_latte_motif_state_v001",
+    "schema_version": "1.1",
+    "recipe_sha256": "5DBB7AE4CBB763CEE7F88BC0610D26804519331175233C9B4E7FCB468DFD626E",
+    "fresh_render": true
+  },
+  "manifest_path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 56,
+      "coverage_seconds": 7.0
+    },
+    "proof": {
+      "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 56,
+      "coverage_seconds": 7.0
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-first-contrast",
+      "kind": "segment_boundary",
+      "frame": 20,
+      "seconds": 0.8333333333333334,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\boundaries\\boundary-01-first-contrast.jpg",
+      "range_seconds": [
+        0.5833333333333334,
+        1.125
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-swirl-state",
+      "kind": "segment_boundary",
+      "frame": 40,
+      "seconds": 1.6666666666666667,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\boundaries\\boundary-02-swirl-state.jpg",
+      "range_seconds": [
+        1.4166666666666667,
+        1.9583333333333335
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-recognizable-pattern",
+      "kind": "segment_boundary",
+      "frame": 64,
+      "seconds": 2.6666666666666665,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\boundaries\\boundary-03-recognizable-pattern.jpg",
+      "range_seconds": [
+        2.4166666666666665,
+        2.958333333333333
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-refined-rings",
+      "kind": "segment_boundary",
+      "frame": 92,
+      "seconds": 3.8333333333333335,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\boundaries\\boundary-04-refined-rings.jpg",
+      "range_seconds": [
+        3.5833333333333335,
+        4.125
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-completed-motif",
+      "kind": "segment_boundary",
+      "frame": 122,
+      "seconds": 5.083333333333333,
+      "strip": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\latte-motif-state-v001\\render\\review-auto\\boundaries\\boundary-05-completed-motif.jpg",
+      "range_seconds": [
+        4.833333333333333,
+        5.375
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-07-31T12:31:09.751526+00:00",
+    "evidence": [
+      "Complete 0.000-33.717 source sheet shows one fixed overhead take: dark coffee develops monotonically through first white contrast, swirl, recognizable pattern, refined rings, and completed surface.",
+      "All five proof boundaries retain the same cup, camera scale, and floor geometry while the material state advances; no boundary returns the coffee to an earlier pattern.",
+      "Proof gives 46 frames to the completed motif versus 28 in plain and removes the same 18 frames from early setup, making the final state a clearer destination at the same total 168 frames.",
+      "No freeze, reverse, retime, zoom, animated crop, duplicated last frame, or already edited source montage is used."
+    ],
+    "limitations": [
+      "This validates the reusable motif-state progression grammar, not the full natural or relationship mood of the Haku account.",
+      "Live full-speed playback was not used; review covered the complete source sheet, complete 8 fps plain/proof sheets, and all five 24 fps boundary strips."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance."
+}

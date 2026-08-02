@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_picnic_density_wave_v001",
+  "recipe": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\recipe.json",
+  "recipe_sha256": "F8288377ECC6B7863C0457F3E9E920B8A14DD06D496A37E20385FE9D97F3B801",
+  "audio_policy": "deferred_by_user",
+  "audio_render": {
+    "policy": "deferred_by_user",
+    "stream_expected": false
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "veryfast",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding",
+      "synthetic_overlay"
+    ]
+  },
+  "same_source_set_verified": {
+    "passed": true,
+    "material_ids": [
+      "action_owner",
+      "group_preview",
+      "group_release",
+      "individual_reaction",
+      "tactile_detail"
+    ],
+    "material_ledger": {
+      "tactile_detail": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071333-group-landscape.mp4",
+        "source_in": 1.0,
+        "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14"
+      },
+      "action_owner": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071333-group-landscape.mp4",
+        "source_in": 8.52,
+        "sha256": "3E74DD1786B4E896FAD618AC1EC2430DBEAFC8FDC64445C0EBE952B8553F5A14"
+      },
+      "individual_reaction": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071341-evening-picnic-vertical.mp4",
+        "source_in": 15.52,
+        "sha256": "6F5CA4D96159B2B1015784AF41DC54DFEB48A1ACA3957E17FD189D4BA2D1DF14"
+      },
+      "group_preview": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071336-wine-group-landscape.mp4",
+        "source_in": 4.8,
+        "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217"
+      },
+      "group_release": {
+        "source": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\sources\\picnic-sensory-scale\\10071336-wine-group-landscape.mp4",
+        "source_in": 6.0,
+        "sha256": "1DEB1D994435D4F3D1AFDEF518F488815D3D04B7779DF9582589AE2AC7421217"
+      }
+    }
+  },
+  "source_identity": {
+    "same_material_id_set": true,
+    "same_absolute_path_by_material_id": true,
+    "same_file_hash_by_material_id": true,
+    "same_source_anchor_by_material_id": true,
+    "usage_range_equality": false,
+    "note": "Material identity and source anchors match. Exact occurrence, duration, and timeline usage are reported separately and are not implied by material-set equality."
+  },
+  "variant_usage_ledgers": {
+    "plain": {
+      "occurrences": [
+        {
+          "segment_id": "plain-tactile-detail",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "tactile_detail",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "plain-action-owner",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "action_owner",
+          "source_in_seconds": 8.52,
+          "source_out_seconds": 10.52,
+          "duration_frames": 50,
+          "timeline_visible_frames": [
+            40,
+            90
+          ]
+        },
+        {
+          "segment_id": "plain-individual-reaction",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "individual_reaction",
+          "source_in_seconds": 15.52,
+          "source_out_seconds": 16.72,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            90,
+            120
+          ]
+        },
+        {
+          "segment_id": "plain-group-preview",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "group_preview",
+          "source_in_seconds": 4.8,
+          "source_out_seconds": 6.0,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            120,
+            150
+          ]
+        },
+        {
+          "segment_id": "plain-group-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "group_release",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 8.4,
+          "duration_frames": 60,
+          "timeline_visible_frames": [
+            150,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "tactile_detail": 1,
+        "action_owner": 1,
+        "individual_reaction": 1,
+        "group_preview": 1,
+        "group_release": 1
+      }
+    },
+    "proof": {
+      "occurrences": [
+        {
+          "segment_id": "tactile-premise",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "tactile_detail",
+          "source_in_seconds": 1.0,
+          "source_out_seconds": 2.6,
+          "duration_frames": 40,
+          "timeline_visible_frames": [
+            0,
+            40
+          ]
+        },
+        {
+          "segment_id": "progressive-social-density",
+          "segment_type": "functional-panels",
+          "role": "pour-base",
+          "material_id": "action_owner",
+          "source_in_seconds": 8.52,
+          "source_out_seconds": 11.52,
+          "duration_frames": 75,
+          "timeline_visible_frames": [
+            40,
+            115
+          ]
+        },
+        {
+          "segment_id": "progressive-social-density",
+          "segment_type": "functional-panels",
+          "role": "reaction-support",
+          "material_id": "individual_reaction",
+          "source_in_seconds": 15.52,
+          "source_out_seconds": 16.72,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            55,
+            85
+          ]
+        },
+        {
+          "segment_id": "progressive-social-density",
+          "segment_type": "functional-panels",
+          "role": "group-preview-support",
+          "material_id": "group_preview",
+          "source_in_seconds": 4.8,
+          "source_out_seconds": 6.0,
+          "duration_frames": 30,
+          "timeline_visible_frames": [
+            85,
+            115
+          ]
+        },
+        {
+          "segment_id": "group-toast-release",
+          "segment_type": "single",
+          "role": "full_frame",
+          "material_id": "group_release",
+          "source_in_seconds": 6.0,
+          "source_out_seconds": 9.8,
+          "duration_frames": 95,
+          "timeline_visible_frames": [
+            115,
+            210
+          ]
+        }
+      ],
+      "usage_count_by_material": {
+        "tactile_detail": 1,
+        "action_owner": 1,
+        "individual_reaction": 1,
+        "group_preview": 1,
+        "group_release": 1
+      }
+    }
+  },
+  "plain": {
+    "variant": "plain",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\plain.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "plain-tactile-detail",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "tactile_detail"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\plain\\01-plain-tactile-detail.mp4"
+      },
+      {
+        "segment_id": "plain-action-owner",
+        "type": "single",
+        "frames": 50,
+        "materials": [
+          "action_owner"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\plain\\02-plain-action-owner.mp4"
+      },
+      {
+        "segment_id": "plain-individual-reaction",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "individual_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\plain\\03-plain-individual-reaction.mp4"
+      },
+      {
+        "segment_id": "plain-group-preview",
+        "type": "single",
+        "frames": 30,
+        "materials": [
+          "group_preview"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\plain\\04-plain-group-preview.mp4"
+      },
+      {
+        "segment_id": "plain-group-release",
+        "type": "single",
+        "frames": 60,
+        "materials": [
+          "group_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\plain\\05-plain-group-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "5F49C3E598DF607758EE59EB896B44D91D27B078407457DCE4A3B1CC328A8AE4"
+  },
+  "proof": {
+    "variant": "proof",
+    "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\proof.mp4",
+    "frames": 210,
+    "duration_seconds": 8.4,
+    "segments": [
+      {
+        "segment_id": "tactile-premise",
+        "type": "single",
+        "frames": 40,
+        "materials": [
+          "tactile_detail"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\proof\\01-tactile-premise.mp4"
+      },
+      {
+        "segment_id": "progressive-social-density",
+        "type": "functional-panels",
+        "frames": 75,
+        "materials": [
+          "action_owner",
+          "group_preview",
+          "individual_reaction"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\proof\\02-progressive-social-density.mp4"
+      },
+      {
+        "segment_id": "group-toast-release",
+        "type": "single",
+        "frames": 95,
+        "materials": [
+          "group_release"
+        ],
+        "path": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\_segments\\proof\\03-group-toast-release.mp4"
+      }
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1",
+          "nb_read_frames": "210"
+        }
+      ],
+      "format": {
+        "duration": "8.400000"
+      }
+    },
+    "sha256": "4A86E5F8DE68B694A171BD04B6D561487887D145292EE4ADEB08F6B39B08B916"
+  },
+  "comparison": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\plain-vs-proof.mp4",
+  "storyboards": {
+    "plain": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\storyboards\\plain.jpg",
+    "proof": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\storyboards\\proof.jpg"
+  },
+  "visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "evidence": [
+      "All 26 pinned source frames across three licensed unedited same-session takes were directly reviewed and linked to the three timeline events.",
+      "The 8fps dense plain and proof sheets were directly reviewed across 8.40 seconds; no black frames, freeze padding, synthetic zoom, retime, reverse, or stalled source motion were found.",
+      "At output 2.20 seconds the portrait reaction window begins; at 3.40 seconds it clears on the same frame the group preview begins, so only one support window is active at a time.",
+      "At output 4.60 seconds the group preview ends at source frame 150 exclusive and the full-frame group release begins at source frame 150, preserving the exact next 25fps source frame.",
+      "The full-frame release preserves the four-person landscape relationship field and a native conversational tail."
+    ],
+    "limitations": [
+      "Trustworthy captured full-speed playback was unavailable; full_playback_reviewed remains false.",
+      "The proof is more authored than the plain sequence, but the visible support-window treatment remains an aesthetic choice requiring the user verdict."
+    ],
+    "review_manifest": "C:\\Users\\HP-5600G\\Desktop\\AI 제작과정\\haku-auto-research\\proofs\\picnic-density-wave-v001\\render-v002\\review-auto\\review-manifest.json"
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  }
+}

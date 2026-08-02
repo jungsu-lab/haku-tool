@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "DOyJ6k3Ewmb",
+  "account": "@haku_.photo",
+  "rights": "public-reference-only",
+  "direct_visual_review": {
+    "storyboard_reviewed": true,
+    "dense_timeline_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewer": "main-agent",
+    "reviewed_at": "2026-07-31T10:25:00Z"
+  },
+  "purpose": "같은 거대한 구름 아래 한 사람·두 사람·놀이·빈 하늘의 상태 변화를 하나의 관계 순간으로 묶는 필름",
+  "format": "9:16 portrait with centered landscape image",
+  "story_role": "implicit",
+  "primary_subject": "거대한 적운과 흰옷 인물 두 명",
+  "intended_viewer_response": "같은 날 같은 장소에 머물며 관계가 생겼다가 하늘만 남는 느낌",
+  "commercial_function": "우정·여행·의류·음료의 계절 관계 필름",
+  "sequence": {
+    "opening_hook": "검정 뒤 구름 아래 한 인물의 움직임을 보여준다.",
+    "development": "다른 거리에서 한 인물, 두 인물이 앉아 있는 상태로 발전한다.",
+    "peak_or_payoff": "두 사람이 들판에서 몸을 크게 움직이며 놀이가 활성화된다.",
+    "final_image": "인물이 사라지고 구름만 남는다."
+  },
+  "directing": {
+    "subject_action": "이동, 함께 앉기, 들판에서 팔을 들거나 뛰기",
+    "blocking": "같은 구름을 배경축으로 인물 수와 화면 위치만 바꾼다.",
+    "space": "한 야외 장소를 관계 상태의 무대로 사용한다.",
+    "props_surfaces_costume": "흰옷, 자전거 또는 이동 소품, 초록 들판"
+  },
+  "cinematography": {
+    "composition": "인물을 하단에 작게 두고 구름이 화면 대부분을 차지한다.",
+    "distance_or_lens": "비슷한 환경 원경 안에서 거리와 인물 수를 미세 조절한다.",
+    "camera_motion": "고정에 가까운 카메라와 프레임 내부 행동",
+    "light": "짙은 청색과 흰 구름의 강한 여름 대비",
+    "palette_texture_depth": "청색·흰색·초록의 단순한 삼색 구조"
+  },
+  "editing": {
+    "cut_logic": "동일 모티프의 상태 변화로 이어 붙이고 중간의 짧은 검정만 관계 장 전환에 쓴다.",
+    "shot_duration_progression": "초반 2~4초 읽기, 9초대 짧은 gate, 후반 3초 행동과 1.8초 빈 구름 hold",
+    "adjacent_image_relations": "구름의 형태와 지평선을 유지해 인물 동작 변화가 점프로 느껴지지 않게 한다.",
+    "in_frame_editing": "한 컷 안에서 인물이 접근·착석·팔 들기 때문에 컷 없이 관계 상태가 읽힌다.",
+    "typography_graphics_compositing": "초반 검정은 여백이며 별도 그래픽 효과가 없다.",
+    "repeated_operators": ["motif_state_return", "relationship_through_blocking", "presence_to_absence_hold"]
+  },
+  "sound_relation": {"status": "deferred_by_user", "observation": "오디오 관계는 판정하지 않았다."},
+  "evidence": [
+    {
+      "start_seconds": 1.0,
+      "end_seconds": 9.066667,
+      "observation": "거대한 적운 아래 한 인물이 서로 다른 위치와 거리에서 움직이며 같은 하늘 축이 유지된다.",
+      "inference": "장소와 구름을 고정 모티프로 삼아 인물 행동만 변화시킨다."
+    },
+    {
+      "start_seconds": 9.066667,
+      "end_seconds": 13.4,
+      "observation": "약 0.3초 검정 뒤 두 사람이 구름 아래 함께 앉아 있고 긴 읽기 구간이 이어진다.",
+      "inference": "짧은 gate가 단독 상태에서 관계 상태로의 의미 전환을 강조한다."
+    },
+    {
+      "start_seconds": 13.4,
+      "end_seconds": 18.333333,
+      "observation": "두 사람이 들판에서 크게 움직인 뒤 16.567초부터 인물 없는 구름 근경으로 끝난다.",
+      "inference": "행동 절정 뒤 빈 환경을 남기는 afterimage 구조다."
+    }
+  ],
+  "account_fit": {
+    "diagnostic_value": "높음. 화려한 전환 없이 구름·지평선과 인물 상태만으로 관계 호흡을 만든다.",
+    "common_elements": ["작은 인물", "큰 하늘", "흰옷", "관계 행동", "빈 환경 결말"],
+    "possible_discriminators": ["같은 구름 축", "한 사람에서 두 사람으로 확장", "빈 하늘 회수"],
+    "forbidden_pattern_evidence": ["컷마다 임의 디지털 줌", "구름 위치가 크게 충돌하는 매치", "마지막 환경 hold를 freeze 오류로 제거"],
+    "ad_strengths": ["우정·여행·여름 제품"],
+    "suitable_subjects": ["동일 장소에서 인물 수와 행동이 달라지는 커버리지"],
+    "poor_fit_subjects": ["배경 축이 매 컷 바뀌는 원본"],
+    "limitations": ["정확한 행동 동기와 서사는 대사 없이 단정하지 않는다."]
+  },
+  "counterexamples": ["검출기가 긴 구간을 freeze로 표시했지만 인물의 미세 행동과 구름의 유지가 의도된 호흡이므로 자동 속도 보정 대상이 아니다."],
+  "confidence": "high"
+}

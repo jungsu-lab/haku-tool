@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1",
+  "project_id": "haku_auto_functional_memory_panels_v001",
+  "operator": {
+    "primary": "functional-memory-panels",
+    "secondary": "action-as-edit-spine",
+    "ending": "relationship-full-frame-release"
+  },
+  "hypotheses_under_test": [
+    "A visible hand action can causally open a compact memory field.",
+    "One dominant relationship panel plus two supporting sensory/person panels reads as hierarchy rather than decoration.",
+    "Removing borders, shadows, and animated scaling prevents the collage from feeling like stickers.",
+    "A longer full-frame relationship release restores breath after the dense panel state."
+  ],
+  "purpose": "A touch in a lupine field opens three complementary fragments of the same summer relationship, then resolves into shared presence.",
+  "material_fit": {
+    "status": "high",
+    "reason": "All clips are unedited shots from one licensed session with the same couple, location, wardrobe, light, and floral motif."
+  },
+  "audio_policy": "deferred_by_user",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 25
+  },
+  "render_policy": {
+    "max_threads": 2,
+    "preset": "medium",
+    "crf": 17,
+    "motion_policy": "source-motion-only",
+    "forbid": [
+      "freeze",
+      "retime",
+      "reverse",
+      "animated_crop",
+      "animated_scale",
+      "last_frame_padding"
+    ]
+  },
+  "materials": {
+    "hand_cause": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887275-woman-hand-flowers-vertical.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "walk_context": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887403-couple-walk-landscape.mp4",
+      "source_in": 5.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "flower_touch": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887277-hand-touch-flower-vertical.mp4",
+      "source_in": 14.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "person_presence": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887049-man-portrait-vertical.mp4",
+      "source_in": 11.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "reaction": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887192-couple-close-landscape.mp4",
+      "source_in": 6.0,
+      "focus_x": 0.65,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    },
+    "relationship_release": {
+      "source": "../../../vcd-output/haku-tool-finalization-v004/sources/cottonbro-lupine-session/4887189-couple-embrace-landscape.mp4",
+      "source_in": 18.0,
+      "focus_x": 0.5,
+      "focus_y": 0.5,
+      "grade": "haku-lupine"
+    }
+  },
+  "variants": {
+    "plain": {
+      "segments": [
+        {"id": "plain-hand", "type": "single", "frames": 40, "material": "hand_cause"},
+        {"id": "plain-walk", "type": "single", "frames": 18, "material": "walk_context"},
+        {"id": "plain-touch", "type": "single", "frames": 18, "material": "flower_touch"},
+        {"id": "plain-person", "type": "single", "frames": 34, "material": "person_presence"},
+        {"id": "plain-reaction", "type": "single", "frames": 30, "material": "reaction"},
+        {"id": "plain-release", "type": "single", "frames": 60, "material": "relationship_release"}
+      ]
+    },
+    "proof": {
+      "segments": [
+        {"id": "hand-opens-memory", "type": "single", "frames": 40, "material": "hand_cause"},
+        {
+          "id": "hierarchical-memory-field",
+          "type": "functional-panels",
+          "frames": 70,
+          "canvas_color": "0x080808",
+          "panels": [
+            {
+              "id": "relationship-context-dominant",
+              "material": "walk_context",
+              "rect": [0.0, 0.0, 1.0, 0.58]
+            },
+            {
+              "id": "tactile-detail-support",
+              "material": "flower_touch",
+              "rect": [0.0, 0.59, 0.495, 0.41]
+            },
+            {
+              "id": "person-presence-support",
+              "material": "person_presence",
+              "rect": [0.505, 0.59, 0.495, 0.41]
+            }
+          ]
+        },
+        {"id": "reaction-confirms-memory", "type": "single", "frames": 30, "material": "reaction"},
+        {"id": "relationship-release", "type": "single", "frames": 60, "material": "relationship_release"}
+      ]
+    }
+  }
+}

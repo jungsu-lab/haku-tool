@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "project_id": "haku_lighthouse_functional_memory_v002",
+  "created_at": "2026-08-02T13:14:17.451260+00:00",
+  "recipe": "..\\..\\recipe.json",
+  "render_report": "..\\render-report.json",
+  "render_provenance_verification": {
+    "project_id": "haku_lighthouse_functional_memory_v002",
+    "schema_version": "1.1",
+    "recipe_sha256": "23A53D34ABC39E1FFDA296072C95B0FE58404DA98F4C6FB50FCAED0D5A65AD48",
+    "fresh_render": true
+  },
+  "manifest_path": "review-manifest.json",
+  "dense_full_sequence_evidence": {
+    "plain": {
+      "path": "plain-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 89,
+      "coverage_seconds": 11.2
+    },
+    "proof": {
+      "path": "proof-8fps.jpg",
+      "sample_fps": 8.0,
+      "sample_count": 89,
+      "coverage_seconds": 11.2
+    }
+  },
+  "boundary_and_internal_event_evidence": [
+    {
+      "id": "boundary-01-microcut-place",
+      "kind": "segment_boundary",
+      "frame": 12,
+      "seconds": 0.48,
+      "strip": "boundaries\\boundary-01-microcut-place.jpg",
+      "range_seconds": [
+        0.24,
+        0.76
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-02-microcut-album",
+      "kind": "segment_boundary",
+      "frame": 23,
+      "seconds": 0.92,
+      "strip": "boundaries\\boundary-02-microcut-album.jpg",
+      "range_seconds": [
+        0.68,
+        1.2000000000000002
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-03-microcut-touch-return",
+      "kind": "segment_boundary",
+      "frame": 34,
+      "seconds": 1.36,
+      "strip": "boundaries\\boundary-03-microcut-touch-return.jpg",
+      "range_seconds": [
+        1.12,
+        1.6400000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-04-fragment-copy",
+      "kind": "segment_boundary",
+      "frame": 50,
+      "seconds": 2.0,
+      "strip": "boundaries\\boundary-04-fragment-copy.jpg",
+      "range_seconds": [
+        1.76,
+        2.2800000000000002
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-05-album-opens-role-memory-field",
+      "kind": "segment_boundary",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\boundary-05-album-opens-role-memory-field.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-album-opens-role-memory-field-place-strip-start",
+      "kind": "internal_event",
+      "frame": 70,
+      "seconds": 2.8,
+      "strip": "boundaries\\internal-album-opens-role-memory-field-place-strip-start.jpg",
+      "range_seconds": [
+        2.56,
+        3.08
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-album-opens-role-memory-field-touch-trace-start",
+      "kind": "internal_event",
+      "frame": 80,
+      "seconds": 3.2,
+      "strip": "boundaries\\internal-album-opens-role-memory-field-touch-trace-start.jpg",
+      "range_seconds": [
+        2.96,
+        3.48
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-album-opens-role-memory-field-album-dominant-start",
+      "kind": "internal_event",
+      "frame": 92,
+      "seconds": 3.68,
+      "strip": "boundaries\\internal-album-opens-role-memory-field-album-dominant-start.jpg",
+      "range_seconds": [
+        3.44,
+        3.96
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "internal-album-opens-role-memory-field-relation-witness-start",
+      "kind": "internal_event",
+      "frame": 110,
+      "seconds": 4.4,
+      "strip": "boundaries\\internal-album-opens-role-memory-field-relation-witness-start.jpg",
+      "range_seconds": [
+        4.16,
+        4.68
+      ],
+      "review_status": "reviewed_by_main_agent"
+    },
+    {
+      "id": "boundary-06-all-panels-clear-to-physical-photo",
+      "kind": "segment_boundary",
+      "frame": 140,
+      "seconds": 5.6,
+      "strip": "boundaries\\boundary-06-all-panels-clear-to-physical-photo.jpg",
+      "range_seconds": [
+        5.36,
+        5.880000000000001
+      ],
+      "review_status": "reviewed_by_main_agent"
+    }
+  ],
+  "direct_visual_review": {
+    "status": "reviewed_by_main_agent",
+    "originals_reviewed": true,
+    "plain_reviewed": true,
+    "proof_reviewed": true,
+    "all_boundary_strips_reviewed": true,
+    "full_playback_reviewed": false,
+    "reviewed_at": "2026-08-02T13:16:43.698666+00:00",
+    "evidence": [
+      "All four licensed source takes were directly inspected; each is continuous and contains no pre-existing edit.",
+      "The 8 fps dense plain and proof sheets show a real 12f-11f-11f-16f opening burst, then a bounded copy hold, progressive four-role live panel accumulation, and a 140-frame native full-screen release.",
+      "All ten boundary/internal-event strips were directly inspected. Microcuts are hard semantic changes, panel entrances are intentional, and the revised panel-to-full-frame boundary no longer contains the four-frame dark collapse detected in render-v001.",
+      "Temporal QC reports no duplicate runs, near-static runs, scale jumps, reset candidates, terminal padding, or automatic failures; remaining motion candidates align only with declared panel entrances.",
+      "The full-resolution copy frame is readable, restrained, and does not cover the hand, album, or faces."
+    ],
+    "limitations": [
+      "Full-speed player playback was not captured, so full_playback_reviewed remains false. This pass is a narrow research verdict for the requested technical grammar; user acceptance and Operator promotion remain pending."
+    ]
+  },
+  "research_verdict": {
+    "status": "pass",
+    "allowed_values": [
+      "pass",
+      "partial_pass",
+      "fail"
+    ]
+  },
+  "user_verdict": {
+    "status": "pending",
+    "allowed_values": [
+      "accepted",
+      "partial",
+      "rejected"
+    ]
+  },
+  "promotion_increment": 0,
+  "guardrail": "Generated evidence is not direct review. Only the main agent may record research review; only the user may record acceptance.",
+  "temporal_continuity_qc": {
+    "status": "review_required",
+    "plain": "temporal-qc\\plain.json",
+    "proof": "temporal-qc\\proof.json",
+    "fail_closed": true,
+    "main_agent_review_required": true
+  }
+}
